@@ -38,6 +38,14 @@ function staticInstagramThumb(item) {
 `;
 }
 
+function staticAssetVersion(data) {
+  return encodeURIComponent(String(data.version || data.generatedAt || Date.now()).replace(/[^0-9A-Za-z._-]/g, "-"));
+}
+
+function patchIndexForStatic(indexHtml, data) {
+  return indexHtml.replace('src="app.js"', `src="app.js?v=${staticAssetVersion(data)}"`);
+}
+
 function statusPayload(data) {
   let collector = {};
   try {
@@ -66,7 +74,9 @@ function statusPayload(data) {
 rmSync(DIST, { recursive: true, force: true });
 mkdirSync(DIST, { recursive: true });
 
-copyFile(join(ROOT, "index.html"), join(DIST, "index.html"));
+const data = JSON.parse(readFileSync(join(ROOT, "data", "gallery-data.json"), "utf8"));
+const indexHtml = readFileSync(join(ROOT, "index.html"), "utf8");
+writeFileSync(join(DIST, "index.html"), patchIndexForStatic(indexHtml, data), "utf8");
 copyFile(join(ROOT, "styles.css"), join(DIST, "styles.css"));
 copyFile(join(ROOT, "assets", "thumb-fallback.svg"), join(DIST, "assets", "thumb-fallback.svg"));
 copyFile(join(ROOT, "data", "gallery-data.json"), join(DIST, "data", "gallery-data.json"));
@@ -74,7 +84,6 @@ if (existsSync(join(ROOT, "data", "public-candidates.json"))) {
   copyFile(join(ROOT, "data", "public-candidates.json"), join(DIST, "data", "public-candidates.json"));
 }
 
-const data = JSON.parse(readFileSync(join(ROOT, "data", "gallery-data.json"), "utf8"));
 writeFileSync(join(DIST, "data", "status.json"), `${JSON.stringify(statusPayload(data), null, 2)}\n`, "utf8");
 
 const appJs = readFileSync(join(ROOT, "app.js"), "utf8");
