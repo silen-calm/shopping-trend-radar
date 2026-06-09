@@ -4,6 +4,14 @@
     "maxAcceptedPerQuery": 5,
     "concurrency": 3,
     "timeoutMs": 30000,
+    "freshness": {
+      "enabled": true,
+      "maxAgeDays": 10,
+      "minViews": 1000,
+      "minDailyViews": 300,
+      "maxAcceptedPerQuery": 15,
+      "maxTotal": 120
+    },
     "rssDiscovery": {
       "enabled": true,
       "maxChannels": 80,

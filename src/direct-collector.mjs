@@ -13,6 +13,14 @@ const DEFAULT_CONFIG = {
     maxAcceptedPerQuery: 5,
     concurrency: 3,
     timeoutMs: 30000,
+    freshness: {
+      enabled: true,
+      maxAgeDays: 10,
+      minViews: 1000,
+      minDailyViews: 300,
+      maxAcceptedPerQuery: 15,
+      maxTotal: 120
+    },
     rssDiscovery: {
       enabled: true,
       maxChannels: 80,
@@ -81,6 +89,7 @@ function compactNumber(n = 0) {
 }
 
 function bucketFor(mult) {
+  if (mult < 2) return "1~2배";
   if (mult >= 50) return "50배+";
   if (mult >= 10) return "10~50배";
   if (mult >= 5) return "5~10배";
@@ -90,6 +99,10 @@ function bucketFor(mult) {
 
 function qualityConfig(config) {
   return { ...DEFAULT_CONFIG.youtube.quality, ...(config.youtube?.quality || {}) };
+}
+
+function freshnessConfig(config) {
+  return { ...DEFAULT_CONFIG.youtube.freshness, ...(config.youtube?.freshness || {}) };
 }
 
 function trendMetrics({ views, up, quality }) {
@@ -114,6 +127,26 @@ function youtubeQualityDecision(candidate, quality) {
   return {
     accepted,
     reason: accepted ? (fastGrowth ? "fast-growth" : "high-traffic") : reasons.join(","),
+    ...metrics
+  };
+}
+
+function youtubeFreshnessDecision(candidate, config) {
+  const fresh = freshnessConfig(config);
+  const quality = qualityConfig(config);
+  const metrics = trendMetrics({ views: candidate.views, up: candidate.up, quality });
+  if (fresh.enabled === false) return { accepted: false, reason: "fresh-disabled", ...metrics };
+  const recentEnough = metrics.age <= Number(fresh.maxAgeDays || 10);
+  const enoughViews = Number(candidate.views || 0) >= Number(fresh.minViews || 1000);
+  const enoughVelocity = metrics.dailyViews >= Number(fresh.minDailyViews || 300);
+  const accepted = recentEnough && (enoughViews || enoughVelocity);
+  const reasons = [];
+  if (!recentEnough) reasons.push(`fresh-old>${fresh.maxAgeDays}d`);
+  if (!enoughViews) reasons.push(`fresh-views<${fresh.minViews}`);
+  if (!enoughVelocity) reasons.push(`fresh-daily<${fresh.minDailyViews}`);
+  return {
+    accepted,
+    reason: accepted ? (enoughVelocity ? "fresh-velocity" : "fresh-views") : reasons.join(","),
     ...metrics
   };
 }
@@ -484,6 +517,9 @@ async function collectYoutubeRss(config, status) {
   });
 
   const maxAccepted = Number(config.youtube?.maxAcceptedPerQuery || 5);
+  const freshConfig = freshnessConfig(config);
+  const maxFreshPerQuery = Number(freshConfig.maxAcceptedPerQuery || 15);
+  const maxFreshTotal = Number(freshConfig.maxTotal || 120);
   const rows = [];
   const rejected = [];
   const candidates = [...candidatesById.values()];
@@ -507,18 +543,36 @@ async function collectYoutubeRss(config, status) {
     else rows.push(normalized);
   });
 
-  const grouped = new Map();
+  const trendGrouped = new Map();
+  const freshGrouped = new Map();
   for (const row of rows.sort((a, b) => b.trendScore - a.trendScore)) {
     const key = row.sourceQuery || "unknown";
-    const bucket = grouped.get(key) || [];
-    if (bucket.length < maxAccepted) {
-      bucket.push(row);
-      grouped.set(key, bucket);
+    if (row.tier === "fresh") {
+      const bucket = freshGrouped.get(key) || [];
+      if (bucket.length < maxFreshPerQuery) {
+        bucket.push(row);
+        freshGrouped.set(key, bucket);
+      }
+    } else {
+      const bucket = trendGrouped.get(key) || [];
+      if (bucket.length < maxAccepted) {
+        bucket.push(row);
+        trendGrouped.set(key, bucket);
+      }
     }
   }
 
-  const accepted = [...grouped.values()].flat().sort((a, b) => b.trendScore - a.trendScore);
+  const trendAccepted = [...trendGrouped.values()].flat().sort((a, b) => b.trendScore - a.trendScore);
+  const trendIds = new Set(trendAccepted.map((row) => row.id));
+  const freshAccepted = [...freshGrouped.values()]
+    .flat()
+    .filter((row) => !trendIds.has(row.id))
+    .sort((a, b) => b.trendScore - a.trendScore)
+    .slice(0, maxFreshTotal);
+  const accepted = [...trendAccepted, ...freshAccepted].sort((a, b) => b.trendScore - a.trendScore);
   status.youtube.rss.accepted = accepted.length;
+  status.youtube.rss.trendAccepted = trendAccepted.length;
+  status.youtube.rss.freshAccepted = freshAccepted.length;
   status.youtube.rss.rejected = rejected.slice(0, 30);
   status.youtube.rejected.push(...rejected.slice(0, 20));
   return accepted;
@@ -531,7 +585,8 @@ function normalizeYoutube(video, query, config) {
   const up = toDate(video.upload_date || video.release_date || video.timestamp && new Date(video.timestamp * 1000).toISOString().slice(0, 10));
   const quality = qualityConfig(config);
   const decision = youtubeQualityDecision({ views, up }, quality);
-  if (!decision.accepted) {
+  const freshDecision = youtubeFreshnessDecision({ views, up }, config);
+  if (!decision.accepted && !freshDecision.accepted) {
     return {
       rejected: true,
       id: video.id,
@@ -539,12 +594,14 @@ function normalizeYoutube(video, query, config) {
       ch: video.channel || video.uploader || "",
       views,
       up,
-      reason: decision.reason,
+      reason: [decision.reason, freshDecision.reason].filter(Boolean).join(";"),
       dailyViews: decision.dailyViews,
       sourceQuery: query.query
     };
   }
-  const mult = Math.max(decision.multiplier, 0);
+  const acceptedDecision = decision.accepted ? decision : freshDecision;
+  const tier = decision.accepted ? "trend" : "fresh";
+  const mult = Math.max(acceptedDecision.multiplier, 0);
   return {
     id: video.id,
     views,
@@ -555,10 +612,12 @@ function normalizeYoutube(video, query, config) {
     up,
     genre: query.genre || "기타",
     bucket: bucketFor(mult),
-    ageDays: decision.age,
-    dailyViews: decision.dailyViews,
-    trendScore: decision.score,
-    qualityReason: decision.reason,
+    ageDays: acceptedDecision.age,
+    dailyViews: acceptedDecision.dailyViews,
+    trendScore: acceptedDecision.score,
+    qualityReason: acceptedDecision.reason,
+    tier,
+    signalLabel: tier === "trend" ? "급상승" : "신선후보",
     sourceQuery: query.query,
     collectedAt: new Date().toISOString(),
     lt: 0,
@@ -666,7 +725,8 @@ function pruneLowQualityDirectRows(data, config) {
   data.youtube = data.youtube.filter((item) => {
     if (!String(item.collected || "").startsWith("direct-youtube")) return true;
     if (item.collected === "direct-youtube-rss" && !youtubeTitleRelevant(item.title || "", config)) return false;
-    return youtubeQualityDecision({ views: Number(item.views || 0), up: item.up || item.date || today() }, quality).accepted;
+    const candidate = { views: Number(item.views || 0), up: item.up || item.date || today() };
+    return youtubeQualityDecision(candidate, quality).accepted || youtubeFreshnessDecision(candidate, config).accepted;
   });
   data.instagram = data.instagram.filter((item) => {
     if (item.collected !== "direct-instagram-public") return true;
@@ -717,7 +777,7 @@ export async function runDirectCollection({ root }) {
       queries: [],
       rejected: [],
       errors: [],
-      rss: { channelsFound: 0, feedsChecked: 0, feedErrors: [], recentCandidates: 0, detailChecked: 0, detailErrorCount: 0, detailErrors: [], rssFallbackChecked: 0, rssFallbackAccepted: 0, accepted: 0, rejected: [] }
+      rss: { channelsFound: 0, feedsChecked: 0, feedErrors: [], recentCandidates: 0, detailChecked: 0, detailErrorCount: 0, detailErrors: [], rssFallbackChecked: 0, rssFallbackAccepted: 0, accepted: 0, trendAccepted: 0, freshAccepted: 0, rejected: [] }
     },
     instagram: { accounts: [], skipped: [], errors: [] },
     threads: { accounts: [], skipped: [], errors: [] }
@@ -768,6 +828,8 @@ export async function runDirectCollection({ root }) {
       rssFallbackChecked: status.youtube.rss.rssFallbackChecked,
       rssFallbackAccepted: status.youtube.rss.rssFallbackAccepted,
       accepted: status.youtube.rss.accepted,
+      trendAccepted: status.youtube.rss.trendAccepted,
+      freshAccepted: status.youtube.rss.freshAccepted,
       errors: status.youtube.errors.length + status.youtube.rss.feedErrors.length + (status.youtube.rss.detailErrorCount || status.youtube.rss.detailErrors.length)
     },
     publicCandidates: {

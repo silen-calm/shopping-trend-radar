@@ -15,6 +15,7 @@ const YT_CATS = [
 ];
 const YT_MULTS = [
   ["all", "전체"],
+  ["1~2배", "1~2배"],
   ["2~3배", "2~3배"],
   ["3~5배", "3~5배"],
   ["5~10배", "5~10배"],
@@ -226,7 +227,7 @@ function updateHeader() {
   const yt = collector.youtube || {};
   const candidates = collector.publicCandidates || {};
   const basis = yt.recentCandidates != null
-    ? `유튜브 후보 ${yt.recentCandidates}개 검증, 통과 ${yt.accepted || 0}개`
+    ? `유튜브 후보 ${yt.recentCandidates}개 검증, 급상승 ${yt.trendAccepted || 0}개, 신선후보 ${yt.freshAccepted || 0}개`
     : "유튜브 공개 검색 기준";
   setStatus(`수집 데이터 ${date} 저장 · 마지막 추가 YT ${added.youtube || 0} / Threads ${added.threads || 0} / IG ${added.instagram || 0} · ${basis} · IG/Threads 무조회수 후보 ${Number(candidates.instagram || 0) + Number(candidates.threads || 0)}개는 랭킹 제외`);
 }
@@ -315,7 +316,7 @@ function renderYoutubeCard(item) {
     <div class="meta">
       <div class="ttl">${escapeHtml(item.title)}</div>
       <div class="row2"><span class="ch">${escapeHtml(item.ch)}</span><span class="dot">·</span><span>조회 ${compactNumber(item.views)}</span><span class="dot">·</span><span>${escapeHtml(item.up)}</span></div>
-      <div class="row2" style="margin-top:5px"><span class="tag">${escapeHtml(item.genre)}</span><span class="tag mt">평균 ${escapeHtml(item.mult)}배</span></div>
+      <div class="row2" style="margin-top:5px"><span class="tag">${escapeHtml(item.genre)}</span><span class="tag ${item.tier === "fresh" ? "" : "mt"}">${escapeHtml(item.signalLabel || "급상승")}</span><span class="tag mt">평균 ${escapeHtml(item.mult)}배</span></div>
       ${item.script ? `<button class="scriptbtn" type="button">대본 보기</button><button class="copybtn hide" type="button">복사</button><div class="scriptbox hide">${escapeHtml(item.script)}</div>` : ""}
     </div>
   </a>`;

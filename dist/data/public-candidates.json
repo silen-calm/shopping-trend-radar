@@ -1,8 +1,81 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-09T22:58:28.093Z",
+  "generatedAt": "2026-06-09T23:15:57.894Z",
   "note": "Instagram/Threads public no-login candidates without reliable engagement metrics. Not merged into ranking data.",
-  "instagram": [],
+  "instagram": [
+    {
+      "acct": "salim_nam_official",
+      "code": "DZXZFzAqUcC",
+      "link": "https://www.instagram.com/reel/DZXZFzAqUcC/",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "salim_nam_official",
+      "code": "DZSGYEHqP4X",
+      "link": "https://www.instagram.com/reel/DZSGYEHqP4X/",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "salim_nam_official",
+      "code": "DZPo9b8qc_H",
+      "link": "https://www.instagram.com/reel/DZPo9b8qc_H/",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "salim_nam_official",
+      "code": "DZNGb3HKXDZ",
+      "link": "https://www.instagram.com/reel/DZNGb3HKXDZ/",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "salim_nam_official",
+      "code": "DZKdguHqA65",
+      "link": "https://www.instagram.com/reel/DZKdguHqA65/",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "salim_nam_official",
+      "code": "DZH5-bPq_dA",
+      "link": "https://www.instagram.com/reel/DZH5-bPq_dA/",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "salim_nam_official",
+      "code": "DZFMBt3qg1W",
+      "link": "https://www.instagram.com/reel/DZFMBt3qg1W/",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "salim_nam_official",
+      "code": "DZAK6K2qPNO",
+      "link": "https://www.instagram.com/reel/DZAK6K2qPNO/",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "salim_nam_official",
+      "code": "DY9jx1oqmTe",
+      "link": "https://www.instagram.com/reel/DY9jx1oqmTe/",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "salim_nam_official",
+      "code": "DY4YpinqDS_",
+      "link": "https://www.instagram.com/reel/DY4YpinqDS_/",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "salim_nam_official",
+      "code": "DY140iEqJYQ",
+      "link": "https://www.instagram.com/reel/DY140iEqJYQ/",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "salim_nam_official",
+      "code": "DYzFAZwK5MI",
+      "link": "https://www.instagram.com/reel/DYzFAZwK5MI/",
+      "reason": "public-page-without-views"
+    }
+  ],
   "threads": [
     {
       "acct": "maxi_more__",
