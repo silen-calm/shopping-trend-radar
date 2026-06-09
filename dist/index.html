@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>쇼핑 트렌드 레이더</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1>쇼핑 트렌드 레이더</h1>
+      <p id="statusText">데이터를 불러오는 중...</p>
+    </div>
+    <button id="refreshBtn" class="ghost" type="button">직접 수집</button>
+  </header>
+
+  <nav class="sources" aria-label="자료 유형">
+    <button class="srcbtn on" data-src="yt" type="button">유튜브 급상승 <span id="ytn"></span></button>
+    <button class="srcbtn" data-src="th" type="button">스레드 제품글 <span id="thn"></span></button>
+    <button class="srcbtn" data-src="ig" type="button">인스타 릴스 <span id="ign"></span></button>
+  </nav>
+
+  <section id="view-yt" class="view">
+    <div class="bar">
+      <div class="grp" id="ytCats"><span class="lbl">분야</span></div>
+      <div class="grp" id="ytPeriods"><span class="lbl">기간</span></div>
+      <div class="grp" id="ytGenres"><span class="lbl">장르</span></div>
+      <div class="grp" id="ytMults"><span class="lbl">배수</span></div>
+      <div class="grp" id="ytSorts"><span class="lbl">정렬</span></div>
+      <input id="yq" class="search" placeholder="제목·채널 검색" autocomplete="off">
+      <span class="cnt" id="ytcnt"></span>
+    </div>
+    <div class="grid" id="grid-yt"></div>
+    <button class="more hide" id="more-yt" type="button">더 보기</button>
+  </section>
+
+  <section id="view-th" class="view hide">
+    <div class="bar">
+      <div class="grp" id="thKeywords"><span class="lbl">키워드</span></div>
+      <div class="grp" id="thPeriods"><span class="lbl">기간</span></div>
+      <div class="grp" id="thSorts"><span class="lbl">정렬</span></div>
+      <input id="tq" class="search" placeholder="요약·계정 검색" autocomplete="off">
+      <span class="cnt" id="thcnt"></span>
+    </div>
+    <div class="grid threads" id="grid-th"></div>
+    <button class="more hide" id="more-th" type="button">더 보기</button>
+  </section>
+
+  <section id="view-ig" class="view hide">
+    <div class="bar">
+      <div class="grp" id="igKeywords"><span class="lbl">키워드</span></div>
+      <div class="grp" id="igPeriods"><span class="lbl">기간</span></div>
+      <div class="grp" id="igSorts"><span class="lbl">정렬</span></div>
+      <input id="igq" class="search" placeholder="요약·계정 검색" autocomplete="off">
+      <span class="cnt" id="igcnt"></span>
+    </div>
+    <div class="grid" id="grid-ig"></div>
+    <button class="more hide" id="more-ig" type="button">더 보기</button>
+  </section>
+
+  <div id="delbar"></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

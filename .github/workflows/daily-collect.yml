@@ -1,0 +1,69 @@
+name: Daily trend collection
+
+on:
+  schedule:
+    - cron: "10 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-trend-collection
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install yt-dlp
+        run: |
+          python3 -m pip install --user --upgrade yt-dlp
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - name: Collect new data
+        env:
+          INSTAGRAM_DATA_API_KEY: ${{ secrets.INSTAGRAM_DATA_API_KEY }}
+          INSTAGRAM_ACCOUNT_ENDPOINT: ${{ secrets.INSTAGRAM_ACCOUNT_ENDPOINT }}
+          INSTAGRAM_SEARCH_ENDPOINT: ${{ secrets.INSTAGRAM_SEARCH_ENDPOINT }}
+          THREADS_DATA_API_KEY: ${{ secrets.THREADS_DATA_API_KEY }}
+          THREADS_ACCOUNT_ENDPOINT: ${{ secrets.THREADS_ACCOUNT_ENDPOINT }}
+          THREADS_SEARCH_ENDPOINT: ${{ secrets.THREADS_SEARCH_ENDPOINT }}
+        run: npm run collect
+
+      - name: Build static site
+        run: npm run build:static
+
+      - name: Commit updated data
+        run: |
+          git config user.name "ddeoksang-bot"
+          git config user.email "ddeoksang-bot@users.noreply.github.com"
+          git add data/gallery-data.json data/collector-status.json data/metric-snapshots.json data/public-candidates.json dist
+          git diff --cached --quiet || git commit -m "chore: update daily trend data"
+          git push
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload static site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,5 @@
+cache/
+logs/
+node_modules/
+index.html.bak
+.DS_Store

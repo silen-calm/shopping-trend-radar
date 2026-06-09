@@ -1,0 +1,112 @@
+{
+  "youtube": {
+    "limitPerQuery": 12,
+    "maxAcceptedPerQuery": 5,
+    "concurrency": 3,
+    "timeoutMs": 30000,
+    "quality": {
+      "maxAgeDays": 45,
+      "minViews": 30000,
+      "minDailyViews": 10000,
+      "minMultiplier": 2
+    },
+    "queries": [
+      { "query": "한국 쇼츠 쇼핑 추천", "genre": "기타", "cat": "릴스형" },
+      { "query": "다이소 추천 쇼츠", "genre": "주방/생활용품", "cat": "릴스형" },
+      { "query": "살림템 추천 쇼츠", "genre": "주방/생활용품", "cat": "릴스형" },
+      { "query": "인테리어 소품 추천 쇼츠", "genre": "가구/인테리어", "cat": "릴스형" },
+      { "query": "먹거리 추천 쇼츠", "genre": "식품/먹거리", "cat": "릴스형" },
+      { "query": "간식 추천 쇼츠", "genre": "식품/먹거리", "cat": "릴스형" },
+      { "query": "화장품 추천 쇼츠", "genre": "화장품/뷰티", "cat": "릴스형" },
+      { "query": "뷰티템 추천 쇼츠", "genre": "화장품/뷰티", "cat": "릴스형" },
+      { "query": "패션 잡화 추천 쇼츠", "genre": "패션/잡화", "cat": "릴스형" },
+      { "query": "문구 취미 추천 쇼츠", "genre": "문구/취미", "cat": "릴스형" },
+      { "query": "전자기기 추천 쇼츠", "genre": "전자/IT", "cat": "릴스형" },
+      { "query": "건강용품 추천 쇼츠", "genre": "건강/위생", "cat": "릴스형" }
+    ]
+  },
+  "instagram": {
+    "allowZeroViewPublic": false,
+    "publicDiscovery": true,
+    "provider": {
+      "enabled": true,
+      "name": "instagram-public-data-provider",
+      "apiKeyEnv": "INSTAGRAM_DATA_API_KEY",
+      "apiKeyHeader": "Authorization",
+      "apiKeyPrefix": "Bearer ",
+      "accountEndpointEnv": "INSTAGRAM_ACCOUNT_ENDPOINT",
+      "searchEndpointEnv": "INSTAGRAM_SEARCH_ENDPOINT",
+      "accountEndpoint": "",
+      "searchEndpoint": "",
+      "arrayPath": "",
+      "limit": 25,
+      "timeoutMs": 20000,
+      "maxAgeDays": 45,
+      "minViews": 10000,
+      "minEngagement": 120
+    },
+    "queries": [
+      "다이소 추천 릴스",
+      "살림템 추천 릴스",
+      "뷰티템 추천 릴스",
+      "인테리어 소품 릴스",
+      "간식 추천 릴스"
+    ],
+    "seedAccounts": [
+      "omuk.official",
+      "todayhouse",
+      "_tripgoing",
+      "eyesmag",
+      "yuziman__",
+      "dada_salrim",
+      "de_elisa_shop",
+      "a_rim_z",
+      "lee_mido",
+      "campinghankki",
+      "ggumigi",
+      "salim_nam_official"
+    ]
+  },
+  "threads": {
+    "allowZeroViewPublic": false,
+    "publicDiscovery": true,
+    "provider": {
+      "enabled": true,
+      "name": "threads-public-data-provider",
+      "apiKeyEnv": "THREADS_DATA_API_KEY",
+      "apiKeyHeader": "Authorization",
+      "apiKeyPrefix": "Bearer ",
+      "accountEndpointEnv": "THREADS_ACCOUNT_ENDPOINT",
+      "searchEndpointEnv": "THREADS_SEARCH_ENDPOINT",
+      "accountEndpoint": "",
+      "searchEndpoint": "",
+      "arrayPath": "",
+      "limit": 25,
+      "timeoutMs": 20000,
+      "maxAgeDays": 45,
+      "minViews": 3000,
+      "minEngagement": 80
+    },
+    "queries": [
+      "다이소 추천",
+      "살림템 추천",
+      "뷰티템 추천",
+      "인테리어 소품",
+      "간식 추천"
+    ],
+    "seedAccounts": [
+      "maxi_more__",
+      "orion_on82",
+      "zipbysuni",
+      "iero._.cider",
+      "yunseul._.e",
+      "mymoney_mytaste",
+      "homepick.official",
+      "vintage_aldo",
+      "ohmy_it_tem",
+      "yd113202",
+      "dave_hyemin",
+      "sunny.siot"
+    ]
+  }
+}

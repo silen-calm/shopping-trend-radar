@@ -1,0 +1,652 @@
+{
+  "ok": true,
+  "mode": "direct-no-login",
+  "startedAt": "2026-06-09T21:11:44.817Z",
+  "source": "youtube public no-login plus optional instagram/threads public-data providers with traffic-quality gates",
+  "before": {
+    "youtube": 2099,
+    "threads": 215,
+    "instagram": 1317
+  },
+  "quality": {
+    "maxAgeDays": 45,
+    "minViews": 30000,
+    "minDailyViews": 10000,
+    "minMultiplier": 2
+  },
+  "pruned": {
+    "youtube": 0,
+    "instagram": 0,
+    "threads": 0
+  },
+  "youtube": {
+    "queries": [],
+    "rejected": [],
+    "errors": [
+      {
+        "query": "살림템 추천 쇼츠",
+        "message": "ERROR: [youtube] Z4CxkMogW2Q: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 45KAx8ktGzQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] t9QplIf7G9s: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] bhKf17dPx1k: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] tViuoWytNMk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] k1z9ZgAodFw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] aaIsiTlBmZg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] YtdbmW4x4IA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] aoQGMfNPFUY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] pSuhs19Rp8k: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] mFc2ZEs_Sw8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] V5RFml9IYoI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+      },
+      {
+        "query": "다이소 추천 쇼츠",
+        "message": "ERROR: [youtube] dsBSHZYL-PU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] bKHn2lcnypY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] aDpblJTWT84: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] tCQZ8m6_REg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] r8pucBNlliY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] V5RFml9IYoI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] VgM2Bu0CSFA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] xdkyfB2W77A: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] sEZ7w5zvnE0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 3tMPH0C4qSE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] a-d0h9ahuvs: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] CzV887tqXmU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+      },
+      {
+        "query": "한국 쇼츠 쇼핑 추천",
+        "message": "ERROR: [youtube] PHpqXsTgzqg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 9__KHNn2ahg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] RKGRmTamaqo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] EzV2RNek_Ls: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 5cBZ1eCaylw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 22uoN5LPH8Y: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] u2cZgnzsr9o: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] rrj-jPbIaJM: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] Z4CxkMogW2Q: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] JNxmoHh55k4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] ZpPTsvwKs-A: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] B62mqab-ipU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+      },
+      {
+        "query": "먹거리 추천 쇼츠",
+        "message": "ERROR: [youtube] CKfSJTHUNoc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 8ORx1au3B1U: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] FtswBTumMUw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] z2U-nHgdZNU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] ODHPR8h9Sek: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] PHpqXsTgzqg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] RajXFK-cPLo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] g9J0BnwFunw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 9RyE-xxi9HI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] U4IDQa8le1s: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] N_kMBpe_1UI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] DlHFyHXiazg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+      },
+      {
+        "query": "인테리어 소품 추천 쇼츠",
+        "message": "ERROR: [youtube] SB48h-61Q0g: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] F8CU4M7isO4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] KhebfZjtfxM: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] hJiKCYS9pTM: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] F3eHKq3tSe0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] sdioW5YM6wk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] _42fIb2zuHQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 1lW-0UR3Kqk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] b8j9YLmzUQI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] wzxtmRLtfsg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] Biwe9PSQvUY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 1eUkzB3TQv0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+      },
+      {
+        "query": "간식 추천 쇼츠",
+        "message": "ERROR: [youtube] g9J0BnwFunw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] rHpLfsEvZFs: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] ZqzG7B-Lq1U: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] ElSo6AL_aFQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] LOXqFxjP_L0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 0ly_wHtQw2w: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] K1QfwQuBPcc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 2mSRHnJ6ew0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] xuzoPY9BZcY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 0ebYjNZ-jfg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] I6-6ZBiyYlw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] R5F_059COhU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+      },
+      {
+        "query": "화장품 추천 쇼츠",
+        "message": "ERROR: [youtube] MoKTH7HFzKg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] BgD3narGkxY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 0sjrRDqHrNo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] jUbUKZcmbkY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] xdKwSqOf-4A: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] KXML0r_fYsI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 0kiDUZ3Q7Wk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] aoqWunaPpZI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 1QadA7pQFxU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] Vi8Z7ugj8Yg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] u6BMq0iuNhs: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 5p9qkKIcoPQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+      },
+      {
+        "query": "뷰티템 추천 쇼츠",
+        "message": "ERROR: [youtube] MoKTH7HFzKg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] jUbUKZcmbkY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] sl2jQ29crBE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 1QadA7pQFxU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] IEJWeQXeijs: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] BGjlB3a0G0g: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] YXoDfc8fEOc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] KXML0r_fYsI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] cDc7ytYWhgk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] lSBWXP9E73g: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 0Z2VJmQVdic: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] xZt2b9jinx8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+      },
+      {
+        "query": "패션 잡화 추천 쇼츠",
+        "message": "ERROR: [youtube] Md5NmOxp54o: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] LWGxZj7PTs0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 9BrQu9O-DPQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] pAwOxaCu7XA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] sQi6ihQuMqM: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] lHTjSMI_Rwk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] cwOCQHQDx74: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] i5TWeZpjf8o: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] dRDUHV4TCFI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] gDtDRImcI4U: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] yaIL6JlMOBY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] t2h5rxgX6ZI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+      },
+      {
+        "query": "문구 취미 추천 쇼츠",
+        "message": "ERROR: [youtube] HowWCJ4W1Ek: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] L-5tQipZzZk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] sXk-C6PY7GE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] dl3HLUfj-RY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] spkLk2tdcNo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] oc27LarFIyE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] gvI3XAfnBBs: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] d6DeynQuplY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 7IWl1H-L1UY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] gIi96maruZ8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 2csyXwbK7Mw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] LUmFYKLFEQY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+      },
+      {
+        "query": "전자기기 추천 쇼츠",
+        "message": "ERROR: [youtube] kVYkjKb0b0g: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] eYKTT3x5mPA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 3FnpDPuVC_A: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] jUitNhy_Gj8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] feUwDzLfClk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] zjGWmBhzqwI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 1TSkM694cG4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] rYM1X1ImdlM: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] aswFaRopmQU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 6udtKaKQVZo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] XMe-zo2nkdE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 7zqxF7FUoeg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+      },
+      {
+        "query": "건강용품 추천 쇼츠",
+        "message": "ERROR: [youtube] 7QKXXNGD5lA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] qWcM3rqQXFA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] P9oUUXfrThU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] HzT_HZB0fMQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] Sx3qGZqw-mg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] kXVAxo8nrg4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] Is93aIz2FFE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] HELi_vaddxw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] tZD_djP9UfA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] X52jFMpXBas: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 7UntbKh6RCo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 8_-1mDZt-DY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+      }
+    ]
+  },
+  "instagram": {
+    "accounts": [
+      {
+        "acct": "omuk.official",
+        "found": 0
+      },
+      {
+        "acct": "todayhouse",
+        "found": 0
+      },
+      {
+        "acct": "_tripgoing",
+        "found": 0
+      },
+      {
+        "acct": "eyesmag",
+        "found": 0
+      },
+      {
+        "acct": "yuziman__",
+        "found": 0
+      },
+      {
+        "acct": "dada_salrim",
+        "found": 0
+      },
+      {
+        "acct": "de_elisa_shop",
+        "found": 0
+      },
+      {
+        "acct": "a_rim_z",
+        "found": 0
+      },
+      {
+        "acct": "lee_mido",
+        "found": 0
+      },
+      {
+        "acct": "campinghankki",
+        "found": 0
+      },
+      {
+        "acct": "ggumigi",
+        "found": 0
+      },
+      {
+        "acct": "salim_nam_official",
+        "found": 0
+      }
+    ],
+    "skipped": [],
+    "errors": [],
+    "provider": {
+      "ok": false,
+      "skipped": true,
+      "reason": "missing INSTAGRAM_DATA_API_KEY or endpoint"
+    }
+  },
+  "threads": {
+    "accounts": [
+      {
+        "acct": "maxi_more__",
+        "found": 5
+      },
+      {
+        "acct": "orion_on82",
+        "found": 8
+      },
+      {
+        "acct": "zipbysuni",
+        "found": 6
+      },
+      {
+        "acct": "iero._.cider",
+        "found": 8
+      },
+      {
+        "acct": "yunseul._.e",
+        "found": 8
+      },
+      {
+        "acct": "mymoney_mytaste",
+        "found": 5
+      },
+      {
+        "acct": "homepick.official",
+        "found": 0
+      },
+      {
+        "acct": "vintage_aldo",
+        "found": 4
+      },
+      {
+        "acct": "ohmy_it_tem",
+        "found": 7
+      },
+      {
+        "acct": "yd113202",
+        "found": 7
+      },
+      {
+        "acct": "dave_hyemin",
+        "found": 8
+      },
+      {
+        "acct": "sunny.siot",
+        "found": 6
+      }
+    ],
+    "skipped": [
+      {
+        "acct": "maxi_more__",
+        "id": "DO5rxzDk9NL",
+        "link": "https://www.threads.com/@maxi_more__/post/DO5rxzDk9NL",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "maxi_more__",
+        "id": "DO5ve1Uk6zF",
+        "link": "https://www.threads.com/@maxi_more__/post/DO5ve1Uk6zF",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "maxi_more__",
+        "id": "DZXKIoLCZps",
+        "link": "https://www.threads.com/@maxi_more__/post/DZXKIoLCZps",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "maxi_more__",
+        "id": "DZUhNRtgE00",
+        "link": "https://www.threads.com/@maxi_more__/post/DZUhNRtgE00",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "maxi_more__",
+        "id": "DZTu9BaE_O0",
+        "link": "https://www.threads.com/@maxi_more__/post/DZTu9BaE_O0",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "orion_on82",
+        "id": "DZXaBLxD5qN",
+        "link": "https://www.threads.com/@orion_on82/post/DZXaBLxD5qN",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "orion_on82",
+        "id": "DZXaHCej00_",
+        "link": "https://www.threads.com/@orion_on82/post/DZXaHCej00_",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "orion_on82",
+        "id": "DZXITH0kRAl",
+        "link": "https://www.threads.com/@orion_on82/post/DZXITH0kRAl",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "orion_on82",
+        "id": "DZXIYudkdSD",
+        "link": "https://www.threads.com/@orion_on82/post/DZXIYudkdSD",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "orion_on82",
+        "id": "DZW02rREcNh",
+        "link": "https://www.threads.com/@orion_on82/post/DZW02rREcNh",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "orion_on82",
+        "id": "DZW0606EWqE",
+        "link": "https://www.threads.com/@orion_on82/post/DZW0606EWqE",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "orion_on82",
+        "id": "DZWceFQESdU",
+        "link": "https://www.threads.com/@orion_on82/post/DZWceFQESdU",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "orion_on82",
+        "id": "DZWcla9kQy1",
+        "link": "https://www.threads.com/@orion_on82/post/DZWcla9kQy1",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "zipbysuni",
+        "id": "DZWl3IOGLvG",
+        "link": "https://www.threads.com/@zipbysuni/post/DZWl3IOGLvG",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "zipbysuni",
+        "id": "DZWlikLGBWt",
+        "link": "https://www.threads.com/@zipbysuni/post/DZWlikLGBWt",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "zipbysuni",
+        "id": "DZWhJBOmBDs",
+        "link": "https://www.threads.com/@zipbysuni/post/DZWhJBOmBDs",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "zipbysuni",
+        "id": "DZWhK8xGG45",
+        "link": "https://www.threads.com/@zipbysuni/post/DZWhK8xGG45",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "zipbysuni",
+        "id": "DZVQ3jSGPn6",
+        "link": "https://www.threads.com/@zipbysuni/post/DZVQ3jSGPn6",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "zipbysuni",
+        "id": "DZVQ6-vmJAe",
+        "link": "https://www.threads.com/@zipbysuni/post/DZVQ6-vmJAe",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "iero._.cider",
+        "id": "DZXthMfExKI",
+        "link": "https://www.threads.com/@iero._.cider/post/DZXthMfExKI",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "iero._.cider",
+        "id": "DZXtsK-k9Li",
+        "link": "https://www.threads.com/@iero._.cider/post/DZXtsK-k9Li",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "iero._.cider",
+        "id": "DZXs_MRk6T9",
+        "link": "https://www.threads.com/@iero._.cider/post/DZXs_MRk6T9",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "iero._.cider",
+        "id": "DZXtGP0k56v",
+        "link": "https://www.threads.com/@iero._.cider/post/DZXtGP0k56v",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "iero._.cider",
+        "id": "DZXrvwrE-er",
+        "link": "https://www.threads.com/@iero._.cider/post/DZXrvwrE-er",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "iero._.cider",
+        "id": "DZXr2Jdk6bq",
+        "link": "https://www.threads.com/@iero._.cider/post/DZXr2Jdk6bq",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "iero._.cider",
+        "id": "DZXq1R4kyLN",
+        "link": "https://www.threads.com/@iero._.cider/post/DZXq1R4kyLN",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "iero._.cider",
+        "id": "DZXq73NkyOO",
+        "link": "https://www.threads.com/@iero._.cider/post/DZXq73NkyOO",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "yunseul._.e",
+        "id": "DYzNOPpjxY1",
+        "link": "https://www.threads.com/@yunseul._.e/post/DYzNOPpjxY1",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "yunseul._.e",
+        "id": "DYzNseYCYx6",
+        "link": "https://www.threads.com/@yunseul._.e/post/DYzNseYCYx6",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "yunseul._.e",
+        "id": "DYzMReSiVRq",
+        "link": "https://www.threads.com/@yunseul._.e/post/DYzMReSiVRq",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "yunseul._.e",
+        "id": "DYzMSILCQNZ",
+        "link": "https://www.threads.com/@yunseul._.e/post/DYzMSILCQNZ",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "yunseul._.e",
+        "id": "DYzKcLzCSPU",
+        "link": "https://www.threads.com/@yunseul._.e/post/DYzKcLzCSPU",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "yunseul._.e",
+        "id": "DYzKc0DCVgF",
+        "link": "https://www.threads.com/@yunseul._.e/post/DYzKc0DCVgF",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "yunseul._.e",
+        "id": "DYzJv2GCeF3",
+        "link": "https://www.threads.com/@yunseul._.e/post/DYzJv2GCeF3",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "yunseul._.e",
+        "id": "DYzJwcViWX1",
+        "link": "https://www.threads.com/@yunseul._.e/post/DYzJwcViWX1",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "mymoney_mytaste",
+        "id": "DUzUP8uE-ul",
+        "link": "https://www.threads.com/@mymoney_mytaste/post/DUzUP8uE-ul",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "mymoney_mytaste",
+        "id": "DVI0MDZE3ws",
+        "link": "https://www.threads.com/@mymoney_mytaste/post/DVI0MDZE3ws",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "mymoney_mytaste",
+        "id": "DXRZbIhk4_I",
+        "link": "https://www.threads.com/@mymoney_mytaste/post/DXRZbIhk4_I",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "mymoney_mytaste",
+        "id": "DXEEqi5kzqm",
+        "link": "https://www.threads.com/@mymoney_mytaste/post/DXEEqi5kzqm",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "mymoney_mytaste",
+        "id": "DWsiI-sk0Rs",
+        "link": "https://www.threads.com/@mymoney_mytaste/post/DWsiI-sk0Rs",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "vintage_aldo",
+        "id": "DZTqG96iSeq",
+        "link": "https://www.threads.com/@vintage_aldo/post/DZTqG96iSeq",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "vintage_aldo",
+        "id": "DZTwa1xiaCX",
+        "link": "https://www.threads.com/@vintage_aldo/post/DZTwa1xiaCX",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "vintage_aldo",
+        "id": "DZMTnCHCfNX",
+        "link": "https://www.threads.com/@vintage_aldo/post/DZMTnCHCfNX",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "vintage_aldo",
+        "id": "DZMT9HhiUW0",
+        "link": "https://www.threads.com/@vintage_aldo/post/DZMT9HhiUW0",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "ohmy_it_tem",
+        "id": "DZLrVPqk6B2",
+        "link": "https://www.threads.com/@ohmy_it_tem/post/DZLrVPqk6B2",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "ohmy_it_tem",
+        "id": "DZLqqdXE7a1",
+        "link": "https://www.threads.com/@ohmy_it_tem/post/DZLqqdXE7a1",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "ohmy_it_tem",
+        "id": "DZLqtn6k9YT",
+        "link": "https://www.threads.com/@ohmy_it_tem/post/DZLqtn6k9YT",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "ohmy_it_tem",
+        "id": "DZLqBKDE331",
+        "link": "https://www.threads.com/@ohmy_it_tem/post/DZLqBKDE331",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "ohmy_it_tem",
+        "id": "DZLqQeWk1yk",
+        "link": "https://www.threads.com/@ohmy_it_tem/post/DZLqQeWk1yk",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "ohmy_it_tem",
+        "id": "DZK2b6lEXE6",
+        "link": "https://www.threads.com/@ohmy_it_tem/post/DZK2b6lEXE6",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "ohmy_it_tem",
+        "id": "DZK2i0rkRYV",
+        "link": "https://www.threads.com/@ohmy_it_tem/post/DZK2i0rkRYV",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "yd113202",
+        "id": "DZXpXCOkxuA",
+        "link": "https://www.threads.com/@yd113202/post/DZXpXCOkxuA",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "yd113202",
+        "id": "DZXpW0yk7zB",
+        "link": "https://www.threads.com/@yd113202/post/DZXpW0yk7zB",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "yd113202",
+        "id": "DZXa8POk_zA",
+        "link": "https://www.threads.com/@yd113202/post/DZXa8POk_zA",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "yd113202",
+        "id": "DZXa8Hck5ym",
+        "link": "https://www.threads.com/@yd113202/post/DZXa8Hck5ym",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "yd113202",
+        "id": "DZXIx9Dk7qU",
+        "link": "https://www.threads.com/@yd113202/post/DZXIx9Dk7qU",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "yd113202",
+        "id": "DZW-CPWk_lq",
+        "link": "https://www.threads.com/@yd113202/post/DZW-CPWk_lq",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "yd113202",
+        "id": "DZW-CBdk8L6",
+        "link": "https://www.threads.com/@yd113202/post/DZW-CBdk8L6",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "dave_hyemin",
+        "id": "DZXP07-HfLV",
+        "link": "https://www.threads.com/@dave_hyemin/post/DZXP07-HfLV",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "dave_hyemin",
+        "id": "DZXP4LInVXq",
+        "link": "https://www.threads.com/@dave_hyemin/post/DZXP4LInVXq",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "dave_hyemin",
+        "id": "DZUv8CPHeoq",
+        "link": "https://www.threads.com/@dave_hyemin/post/DZUv8CPHeoq",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "dave_hyemin",
+        "id": "DZUv-ZBHWHe",
+        "link": "https://www.threads.com/@dave_hyemin/post/DZUv-ZBHWHe",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "dave_hyemin",
+        "id": "DZT6RzznSRx",
+        "link": "https://www.threads.com/@dave_hyemin/post/DZT6RzznSRx",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "dave_hyemin",
+        "id": "DZT6V47HfrE",
+        "link": "https://www.threads.com/@dave_hyemin/post/DZT6V47HfrE",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "dave_hyemin",
+        "id": "DZRLqiFnVO3",
+        "link": "https://www.threads.com/@dave_hyemin/post/DZRLqiFnVO3",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "dave_hyemin",
+        "id": "DZRLu1XHZRi",
+        "link": "https://www.threads.com/@dave_hyemin/post/DZRLu1XHZRi",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "sunny.siot",
+        "id": "DMjeFaHTRaW",
+        "link": "https://www.threads.com/@sunny.siot/post/DMjeFaHTRaW",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "sunny.siot",
+        "id": "DZPwNLXk01d",
+        "link": "https://www.threads.com/@sunny.siot/post/DZPwNLXk01d",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "sunny.siot",
+        "id": "DZH-_6HE2na",
+        "link": "https://www.threads.com/@sunny.siot/post/DZH-_6HE2na",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "sunny.siot",
+        "id": "DZH_mQVk8Wk",
+        "link": "https://www.threads.com/@sunny.siot/post/DZH_mQVk8Wk",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "sunny.siot",
+        "id": "DZHwCmfkxY4",
+        "link": "https://www.threads.com/@sunny.siot/post/DZHwCmfkxY4",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "sunny.siot",
+        "id": "DZHwEijk2RJ",
+        "link": "https://www.threads.com/@sunny.siot/post/DZHwEijk2RJ",
+        "reason": "public-page-without-views"
+      }
+    ],
+    "errors": [],
+    "provider": {
+      "ok": false,
+      "skipped": true,
+      "reason": "missing THREADS_DATA_API_KEY or endpoint"
+    }
+  },
+  "finishedAt": "2026-06-09T21:12:36.428Z",
+  "version": "2026-06-09T21:12:36.399Z:b30cba110774",
+  "after": {
+    "youtube": 2099,
+    "threads": 215,
+    "instagram": 1317
+  },
+  "added": {
+    "youtube": 0,
+    "instagram": 0,
+    "threads": 0
+  },
+  "metricSnapshots": {
+    "sampledAt": "2026-06-09T21:12:36.317Z",
+    "tracked": {
+      "youtube": 2099,
+      "instagram": 1317,
+      "threads": 215
+    },
+    "velocityReady": {
+      "youtube": 0,
+      "instagram": 0,
+      "threads": 0
+    }
+  }
+}

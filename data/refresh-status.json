@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "refreshedAt": "2026-06-06T15:46:06.565Z",
+  "version": "2026-06-06T15:46:06.565Z:b1375d282c6d",
+  "counts": {
+    "youtube": 2097,
+    "threads": 215,
+    "instagram": 1317
+  },
+  "dateRanges": {
+    "youtube": {
+      "min": "2018-02-24",
+      "max": "2026-06-04",
+      "invalid": 0
+    },
+    "threads": {
+      "min": "2025-02-27",
+      "max": "2026-06-06",
+      "invalid": 0
+    },
+    "instagram": {
+      "min": "2021-09-07",
+      "max": "2026-06-04",
+      "invalid": 0
+    }
+  }
+}

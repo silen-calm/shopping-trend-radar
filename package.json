@@ -1,0 +1,16 @@
+{
+  "name": "shopping-trend-radar",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs --port 8765",
+    "build:static": "node scripts/export-static.mjs",
+    "collect": "node collect.mjs",
+    "refresh": "node collect.mjs",
+    "cache:warm": "node warm-cache.mjs",
+    "install:autoupdate": "node scripts/install-macos-autoupdate.mjs",
+    "test": "node tests/regression.mjs && node tests/provider-snapshots.mjs",
+    "test:full": "node tests/full-smoke.mjs"
+  }
+}
