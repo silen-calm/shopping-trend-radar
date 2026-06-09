@@ -275,6 +275,16 @@ function tagValue(xml, tag) {
   return match ? decodeHtml(match[1]).trim() : "";
 }
 
+function rssAlternateUrl(xml) {
+  const match = xml.match(/<link[^>]+rel=["']alternate["'][^>]+href=["']([^"']+)["']/i);
+  return match ? decodeHtml(match[1]) : "";
+}
+
+function rssViews(xml) {
+  const match = xml.match(/<media:statistics[^>]+views=["'](\d+)["']/i);
+  return match ? Number(match[1]) : 0;
+}
+
 function parseYoutubeFeed(xml, channel, config) {
   const rssConfig = youtubeRssConfig(config);
   const quality = qualityConfig(config);
@@ -286,6 +296,7 @@ function parseYoutubeFeed(xml, channel, config) {
       const id = tagValue(entry, "yt:videoId");
       const rawTitle = tagValue(entry, "title");
       const published = tagValue(entry, "published");
+      const link = rssAlternateUrl(entry);
       const up = toDate(published.slice(0, 10));
       const title = safeText(rawTitle);
       if (!id || !title) return [];
@@ -298,7 +309,10 @@ function parseYoutubeFeed(xml, channel, config) {
         channelId: channel.id,
         channel: channel.channel,
         query: channel.query,
-        sourceQuery: channel.query.query
+        sourceQuery: channel.query.query,
+        link,
+        isShorts: /youtube\.com\/shorts\//.test(link),
+        rssViews: rssViews(entry)
       }];
     });
 }
@@ -389,6 +403,30 @@ function normalizeYoutubeVerified(candidate, detail, config) {
   return row;
 }
 
+function normalizeYoutubeRssCandidate(candidate, config) {
+  if (!candidate.isShorts || !candidate.rssViews) return null;
+  const video = {
+    id: candidate.id,
+    title: candidate.title,
+    channel: candidate.channel,
+    uploader: candidate.channel,
+    view_count: candidate.rssViews,
+    upload_date: candidate.up,
+    duration: 60
+  };
+  const row = normalizeYoutube(video, candidate.query, config);
+  if (!row) return null;
+  row.collected = row.rejected ? row.collected : "direct-youtube-rss";
+  row.metricSource = "youtube-rss-feed";
+  row.sourceChannelId = candidate.channelId;
+  row.sourceChannel = candidate.channel;
+  row.evidence = "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url";
+  if (!row.rejected) {
+    row.qualityReason = `${row.qualityReason}; rss-upload-date; rss-view-count; shorts-url`;
+  }
+  return row;
+}
+
 async function discoverYoutubeChannels(config, status) {
   const queries = config.youtube?.queries || [];
   const channels = new Map();
@@ -452,10 +490,18 @@ async function collectYoutubeRss(config, status) {
   status.youtube.rss.recentCandidates = candidates.length;
 
   await runLimited(candidates, Number(rssConfig.detailConcurrency || 8), async (candidate) => {
-    const detail = await fetchYoutubePublicDetail(candidate.id, config, status);
-    if (!detail) return;
-    status.youtube.rss.detailChecked += 1;
-    const normalized = normalizeYoutubeVerified(candidate, detail, config);
+    let normalized = normalizeYoutubeRssCandidate(candidate, config);
+    if (normalized) {
+      status.youtube.rss.rssFallbackChecked += 1;
+      if (!normalized.rejected) status.youtube.rss.rssFallbackAccepted += 1;
+    }
+    if (!normalized) {
+      const detail = await fetchYoutubePublicDetail(candidate.id, config, status);
+      if (detail) {
+        status.youtube.rss.detailChecked += 1;
+        normalized = normalizeYoutubeVerified(candidate, detail, config);
+      }
+    }
     if (!normalized) return;
     if (normalized.rejected) rejected.push(normalized);
     else rows.push(normalized);
@@ -671,7 +717,7 @@ export async function runDirectCollection({ root }) {
       queries: [],
       rejected: [],
       errors: [],
-      rss: { channelsFound: 0, feedsChecked: 0, feedErrors: [], recentCandidates: 0, detailChecked: 0, detailErrorCount: 0, detailErrors: [], accepted: 0, rejected: [] }
+      rss: { channelsFound: 0, feedsChecked: 0, feedErrors: [], recentCandidates: 0, detailChecked: 0, detailErrorCount: 0, detailErrors: [], rssFallbackChecked: 0, rssFallbackAccepted: 0, accepted: 0, rejected: [] }
     },
     instagram: { accounts: [], skipped: [], errors: [] },
     threads: { accounts: [], skipped: [], errors: [] }
@@ -709,7 +755,7 @@ export async function runDirectCollection({ root }) {
     finishedAt: status.finishedAt,
     added: status.added,
     basis: {
-      youtube: "검색어로 관련 채널 발견 -> YouTube 공식 채널 RSS 업로드일 확인 -> 공개 메타데이터 조회수/길이 검증",
+      youtube: "검색어로 관련 채널 발견 -> YouTube 공식 채널 RSS 업로드일/조회수/Shorts 링크 확인 -> 공개 메타데이터 보강",
       instagram: "공급자 API 조회수/반응수 기준. 없으면 랭킹 제외",
       threads: "공급자 API 조회수/반응수 기준. 없으면 랭킹 제외"
     },
@@ -719,6 +765,8 @@ export async function runDirectCollection({ root }) {
       channelsFound: status.youtube.rss.channelsFound,
       recentCandidates: status.youtube.rss.recentCandidates,
       detailChecked: status.youtube.rss.detailChecked,
+      rssFallbackChecked: status.youtube.rss.rssFallbackChecked,
+      rssFallbackAccepted: status.youtube.rss.rssFallbackAccepted,
       accepted: status.youtube.rss.accepted,
       errors: status.youtube.errors.length + status.youtube.rss.feedErrors.length + (status.youtube.rss.detailErrorCount || status.youtube.rss.detailErrors.length)
     },

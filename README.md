@@ -32,7 +32,7 @@ GitHub Actions 설정:
 - 수동 실행: GitHub Actions 화면의 `Daily trend collection`에서 `Run workflow`
 - 수집 후 `data/*.json`과 `dist/`를 자동 커밋/푸시
 
-YouTube 수집에는 워크플로우 안에서 `yt-dlp`를 설치해서 검색어별 관련 채널을 찾고, YouTube 공식 채널 RSS로 최근 업로드일을 확인한 뒤, 공개 메타데이터에서 조회수/길이를 검증합니다. Instagram/Threads 고품질 수집은 공개 공급자 API가 있을 때만 자동 병합합니다. API가 없거나 공개 페이지에서 지표를 확인할 수 없는 항목은 랭킹 데이터에 넣지 않고 `data/public-candidates.json` 후보로만 남깁니다.
+YouTube 수집에는 워크플로우 안에서 `yt-dlp`를 설치해서 검색어별 관련 채널을 찾고, YouTube 공식 채널 RSS로 최근 업로드일/조회수/Shorts 링크를 확인한 뒤, 가능한 경우 공개 메타데이터로 길이와 조회수를 보강합니다. Instagram/Threads 고품질 수집은 공개 공급자 API가 있을 때만 자동 병합합니다. API가 없거나 공개 페이지에서 지표를 확인할 수 없는 항목은 랭킹 데이터에 넣지 않고 `data/public-candidates.json` 후보로만 남깁니다.
 
 ## 구조
 
@@ -81,11 +81,11 @@ npm run install:autoupdate
 
 레거시 원본 동기화 API는 기본적으로 꺼져 있습니다. `/api/refresh`는 410으로 거절됩니다.
 
-무로그인 원칙: 직접 수집기는 사용자의 Chrome 세션, Instagram/Threads/YouTube 계정 쿠키, 로그인 정보를 쓰지 않습니다. YouTube는 `yt-dlp` 공개 검색으로 관련 채널을 찾고, YouTube 공식 채널 RSS와 공개 메타데이터로 최근성/조회수/길이를 검증합니다. Instagram/Threads는 공개 페이지에서 보이는 링크와 메타 정보만 수집합니다. 공개 페이지가 조회수나 검색 결과를 숨기면 해당 플랫폼 항목은 자동 랭킹에 넣지 않고 `data/public-candidates.json`에 후보로만 저장합니다.
+무로그인 원칙: 직접 수집기는 사용자의 Chrome 세션, Instagram/Threads/YouTube 계정 쿠키, 로그인 정보를 쓰지 않습니다. YouTube는 `yt-dlp` 공개 검색으로 관련 채널을 찾고, YouTube 공식 채널 RSS와 공개 메타데이터로 최근성/조회수/Shorts 여부를 검증합니다. Instagram/Threads는 공개 페이지에서 보이는 링크와 메타 정보만 수집합니다. 공개 페이지가 조회수나 검색 결과를 숨기면 해당 플랫폼 항목은 자동 랭킹에 넣지 않고 `data/public-candidates.json`에 후보로만 저장합니다.
 
-품질 기준: YouTube 직접 수집은 단순 검색 결과를 모두 넣지 않습니다. 기본값은 최근 45일 안의 180초 이하 영상 중 조회수 3만 이상이거나 일평균 조회수 1만 이상인 쇼츠만 통과시킵니다. 통과한 항목에는 `dailyViews`, `trendScore`, `qualityReason`, `sourceQuery`, `collectedAt`, `evidence`가 저장됩니다. Instagram/Threads 공개 페이지에서 조회수나 업로드일을 확인할 수 없는 항목은 기본적으로 자동 추가하지 않고 수집 상태의 `skipped`에 기록합니다.
+품질 기준: YouTube 직접 수집은 단순 검색 결과를 모두 넣지 않습니다. 기본값은 최근 45일 안의 Shorts/RSS 검증 영상 중 조회수 3만 이상이거나 일평균 조회수 1만 이상인 항목만 통과시킵니다. 공개 메타데이터로 길이가 확인되는 경우에는 180초 이하 조건도 함께 확인합니다. 통과한 항목에는 `dailyViews`, `trendScore`, `qualityReason`, `sourceQuery`, `collectedAt`, `evidence`가 저장됩니다. Instagram/Threads 공개 페이지에서 조회수나 업로드일을 확인할 수 없는 항목은 기본적으로 자동 추가하지 않고 수집 상태의 `skipped`에 기록합니다.
 
-최근 확인 결과: 2026-06-10 07:47 KST 수동 실행에서 YouTube는 22개 검색어, 관련 채널 80개, 최근 후보 183개를 검사했고 공개 조회수/길이 검증을 통과한 20개 중 아직 없던 1개를 새로 추가했습니다. 이번 수정 작업 전체로 YouTube 데이터는 2,099개에서 2,121개로 22개 늘었습니다. Instagram은 공급자 API 비밀값이 없어 0개, Threads는 무조회수 공개 후보 72개를 후보 파일에만 저장했습니다.
+최근 확인 결과: 2026-06-10 07:53 KST 수동 실행에서 YouTube는 22개 검색어, 관련 채널 80개, 최근 후보 198개를 검사했고 RSS/공개 메타 검증을 통과한 23개 중 아직 없던 1개를 새로 추가했습니다. 이번 수정 작업 전체로 YouTube 데이터는 2,099개에서 2,122개로 23개 늘었습니다. Instagram은 공급자 API 비밀값이 없어 0개, Threads는 무조회수 공개 후보 72개를 후보 파일에만 저장했습니다.
 
 ## Instagram/Threads 공급자 API
 

@@ -1,8 +1,57 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-09T22:50:30.578Z",
+  "generatedAt": "2026-06-09T22:53:59.017Z",
   "note": "Instagram/Threads public no-login candidates without reliable engagement metrics. Not merged into ranking data.",
-  "instagram": [],
+  "instagram": [
+    {
+      "acct": "lee_mido",
+      "code": "DZB87yvSEQ8",
+      "link": "https://www.instagram.com/reel/DZB87yvSEQ8/",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "lee_mido",
+      "code": "DY_iRsyy3Wp",
+      "link": "https://www.instagram.com/reel/DY_iRsyy3Wp/",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "lee_mido",
+      "code": "DY6Aj2YSqTr",
+      "link": "https://www.instagram.com/reel/DY6Aj2YSqTr/",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "lee_mido",
+      "code": "DYyh1IWyQEe",
+      "link": "https://www.instagram.com/reel/DYyh1IWyQEe/",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "lee_mido",
+      "code": "DYblTyhyZKp",
+      "link": "https://www.instagram.com/reel/DYblTyhyZKp/",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "lee_mido",
+      "code": "DX0xmIay5he",
+      "link": "https://www.instagram.com/reel/DX0xmIay5he/",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "lee_mido",
+      "code": "DXi9wJ8kn8P",
+      "link": "https://www.instagram.com/reel/DXi9wJ8kn8P/",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "lee_mido",
+      "code": "DXeCsW_ksuc",
+      "link": "https://www.instagram.com/reel/DXeCsW_ksuc/",
+      "reason": "public-page-without-views"
+    }
+  ],
   "threads": [
     {
       "acct": "maxi_more__",
