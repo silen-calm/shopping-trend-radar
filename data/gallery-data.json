@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-06-09T22:47:23.406Z",
+  "generatedAt": "2026-06-09T22:50:30.551Z",
   "sourceUrl": "direct:no-login",
   "counts": {
     "youtube": 2121,
@@ -46308,7 +46308,7 @@
           "viewsPerHour": 0,
           "views24h": 0,
           "previousViews": 3931522,
-          "sampledHours": 0.2
+          "sampledHours": 0.3
         }
       },
       {
@@ -46339,7 +46339,7 @@
           "viewsPerHour": 0,
           "views24h": 0,
           "previousViews": 368542,
-          "sampledHours": 0.2
+          "sampledHours": 0.3
         }
       },
       {
@@ -46370,7 +46370,7 @@
           "viewsPerHour": 0,
           "views24h": 0,
           "previousViews": 92722,
-          "sampledHours": 0.2
+          "sampledHours": 0.3
         }
       },
       {
@@ -46401,7 +46401,7 @@
           "viewsPerHour": 0,
           "views24h": 0,
           "previousViews": 321784,
-          "sampledHours": 0.2
+          "sampledHours": 0.3
         }
       },
       {
@@ -46432,7 +46432,7 @@
           "viewsPerHour": 0,
           "views24h": 0,
           "previousViews": 842183,
-          "sampledHours": 0.2
+          "sampledHours": 0.3
         }
       },
       {
@@ -46463,7 +46463,7 @@
           "viewsPerHour": 0,
           "views24h": 0,
           "previousViews": 689391,
-          "sampledHours": 0.2
+          "sampledHours": 0.3
         }
       },
       {
@@ -46494,7 +46494,7 @@
           "viewsPerHour": 0,
           "views24h": 0,
           "previousViews": 437770,
-          "sampledHours": 0.2
+          "sampledHours": 0.3
         }
       },
       {
@@ -46525,7 +46525,7 @@
           "viewsPerHour": 0,
           "views24h": 0,
           "previousViews": 45877,
-          "sampledHours": 0.2
+          "sampledHours": 0.3
         }
       },
       {
@@ -46556,7 +46556,7 @@
           "viewsPerHour": 0,
           "views24h": 0,
           "previousViews": 45796,
-          "sampledHours": 0.2
+          "sampledHours": 0.3
         }
       },
       {
@@ -46587,7 +46587,7 @@
           "viewsPerHour": 0,
           "views24h": 0,
           "previousViews": 46769,
-          "sampledHours": 0.2
+          "sampledHours": 0.3
         }
       },
       {
@@ -46618,7 +46618,7 @@
           "viewsPerHour": 0,
           "views24h": 0,
           "previousViews": 230620,
-          "sampledHours": 0.2
+          "sampledHours": 0.3
         }
       },
       {
@@ -46649,7 +46649,7 @@
           "viewsPerHour": 0,
           "views24h": 0,
           "previousViews": 138836,
-          "sampledHours": 0.2
+          "sampledHours": 0.3
         }
       },
       {
@@ -46680,7 +46680,7 @@
           "viewsPerHour": 0,
           "views24h": 0,
           "previousViews": 55622,
-          "sampledHours": 0.2
+          "sampledHours": 0.3
         }
       },
       {
@@ -46711,7 +46711,7 @@
           "viewsPerHour": 0,
           "views24h": 0,
           "previousViews": 61635,
-          "sampledHours": 0.2
+          "sampledHours": 0.3
         }
       },
       {
@@ -46742,7 +46742,7 @@
           "viewsPerHour": 0,
           "views24h": 0,
           "previousViews": 34990,
-          "sampledHours": 0.2
+          "sampledHours": 0.3
         }
       },
       {
@@ -46773,7 +46773,7 @@
           "viewsPerHour": 0,
           "views24h": 0,
           "previousViews": 49225,
-          "sampledHours": 0.2
+          "sampledHours": 0.3
         }
       },
       {
@@ -46804,7 +46804,7 @@
           "viewsPerHour": 0,
           "views24h": 0,
           "previousViews": 32163,
-          "sampledHours": 0.2
+          "sampledHours": 0.3
         }
       },
       {
@@ -46835,7 +46835,7 @@
           "viewsPerHour": 0,
           "views24h": 0,
           "previousViews": 345829,
-          "sampledHours": 0
+          "sampledHours": 0.1
         }
       },
       {
@@ -46866,7 +46866,7 @@
           "viewsPerHour": 0,
           "views24h": 0,
           "previousViews": 134582,
-          "sampledHours": 0
+          "sampledHours": 0.1
         }
       },
       {
@@ -46897,7 +46897,7 @@
           "viewsPerHour": 0,
           "views24h": 0,
           "previousViews": 61979,
-          "sampledHours": 0
+          "sampledHours": 0.1
         }
       },
       {
@@ -46928,7 +46928,7 @@
           "viewsPerHour": 0,
           "views24h": 0,
           "previousViews": 69021,
-          "sampledHours": 0
+          "sampledHours": 0.1
         }
       },
       {
@@ -46943,7 +46943,7 @@
         "bucket": "2~3배",
         "ageDays": 12,
         "dailyViews": 12023,
-        "trendScore": 20256.4,
+        "trendScore": 1500.5,
         "qualityReason": "fast-growth; rss-upload-date; public-view-count",
         "sourceQuery": "다이소 추천 쇼츠",
         "collectedAt": "2026-06-09T22:46:20.126Z",
@@ -46954,12 +46954,12 @@
         "sourceChannel": "냠냠",
         "evidence": "youtube-search-channel-rss-public-metadata",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "short-interval",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 12023,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 144280,
+          "sampledHours": 0.1
         }
       }
     ],
@@ -81774,12 +81774,12 @@
       }
     ]
   },
-  "version": "2026-06-09T22:47:23.406Z:0e54aa268144",
+  "version": "2026-06-09T22:50:30.551Z:5e40335525f7",
   "collector": {
     "mode": "direct-no-login",
-    "finishedAt": "2026-06-09T22:47:23.406Z",
+    "finishedAt": "2026-06-09T22:50:30.550Z",
     "added": {
-      "youtube": 1,
+      "youtube": 0,
       "instagram": 0,
       "threads": 0
     },
@@ -81797,10 +81797,10 @@
     "youtube": {
       "queries": 22,
       "channelsFound": 80,
-      "recentCandidates": 183,
-      "detailChecked": 183,
-      "accepted": 20,
-      "errors": 16
+      "recentCandidates": 168,
+      "detailChecked": 1,
+      "accepted": 0,
+      "errors": 503
     },
     "publicCandidates": {
       "instagram": 0,
@@ -81819,7 +81819,7 @@
       }
     },
     "metricSnapshots": {
-      "sampledAt": "2026-06-09T22:47:23.366Z",
+      "sampledAt": "2026-06-09T22:50:30.470Z",
       "tracked": {
         "youtube": 2121,
         "instagram": 1317,
