@@ -70,6 +70,9 @@ copyFile(join(ROOT, "index.html"), join(DIST, "index.html"));
 copyFile(join(ROOT, "styles.css"), join(DIST, "styles.css"));
 copyFile(join(ROOT, "assets", "thumb-fallback.svg"), join(DIST, "assets", "thumb-fallback.svg"));
 copyFile(join(ROOT, "data", "gallery-data.json"), join(DIST, "data", "gallery-data.json"));
+if (existsSync(join(ROOT, "data", "public-candidates.json"))) {
+  copyFile(join(ROOT, "data", "public-candidates.json"), join(DIST, "data", "public-candidates.json"));
+}
 
 const data = JSON.parse(readFileSync(join(ROOT, "data", "gallery-data.json"), "utf8"));
 writeFileSync(join(DIST, "data", "status.json"), `${JSON.stringify(statusPayload(data), null, 2)}\n`, "utf8");

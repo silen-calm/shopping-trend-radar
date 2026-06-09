@@ -221,7 +221,14 @@ function updateHeader() {
   $("thn").textContent = payload.counts.threads;
   $("ign").textContent = payload.counts.instagram;
   const date = new Date(payload.generatedAt).toLocaleString();
-  setStatus(`수집 데이터 ${date} 저장 · 캐시된 썸네일 사용`);
+  const collector = payload.collector || {};
+  const added = collector.added || {};
+  const yt = collector.youtube || {};
+  const candidates = collector.publicCandidates || {};
+  const basis = yt.recentCandidates != null
+    ? `유튜브 후보 ${yt.recentCandidates}개 검증, 통과 ${yt.accepted || 0}개`
+    : "유튜브 공개 검색 기준";
+  setStatus(`수집 데이터 ${date} 저장 · 마지막 추가 YT ${added.youtube || 0} / Threads ${added.threads || 0} / IG ${added.instagram || 0} · ${basis} · IG/Threads 무조회수 후보 ${Number(candidates.instagram || 0) + Number(candidates.threads || 0)}개는 랭킹 제외`);
 }
 
 function setupControls() {

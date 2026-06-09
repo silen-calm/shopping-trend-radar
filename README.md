@@ -2,7 +2,7 @@
 
 YouTube Shorts, Instagram Reels, Threads 공개 데이터를 모아 쇼핑/생활 제품 콘텐츠의 조회수 흐름을 빠르게 보는 리서치 대시보드입니다.
 
-현재 데이터는 `data/gallery-data.json`에 저장됩니다. 기본 자동 갱신은 YouTube/Instagram/Threads 공개 페이지와 선택형 공급자 API를 사용하며, 사용자 브라우저 쿠키나 로그인 세션을 쓰지 않습니다.
+현재 데이터는 `data/gallery-data.json`에 저장됩니다. 기본 자동 갱신은 YouTube 공개 검색/채널 RSS/공개 메타데이터와 Instagram/Threads 선택형 공급자 API를 사용하며, 사용자 브라우저 쿠키나 로그인 세션을 쓰지 않습니다.
 
 ## 실행
 
@@ -14,17 +14,16 @@ npm start
 
 ## 무료 상시 운영
 
-로컬 주소 `http://127.0.0.1:8765/`는 개발용입니다. 컴퓨터를 끄면 멈춥니다. 상시 운영은 `dist/` 정적 배포판을 Cloudflare Pages Free에 올리고, GitHub Actions가 매일 데이터를 갱신하는 방식으로 처리합니다.
+로컬 주소 `http://127.0.0.1:8765/`는 개발용입니다. 컴퓨터를 끄면 멈춥니다. 상시 운영은 GitHub Pages 무료 호스팅과 GitHub Actions 일일 수집으로 처리합니다.
 
 ```bash
 npm run build:static
 ```
 
-Cloudflare Pages 설정:
+상시 공개 주소:
 
-- Build command: `npm run build:static`
-- Build output directory: `dist`
-- 배포 대상 파일: `dist/index.html`, `dist/app.js`, `dist/data/gallery-data.json`, `dist/data/status.json`
+- `https://silen-calm.github.io/shopping-trend-radar/`
+- 배포 대상 파일: `dist/index.html`, `dist/app.js`, `dist/data/gallery-data.json`, `dist/data/status.json`, `dist/data/public-candidates.json`
 
 GitHub Actions 설정:
 
@@ -33,7 +32,7 @@ GitHub Actions 설정:
 - 수동 실행: GitHub Actions 화면의 `Daily trend collection`에서 `Run workflow`
 - 수집 후 `data/*.json`과 `dist/`를 자동 커밋/푸시
 
-YouTube 수집에는 워크플로우 안에서 `yt-dlp`를 설치해서 사용합니다. Instagram/Threads 고품질 수집은 공개 공급자 API가 있을 때만 자동 병합합니다. API가 없거나 공개 페이지에서 지표를 확인할 수 없는 항목은 랭킹 데이터에 넣지 않고 `data/public-candidates.json` 후보로만 남깁니다.
+YouTube 수집에는 워크플로우 안에서 `yt-dlp`를 설치해서 검색어별 관련 채널을 찾고, YouTube 공식 채널 RSS로 최근 업로드일을 확인한 뒤, 공개 메타데이터에서 조회수/길이를 검증합니다. Instagram/Threads 고품질 수집은 공개 공급자 API가 있을 때만 자동 병합합니다. API가 없거나 공개 페이지에서 지표를 확인할 수 없는 항목은 랭킹 데이터에 넣지 않고 `data/public-candidates.json` 후보로만 남깁니다.
 
 ## 구조
 
@@ -82,9 +81,11 @@ npm run install:autoupdate
 
 레거시 원본 동기화 API는 기본적으로 꺼져 있습니다. `/api/refresh`는 410으로 거절됩니다.
 
-무로그인 원칙: 직접 수집기는 사용자의 Chrome 세션, Instagram/Threads/YouTube 계정 쿠키, 로그인 정보를 쓰지 않습니다. YouTube는 `yt-dlp` 공개 검색으로 수집하고, Instagram/Threads는 공개 페이지에서 보이는 링크와 메타 정보만 수집합니다. 공개 페이지가 조회수나 검색 결과를 숨기면 해당 플랫폼 항목은 자동 랭킹에 넣지 않고 `data/public-candidates.json`에 후보로만 저장합니다.
+무로그인 원칙: 직접 수집기는 사용자의 Chrome 세션, Instagram/Threads/YouTube 계정 쿠키, 로그인 정보를 쓰지 않습니다. YouTube는 `yt-dlp` 공개 검색으로 관련 채널을 찾고, YouTube 공식 채널 RSS와 공개 메타데이터로 최근성/조회수/길이를 검증합니다. Instagram/Threads는 공개 페이지에서 보이는 링크와 메타 정보만 수집합니다. 공개 페이지가 조회수나 검색 결과를 숨기면 해당 플랫폼 항목은 자동 랭킹에 넣지 않고 `data/public-candidates.json`에 후보로만 저장합니다.
 
-품질 기준: YouTube 직접 수집은 단순 검색 결과를 모두 넣지 않습니다. 기본값은 최근 45일 안의 영상 중 조회수 3만 이상이거나 일평균 조회수 1만 이상인 쇼츠만 통과시킵니다. 통과한 항목에는 `dailyViews`, `trendScore`, `qualityReason`, `sourceQuery`, `collectedAt`이 저장됩니다. Instagram/Threads 공개 페이지에서 조회수나 업로드일을 확인할 수 없는 항목은 기본적으로 자동 추가하지 않고 수집 상태의 `skipped`에 기록합니다.
+품질 기준: YouTube 직접 수집은 단순 검색 결과를 모두 넣지 않습니다. 기본값은 최근 45일 안의 180초 이하 영상 중 조회수 3만 이상이거나 일평균 조회수 1만 이상인 쇼츠만 통과시킵니다. 통과한 항목에는 `dailyViews`, `trendScore`, `qualityReason`, `sourceQuery`, `collectedAt`, `evidence`가 저장됩니다. Instagram/Threads 공개 페이지에서 조회수나 업로드일을 확인할 수 없는 항목은 기본적으로 자동 추가하지 않고 수집 상태의 `skipped`에 기록합니다.
+
+최근 확인 결과: 2026-06-10 07:34 KST 수동 실행에서 YouTube는 22개 검색어, 관련 채널 80개, 최근 후보 199개를 검사했고 공개 조회수/길이 검증을 통과한 17개를 새로 추가했습니다. Instagram은 공급자 API 비밀값이 없어 0개, Threads는 무조회수 공개 후보 72개를 후보 파일에만 저장했습니다.
 
 ## Instagram/Threads 공급자 API
 
@@ -144,4 +145,4 @@ npm run test:full
 - `POST /api/deleted`: 숨긴 항목 저장
 - `GET /thumb?url=...&fallback=...`: 썸네일 캐시 프록시와 후보 URL 백업
 
-저장 시점: 2026-06-07
+저장 시점: 2026-06-10

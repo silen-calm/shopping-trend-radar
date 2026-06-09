@@ -13,6 +13,15 @@ const DEFAULT_CONFIG = {
     maxAcceptedPerQuery: 5,
     concurrency: 3,
     timeoutMs: 30000,
+    rssDiscovery: {
+      enabled: true,
+      maxChannels: 80,
+      maxFeedItemsPerChannel: 10,
+      detailConcurrency: 8,
+      detailTimeoutMs: 7000,
+      instances: ["https://inv.thepixora.com", "https://yt.chocolatemoo53.com"],
+      titleKeywords: ["추천", "템", "다이소", "쿠팡", "올리브영", "살림", "꿀템", "가성비", "제품", "리뷰", "신제품", "화장품", "간식", "주방", "생활"]
+    },
     quality: {
       maxAgeDays: 45,
       minViews: 30000,
@@ -40,6 +49,21 @@ function toDate(uploadDate) {
   if (/^\d{8}$/.test(text)) return `${text.slice(0, 4)}-${text.slice(4, 6)}-${text.slice(6, 8)}`;
   if (/^\d{4}-\d{2}-\d{2}$/.test(text)) return text;
   return today();
+}
+
+function kstDate(date) {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Seoul",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).format(date);
+}
+
+function unixDate(seconds) {
+  const value = Number(seconds || 0);
+  if (!Number.isFinite(value) || value <= 0) return "";
+  return kstDate(new Date(value * 1000));
 }
 
 function ageDays(date) {
@@ -201,7 +225,9 @@ function attr(html, name) {
 
 function decodeHtml(text = "") {
   return text
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
     .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
     .replace(/&#x27;/g, "'")
     .replace(/&amp;/g, "&")
     .replace(/&lt;/g, "<")
@@ -214,6 +240,202 @@ function uniqueMatches(html, pattern) {
 
 function safeText(value = "") {
   return String(value).replace(/\s+/g, " ").trim();
+}
+
+function youtubeRssConfig(config) {
+  return {
+    ...DEFAULT_CONFIG.youtube.rssDiscovery,
+    ...(config.youtube?.rssDiscovery || {})
+  };
+}
+
+function titleMatchesKeywords(title, keywords = []) {
+  if (!keywords.length) return true;
+  return keywords.some((keyword) => title.includes(keyword));
+}
+
+function tagValue(xml, tag) {
+  const match = xml.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, "i"));
+  return match ? decodeHtml(match[1]).trim() : "";
+}
+
+function parseYoutubeFeed(xml, channel, config) {
+  const rssConfig = youtubeRssConfig(config);
+  const quality = qualityConfig(config);
+  const keywords = rssConfig.titleKeywords || [];
+  return [...xml.matchAll(/<entry>([\s\S]*?)<\/entry>/g)]
+    .slice(0, Number(rssConfig.maxFeedItemsPerChannel || 10))
+    .flatMap((match) => {
+      const entry = match[1];
+      const id = tagValue(entry, "yt:videoId");
+      const rawTitle = tagValue(entry, "title");
+      const published = tagValue(entry, "published");
+      const up = toDate(published.slice(0, 10));
+      const title = safeText(rawTitle);
+      if (!id || !title) return [];
+      if (ageDays(up) > quality.maxAgeDays) return [];
+      if (!titleMatchesKeywords(title, keywords)) return [];
+      return [{
+        id,
+        title,
+        up,
+        channelId: channel.id,
+        channel: channel.channel,
+        query: channel.query,
+        sourceQuery: channel.query.query
+      }];
+    });
+}
+
+function invidiousInstances(config) {
+  return (youtubeRssConfig(config).instances || [])
+    .map((value) => String(value || "").replace(/\/+$/, ""))
+    .filter(Boolean);
+}
+
+async function fetchJsonWithTimeout(url, timeoutMs = 15000) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetch(url, {
+      headers: {
+        ...publicHeaders(),
+        accept: "application/json"
+      },
+      signal: controller.signal,
+      redirect: "follow"
+    });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return response.json();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function fetchYoutubePublicDetail(id, config, status) {
+  const rssConfig = youtubeRssConfig(config);
+  const timeoutMs = Number(rssConfig.detailTimeoutMs || 7000);
+  for (const base of invidiousInstances(config)) {
+    try {
+      const json = await fetchJsonWithTimeout(`${base}/api/v1/videos/${encodeURIComponent(id)}?region=KR`, timeoutMs);
+      return { json, instance: base };
+    } catch (error) {
+      status.youtube.rss.detailErrors.push({ id, instance: base, message: error.message });
+    }
+  }
+  return null;
+}
+
+function normalizeYoutubeVerified(candidate, detail, config) {
+  const video = {
+    id: detail.json.videoId || candidate.id,
+    title: detail.json.title || candidate.title,
+    channel: detail.json.author || candidate.channel,
+    uploader: detail.json.author || candidate.channel,
+    view_count: detail.json.viewCount,
+    upload_date: unixDate(detail.json.published) || candidate.up,
+    duration: detail.json.lengthSeconds
+  };
+  const row = normalizeYoutube(video, candidate.query, config);
+  if (!row) return null;
+  row.collected = row.rejected ? row.collected : "direct-youtube-rss";
+  row.metricSource = detail.instance;
+  row.sourceChannelId = candidate.channelId;
+  row.sourceChannel = candidate.channel;
+  row.evidence = "youtube-search-channel-rss-public-metadata";
+  if (!row.rejected) {
+    row.qualityReason = `${row.qualityReason}; rss-upload-date; public-view-count`;
+  }
+  return row;
+}
+
+async function discoverYoutubeChannels(config, status) {
+  const queries = config.youtube?.queries || [];
+  const channels = new Map();
+  const limit = Number(config.youtube?.limitPerQuery || 8);
+  await runLimited(queries, Number(config.youtube?.concurrency || 3), async (query) => {
+    const search = `ytsearch${limit}:${query.query} #shorts`;
+    try {
+      const result = await runYtDlp([
+        "--dump-json",
+        "--flat-playlist",
+        "--skip-download",
+        "--ignore-errors",
+        "--no-warnings",
+        search
+      ], Number(config.youtube?.timeoutMs || 25000));
+      const items = parseJsonLines(result.stdout);
+      let foundChannels = 0;
+      for (const item of items) {
+        if (!item.channel_id) continue;
+        foundChannels += 1;
+        if (!channels.has(item.channel_id)) {
+          channels.set(item.channel_id, {
+            id: item.channel_id,
+            channel: item.channel || item.uploader || "",
+            query
+          });
+        }
+      }
+      status.youtube.queries.push({ query: query.query, found: items.length, channels: foundChannels, mode: "search-channel-rss" });
+    } catch (error) {
+      status.youtube.errors.push({ query: query.query, message: error.message });
+    }
+  });
+  return [...channels.values()];
+}
+
+async function collectYoutubeRss(config, status) {
+  const rssConfig = youtubeRssConfig(config);
+  if (rssConfig.enabled === false) return [];
+
+  const channels = (await discoverYoutubeChannels(config, status)).slice(0, Number(rssConfig.maxChannels || 80));
+  status.youtube.rss.channelsFound = channels.length;
+
+  const candidatesById = new Map();
+  await runLimited(channels, Number(config.youtube?.concurrency || 3), async (channel) => {
+    try {
+      const xml = await fetchPublic(`https://www.youtube.com/feeds/videos.xml?channel_id=${encodeURIComponent(channel.id)}`, Number(config.youtube?.timeoutMs || 25000));
+      status.youtube.rss.feedsChecked += 1;
+      for (const candidate of parseYoutubeFeed(xml, channel, config)) {
+        if (!candidatesById.has(candidate.id)) candidatesById.set(candidate.id, candidate);
+      }
+    } catch (error) {
+      status.youtube.rss.feedErrors.push({ channel: channel.channel, channelId: channel.id, message: error.message });
+    }
+  });
+
+  const maxAccepted = Number(config.youtube?.maxAcceptedPerQuery || 5);
+  const rows = [];
+  const rejected = [];
+  const candidates = [...candidatesById.values()];
+  status.youtube.rss.recentCandidates = candidates.length;
+
+  await runLimited(candidates, Number(rssConfig.detailConcurrency || 8), async (candidate) => {
+    const detail = await fetchYoutubePublicDetail(candidate.id, config, status);
+    if (!detail) return;
+    status.youtube.rss.detailChecked += 1;
+    const normalized = normalizeYoutubeVerified(candidate, detail, config);
+    if (!normalized) return;
+    if (normalized.rejected) rejected.push(normalized);
+    else rows.push(normalized);
+  });
+
+  const grouped = new Map();
+  for (const row of rows.sort((a, b) => b.trendScore - a.trendScore)) {
+    const key = row.sourceQuery || "unknown";
+    const bucket = grouped.get(key) || [];
+    if (bucket.length < maxAccepted) {
+      bucket.push(row);
+      grouped.set(key, bucket);
+    }
+  }
+
+  const accepted = [...grouped.values()].flat().sort((a, b) => b.trendScore - a.trendScore);
+  status.youtube.rss.accepted = accepted.length;
+  status.youtube.rss.rejected = rejected.slice(0, 30);
+  status.youtube.rejected.push(...rejected.slice(0, 20));
+  return accepted;
 }
 
 function normalizeYoutube(video, query, config) {
@@ -259,41 +481,7 @@ function normalizeYoutube(video, query, config) {
 }
 
 async function collectYoutube(config, status) {
-  const rows = [];
-  const queries = config.youtube?.queries || [];
-  const limit = Number(config.youtube?.limitPerQuery || 8);
-  const maxAccepted = Number(config.youtube?.maxAcceptedPerQuery || limit);
-  await runLimited(queries, Number(config.youtube?.concurrency || 3), async (query) => {
-    const search = `ytsearch${limit}:${query.query} #shorts`;
-    try {
-      const result = await runYtDlp([
-        "--dump-json",
-        "--skip-download",
-        "--ignore-errors",
-        "--no-warnings",
-        "--no-playlist",
-        "--socket-timeout",
-        "8",
-        "--extractor-retries",
-        "1",
-        "--retries",
-        "1",
-        search
-      ], Number(config.youtube?.timeoutMs || 25000));
-      const normalized = parseJsonLines(result.stdout).map((video) => normalizeYoutube(video, query, config)).filter(Boolean);
-      const rejected = normalized.filter((item) => item.rejected);
-      const items = normalized
-        .filter((item) => !item.rejected)
-        .sort((a, b) => b.trendScore - a.trendScore)
-        .slice(0, maxAccepted);
-      rows.push(...items);
-      status.youtube.queries.push({ query: query.query, found: items.length, rejected: rejected.length });
-      status.youtube.rejected.push(...rejected.slice(0, 20));
-    } catch (error) {
-      status.youtube.errors.push({ query: query.query, message: error.message });
-    }
-  });
-  return rows;
+  return collectYoutubeRss(config, status);
 }
 
 async function collectInstagram(config, status) {
@@ -390,7 +578,7 @@ function pruneLowQualityDirectRows(data, config) {
   };
 
   data.youtube = data.youtube.filter((item) => {
-    if (item.collected !== "direct-youtube") return true;
+    if (!String(item.collected || "").startsWith("direct-youtube")) return true;
     return youtubeQualityDecision({ views: Number(item.views || 0), up: item.up || item.date || today() }, quality).accepted;
   });
   data.instagram = data.instagram.filter((item) => {
@@ -438,7 +626,12 @@ export async function runDirectCollection({ root }) {
     before: current.counts,
     quality: qualityConfig(config),
     pruned,
-    youtube: { queries: [], rejected: [], errors: [] },
+    youtube: {
+      queries: [],
+      rejected: [],
+      errors: [],
+      rss: { channelsFound: 0, feedsChecked: 0, feedErrors: [], recentCandidates: 0, detailChecked: 0, detailErrors: [], accepted: 0, rejected: [] }
+    },
     instagram: { accounts: [], skipped: [], errors: [] },
     threads: { accounts: [], skipped: [], errors: [] }
   };
@@ -454,20 +647,9 @@ export async function runDirectCollection({ root }) {
   const addedThreads = mergeRows(data.threads, threads, (item) => item.link);
   const snapshotSummary = applyMetricSnapshots({ root, data });
 
-  const payload = buildPayload(data, "direct:no-login");
-  payload.collector = {
-    mode: "direct-no-login",
-    metricSnapshots: snapshotSummary,
-    configHash: createHash("sha256").update(JSON.stringify(config)).digest("hex").slice(0, 12)
-  };
-  writeJsonAtomic(join(root, "data", "gallery-data.json"), payload);
-  writePublicCandidates(root, status);
-
   Object.assign(status, {
     ok: true,
     finishedAt: new Date().toISOString(),
-    version: payload.version,
-    after: payload.counts,
     added: {
       youtube: addedYoutube.length,
       instagram: addedInstagram.length,
@@ -475,6 +657,43 @@ export async function runDirectCollection({ root }) {
     },
     metricSnapshots: snapshotSummary
   });
+
+  const payload = buildPayload(data, "direct:no-login");
+  Object.assign(status, {
+    version: payload.version,
+    after: payload.counts
+  });
+  payload.collector = {
+    mode: "direct-no-login",
+    finishedAt: status.finishedAt,
+    added: status.added,
+    basis: {
+      youtube: "검색어로 관련 채널 발견 -> YouTube 공식 채널 RSS 업로드일 확인 -> 공개 메타데이터 조회수/길이 검증",
+      instagram: "공급자 API 조회수/반응수 기준. 없으면 랭킹 제외",
+      threads: "공급자 API 조회수/반응수 기준. 없으면 랭킹 제외"
+    },
+    quality: status.quality,
+    youtube: {
+      queries: status.youtube.queries.length,
+      channelsFound: status.youtube.rss.channelsFound,
+      recentCandidates: status.youtube.rss.recentCandidates,
+      detailChecked: status.youtube.rss.detailChecked,
+      accepted: status.youtube.rss.accepted,
+      errors: status.youtube.errors.length + status.youtube.rss.feedErrors.length + status.youtube.rss.detailErrors.length
+    },
+    publicCandidates: {
+      instagram: status.instagram.skipped.length,
+      threads: status.threads.skipped.length
+    },
+    providers: {
+      instagram: status.instagram.provider || {},
+      threads: status.threads.provider || {}
+    },
+    metricSnapshots: snapshotSummary,
+    configHash: createHash("sha256").update(JSON.stringify(config)).digest("hex").slice(0, 12)
+  };
+  writeJsonAtomic(join(root, "data", "gallery-data.json"), payload);
+  writePublicCandidates(root, status);
   writeJsonAtomic(join(root, "data", "collector-status.json"), status);
   return { payload, status };
 }

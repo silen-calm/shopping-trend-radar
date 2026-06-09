@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "direct-no-login",
-  "startedAt": "2026-06-09T21:52:44.493Z",
+  "startedAt": "2026-06-09T22:33:17.393Z",
   "source": "youtube public no-login plus optional instagram/threads public-data providers with traffic-quality gates",
   "before": {
     "youtube": 2099,
@@ -20,58 +20,925 @@
     "threads": 0
   },
   "youtube": {
-    "queries": [],
-    "rejected": [],
-    "errors": [
-      {
-        "query": "한국 쇼츠 쇼핑 추천",
-        "message": "ERROR: [youtube] PHpqXsTgzqg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 9__KHNn2ahg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] RKGRmTamaqo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] EzV2RNek_Ls: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 5cBZ1eCaylw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 22uoN5LPH8Y: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] u2cZgnzsr9o: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] rrj-jPbIaJM: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] JNxmoHh55k4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] ZpPTsvwKs-A: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] m8km2Gg3Cbc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] -D2mSTGs_RQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
-      },
+    "queries": [
       {
         "query": "다이소 추천 쇼츠",
-        "message": "ERROR: [youtube] V5RFml9IYoI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] dsBSHZYL-PU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] bKHn2lcnypY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] tCQZ8m6_REg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] r8pucBNlliY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] VgM2Bu0CSFA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] brJQYZ4q6iA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] xdkyfB2W77A: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] OTGxFJzc_gA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] aDpblJTWT84: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] sEZ7w5zvnE0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] rT6-FBDZLaQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+        "found": 12,
+        "channels": 12,
+        "mode": "search-channel-rss"
       },
       {
         "query": "살림템 추천 쇼츠",
-        "message": "ERROR: [youtube] 45KAx8ktGzQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] Z4CxkMogW2Q: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] t9QplIf7G9s: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] bhKf17dPx1k: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] tViuoWytNMk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] k1z9ZgAodFw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] aaIsiTlBmZg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] YtdbmW4x4IA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] V5RFml9IYoI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] pSuhs19Rp8k: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] aoQGMfNPFUY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] gUnPRg3vNsM: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+        "found": 12,
+        "channels": 12,
+        "mode": "search-channel-rss"
       },
       {
-        "query": "먹거리 추천 쇼츠",
-        "message": "ERROR: [youtube] N_kMBpe_1UI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 8ORx1au3B1U: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] ODHPR8h9Sek: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] z2U-nHgdZNU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] PHpqXsTgzqg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 2mSRHnJ6ew0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] CKfSJTHUNoc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] FtswBTumMUw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] u80p95KpEPg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] g9J0BnwFunw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 9RyE-xxi9HI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] NZbmQOZ0hso: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
-      },
-      {
-        "query": "인테리어 소품 추천 쇼츠",
-        "message": "ERROR: [youtube] SB48h-61Q0g: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] KhebfZjtfxM: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] F8CU4M7isO4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] Biwe9PSQvUY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] BZ2srleY1Lw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] b8j9YLmzUQI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] hJiKCYS9pTM: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 1lW-0UR3Kqk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] XCFJf_zZW8M: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] FvNBjqF4fG4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 1eUkzB3TQv0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] _EmT3hAOKjQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+        "query": "한국 쇼츠 쇼핑 추천",
+        "found": 12,
+        "channels": 11,
+        "mode": "search-channel-rss"
       },
       {
         "query": "간식 추천 쇼츠",
-        "message": "ERROR: [youtube] g9J0BnwFunw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] ElSo6AL_aFQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] rHpLfsEvZFs: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] LOXqFxjP_L0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 2mSRHnJ6ew0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] erSFgC1bhxU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 0ebYjNZ-jfg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] ZqzG7B-Lq1U: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] xuzoPY9BZcY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] uvmq4aeAnDQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 0ly_wHtQw2w: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] I6-6ZBiyYlw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+        "found": 12,
+        "channels": 12,
+        "mode": "search-channel-rss"
       },
       {
-        "query": "뷰티템 추천 쇼츠",
-        "message": "ERROR: [youtube] 0sjrRDqHrNo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 1QadA7pQFxU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] IEJWeQXeijs: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] jUbUKZcmbkY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] KXML0r_fYsI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] ZpPTsvwKs-A: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] jTZqO6fTw3o: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] sl2jQ29crBE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 5Ddr8N8f5zg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 45KAx8ktGzQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] YXoDfc8fEOc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] cDc7ytYWhgk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+        "query": "인테리어 소품 추천 쇼츠",
+        "found": 12,
+        "channels": 12,
+        "mode": "search-channel-rss"
+      },
+      {
+        "query": "먹거리 추천 쇼츠",
+        "found": 12,
+        "channels": 11,
+        "mode": "search-channel-rss"
       },
       {
         "query": "화장품 추천 쇼츠",
-        "message": "ERROR: [youtube] jUbUKZcmbkY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] KXML0r_fYsI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] xdKwSqOf-4A: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] BgD3narGkxY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] aoqWunaPpZI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 0sjrRDqHrNo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] VLBwMf8_vaY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 1QadA7pQFxU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 5p9qkKIcoPQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] MoKTH7HFzKg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] oEuu0F9U-sw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] aIINV-KhLhk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+        "found": 12,
+        "channels": 12,
+        "mode": "search-channel-rss"
       },
       {
         "query": "패션 잡화 추천 쇼츠",
-        "message": "ERROR: [youtube] pAwOxaCu7XA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] _8S1aVVsXLw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] lHTjSMI_Rwk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] W-HkwIdFkfc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 4rDVXG8k-A0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] cw5Gi9Jb9zw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 2TsgyUpqZyA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] gDtDRImcI4U: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] tUKpbtV2Tbo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] ufvnTkAo7HI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] K6ECPCTNmbQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] Ig07fbcEk8M: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+        "found": 12,
+        "channels": 12,
+        "mode": "search-channel-rss"
       },
       {
-        "query": "전자기기 추천 쇼츠",
-        "message": "ERROR: [youtube] kVYkjKb0b0g: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] eYKTT3x5mPA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 3FnpDPuVC_A: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] jUitNhy_Gj8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] feUwDzLfClk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] zjGWmBhzqwI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] aswFaRopmQU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 1TSkM694cG4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 6udtKaKQVZo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] rYM1X1ImdlM: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] XMe-zo2nkdE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] ii9kR7FLjZE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+        "query": "뷰티템 추천 쇼츠",
+        "found": 12,
+        "channels": 12,
+        "mode": "search-channel-rss"
       },
       {
         "query": "문구 취미 추천 쇼츠",
-        "message": "ERROR: [youtube] HowWCJ4W1Ek: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 7IWl1H-L1UY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 2csyXwbK7Mw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] dl3HLUfj-RY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] spkLk2tdcNo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] gvI3XAfnBBs: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] d6DeynQuplY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] OdsmBv4WRWQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] l2aymmtRe2U: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] sXk-C6PY7GE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] I8btmjt3CBQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 4hkw7uy_EyU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+        "found": 12,
+        "channels": 12,
+        "mode": "search-channel-rss"
+      },
+      {
+        "query": "전자기기 추천 쇼츠",
+        "found": 12,
+        "channels": 12,
+        "mode": "search-channel-rss"
       },
       {
         "query": "건강용품 추천 쇼츠",
-        "message": "ERROR: [youtube] uLOIV_BpG7k: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 0kiDUZ3Q7Wk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] Is93aIz2FFE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 6UW5Z3N8u64: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] ROgz_-vGMfo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] tZD_djP9UfA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] qWcM3rqQXFA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 8Wwg4vaE2hE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] HzT_HZB0fMQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] kXVAxo8nrg4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 7QKXXNGD5lA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] P9oUUXfrThU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+        "found": 12,
+        "channels": 12,
+        "mode": "search-channel-rss"
+      },
+      {
+        "query": "쿠팡 추천템 쇼츠",
+        "found": 12,
+        "channels": 12,
+        "mode": "search-channel-rss"
+      },
+      {
+        "query": "주방 꿀템 쇼츠",
+        "found": 12,
+        "channels": 12,
+        "mode": "search-channel-rss"
+      },
+      {
+        "query": "생활 꿀템 쇼츠",
+        "found": 12,
+        "channels": 12,
+        "mode": "search-channel-rss"
+      },
+      {
+        "query": "올리브영 추천템 쇼츠",
+        "found": 12,
+        "channels": 12,
+        "mode": "search-channel-rss"
+      },
+      {
+        "query": "가성비 추천템 쇼츠",
+        "found": 12,
+        "channels": 12,
+        "mode": "search-channel-rss"
+      },
+      {
+        "query": "내돈내산 추천템 쇼츠",
+        "found": 12,
+        "channels": 12,
+        "mode": "search-channel-rss"
+      },
+      {
+        "query": "자취템 추천 쇼츠",
+        "found": 12,
+        "channels": 12,
+        "mode": "search-channel-rss"
+      },
+      {
+        "query": "캠핑용품 추천 쇼츠",
+        "found": 12,
+        "channels": 12,
+        "mode": "search-channel-rss"
+      },
+      {
+        "query": "청소 꿀템 쇼츠",
+        "found": 12,
+        "channels": 12,
+        "mode": "search-channel-rss"
+      },
+      {
+        "query": "차량용품 추천 쇼츠",
+        "found": 12,
+        "channels": 12,
+        "mode": "search-channel-rss"
       }
-    ]
+    ],
+    "rejected": [
+      {
+        "rejected": true,
+        "id": "9-gVG4fPWqM",
+        "title": "연예인들의 관리필수템✨ 붓기 관리에 패션 포인트까지!",
+        "ch": "1분뷰티",
+        "views": 3355,
+        "up": "2026-06-09",
+        "reason": "views<30000,daily<10000",
+        "dailyViews": 3355,
+        "sourceQuery": "다이소 추천 쇼츠",
+        "metricSource": "https://inv.thepixora.com",
+        "sourceChannelId": "UCVuxljGhpSkXztzk8X6vlMQ",
+        "sourceChannel": "1분뷰티",
+        "evidence": "youtube-search-channel-rss-public-metadata"
+      },
+      {
+        "rejected": true,
+        "id": "uO4pTKQx188",
+        "title": "올영에서 찾은 백화점급 브랜드 TOP3✨부터 제품 추천까지!",
+        "ch": "1분뷰티",
+        "views": 23630,
+        "up": "2026-05-21",
+        "reason": "views<30000,daily<10000",
+        "dailyViews": 1182,
+        "sourceQuery": "다이소 추천 쇼츠",
+        "metricSource": "https://inv.thepixora.com",
+        "sourceChannelId": "UCVuxljGhpSkXztzk8X6vlMQ",
+        "sourceChannel": "1분뷰티",
+        "evidence": "youtube-search-channel-rss-public-metadata"
+      },
+      {
+        "rejected": true,
+        "id": "WcUaR9ikGDk",
+        "title": "광고❌ 여름철 남녀 공용! 올영 세일 추천템 5가지🩵",
+        "ch": "1분뷰티",
+        "views": 28390,
+        "up": "2026-05-30",
+        "reason": "views<30000,daily<10000",
+        "dailyViews": 2581,
+        "sourceQuery": "다이소 추천 쇼츠",
+        "metricSource": "https://inv.thepixora.com",
+        "sourceChannelId": "UCVuxljGhpSkXztzk8X6vlMQ",
+        "sourceChannel": "1분뷰티",
+        "evidence": "youtube-search-channel-rss-public-metadata"
+      },
+      {
+        "rejected": true,
+        "id": "f5PhI37JDxw",
+        "title": "꼭 사야하는 다이소 여름 신상 꿀템 8가지☀️",
+        "ch": "1분뷰티",
+        "views": 27981,
+        "up": "2026-06-02",
+        "reason": "views<30000,daily<10000",
+        "dailyViews": 3498,
+        "sourceQuery": "다이소 추천 쇼츠",
+        "metricSource": "https://inv.thepixora.com",
+        "sourceChannelId": "UCVuxljGhpSkXztzk8X6vlMQ",
+        "sourceChannel": "1분뷰티",
+        "evidence": "youtube-search-channel-rss-public-metadata"
+      },
+      {
+        "rejected": true,
+        "id": "SSX-qqexEAo",
+        "title": "다이소 볼이 빵빵한 다람쥐의 여름방학☀️ 나비 잡고 곤충 채집통에 쏙-!🦋 수중관찰 채집통으로🐚 다슬기 채집까지💦  ※해당 영상은 생성형 AI로 제작되었습니다.#다이소 #다이소신상",
+        "ch": "다이소",
+        "views": 4452,
+        "up": "2026-06-09",
+        "reason": "views<30000,daily<10000",
+        "dailyViews": 4452,
+        "sourceQuery": "다이소 추천 쇼츠",
+        "metricSource": "https://inv.thepixora.com",
+        "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
+        "sourceChannel": "다이소",
+        "evidence": "youtube-search-channel-rss-public-metadata"
+      },
+      {
+        "rejected": true,
+        "id": "PeC2JP34CaY",
+        "title": "🚀토이스토리 캐릭터가 다이소에💙 우디·버즈·포키 캐릭터 총출동✨ 여행용 파우치, 여권케이스, 보냉가방까지 소장각 ✨ 다이소 토이스토리 신상 모음👀",
+        "ch": "다이소",
+        "views": 17434,
+        "up": "2026-06-08",
+        "reason": "views<30000,daily<10000",
+        "dailyViews": 8717,
+        "sourceQuery": "다이소 추천 쇼츠",
+        "metricSource": "https://inv.thepixora.com",
+        "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
+        "sourceChannel": "다이소",
+        "evidence": "youtube-search-channel-rss-public-metadata"
+      },
+      {
+        "rejected": true,
+        "id": "VOdJlog-2rw",
+        "title": "다이소 비치 리조트룩🌴OPEN!💛 토마토&클로버 뜨개지갑🍅 네트백🧺&니트 보닛햇까지!👒  #다이소 #다이소신상 #다이소뜨개지갑",
+        "ch": "다이소",
+        "views": 28360,
+        "up": "2026-06-04",
+        "reason": "views<30000,daily<10000",
+        "dailyViews": 4727,
+        "sourceQuery": "다이소 추천 쇼츠",
+        "metricSource": "https://inv.thepixora.com",
+        "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
+        "sourceChannel": "다이소",
+        "evidence": "youtube-search-channel-rss-public-metadata"
+      },
+      {
+        "rejected": true,
+        "id": "qhmotUxgx7I",
+        "title": "📢다이소 X 좋은사람들 이너웨어 출시!✨ YES code 부드러운 모달 여성 팬티🩲 & BODY GUARD 심리스 남성 드로즈!🩳 💕#다이소 #다이소신상 #이너웨어 #언더웨어",
+        "ch": "다이소",
+        "views": 16237,
+        "up": "2026-06-01",
+        "reason": "views<30000,daily<10000",
+        "dailyViews": 1804,
+        "sourceQuery": "다이소 추천 쇼츠",
+        "metricSource": "https://inv.thepixora.com",
+        "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
+        "sourceChannel": "다이소",
+        "evidence": "youtube-search-channel-rss-public-metadata"
+      },
+      {
+        "rejected": true,
+        "id": "Tzm9aLd1iv8",
+        "title": "다이소 토마토🍅 푸딩🍮 거북이🐢 6월 신상 다 모음✨ 키링+파우치+카드지갑!🫧 올 여름 키치 조합 귀여움 MAX 찍는 중…💗 #다이소 #다이소신상 #다이소깡 #다이소토마토",
+        "ch": "다이소",
+        "views": 28721,
+        "up": "2026-05-29",
+        "reason": "views<30000,daily<10000",
+        "dailyViews": 2393,
+        "sourceQuery": "다이소 추천 쇼츠",
+        "metricSource": "https://inv.thepixora.com",
+        "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
+        "sourceChannel": "다이소",
+        "evidence": "youtube-search-channel-rss-public-metadata"
+      },
+      {
+        "rejected": true,
+        "id": "s1sNRf6A890",
+        "title": "인생 장바구니 추천 3천원부터 2만원대까지 #장바구니 #살림꿀템 #생활정보",
+        "ch": "살림로그_살림을 기록하다.",
+        "views": 4454,
+        "up": "2026-06-09",
+        "reason": "views<30000,daily<10000",
+        "dailyViews": 4454,
+        "sourceQuery": "다이소 추천 쇼츠",
+        "metricSource": "https://inv.thepixora.com",
+        "sourceChannelId": "UCx8uFUihkZnQRU6lVJXs7Dg",
+        "sourceChannel": "살림로그_살림을 기록하다.",
+        "evidence": "youtube-search-channel-rss-public-metadata"
+      },
+      {
+        "rejected": true,
+        "id": "v5xyPj30F-g",
+        "title": "다이소 수영용품 준비 TIME💦미러형 물안경&실리콘 수경 케이스🤿 수영가방까지🎒 SWIM 할 준비 됐어?🏊 #다이소 #다이소신상 #다이소수영",
+        "ch": "다이소",
+        "views": 13641,
+        "up": "2026-06-01",
+        "reason": "views<30000,daily<10000",
+        "dailyViews": 1516,
+        "sourceQuery": "다이소 추천 쇼츠",
+        "metricSource": "https://inv.thepixora.com",
+        "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
+        "sourceChannel": "다이소",
+        "evidence": "youtube-search-channel-rss-public-metadata"
+      },
+      {
+        "rejected": true,
+        "id": "cpQgsvvJeho",
+        "title": "끈적이는 바닥, 찍힌 바닥 손쉽게 해결 꿀팁 #살림꿀팁 #생활정보 #살림팁",
+        "ch": "살림로그_살림을 기록하다.",
+        "views": 23783,
+        "up": "2026-06-05",
+        "reason": "views<30000,daily<10000",
+        "dailyViews": 4757,
+        "sourceQuery": "다이소 추천 쇼츠",
+        "metricSource": "https://inv.thepixora.com",
+        "sourceChannelId": "UCx8uFUihkZnQRU6lVJXs7Dg",
+        "sourceChannel": "살림로그_살림을 기록하다.",
+        "evidence": "youtube-search-channel-rss-public-metadata"
+      },
+      {
+        "rejected": true,
+        "id": "Mrh16qc0Kbg",
+        "title": "[DJI ROMO P] 드론 세계 1위가 로봇청소기를 만들면 생기는 일 #로봇청소기 #살림템 #DJIROMOP",
+        "ch": "살림로그_살림을 기록하다.",
+        "views": 7291,
+        "up": "2026-06-02",
+        "reason": "views<30000,daily<10000",
+        "dailyViews": 911,
+        "sourceQuery": "다이소 추천 쇼츠",
+        "metricSource": "https://inv.thepixora.com",
+        "sourceChannelId": "UCx8uFUihkZnQRU6lVJXs7Dg",
+        "sourceChannel": "살림로그_살림을 기록하다.",
+        "evidence": "youtube-search-channel-rss-public-metadata"
+      },
+      {
+        "rejected": true,
+        "id": "whHh89KyrAw",
+        "title": "주머니속에 바구니 봉투값 아꼈습니다 #두배로꿀팁 #장바구니 #휴대용장바구니 #생활꿀템 #쇼핑필수템",
+        "ch": "두배로꿀팁",
+        "views": 789,
+        "up": "2026-06-09",
+        "reason": "views<30000,daily<10000",
+        "dailyViews": 789,
+        "sourceQuery": "살림템 추천 쇼츠",
+        "metricSource": "https://inv.thepixora.com",
+        "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
+        "sourceChannel": "두배로꿀팁",
+        "evidence": "youtube-search-channel-rss-public-metadata"
+      },
+      {
+        "rejected": true,
+        "id": "a5kNdDsiWlA",
+        "title": "화장실 청소루틴 간편해졌어요! 욕실템 추천! #쿠팡추천템 #화장실청소 #청소꿀팁",
+        "ch": "살림로그_살림을 기록하다.",
+        "views": 13223,
+        "up": "2026-05-20",
+        "reason": "views<30000,daily<10000",
+        "dailyViews": 630,
+        "sourceQuery": "다이소 추천 쇼츠",
+        "metricSource": "https://inv.thepixora.com",
+        "sourceChannelId": "UCx8uFUihkZnQRU6lVJXs7Dg",
+        "sourceChannel": "살림로그_살림을 기록하다.",
+        "evidence": "youtube-search-channel-rss-public-metadata"
+      },
+      {
+        "rejected": true,
+        "id": "PNbMkLRDgVs",
+        "title": "지독한 악취 세균 세면대 냄새 원인  #두배로꿀팁 #세면대트랩 #악취차단 #욕실꿀템 #생활꿀템",
+        "ch": "두배로꿀팁",
+        "views": 236,
+        "up": "2026-06-08",
+        "reason": "views<30000,daily<10000",
+        "dailyViews": 118,
+        "sourceQuery": "살림템 추천 쇼츠",
+        "metricSource": "https://inv.thepixora.com",
+        "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
+        "sourceChannel": "두배로꿀팁",
+        "evidence": "youtube-search-channel-rss-public-metadata"
+      },
+      {
+        "rejected": true,
+        "id": "ZG1R2rJpInQ",
+        "title": "차 문 열고 소리 지를 뻔했습니다 #두배로꿀팁 #자동차덮개 #햇빛차단 #차량용품 #생활꿀템",
+        "ch": "두배로꿀팁",
+        "views": 982,
+        "up": "2026-06-05",
+        "reason": "views<30000,daily<10000",
+        "dailyViews": 196,
+        "sourceQuery": "살림템 추천 쇼츠",
+        "metricSource": "https://inv.thepixora.com",
+        "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
+        "sourceChannel": "두배로꿀팁",
+        "evidence": "youtube-search-channel-rss-public-metadata"
+      },
+      {
+        "rejected": true,
+        "id": "aKocbzgbmy4",
+        "title": "만원대 밀대걸레  #두배로꿀팁 #원터치밀대걸레 #청소꿀템 #밀대걸레 #생활꿀템",
+        "ch": "두배로꿀팁",
+        "views": 895,
+        "up": "2026-06-03",
+        "reason": "views<30000,daily<10000",
+        "dailyViews": 128,
+        "sourceQuery": "살림템 추천 쇼츠",
+        "metricSource": "https://inv.thepixora.com",
+        "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
+        "sourceChannel": "두배로꿀팁",
+        "evidence": "youtube-search-channel-rss-public-metadata"
+      },
+      {
+        "rejected": true,
+        "id": "xgFPpyDwAWc",
+        "title": "빨래 때문에 돈 물어줬어요 #두배로꿀팁 #빨래바구니 #3단빨래바구니 #세탁꿀템 #생활꿀템",
+        "ch": "두배로꿀팁",
+        "views": 1135,
+        "up": "2026-06-05",
+        "reason": "views<30000,daily<10000",
+        "dailyViews": 227,
+        "sourceQuery": "살림템 추천 쇼츠",
+        "metricSource": "https://inv.thepixora.com",
+        "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
+        "sourceChannel": "두배로꿀팁",
+        "evidence": "youtube-search-channel-rss-public-metadata"
+      },
+      {
+        "rejected": true,
+        "id": "eNFir1XSL0A",
+        "title": "변기 뚜껑 세균 덩어리 맨손으로 여셨나요? #두배로꿀팁 #변기손잡이 #욕실꿀템 #실리콘손잡이 #생활꿀템",
+        "ch": "두배로꿀팁",
+        "views": 794,
+        "up": "2026-06-02",
+        "reason": "views<30000,daily<10000",
+        "dailyViews": 99,
+        "sourceQuery": "살림템 추천 쇼츠",
+        "metricSource": "https://inv.thepixora.com",
+        "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
+        "sourceChannel": "두배로꿀팁",
+        "evidence": "youtube-search-channel-rss-public-metadata"
+      }
+    ],
+    "errors": [],
+    "rss": {
+      "channelsFound": 80,
+      "feedsChecked": 80,
+      "feedErrors": [],
+      "recentCandidates": 199,
+      "detailChecked": 197,
+      "detailErrors": [
+        {
+          "id": "8jekKfcaop4",
+          "instance": "https://inv.thepixora.com",
+          "message": "This operation was aborted"
+        },
+        {
+          "id": "8jekKfcaop4",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "S31-ljMk6OE",
+          "instance": "https://inv.thepixora.com",
+          "message": "This operation was aborted"
+        },
+        {
+          "id": "S31-ljMk6OE",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        }
+      ],
+      "accepted": 17,
+      "rejected": [
+        {
+          "rejected": true,
+          "id": "9-gVG4fPWqM",
+          "title": "연예인들의 관리필수템✨ 붓기 관리에 패션 포인트까지!",
+          "ch": "1분뷰티",
+          "views": 3355,
+          "up": "2026-06-09",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 3355,
+          "sourceQuery": "다이소 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCVuxljGhpSkXztzk8X6vlMQ",
+          "sourceChannel": "1분뷰티",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "uO4pTKQx188",
+          "title": "올영에서 찾은 백화점급 브랜드 TOP3✨부터 제품 추천까지!",
+          "ch": "1분뷰티",
+          "views": 23630,
+          "up": "2026-05-21",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 1182,
+          "sourceQuery": "다이소 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCVuxljGhpSkXztzk8X6vlMQ",
+          "sourceChannel": "1분뷰티",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "WcUaR9ikGDk",
+          "title": "광고❌ 여름철 남녀 공용! 올영 세일 추천템 5가지🩵",
+          "ch": "1분뷰티",
+          "views": 28390,
+          "up": "2026-05-30",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 2581,
+          "sourceQuery": "다이소 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCVuxljGhpSkXztzk8X6vlMQ",
+          "sourceChannel": "1분뷰티",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "f5PhI37JDxw",
+          "title": "꼭 사야하는 다이소 여름 신상 꿀템 8가지☀️",
+          "ch": "1분뷰티",
+          "views": 27981,
+          "up": "2026-06-02",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 3498,
+          "sourceQuery": "다이소 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCVuxljGhpSkXztzk8X6vlMQ",
+          "sourceChannel": "1분뷰티",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "SSX-qqexEAo",
+          "title": "다이소 볼이 빵빵한 다람쥐의 여름방학☀️ 나비 잡고 곤충 채집통에 쏙-!🦋 수중관찰 채집통으로🐚 다슬기 채집까지💦  ※해당 영상은 생성형 AI로 제작되었습니다.#다이소 #다이소신상",
+          "ch": "다이소",
+          "views": 4452,
+          "up": "2026-06-09",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 4452,
+          "sourceQuery": "다이소 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
+          "sourceChannel": "다이소",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "PeC2JP34CaY",
+          "title": "🚀토이스토리 캐릭터가 다이소에💙 우디·버즈·포키 캐릭터 총출동✨ 여행용 파우치, 여권케이스, 보냉가방까지 소장각 ✨ 다이소 토이스토리 신상 모음👀",
+          "ch": "다이소",
+          "views": 17434,
+          "up": "2026-06-08",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 8717,
+          "sourceQuery": "다이소 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
+          "sourceChannel": "다이소",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "VOdJlog-2rw",
+          "title": "다이소 비치 리조트룩🌴OPEN!💛 토마토&클로버 뜨개지갑🍅 네트백🧺&니트 보닛햇까지!👒  #다이소 #다이소신상 #다이소뜨개지갑",
+          "ch": "다이소",
+          "views": 28360,
+          "up": "2026-06-04",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 4727,
+          "sourceQuery": "다이소 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
+          "sourceChannel": "다이소",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "qhmotUxgx7I",
+          "title": "📢다이소 X 좋은사람들 이너웨어 출시!✨ YES code 부드러운 모달 여성 팬티🩲 & BODY GUARD 심리스 남성 드로즈!🩳 💕#다이소 #다이소신상 #이너웨어 #언더웨어",
+          "ch": "다이소",
+          "views": 16237,
+          "up": "2026-06-01",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 1804,
+          "sourceQuery": "다이소 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
+          "sourceChannel": "다이소",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "Tzm9aLd1iv8",
+          "title": "다이소 토마토🍅 푸딩🍮 거북이🐢 6월 신상 다 모음✨ 키링+파우치+카드지갑!🫧 올 여름 키치 조합 귀여움 MAX 찍는 중…💗 #다이소 #다이소신상 #다이소깡 #다이소토마토",
+          "ch": "다이소",
+          "views": 28721,
+          "up": "2026-05-29",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 2393,
+          "sourceQuery": "다이소 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
+          "sourceChannel": "다이소",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "s1sNRf6A890",
+          "title": "인생 장바구니 추천 3천원부터 2만원대까지 #장바구니 #살림꿀템 #생활정보",
+          "ch": "살림로그_살림을 기록하다.",
+          "views": 4454,
+          "up": "2026-06-09",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 4454,
+          "sourceQuery": "다이소 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCx8uFUihkZnQRU6lVJXs7Dg",
+          "sourceChannel": "살림로그_살림을 기록하다.",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "v5xyPj30F-g",
+          "title": "다이소 수영용품 준비 TIME💦미러형 물안경&실리콘 수경 케이스🤿 수영가방까지🎒 SWIM 할 준비 됐어?🏊 #다이소 #다이소신상 #다이소수영",
+          "ch": "다이소",
+          "views": 13641,
+          "up": "2026-06-01",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 1516,
+          "sourceQuery": "다이소 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
+          "sourceChannel": "다이소",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "cpQgsvvJeho",
+          "title": "끈적이는 바닥, 찍힌 바닥 손쉽게 해결 꿀팁 #살림꿀팁 #생활정보 #살림팁",
+          "ch": "살림로그_살림을 기록하다.",
+          "views": 23783,
+          "up": "2026-06-05",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 4757,
+          "sourceQuery": "다이소 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCx8uFUihkZnQRU6lVJXs7Dg",
+          "sourceChannel": "살림로그_살림을 기록하다.",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "Mrh16qc0Kbg",
+          "title": "[DJI ROMO P] 드론 세계 1위가 로봇청소기를 만들면 생기는 일 #로봇청소기 #살림템 #DJIROMOP",
+          "ch": "살림로그_살림을 기록하다.",
+          "views": 7291,
+          "up": "2026-06-02",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 911,
+          "sourceQuery": "다이소 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCx8uFUihkZnQRU6lVJXs7Dg",
+          "sourceChannel": "살림로그_살림을 기록하다.",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "whHh89KyrAw",
+          "title": "주머니속에 바구니 봉투값 아꼈습니다 #두배로꿀팁 #장바구니 #휴대용장바구니 #생활꿀템 #쇼핑필수템",
+          "ch": "두배로꿀팁",
+          "views": 789,
+          "up": "2026-06-09",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 789,
+          "sourceQuery": "살림템 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
+          "sourceChannel": "두배로꿀팁",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "a5kNdDsiWlA",
+          "title": "화장실 청소루틴 간편해졌어요! 욕실템 추천! #쿠팡추천템 #화장실청소 #청소꿀팁",
+          "ch": "살림로그_살림을 기록하다.",
+          "views": 13223,
+          "up": "2026-05-20",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 630,
+          "sourceQuery": "다이소 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCx8uFUihkZnQRU6lVJXs7Dg",
+          "sourceChannel": "살림로그_살림을 기록하다.",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "PNbMkLRDgVs",
+          "title": "지독한 악취 세균 세면대 냄새 원인  #두배로꿀팁 #세면대트랩 #악취차단 #욕실꿀템 #생활꿀템",
+          "ch": "두배로꿀팁",
+          "views": 236,
+          "up": "2026-06-08",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 118,
+          "sourceQuery": "살림템 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
+          "sourceChannel": "두배로꿀팁",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "ZG1R2rJpInQ",
+          "title": "차 문 열고 소리 지를 뻔했습니다 #두배로꿀팁 #자동차덮개 #햇빛차단 #차량용품 #생활꿀템",
+          "ch": "두배로꿀팁",
+          "views": 982,
+          "up": "2026-06-05",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 196,
+          "sourceQuery": "살림템 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
+          "sourceChannel": "두배로꿀팁",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "aKocbzgbmy4",
+          "title": "만원대 밀대걸레  #두배로꿀팁 #원터치밀대걸레 #청소꿀템 #밀대걸레 #생활꿀템",
+          "ch": "두배로꿀팁",
+          "views": 895,
+          "up": "2026-06-03",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 128,
+          "sourceQuery": "살림템 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
+          "sourceChannel": "두배로꿀팁",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "xgFPpyDwAWc",
+          "title": "빨래 때문에 돈 물어줬어요 #두배로꿀팁 #빨래바구니 #3단빨래바구니 #세탁꿀템 #생활꿀템",
+          "ch": "두배로꿀팁",
+          "views": 1135,
+          "up": "2026-06-05",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 227,
+          "sourceQuery": "살림템 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
+          "sourceChannel": "두배로꿀팁",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "eNFir1XSL0A",
+          "title": "변기 뚜껑 세균 덩어리 맨손으로 여셨나요? #두배로꿀팁 #변기손잡이 #욕실꿀템 #실리콘손잡이 #생활꿀템",
+          "ch": "두배로꿀팁",
+          "views": 794,
+          "up": "2026-06-02",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 99,
+          "sourceQuery": "살림템 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
+          "sourceChannel": "두배로꿀팁",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "Dl5Gbbaegs8",
+          "title": "충전 속도 때문에 화날 뻔했습니다 #두배로꿀팁 #고속충전케이블 #100W충전 #충전꿀템 #생활꿀템",
+          "ch": "두배로꿀팁",
+          "views": 1770,
+          "up": "2026-06-03",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 253,
+          "sourceQuery": "살림템 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
+          "sourceChannel": "두배로꿀팁",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "RFbnQUXkMBw",
+          "title": "수납장 살 뻔했다가 돈 굳었습니다 #두배로꿀팁 #길이조절선반 #수납정리 #정리꿀템 #생활꿀템",
+          "ch": "두배로꿀팁",
+          "views": 2182,
+          "up": "2026-06-01",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 242,
+          "sourceQuery": "살림템 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
+          "sourceChannel": "두배로꿀팁",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "sOnC8XM5LDM",
+          "title": "만원대 밀대 높은 곳 청소가 쉬워졌습니다 #소문난홈 #원터치밀대걸레 #청소꿀템 #생활꿀템 #집청소",
+          "ch": "소문난홈",
+          "views": 1044,
+          "up": "2026-06-09",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 1044,
+          "sourceQuery": "살림템 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCXp1RmvMYbzH1j1pn8HfMZw",
+          "sourceChannel": "소문난홈",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "6mTy4uy2STs",
+          "title": "세균덩어리 변기뚜껑  #소문난홈 #변기손잡이 #욕실꿀템 #실리콘손잡이 #생활꿀템",
+          "ch": "소문난홈",
+          "views": 1108,
+          "up": "2026-06-05",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 222,
+          "sourceQuery": "살림템 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCXp1RmvMYbzH1j1pn8HfMZw",
+          "sourceChannel": "소문난홈",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "QRuybsx463k",
+          "title": "무타공 설치 길이조절 선반 #소문난홈 #길이조절선반 #수납정리 #주방정리 #생활꿀템",
+          "ch": "소문난홈",
+          "views": 1452,
+          "up": "2026-06-06",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 363,
+          "sourceQuery": "살림템 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCXp1RmvMYbzH1j1pn8HfMZw",
+          "sourceChannel": "소문난홈",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "BLp0gwEBqRw",
+          "title": "충전 기다리다 지쳤습니다 #소문난홈 #고속충전케이블 #충전케이블 #생활꿀템 #스마트폰꿀템",
+          "ch": "소문난홈",
+          "views": 375,
+          "up": "2026-06-08",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 188,
+          "sourceQuery": "살림템 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCXp1RmvMYbzH1j1pn8HfMZw",
+          "sourceChannel": "소문난홈",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "ZbUPgVvK1go",
+          "title": "주방 공간이 넓어진 이유 #소문난홈 #접이식바구니 #과일세척바구니 #주방정리 #생활꿀템",
+          "ch": "소문난홈",
+          "views": 612,
+          "up": "2026-06-05",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 122,
+          "sourceQuery": "살림템 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCXp1RmvMYbzH1j1pn8HfMZw",
+          "sourceChannel": "소문난홈",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "MqGdW7fvF0A",
+          "title": "물 쏟아보고 진짜 놀랐습니다 #소문난홈 #매트리스방수커버 #침대커버 #생활꿀템 #침실필수템",
+          "ch": "소문난홈",
+          "views": 225,
+          "up": "2026-06-04",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 38,
+          "sourceQuery": "살림템 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCXp1RmvMYbzH1j1pn8HfMZw",
+          "sourceChannel": "소문난홈",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "w6m1Rpc7N5Y",
+          "title": "앉아만 있었는데 허리가 달라졌습니다#소문난홈 #전동책상 #높이조절책상 #홈오피스 #생활꿀템",
+          "ch": "소문난홈",
+          "views": 1187,
+          "up": "2026-06-01",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 132,
+          "sourceQuery": "살림템 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCXp1RmvMYbzH1j1pn8HfMZw",
+          "sourceChannel": "소문난홈",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        },
+        {
+          "rejected": true,
+          "id": "UV7VLvbTMio",
+          "title": "방 하나가 두 배 넓어졌습니다 #소문난홈 #책상침대 #공간활용 #멀티가구 #생활꿀템",
+          "ch": "소문난홈",
+          "views": 1212,
+          "up": "2026-06-02",
+          "reason": "views<30000,daily<10000",
+          "dailyViews": 152,
+          "sourceQuery": "살림템 추천 쇼츠",
+          "metricSource": "https://inv.thepixora.com",
+          "sourceChannelId": "UCXp1RmvMYbzH1j1pn8HfMZw",
+          "sourceChannel": "소문난홈",
+          "evidence": "youtube-search-channel-rss-public-metadata"
+        }
+      ]
+    }
   },
   "instagram": {
     "accounts": [
@@ -492,6 +1359,18 @@
       },
       {
         "acct": "yd113202",
+        "id": "DZYbkNdk3XV",
+        "link": "https://www.threads.com/@yd113202/post/DZYbkNdk3XV",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "yd113202",
+        "id": "DZYbj9RE7p8",
+        "link": "https://www.threads.com/@yd113202/post/DZYbj9RE7p8",
+        "reason": "public-page-without-views"
+      },
+      {
+        "acct": "yd113202",
         "id": "DZXpXCOkxuA",
         "link": "https://www.threads.com/@yd113202/post/DZXpXCOkxuA",
         "reason": "public-page-without-views"
@@ -518,18 +1397,6 @@
         "acct": "yd113202",
         "id": "DZXIx9Dk7qU",
         "link": "https://www.threads.com/@yd113202/post/DZXIx9Dk7qU",
-        "reason": "public-page-without-views"
-      },
-      {
-        "acct": "yd113202",
-        "id": "DZW-CPWk_lq",
-        "link": "https://www.threads.com/@yd113202/post/DZW-CPWk_lq",
-        "reason": "public-page-without-views"
-      },
-      {
-        "acct": "yd113202",
-        "id": "DZW-CBdk8L6",
-        "link": "https://www.threads.com/@yd113202/post/DZW-CBdk8L6",
         "reason": "public-page-without-views"
       },
       {
@@ -624,22 +1491,16 @@
       "reason": "missing THREADS_DATA_API_KEY or endpoint"
     }
   },
-  "finishedAt": "2026-06-09T21:53:38.647Z",
-  "version": "2026-06-09T21:53:38.618Z:465b3c0da48f",
-  "after": {
-    "youtube": 2099,
-    "threads": 215,
-    "instagram": 1317
-  },
+  "finishedAt": "2026-06-09T22:34:56.218Z",
   "added": {
-    "youtube": 0,
+    "youtube": 17,
     "instagram": 0,
     "threads": 0
   },
   "metricSnapshots": {
-    "sampledAt": "2026-06-09T21:53:38.549Z",
+    "sampledAt": "2026-06-09T22:34:56.180Z",
     "tracked": {
-      "youtube": 2099,
+      "youtube": 2116,
       "instagram": 1317,
       "threads": 215
     },
@@ -648,5 +1509,11 @@
       "instagram": 0,
       "threads": 0
     }
+  },
+  "version": "2026-06-09T22:34:56.219Z:104675c30f61",
+  "after": {
+    "youtube": 2116,
+    "threads": 215,
+    "instagram": 1317
   }
 }

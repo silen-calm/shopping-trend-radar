@@ -4,6 +4,39 @@
     "maxAcceptedPerQuery": 5,
     "concurrency": 3,
     "timeoutMs": 30000,
+    "rssDiscovery": {
+      "enabled": true,
+      "maxChannels": 80,
+      "maxFeedItemsPerChannel": 10,
+      "detailConcurrency": 8,
+      "detailTimeoutMs": 7000,
+      "instances": [
+        "https://inv.thepixora.com",
+        "https://yt.chocolatemoo53.com"
+      ],
+      "titleKeywords": [
+        "추천",
+        "템",
+        "다이소",
+        "쿠팡",
+        "올리브영",
+        "살림",
+        "꿀템",
+        "가성비",
+        "제품",
+        "리뷰",
+        "신제품",
+        "화장품",
+        "간식",
+        "주방",
+        "생활",
+        "청소",
+        "자취",
+        "인테리어",
+        "문구",
+        "전자"
+      ]
+    },
     "quality": {
       "maxAgeDays": 45,
       "minViews": 30000,
@@ -22,7 +55,17 @@
       { "query": "패션 잡화 추천 쇼츠", "genre": "패션/잡화", "cat": "릴스형" },
       { "query": "문구 취미 추천 쇼츠", "genre": "문구/취미", "cat": "릴스형" },
       { "query": "전자기기 추천 쇼츠", "genre": "전자/IT", "cat": "릴스형" },
-      { "query": "건강용품 추천 쇼츠", "genre": "건강/위생", "cat": "릴스형" }
+      { "query": "건강용품 추천 쇼츠", "genre": "건강/위생", "cat": "릴스형" },
+      { "query": "쿠팡 추천템 쇼츠", "genre": "기타", "cat": "릴스형" },
+      { "query": "생활 꿀템 쇼츠", "genre": "주방/생활용품", "cat": "릴스형" },
+      { "query": "주방 꿀템 쇼츠", "genre": "주방/생활용품", "cat": "릴스형" },
+      { "query": "올리브영 추천템 쇼츠", "genre": "화장품/뷰티", "cat": "릴스형" },
+      { "query": "가성비 추천템 쇼츠", "genre": "기타", "cat": "릴스형" },
+      { "query": "내돈내산 추천템 쇼츠", "genre": "기타", "cat": "릴스형" },
+      { "query": "자취템 추천 쇼츠", "genre": "주방/생활용품", "cat": "릴스형" },
+      { "query": "청소 꿀템 쇼츠", "genre": "주방/생활용품", "cat": "릴스형" },
+      { "query": "캠핑용품 추천 쇼츠", "genre": "건강/위생", "cat": "릴스형" },
+      { "query": "차량용품 추천 쇼츠", "genre": "전자/IT", "cat": "릴스형" }
     ]
   },
   "instagram": {
