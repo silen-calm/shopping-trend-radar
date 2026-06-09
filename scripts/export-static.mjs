@@ -13,10 +13,10 @@ function copyFile(src, dest) {
 
 function patchAppForStatic(appJs) {
   return appJs
-    .replaceAll('fetch("/api/data", { cache: "no-store" })', 'fetch("/data/gallery-data.json", { cache: "no-store" })')
+    .replaceAll('fetch("/api/data", { cache: "no-store" })', 'fetch("data/gallery-data.json", { cache: "no-store" })')
     .replace(
       /const status = await fetch\("\/api\/status", \{ cache: "no-store" \}\)\.then\(\(res\) => res\.json\(\)\);/,
-      'const status = await fetch("/data/status.json", { cache: "no-store" }).then((res) => res.json());'
+      'const status = await fetch("data/status.json", { cache: "no-store" }).then((res) => res.json());'
     )
     .replaceAll("await loadDeletedServer();", "")
     .replaceAll("saveDeletedServer();", "")
@@ -33,7 +33,7 @@ function staticYoutubeThumb(item) {
 }
 
 function staticInstagramThumb(item) {
-  return item.thumb || "/assets/thumb-fallback.svg";
+  return item.thumb || "assets/thumb-fallback.svg";
 }
 `;
 }
@@ -52,6 +52,9 @@ function statusPayload(data) {
     counts: data.counts,
     dateRanges: data.dateRanges,
     collector,
+    cache: {
+      items: 0
+    },
     scheduler: {
       mode: "github-actions-daily",
       collectEverySeconds: 86400,

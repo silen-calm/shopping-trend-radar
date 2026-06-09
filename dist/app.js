@@ -5,7 +5,7 @@ function staticYoutubeThumb(item) {
 }
 
 function staticInstagramThumb(item) {
-  return item.thumb || "/assets/thumb-fallback.svg";
+  return item.thumb || "assets/thumb-fallback.svg";
 }
 
 const DAY = 864e5;
@@ -220,7 +220,7 @@ function setStatus(text) {
 }
 
 async function loadData() {
-  const response = await fetch("/data/gallery-data.json", { cache: "no-store" });
+  const response = await fetch("data/gallery-data.json", { cache: "no-store" });
   if (!response.ok) throw new Error(`data load failed: ${response.status}`);
   payload = await response.json();
   statusVersion = payload.version;
@@ -310,7 +310,7 @@ function renderYoutubeCard(item) {
   return `<a class="card" href="https://www.youtube.com/shorts/${encodeURIComponent(item.id)}" target="_blank" rel="noopener">
     <button class="delbtn" data-key="${escapeHtml(deletionKey("yt", item))}" type="button" title="삭제">×</button>
     <div class="thumb">
-      <img referrerpolicy="no-referrer" decoding="async" loading="lazy" src="${staticYoutubeThumb(item)}" onerror="this.onerror=null;this.src='/assets/thumb-fallback.svg'">
+      <img referrerpolicy="no-referrer" decoding="async" loading="lazy" src="${staticYoutubeThumb(item)}" onerror="this.onerror=null;this.src='assets/thumb-fallback.svg'">
       <span class="badge ${badgeClass(item.bucket)}">×${escapeHtml(item.mult)}</span>
       <span class="dbadge">${escapeHtml(relativeDate(item.up))}</span>
       <div class="play"><svg viewBox="0 0 68 48"><path d="M66.5 7.7a8 8 0 0 0-5.6-5.7C56 .7 34 .7 34 .7s-22 0-26.9 1.3A8 8 0 0 0 1.5 7.7 83 83 0 0 0 .2 24a83 83 0 0 0 1.3 16.3 8 8 0 0 0 5.6 5.7C12 47.3 34 47.3 34 47.3s22 0 26.9-1.3a8 8 0 0 0 5.6-5.7A83 83 0 0 0 67.8 24a83 83 0 0 0-1.3-16.3z" fill="#f00"/><path d="M27 34l18-10-18-10z" fill="#fff"/></svg></div>
@@ -356,7 +356,7 @@ function renderInstagramCard(item) {
     <button class="delbtn" data-key="${escapeHtml(deletionKey("ig", item))}" type="button" title="삭제">×</button>
     <div class="thumb ig">
       <div class="igph"><div class="i">📷</div><div class="k">${escapeHtml(item.kw)}</div><div class="a">@${escapeHtml(item.acct)}</div></div>
-      ${image ? `<img referrerpolicy="no-referrer" decoding="async" loading="lazy" src="${staticInstagramThumb(item)}" onerror="this.onerror=null;this.src='/assets/thumb-fallback.svg'">` : ""}
+      ${image ? `<img referrerpolicy="no-referrer" decoding="async" loading="lazy" src="${staticInstagramThumb(item)}" onerror="this.onerror=null;this.src='assets/thumb-fallback.svg'">` : ""}
       <span class="igtag">${escapeHtml(item.kw)}</span>
       <span class="dbadge">조회 ${escapeHtml(item.vtext || compactNumber(item.views))}</span>
     </div>
@@ -509,7 +509,7 @@ async function copyText(text, button) {
 }
 
 async function reloadDataIfChanged(force = false) {
-  const status = await fetch("/data/status.json", { cache: "no-store" }).then((res) => res.json());
+  const status = await fetch("data/status.json", { cache: "no-store" }).then((res) => res.json());
   if (!force && status.version === statusVersion) {
     setStatus(`수집 데이터 ${new Date(status.generatedAt).toLocaleString()} 저장 · 캐시 ${status.cache.items}개`);
     return;

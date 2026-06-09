@@ -676,6 +676,9 @@
       }
     }
   },
+  "cache": {
+    "items": 0
+  },
   "scheduler": {
     "mode": "github-actions-daily",
     "collectEverySeconds": 86400,
