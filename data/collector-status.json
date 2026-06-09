@@ -1,10 +1,10 @@
 {
   "ok": true,
   "mode": "direct-no-login",
-  "startedAt": "2026-06-09T22:33:17.393Z",
+  "startedAt": "2026-06-09T22:40:04.274Z",
   "source": "youtube public no-login plus optional instagram/threads public-data providers with traffic-quality gates",
   "before": {
-    "youtube": 2099,
+    "youtube": 2116,
     "threads": 215,
     "instagram": 1317
   },
@@ -22,9 +22,9 @@
   "youtube": {
     "queries": [
       {
-        "query": "다이소 추천 쇼츠",
+        "query": "한국 쇼츠 쇼핑 추천",
         "found": 12,
-        "channels": 12,
+        "channels": 11,
         "mode": "search-channel-rss"
       },
       {
@@ -34,13 +34,7 @@
         "mode": "search-channel-rss"
       },
       {
-        "query": "한국 쇼츠 쇼핑 추천",
-        "found": 12,
-        "channels": 11,
-        "mode": "search-channel-rss"
-      },
-      {
-        "query": "간식 추천 쇼츠",
+        "query": "다이소 추천 쇼츠",
         "found": 12,
         "channels": 12,
         "mode": "search-channel-rss"
@@ -58,13 +52,13 @@
         "mode": "search-channel-rss"
       },
       {
-        "query": "화장품 추천 쇼츠",
+        "query": "간식 추천 쇼츠",
         "found": 12,
         "channels": 12,
         "mode": "search-channel-rss"
       },
       {
-        "query": "패션 잡화 추천 쇼츠",
+        "query": "화장품 추천 쇼츠",
         "found": 12,
         "channels": 12,
         "mode": "search-channel-rss"
@@ -76,13 +70,19 @@
         "mode": "search-channel-rss"
       },
       {
-        "query": "문구 취미 추천 쇼츠",
+        "query": "패션 잡화 추천 쇼츠",
         "found": 12,
         "channels": 12,
         "mode": "search-channel-rss"
       },
       {
         "query": "전자기기 추천 쇼츠",
+        "found": 12,
+        "channels": 12,
+        "mode": "search-channel-rss"
+      },
+      {
+        "query": "문구 취미 추천 쇼츠",
         "found": 12,
         "channels": 12,
         "mode": "search-channel-rss"
@@ -100,13 +100,13 @@
         "mode": "search-channel-rss"
       },
       {
-        "query": "주방 꿀템 쇼츠",
+        "query": "생활 꿀템 쇼츠",
         "found": 12,
         "channels": 12,
         "mode": "search-channel-rss"
       },
       {
-        "query": "생활 꿀템 쇼츠",
+        "query": "주방 꿀템 쇼츠",
         "found": 12,
         "channels": 12,
         "mode": "search-channel-rss"
@@ -136,13 +136,13 @@
         "mode": "search-channel-rss"
       },
       {
-        "query": "캠핑용품 추천 쇼츠",
+        "query": "청소 꿀템 쇼츠",
         "found": 12,
         "channels": 12,
         "mode": "search-channel-rss"
       },
       {
-        "query": "청소 꿀템 쇼츠",
+        "query": "캠핑용품 추천 쇼츠",
         "found": 12,
         "channels": 12,
         "mode": "search-channel-rss"
@@ -154,320 +154,209 @@
         "mode": "search-channel-rss"
       }
     ],
-    "rejected": [
-      {
-        "rejected": true,
-        "id": "9-gVG4fPWqM",
-        "title": "연예인들의 관리필수템✨ 붓기 관리에 패션 포인트까지!",
-        "ch": "1분뷰티",
-        "views": 3355,
-        "up": "2026-06-09",
-        "reason": "views<30000,daily<10000",
-        "dailyViews": 3355,
-        "sourceQuery": "다이소 추천 쇼츠",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UCVuxljGhpSkXztzk8X6vlMQ",
-        "sourceChannel": "1분뷰티",
-        "evidence": "youtube-search-channel-rss-public-metadata"
-      },
-      {
-        "rejected": true,
-        "id": "uO4pTKQx188",
-        "title": "올영에서 찾은 백화점급 브랜드 TOP3✨부터 제품 추천까지!",
-        "ch": "1분뷰티",
-        "views": 23630,
-        "up": "2026-05-21",
-        "reason": "views<30000,daily<10000",
-        "dailyViews": 1182,
-        "sourceQuery": "다이소 추천 쇼츠",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UCVuxljGhpSkXztzk8X6vlMQ",
-        "sourceChannel": "1분뷰티",
-        "evidence": "youtube-search-channel-rss-public-metadata"
-      },
-      {
-        "rejected": true,
-        "id": "WcUaR9ikGDk",
-        "title": "광고❌ 여름철 남녀 공용! 올영 세일 추천템 5가지🩵",
-        "ch": "1분뷰티",
-        "views": 28390,
-        "up": "2026-05-30",
-        "reason": "views<30000,daily<10000",
-        "dailyViews": 2581,
-        "sourceQuery": "다이소 추천 쇼츠",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UCVuxljGhpSkXztzk8X6vlMQ",
-        "sourceChannel": "1분뷰티",
-        "evidence": "youtube-search-channel-rss-public-metadata"
-      },
-      {
-        "rejected": true,
-        "id": "f5PhI37JDxw",
-        "title": "꼭 사야하는 다이소 여름 신상 꿀템 8가지☀️",
-        "ch": "1분뷰티",
-        "views": 27981,
-        "up": "2026-06-02",
-        "reason": "views<30000,daily<10000",
-        "dailyViews": 3498,
-        "sourceQuery": "다이소 추천 쇼츠",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UCVuxljGhpSkXztzk8X6vlMQ",
-        "sourceChannel": "1분뷰티",
-        "evidence": "youtube-search-channel-rss-public-metadata"
-      },
-      {
-        "rejected": true,
-        "id": "SSX-qqexEAo",
-        "title": "다이소 볼이 빵빵한 다람쥐의 여름방학☀️ 나비 잡고 곤충 채집통에 쏙-!🦋 수중관찰 채집통으로🐚 다슬기 채집까지💦  ※해당 영상은 생성형 AI로 제작되었습니다.#다이소 #다이소신상",
-        "ch": "다이소",
-        "views": 4452,
-        "up": "2026-06-09",
-        "reason": "views<30000,daily<10000",
-        "dailyViews": 4452,
-        "sourceQuery": "다이소 추천 쇼츠",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
-        "sourceChannel": "다이소",
-        "evidence": "youtube-search-channel-rss-public-metadata"
-      },
-      {
-        "rejected": true,
-        "id": "PeC2JP34CaY",
-        "title": "🚀토이스토리 캐릭터가 다이소에💙 우디·버즈·포키 캐릭터 총출동✨ 여행용 파우치, 여권케이스, 보냉가방까지 소장각 ✨ 다이소 토이스토리 신상 모음👀",
-        "ch": "다이소",
-        "views": 17434,
-        "up": "2026-06-08",
-        "reason": "views<30000,daily<10000",
-        "dailyViews": 8717,
-        "sourceQuery": "다이소 추천 쇼츠",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
-        "sourceChannel": "다이소",
-        "evidence": "youtube-search-channel-rss-public-metadata"
-      },
-      {
-        "rejected": true,
-        "id": "VOdJlog-2rw",
-        "title": "다이소 비치 리조트룩🌴OPEN!💛 토마토&클로버 뜨개지갑🍅 네트백🧺&니트 보닛햇까지!👒  #다이소 #다이소신상 #다이소뜨개지갑",
-        "ch": "다이소",
-        "views": 28360,
-        "up": "2026-06-04",
-        "reason": "views<30000,daily<10000",
-        "dailyViews": 4727,
-        "sourceQuery": "다이소 추천 쇼츠",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
-        "sourceChannel": "다이소",
-        "evidence": "youtube-search-channel-rss-public-metadata"
-      },
-      {
-        "rejected": true,
-        "id": "qhmotUxgx7I",
-        "title": "📢다이소 X 좋은사람들 이너웨어 출시!✨ YES code 부드러운 모달 여성 팬티🩲 & BODY GUARD 심리스 남성 드로즈!🩳 💕#다이소 #다이소신상 #이너웨어 #언더웨어",
-        "ch": "다이소",
-        "views": 16237,
-        "up": "2026-06-01",
-        "reason": "views<30000,daily<10000",
-        "dailyViews": 1804,
-        "sourceQuery": "다이소 추천 쇼츠",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
-        "sourceChannel": "다이소",
-        "evidence": "youtube-search-channel-rss-public-metadata"
-      },
-      {
-        "rejected": true,
-        "id": "Tzm9aLd1iv8",
-        "title": "다이소 토마토🍅 푸딩🍮 거북이🐢 6월 신상 다 모음✨ 키링+파우치+카드지갑!🫧 올 여름 키치 조합 귀여움 MAX 찍는 중…💗 #다이소 #다이소신상 #다이소깡 #다이소토마토",
-        "ch": "다이소",
-        "views": 28721,
-        "up": "2026-05-29",
-        "reason": "views<30000,daily<10000",
-        "dailyViews": 2393,
-        "sourceQuery": "다이소 추천 쇼츠",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
-        "sourceChannel": "다이소",
-        "evidence": "youtube-search-channel-rss-public-metadata"
-      },
-      {
-        "rejected": true,
-        "id": "s1sNRf6A890",
-        "title": "인생 장바구니 추천 3천원부터 2만원대까지 #장바구니 #살림꿀템 #생활정보",
-        "ch": "살림로그_살림을 기록하다.",
-        "views": 4454,
-        "up": "2026-06-09",
-        "reason": "views<30000,daily<10000",
-        "dailyViews": 4454,
-        "sourceQuery": "다이소 추천 쇼츠",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UCx8uFUihkZnQRU6lVJXs7Dg",
-        "sourceChannel": "살림로그_살림을 기록하다.",
-        "evidence": "youtube-search-channel-rss-public-metadata"
-      },
-      {
-        "rejected": true,
-        "id": "v5xyPj30F-g",
-        "title": "다이소 수영용품 준비 TIME💦미러형 물안경&실리콘 수경 케이스🤿 수영가방까지🎒 SWIM 할 준비 됐어?🏊 #다이소 #다이소신상 #다이소수영",
-        "ch": "다이소",
-        "views": 13641,
-        "up": "2026-06-01",
-        "reason": "views<30000,daily<10000",
-        "dailyViews": 1516,
-        "sourceQuery": "다이소 추천 쇼츠",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
-        "sourceChannel": "다이소",
-        "evidence": "youtube-search-channel-rss-public-metadata"
-      },
-      {
-        "rejected": true,
-        "id": "cpQgsvvJeho",
-        "title": "끈적이는 바닥, 찍힌 바닥 손쉽게 해결 꿀팁 #살림꿀팁 #생활정보 #살림팁",
-        "ch": "살림로그_살림을 기록하다.",
-        "views": 23783,
-        "up": "2026-06-05",
-        "reason": "views<30000,daily<10000",
-        "dailyViews": 4757,
-        "sourceQuery": "다이소 추천 쇼츠",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UCx8uFUihkZnQRU6lVJXs7Dg",
-        "sourceChannel": "살림로그_살림을 기록하다.",
-        "evidence": "youtube-search-channel-rss-public-metadata"
-      },
-      {
-        "rejected": true,
-        "id": "Mrh16qc0Kbg",
-        "title": "[DJI ROMO P] 드론 세계 1위가 로봇청소기를 만들면 생기는 일 #로봇청소기 #살림템 #DJIROMOP",
-        "ch": "살림로그_살림을 기록하다.",
-        "views": 7291,
-        "up": "2026-06-02",
-        "reason": "views<30000,daily<10000",
-        "dailyViews": 911,
-        "sourceQuery": "다이소 추천 쇼츠",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UCx8uFUihkZnQRU6lVJXs7Dg",
-        "sourceChannel": "살림로그_살림을 기록하다.",
-        "evidence": "youtube-search-channel-rss-public-metadata"
-      },
-      {
-        "rejected": true,
-        "id": "whHh89KyrAw",
-        "title": "주머니속에 바구니 봉투값 아꼈습니다 #두배로꿀팁 #장바구니 #휴대용장바구니 #생활꿀템 #쇼핑필수템",
-        "ch": "두배로꿀팁",
-        "views": 789,
-        "up": "2026-06-09",
-        "reason": "views<30000,daily<10000",
-        "dailyViews": 789,
-        "sourceQuery": "살림템 추천 쇼츠",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
-        "sourceChannel": "두배로꿀팁",
-        "evidence": "youtube-search-channel-rss-public-metadata"
-      },
-      {
-        "rejected": true,
-        "id": "a5kNdDsiWlA",
-        "title": "화장실 청소루틴 간편해졌어요! 욕실템 추천! #쿠팡추천템 #화장실청소 #청소꿀팁",
-        "ch": "살림로그_살림을 기록하다.",
-        "views": 13223,
-        "up": "2026-05-20",
-        "reason": "views<30000,daily<10000",
-        "dailyViews": 630,
-        "sourceQuery": "다이소 추천 쇼츠",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UCx8uFUihkZnQRU6lVJXs7Dg",
-        "sourceChannel": "살림로그_살림을 기록하다.",
-        "evidence": "youtube-search-channel-rss-public-metadata"
-      },
-      {
-        "rejected": true,
-        "id": "PNbMkLRDgVs",
-        "title": "지독한 악취 세균 세면대 냄새 원인  #두배로꿀팁 #세면대트랩 #악취차단 #욕실꿀템 #생활꿀템",
-        "ch": "두배로꿀팁",
-        "views": 236,
-        "up": "2026-06-08",
-        "reason": "views<30000,daily<10000",
-        "dailyViews": 118,
-        "sourceQuery": "살림템 추천 쇼츠",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
-        "sourceChannel": "두배로꿀팁",
-        "evidence": "youtube-search-channel-rss-public-metadata"
-      },
-      {
-        "rejected": true,
-        "id": "ZG1R2rJpInQ",
-        "title": "차 문 열고 소리 지를 뻔했습니다 #두배로꿀팁 #자동차덮개 #햇빛차단 #차량용품 #생활꿀템",
-        "ch": "두배로꿀팁",
-        "views": 982,
-        "up": "2026-06-05",
-        "reason": "views<30000,daily<10000",
-        "dailyViews": 196,
-        "sourceQuery": "살림템 추천 쇼츠",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
-        "sourceChannel": "두배로꿀팁",
-        "evidence": "youtube-search-channel-rss-public-metadata"
-      },
-      {
-        "rejected": true,
-        "id": "aKocbzgbmy4",
-        "title": "만원대 밀대걸레  #두배로꿀팁 #원터치밀대걸레 #청소꿀템 #밀대걸레 #생활꿀템",
-        "ch": "두배로꿀팁",
-        "views": 895,
-        "up": "2026-06-03",
-        "reason": "views<30000,daily<10000",
-        "dailyViews": 128,
-        "sourceQuery": "살림템 추천 쇼츠",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
-        "sourceChannel": "두배로꿀팁",
-        "evidence": "youtube-search-channel-rss-public-metadata"
-      },
-      {
-        "rejected": true,
-        "id": "xgFPpyDwAWc",
-        "title": "빨래 때문에 돈 물어줬어요 #두배로꿀팁 #빨래바구니 #3단빨래바구니 #세탁꿀템 #생활꿀템",
-        "ch": "두배로꿀팁",
-        "views": 1135,
-        "up": "2026-06-05",
-        "reason": "views<30000,daily<10000",
-        "dailyViews": 227,
-        "sourceQuery": "살림템 추천 쇼츠",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
-        "sourceChannel": "두배로꿀팁",
-        "evidence": "youtube-search-channel-rss-public-metadata"
-      },
-      {
-        "rejected": true,
-        "id": "eNFir1XSL0A",
-        "title": "변기 뚜껑 세균 덩어리 맨손으로 여셨나요? #두배로꿀팁 #변기손잡이 #욕실꿀템 #실리콘손잡이 #생활꿀템",
-        "ch": "두배로꿀팁",
-        "views": 794,
-        "up": "2026-06-02",
-        "reason": "views<30000,daily<10000",
-        "dailyViews": 99,
-        "sourceQuery": "살림템 추천 쇼츠",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
-        "sourceChannel": "두배로꿀팁",
-        "evidence": "youtube-search-channel-rss-public-metadata"
-      }
-    ],
+    "rejected": [],
     "errors": [],
     "rss": {
       "channelsFound": 80,
       "feedsChecked": 80,
       "feedErrors": [],
-      "recentCandidates": 199,
-      "detailChecked": 197,
+      "recentCandidates": 157,
+      "detailChecked": 0,
       "detailErrors": [
+        {
+          "id": "6mTy4uy2STs",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "W-lkroQ16FM",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "r6hodFNoTlw",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "EWRGvFuntFc",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "sOnC8XM5LDM",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "QECTpnb2Ntc",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "BLp0gwEBqRw",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "QRuybsx463k",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "6mTy4uy2STs",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "sOnC8XM5LDM",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "EWRGvFuntFc",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "W-lkroQ16FM",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "BLp0gwEBqRw",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "r6hodFNoTlw",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "QECTpnb2Ntc",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "QRuybsx463k",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "ZbUPgVvK1go",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "eur1t0pYAVQ",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "w6m1Rpc7N5Y",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "B19h4m-zTkM",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "MqGdW7fvF0A",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "UV7VLvbTMio",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "whHh89KyrAw",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "PNbMkLRDgVs",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "ZbUPgVvK1go",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "eur1t0pYAVQ",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "B19h4m-zTkM",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "w6m1Rpc7N5Y",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "MqGdW7fvF0A",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "UV7VLvbTMio",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
         {
           "id": "8jekKfcaop4",
           "instance": "https://inv.thepixora.com",
-          "message": "This operation was aborted"
+          "message": "HTTP 403"
+        },
+        {
+          "id": "whHh89KyrAw",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "ZG1R2rJpInQ",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "aKocbzgbmy4",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "PNbMkLRDgVs",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Dl5Gbbaegs8",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Gv0xvpEsE7M",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "xgFPpyDwAWc",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "eNFir1XSL0A",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
         },
         {
           "id": "8jekKfcaop4",
@@ -475,469 +364,1378 @@
           "message": "HTTP 403"
         },
         {
-          "id": "S31-ljMk6OE",
+          "id": "RFbnQUXkMBw",
           "instance": "https://inv.thepixora.com",
-          "message": "This operation was aborted"
+          "message": "HTTP 403"
+        },
+        {
+          "id": "ZG1R2rJpInQ",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "aKocbzgbmy4",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Dl5Gbbaegs8",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Gv0xvpEsE7M",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "xgFPpyDwAWc",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "dpqd448wt0U",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "eNFir1XSL0A",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "ffdhgc-qqrY",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "KShiamqnG1A",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "R6TDZHNWDeY",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "egFnXJSRXcQ",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "G09T0tgtx_M",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "RFbnQUXkMBw",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "mtqH12jD6EQ",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "dpqd448wt0U",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Uy4j0pKPvLk",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "ffdhgc-qqrY",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "KShiamqnG1A",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "R6TDZHNWDeY",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "egFnXJSRXcQ",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "G09T0tgtx_M",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "mtqH12jD6EQ",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Mof25Ee6DWc",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "tViuoWytNMk",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "D-ZPzVz9wxI",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "6aP63CoQfQo",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "g6s_v85Qhto",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Uy4j0pKPvLk",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "s1sNRf6A890",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "pyt5YRJbMiw",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Mof25Ee6DWc",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "tViuoWytNMk",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "D-ZPzVz9wxI",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "cpQgsvvJeho",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "g6s_v85Qhto",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "6aP63CoQfQo",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Mrh16qc0Kbg",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "cjoyEZELgvM",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "s1sNRf6A890",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "wGVb71_H3s0",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "pyt5YRJbMiw",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "7-LV0gXa3s8",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "cpQgsvvJeho",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Mrh16qc0Kbg",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "cjoyEZELgvM",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "wGVb71_H3s0",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "A2Izw48rF-M",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "a5kNdDsiWlA",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "7-LV0gXa3s8",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "XAqffXM_vcY",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "YBgwmzajbj8",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "mmWRsQxwrBQ",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "TzXely4SoYY",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "1ZrTz63UWQE",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "A2Izw48rF-M",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "a5kNdDsiWlA",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "XAqffXM_vcY",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "YBgwmzajbj8",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "mmWRsQxwrBQ",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "TzXely4SoYY",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "1ZrTz63UWQE",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "sOOVEeeow5k",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "7cv3hQEtDOw",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Cfak1Ui4YS0",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "ax9T48Evo9I",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "SXYqw3cl5Dc",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "SSX-qqexEAo",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "mKeDESz_brU",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "22IRC1SSWgs",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "sOOVEeeow5k",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "7cv3hQEtDOw",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Cfak1Ui4YS0",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "ax9T48Evo9I",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "SXYqw3cl5Dc",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "SSX-qqexEAo",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "PeC2JP34CaY",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "mKeDESz_brU",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "0nxRoz8QKNc",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "3JkXoLP0nTg",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "VOdJlog-2rw",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "hIMj_hWyaII",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "22IRC1SSWgs",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "BP4yQLAaYkY",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "v5xyPj30F-g",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "PeC2JP34CaY",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "qhmotUxgx7I",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "0nxRoz8QKNc",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "3JkXoLP0nTg",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "VOdJlog-2rw",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Tzm9aLd1iv8",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "hIMj_hWyaII",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Xs1k-h8xsDk",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "BP4yQLAaYkY",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "sl6m2_wqQSk",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "v5xyPj30F-g",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Fs74Kofl8tE",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "V4WV4V9L8JY",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "0ulahAf1sSY",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "qhmotUxgx7I",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Tzm9aLd1iv8",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "UjGwav7kWVY",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "aDuRX0mWix4",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Xs1k-h8xsDk",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "sl6m2_wqQSk",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Fs74Kofl8tE",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "6G2V0B2mcDw",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "V4WV4V9L8JY",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "0ulahAf1sSY",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Fkba5piwcgg",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "hs5v53Ynb3c",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "XxZdkZC6UEg",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "UjGwav7kWVY",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "C7uwwBlspkE",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "aDuRX0mWix4",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "qs4sZeMtPqU",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "z2U-nHgdZNU",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "vrOBHGYSaxc",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "6G2V0B2mcDw",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Fkba5piwcgg",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "hs5v53Ynb3c",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "XxZdkZC6UEg",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "C7uwwBlspkE",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Kc7DoOlTa2E",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "DVnYLRG67YU",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "62BS1uzllnc",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "qs4sZeMtPqU",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "BfHBM3DEeS0",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "z2U-nHgdZNU",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "vrOBHGYSaxc",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
         },
         {
           "id": "S31-ljMk6OE",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "zr12PGsdpns",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Kc7DoOlTa2E",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "0ly_wHtQw2w",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "DVnYLRG67YU",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "6g2ALdt6UPo",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "62BS1uzllnc",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "BfHBM3DEeS0",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "NC5-msRXLSk",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "S31-ljMk6OE",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "hh7QUoJ4ni8",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "otGprcZs2QU",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "AXOQOnfWKz8",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "zr12PGsdpns",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "0ly_wHtQw2w",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "fufDN2EC5FM",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "6g2ALdt6UPo",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "NC5-msRXLSk",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "oW0v65tsFOI",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "hh7QUoJ4ni8",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "otGprcZs2QU",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "YsOYRQjEsnw",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "P0XMDqOpWXI",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "AXOQOnfWKz8",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "nNtKZ4ncWS0",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "fufDN2EC5FM",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "_aUVRL-TRDY",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Oa41FkjFqy4",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "z90TPT_HQMI",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "oW0v65tsFOI",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "_gmenjd-PRU",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "YsOYRQjEsnw",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "P0XMDqOpWXI",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "nNtKZ4ncWS0",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "_aUVRL-TRDY",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "zs4A4hoKlwg",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "HwmYHXEvACA",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "DBYutbKCIyo",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Oa41FkjFqy4",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "z90TPT_HQMI",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "_gmenjd-PRU",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Kora_G02YYo",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "VXErByjbBSw",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "bSvhjjLzgzw",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "zPPNXa5xyHA",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "XC4uotZ0-yE",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "zs4A4hoKlwg",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "DBYutbKCIyo",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "HwmYHXEvACA",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "Kora_G02YYo",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "gqQbOBLkcag",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "5OtIsrPXj9k",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "VXErByjbBSw",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "bSvhjjLzgzw",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "JeKgWdFPe2w",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "zPPNXa5xyHA",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "XCCIDDuxtS0",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "XC4uotZ0-yE",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "UJz43OKThKU",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "ZmX24lVnetM",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "M28v6ClX62U",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "YK_KD4WF7To",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "gqQbOBLkcag",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "5OtIsrPXj9k",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "JeKgWdFPe2w",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "XCCIDDuxtS0",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "LdWv55H-NOc",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "UJz43OKThKU",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "ZmX24lVnetM",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "9-gVG4fPWqM",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "aZgwZiOhUbs",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "M28v6ClX62U",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "YK_KD4WF7To",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "_q1438pB7Cs",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "WcUaR9ikGDk",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "f5PhI37JDxw",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "LdWv55H-NOc",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "joh1osPZPKE",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "uO4pTKQx188",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "9-gVG4fPWqM",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "aZgwZiOhUbs",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "ZaW-a1O8Oek",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "_q1438pB7Cs",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "2x3qe_UmaK0",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "WcUaR9ikGDk",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "LvJTL0-6MnM",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "f5PhI37JDxw",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "joh1osPZPKE",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "2FjKTXwS0OA",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "uO4pTKQx188",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "drBCNdjglxA",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "ZaW-a1O8Oek",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "trcRPQ-DeL4",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "D1GKXgxusNQ",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "93r7h6IjN3c",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "2x3qe_UmaK0",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "LvJTL0-6MnM",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "2FjKTXwS0OA",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "zAcDxuojRrc",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "drBCNdjglxA",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "9EMQdu3rlRk",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "trcRPQ-DeL4",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "sQi6ihQuMqM",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "d8IHgvtsH3w",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "D1GKXgxusNQ",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "93r7h6IjN3c",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "cwOCQHQDx74",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "j6KW7sBIINI",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "vD140ec3f2A",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "l0hkfTFvQS4",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "zAcDxuojRrc",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "9EMQdu3rlRk",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "sQi6ihQuMqM",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "d8IHgvtsH3w",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "EJw9kHu9FcU",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "AAtnLGN4PdY",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "sbkysdn3TmY",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "cwOCQHQDx74",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "j6KW7sBIINI",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "PAeIksPnEBo",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "vD140ec3f2A",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "l0hkfTFvQS4",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "pYUnGa_A9Eg",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "359u2x2w_oU",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "zJFfwCqtcGE",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "VzBz9PeZYFU",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "EJw9kHu9FcU",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "AAtnLGN4PdY",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "sbkysdn3TmY",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "PAeIksPnEBo",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "8pwxR5Qxplk",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "vz4iUlvmsCg",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "3VP-tHv6ML4",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "pYUnGa_A9Eg",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "359u2x2w_oU",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "O1xduoETLe0",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "VzBz9PeZYFU",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "zJFfwCqtcGE",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "rGympX9aG5c",
+          "instance": "https://inv.thepixora.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "8pwxR5Qxplk",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "vz4iUlvmsCg",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "3VP-tHv6ML4",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "O1xduoETLe0",
+          "instance": "https://yt.chocolatemoo53.com",
+          "message": "HTTP 403"
+        },
+        {
+          "id": "rGympX9aG5c",
           "instance": "https://yt.chocolatemoo53.com",
           "message": "HTTP 403"
         }
       ],
-      "accepted": 17,
-      "rejected": [
-        {
-          "rejected": true,
-          "id": "9-gVG4fPWqM",
-          "title": "연예인들의 관리필수템✨ 붓기 관리에 패션 포인트까지!",
-          "ch": "1분뷰티",
-          "views": 3355,
-          "up": "2026-06-09",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 3355,
-          "sourceQuery": "다이소 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCVuxljGhpSkXztzk8X6vlMQ",
-          "sourceChannel": "1분뷰티",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "uO4pTKQx188",
-          "title": "올영에서 찾은 백화점급 브랜드 TOP3✨부터 제품 추천까지!",
-          "ch": "1분뷰티",
-          "views": 23630,
-          "up": "2026-05-21",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 1182,
-          "sourceQuery": "다이소 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCVuxljGhpSkXztzk8X6vlMQ",
-          "sourceChannel": "1분뷰티",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "WcUaR9ikGDk",
-          "title": "광고❌ 여름철 남녀 공용! 올영 세일 추천템 5가지🩵",
-          "ch": "1분뷰티",
-          "views": 28390,
-          "up": "2026-05-30",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 2581,
-          "sourceQuery": "다이소 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCVuxljGhpSkXztzk8X6vlMQ",
-          "sourceChannel": "1분뷰티",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "f5PhI37JDxw",
-          "title": "꼭 사야하는 다이소 여름 신상 꿀템 8가지☀️",
-          "ch": "1분뷰티",
-          "views": 27981,
-          "up": "2026-06-02",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 3498,
-          "sourceQuery": "다이소 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCVuxljGhpSkXztzk8X6vlMQ",
-          "sourceChannel": "1분뷰티",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "SSX-qqexEAo",
-          "title": "다이소 볼이 빵빵한 다람쥐의 여름방학☀️ 나비 잡고 곤충 채집통에 쏙-!🦋 수중관찰 채집통으로🐚 다슬기 채집까지💦  ※해당 영상은 생성형 AI로 제작되었습니다.#다이소 #다이소신상",
-          "ch": "다이소",
-          "views": 4452,
-          "up": "2026-06-09",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 4452,
-          "sourceQuery": "다이소 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
-          "sourceChannel": "다이소",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "PeC2JP34CaY",
-          "title": "🚀토이스토리 캐릭터가 다이소에💙 우디·버즈·포키 캐릭터 총출동✨ 여행용 파우치, 여권케이스, 보냉가방까지 소장각 ✨ 다이소 토이스토리 신상 모음👀",
-          "ch": "다이소",
-          "views": 17434,
-          "up": "2026-06-08",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 8717,
-          "sourceQuery": "다이소 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
-          "sourceChannel": "다이소",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "VOdJlog-2rw",
-          "title": "다이소 비치 리조트룩🌴OPEN!💛 토마토&클로버 뜨개지갑🍅 네트백🧺&니트 보닛햇까지!👒  #다이소 #다이소신상 #다이소뜨개지갑",
-          "ch": "다이소",
-          "views": 28360,
-          "up": "2026-06-04",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 4727,
-          "sourceQuery": "다이소 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
-          "sourceChannel": "다이소",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "qhmotUxgx7I",
-          "title": "📢다이소 X 좋은사람들 이너웨어 출시!✨ YES code 부드러운 모달 여성 팬티🩲 & BODY GUARD 심리스 남성 드로즈!🩳 💕#다이소 #다이소신상 #이너웨어 #언더웨어",
-          "ch": "다이소",
-          "views": 16237,
-          "up": "2026-06-01",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 1804,
-          "sourceQuery": "다이소 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
-          "sourceChannel": "다이소",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "Tzm9aLd1iv8",
-          "title": "다이소 토마토🍅 푸딩🍮 거북이🐢 6월 신상 다 모음✨ 키링+파우치+카드지갑!🫧 올 여름 키치 조합 귀여움 MAX 찍는 중…💗 #다이소 #다이소신상 #다이소깡 #다이소토마토",
-          "ch": "다이소",
-          "views": 28721,
-          "up": "2026-05-29",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 2393,
-          "sourceQuery": "다이소 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
-          "sourceChannel": "다이소",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "s1sNRf6A890",
-          "title": "인생 장바구니 추천 3천원부터 2만원대까지 #장바구니 #살림꿀템 #생활정보",
-          "ch": "살림로그_살림을 기록하다.",
-          "views": 4454,
-          "up": "2026-06-09",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 4454,
-          "sourceQuery": "다이소 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCx8uFUihkZnQRU6lVJXs7Dg",
-          "sourceChannel": "살림로그_살림을 기록하다.",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "v5xyPj30F-g",
-          "title": "다이소 수영용품 준비 TIME💦미러형 물안경&실리콘 수경 케이스🤿 수영가방까지🎒 SWIM 할 준비 됐어?🏊 #다이소 #다이소신상 #다이소수영",
-          "ch": "다이소",
-          "views": 13641,
-          "up": "2026-06-01",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 1516,
-          "sourceQuery": "다이소 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
-          "sourceChannel": "다이소",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "cpQgsvvJeho",
-          "title": "끈적이는 바닥, 찍힌 바닥 손쉽게 해결 꿀팁 #살림꿀팁 #생활정보 #살림팁",
-          "ch": "살림로그_살림을 기록하다.",
-          "views": 23783,
-          "up": "2026-06-05",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 4757,
-          "sourceQuery": "다이소 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCx8uFUihkZnQRU6lVJXs7Dg",
-          "sourceChannel": "살림로그_살림을 기록하다.",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "Mrh16qc0Kbg",
-          "title": "[DJI ROMO P] 드론 세계 1위가 로봇청소기를 만들면 생기는 일 #로봇청소기 #살림템 #DJIROMOP",
-          "ch": "살림로그_살림을 기록하다.",
-          "views": 7291,
-          "up": "2026-06-02",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 911,
-          "sourceQuery": "다이소 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCx8uFUihkZnQRU6lVJXs7Dg",
-          "sourceChannel": "살림로그_살림을 기록하다.",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "whHh89KyrAw",
-          "title": "주머니속에 바구니 봉투값 아꼈습니다 #두배로꿀팁 #장바구니 #휴대용장바구니 #생활꿀템 #쇼핑필수템",
-          "ch": "두배로꿀팁",
-          "views": 789,
-          "up": "2026-06-09",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 789,
-          "sourceQuery": "살림템 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
-          "sourceChannel": "두배로꿀팁",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "a5kNdDsiWlA",
-          "title": "화장실 청소루틴 간편해졌어요! 욕실템 추천! #쿠팡추천템 #화장실청소 #청소꿀팁",
-          "ch": "살림로그_살림을 기록하다.",
-          "views": 13223,
-          "up": "2026-05-20",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 630,
-          "sourceQuery": "다이소 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCx8uFUihkZnQRU6lVJXs7Dg",
-          "sourceChannel": "살림로그_살림을 기록하다.",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "PNbMkLRDgVs",
-          "title": "지독한 악취 세균 세면대 냄새 원인  #두배로꿀팁 #세면대트랩 #악취차단 #욕실꿀템 #생활꿀템",
-          "ch": "두배로꿀팁",
-          "views": 236,
-          "up": "2026-06-08",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 118,
-          "sourceQuery": "살림템 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
-          "sourceChannel": "두배로꿀팁",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "ZG1R2rJpInQ",
-          "title": "차 문 열고 소리 지를 뻔했습니다 #두배로꿀팁 #자동차덮개 #햇빛차단 #차량용품 #생활꿀템",
-          "ch": "두배로꿀팁",
-          "views": 982,
-          "up": "2026-06-05",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 196,
-          "sourceQuery": "살림템 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
-          "sourceChannel": "두배로꿀팁",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "aKocbzgbmy4",
-          "title": "만원대 밀대걸레  #두배로꿀팁 #원터치밀대걸레 #청소꿀템 #밀대걸레 #생활꿀템",
-          "ch": "두배로꿀팁",
-          "views": 895,
-          "up": "2026-06-03",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 128,
-          "sourceQuery": "살림템 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
-          "sourceChannel": "두배로꿀팁",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "xgFPpyDwAWc",
-          "title": "빨래 때문에 돈 물어줬어요 #두배로꿀팁 #빨래바구니 #3단빨래바구니 #세탁꿀템 #생활꿀템",
-          "ch": "두배로꿀팁",
-          "views": 1135,
-          "up": "2026-06-05",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 227,
-          "sourceQuery": "살림템 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
-          "sourceChannel": "두배로꿀팁",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "eNFir1XSL0A",
-          "title": "변기 뚜껑 세균 덩어리 맨손으로 여셨나요? #두배로꿀팁 #변기손잡이 #욕실꿀템 #실리콘손잡이 #생활꿀템",
-          "ch": "두배로꿀팁",
-          "views": 794,
-          "up": "2026-06-02",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 99,
-          "sourceQuery": "살림템 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
-          "sourceChannel": "두배로꿀팁",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "Dl5Gbbaegs8",
-          "title": "충전 속도 때문에 화날 뻔했습니다 #두배로꿀팁 #고속충전케이블 #100W충전 #충전꿀템 #생활꿀템",
-          "ch": "두배로꿀팁",
-          "views": 1770,
-          "up": "2026-06-03",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 253,
-          "sourceQuery": "살림템 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
-          "sourceChannel": "두배로꿀팁",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "RFbnQUXkMBw",
-          "title": "수납장 살 뻔했다가 돈 굳었습니다 #두배로꿀팁 #길이조절선반 #수납정리 #정리꿀템 #생활꿀템",
-          "ch": "두배로꿀팁",
-          "views": 2182,
-          "up": "2026-06-01",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 242,
-          "sourceQuery": "살림템 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
-          "sourceChannel": "두배로꿀팁",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "sOnC8XM5LDM",
-          "title": "만원대 밀대 높은 곳 청소가 쉬워졌습니다 #소문난홈 #원터치밀대걸레 #청소꿀템 #생활꿀템 #집청소",
-          "ch": "소문난홈",
-          "views": 1044,
-          "up": "2026-06-09",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 1044,
-          "sourceQuery": "살림템 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCXp1RmvMYbzH1j1pn8HfMZw",
-          "sourceChannel": "소문난홈",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "6mTy4uy2STs",
-          "title": "세균덩어리 변기뚜껑  #소문난홈 #변기손잡이 #욕실꿀템 #실리콘손잡이 #생활꿀템",
-          "ch": "소문난홈",
-          "views": 1108,
-          "up": "2026-06-05",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 222,
-          "sourceQuery": "살림템 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCXp1RmvMYbzH1j1pn8HfMZw",
-          "sourceChannel": "소문난홈",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "QRuybsx463k",
-          "title": "무타공 설치 길이조절 선반 #소문난홈 #길이조절선반 #수납정리 #주방정리 #생활꿀템",
-          "ch": "소문난홈",
-          "views": 1452,
-          "up": "2026-06-06",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 363,
-          "sourceQuery": "살림템 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCXp1RmvMYbzH1j1pn8HfMZw",
-          "sourceChannel": "소문난홈",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "BLp0gwEBqRw",
-          "title": "충전 기다리다 지쳤습니다 #소문난홈 #고속충전케이블 #충전케이블 #생활꿀템 #스마트폰꿀템",
-          "ch": "소문난홈",
-          "views": 375,
-          "up": "2026-06-08",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 188,
-          "sourceQuery": "살림템 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCXp1RmvMYbzH1j1pn8HfMZw",
-          "sourceChannel": "소문난홈",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "ZbUPgVvK1go",
-          "title": "주방 공간이 넓어진 이유 #소문난홈 #접이식바구니 #과일세척바구니 #주방정리 #생활꿀템",
-          "ch": "소문난홈",
-          "views": 612,
-          "up": "2026-06-05",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 122,
-          "sourceQuery": "살림템 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCXp1RmvMYbzH1j1pn8HfMZw",
-          "sourceChannel": "소문난홈",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "MqGdW7fvF0A",
-          "title": "물 쏟아보고 진짜 놀랐습니다 #소문난홈 #매트리스방수커버 #침대커버 #생활꿀템 #침실필수템",
-          "ch": "소문난홈",
-          "views": 225,
-          "up": "2026-06-04",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 38,
-          "sourceQuery": "살림템 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCXp1RmvMYbzH1j1pn8HfMZw",
-          "sourceChannel": "소문난홈",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "w6m1Rpc7N5Y",
-          "title": "앉아만 있었는데 허리가 달라졌습니다#소문난홈 #전동책상 #높이조절책상 #홈오피스 #생활꿀템",
-          "ch": "소문난홈",
-          "views": 1187,
-          "up": "2026-06-01",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 132,
-          "sourceQuery": "살림템 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCXp1RmvMYbzH1j1pn8HfMZw",
-          "sourceChannel": "소문난홈",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        },
-        {
-          "rejected": true,
-          "id": "UV7VLvbTMio",
-          "title": "방 하나가 두 배 넓어졌습니다 #소문난홈 #책상침대 #공간활용 #멀티가구 #생활꿀템",
-          "ch": "소문난홈",
-          "views": 1212,
-          "up": "2026-06-02",
-          "reason": "views<30000,daily<10000",
-          "dailyViews": 152,
-          "sourceQuery": "살림템 추천 쇼츠",
-          "metricSource": "https://inv.thepixora.com",
-          "sourceChannelId": "UCXp1RmvMYbzH1j1pn8HfMZw",
-          "sourceChannel": "소문난홈",
-          "evidence": "youtube-search-channel-rss-public-metadata"
-        }
-      ]
+      "accepted": 0,
+      "rejected": []
     }
   },
   "instagram": {
@@ -1491,14 +2289,14 @@
       "reason": "missing THREADS_DATA_API_KEY or endpoint"
     }
   },
-  "finishedAt": "2026-06-09T22:34:56.218Z",
+  "finishedAt": "2026-06-09T22:40:18.966Z",
   "added": {
-    "youtube": 17,
+    "youtube": 0,
     "instagram": 0,
     "threads": 0
   },
   "metricSnapshots": {
-    "sampledAt": "2026-06-09T22:34:56.180Z",
+    "sampledAt": "2026-06-09T22:40:18.909Z",
     "tracked": {
       "youtube": 2116,
       "instagram": 1317,
@@ -1510,7 +2308,7 @@
       "threads": 0
     }
   },
-  "version": "2026-06-09T22:34:56.219Z:104675c30f61",
+  "version": "2026-06-09T22:40:18.967Z:e43a3e92ae63",
   "after": {
     "youtube": 2116,
     "threads": 215,

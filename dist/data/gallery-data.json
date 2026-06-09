@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-06-09T22:34:56.219Z",
+  "generatedAt": "2026-06-09T22:40:18.967Z",
   "sourceUrl": "direct:no-login",
   "counts": {
     "youtube": 2116,
@@ -46292,7 +46292,7 @@
         "bucket": "10~50배",
         "ageDays": 8,
         "dailyViews": 491440,
-        "trendScore": 848946.2,
+        "trendScore": 42984.6,
         "qualityReason": "fast-growth; rss-upload-date; public-view-count",
         "sourceQuery": "간식 추천 쇼츠",
         "collectedAt": "2026-06-09T22:34:03.416Z",
@@ -46303,12 +46303,12 @@
         "sourceChannel": "이상한 과자가게  weird sweets shop",
         "evidence": "youtube-search-channel-rss-public-metadata",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "short-interval",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 491440,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 3931522,
+          "sampledHours": 0.1
         }
       },
       {
@@ -46323,7 +46323,7 @@
         "bucket": "10~50배",
         "ageDays": 2,
         "dailyViews": 184271,
-        "trendScore": 328641.2,
+        "trendScore": 4324.2,
         "qualityReason": "fast-growth; rss-upload-date; public-view-count",
         "sourceQuery": "간식 추천 쇼츠",
         "collectedAt": "2026-06-09T22:34:02.224Z",
@@ -46334,12 +46334,12 @@
         "sourceChannel": "김종호 쇼츠",
         "evidence": "youtube-search-channel-rss-public-metadata",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "short-interval",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 184271,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 368542,
+          "sampledHours": 0.1
         }
       },
       {
@@ -46354,7 +46354,7 @@
         "bucket": "5~10배",
         "ageDays": 1,
         "dailyViews": 92722,
-        "trendScore": 166145.5,
+        "trendScore": 1100.3,
         "qualityReason": "fast-growth; rss-upload-date; public-view-count",
         "sourceQuery": "다이소 추천 쇼츠",
         "collectedAt": "2026-06-09T22:33:33.747Z",
@@ -46365,12 +46365,12 @@
         "sourceChannel": "굥아님의 리뷰세상",
         "evidence": "youtube-search-channel-rss-public-metadata",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "short-interval",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 92722,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 92722,
+          "sampledHours": 0.1
         }
       },
       {
@@ -46385,7 +46385,7 @@
         "bucket": "5~10배",
         "ageDays": 4,
         "dailyViews": 80446,
-        "trendScore": 142056.9,
+        "trendScore": 3689.8,
         "qualityReason": "fast-growth; rss-upload-date; public-view-count",
         "sourceQuery": "다이소 추천 쇼츠",
         "collectedAt": "2026-06-09T22:33:39.807Z",
@@ -46396,12 +46396,12 @@
         "sourceChannel": "살림로그_살림을 기록하다.",
         "evidence": "youtube-search-channel-rss-public-metadata",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "short-interval",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 80446,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 321784,
+          "sampledHours": 0.1
         }
       },
       {
@@ -46416,7 +46416,7 @@
         "bucket": "3~5배",
         "ageDays": 21,
         "dailyViews": 40104,
-        "trendScore": 63091.6,
+        "trendScore": 7748.1,
         "qualityReason": "fast-growth; rss-upload-date; public-view-count",
         "sourceQuery": "다이소 추천 쇼츠",
         "collectedAt": "2026-06-09T22:33:34.496Z",
@@ -46427,12 +46427,12 @@
         "sourceChannel": "1분뷰티",
         "evidence": "youtube-search-channel-rss-public-metadata",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "short-interval",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 40104,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 842183,
+          "sampledHours": 0.1
         }
       },
       {
@@ -46447,7 +46447,7 @@
         "bucket": "2~3배",
         "ageDays": 26,
         "dailyViews": 26515,
-        "trendScore": 39822,
+        "trendScore": 5882.8,
         "qualityReason": "fast-growth; rss-upload-date; public-view-count",
         "sourceQuery": "다이소 추천 쇼츠",
         "collectedAt": "2026-06-09T22:33:35.857Z",
@@ -46458,12 +46458,12 @@
         "sourceChannel": "1분뷰티",
         "evidence": "youtube-search-channel-rss-public-metadata",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "short-interval",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 26515,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 689391,
+          "sampledHours": 0.1
         }
       },
       {
@@ -46478,7 +46478,7 @@
         "bucket": "2~3배",
         "ageDays": 18,
         "dailyViews": 24321,
-        "trendScore": 39224.8,
+        "trendScore": 4202.6,
         "qualityReason": "fast-growth; rss-upload-date; public-view-count",
         "sourceQuery": "다이소 추천 쇼츠",
         "collectedAt": "2026-06-09T22:33:34.514Z",
@@ -46489,12 +46489,12 @@
         "sourceChannel": "1분뷰티",
         "evidence": "youtube-search-channel-rss-public-metadata",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "short-interval",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 24321,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 437770,
+          "sampledHours": 0.1
         }
       },
       {
@@ -46509,7 +46509,7 @@
         "bucket": "2~3배",
         "ageDays": 2,
         "dailyViews": 22939,
-        "trendScore": 40910.9,
+        "trendScore": 538.3,
         "qualityReason": "fast-growth; rss-upload-date; public-view-count",
         "sourceQuery": "뷰티템 추천 쇼츠",
         "collectedAt": "2026-06-09T22:34:33.998Z",
@@ -46520,12 +46520,12 @@
         "sourceChannel": "미아 Mia",
         "evidence": "youtube-search-channel-rss-public-metadata",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "short-interval",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 22939,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 45877,
+          "sampledHours": 0.1
         }
       },
       {
@@ -46540,7 +46540,7 @@
         "bucket": "2~3배",
         "ageDays": 3,
         "dailyViews": 15265,
-        "trendScore": 27092.3,
+        "trendScore": 531.2,
         "qualityReason": "fast-growth; rss-upload-date; public-view-count",
         "sourceQuery": "뷰티템 추천 쇼츠",
         "collectedAt": "2026-06-09T22:34:34.764Z",
@@ -46551,12 +46551,12 @@
         "sourceChannel": "미아 Mia",
         "evidence": "youtube-search-channel-rss-public-metadata",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "short-interval",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 15265,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 45796,
+          "sampledHours": 0.1
         }
       },
       {
@@ -46571,7 +46571,7 @@
         "bucket": "2~3배",
         "ageDays": 4,
         "dailyViews": 11692,
-        "trendScore": 20646.5,
+        "trendScore": 536.3,
         "qualityReason": "fast-growth; rss-upload-date; public-view-count",
         "sourceQuery": "패션 잡화 추천 쇼츠",
         "collectedAt": "2026-06-09T22:34:26.622Z",
@@ -46582,12 +46582,12 @@
         "sourceChannel": "핏더사이즈",
         "evidence": "youtube-search-channel-rss-public-metadata",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "short-interval",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 11692,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 46769,
+          "sampledHours": 0.1
         }
       },
       {
@@ -46602,7 +46602,7 @@
         "bucket": "2~3배",
         "ageDays": 26,
         "dailyViews": 8870,
-        "trendScore": 13321.6,
+        "trendScore": 1968,
         "qualityReason": "high-traffic; rss-upload-date; public-view-count",
         "sourceQuery": "패션 잡화 추천 쇼츠",
         "collectedAt": "2026-06-09T22:34:39.593Z",
@@ -46613,12 +46613,12 @@
         "sourceChannel": "새부리",
         "evidence": "youtube-search-channel-rss-public-metadata",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "short-interval",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 8870,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 230620,
+          "sampledHours": 0.1
         }
       },
       {
@@ -46633,7 +46633,7 @@
         "bucket": "2~3배",
         "ageDays": 17,
         "dailyViews": 8167,
-        "trendScore": 13275.2,
+        "trendScore": 1351.3,
         "qualityReason": "high-traffic; rss-upload-date; public-view-count",
         "sourceQuery": "뷰티템 추천 쇼츠",
         "collectedAt": "2026-06-09T22:34:45.952Z",
@@ -46644,12 +46644,12 @@
         "sourceChannel": "Hong's MakeuPlay 홍이모",
         "evidence": "youtube-search-channel-rss-public-metadata",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "short-interval",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 8167,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 138836,
+          "sampledHours": 0.1
         }
       },
       {
@@ -46664,7 +46664,7 @@
         "bucket": "2~3배",
         "ageDays": 8,
         "dailyViews": 6953,
-        "trendScore": 12011.1,
+        "trendScore": 608.1,
         "qualityReason": "high-traffic; rss-upload-date; public-view-count",
         "sourceQuery": "패션 잡화 추천 쇼츠",
         "collectedAt": "2026-06-09T22:34:27.017Z",
@@ -46675,12 +46675,12 @@
         "sourceChannel": "핏더사이즈",
         "evidence": "youtube-search-channel-rss-public-metadata",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "short-interval",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 6953,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 55622,
+          "sampledHours": 0.1
         }
       },
       {
@@ -46695,7 +46695,7 @@
         "bucket": "2~3배",
         "ageDays": 14,
         "dailyViews": 4403,
-        "trendScore": 7317.1,
+        "trendScore": 624.6,
         "qualityReason": "high-traffic; rss-upload-date; public-view-count",
         "sourceQuery": "패션 잡화 추천 쇼츠",
         "collectedAt": "2026-06-09T22:34:30.355Z",
@@ -46706,12 +46706,12 @@
         "sourceChannel": "지원로그 jiwonlog",
         "evidence": "youtube-search-channel-rss-public-metadata",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "short-interval",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 4403,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 61635,
+          "sampledHours": 0.1
         }
       },
       {
@@ -46726,7 +46726,7 @@
         "bucket": "2~3배",
         "ageDays": 13,
         "dailyViews": 2692,
-        "trendScore": 4504.9,
+        "trendScore": 359.2,
         "qualityReason": "high-traffic; rss-upload-date; public-view-count",
         "sourceQuery": "뷰티템 추천 쇼츠",
         "collectedAt": "2026-06-09T22:34:34.940Z",
@@ -46737,12 +46737,12 @@
         "sourceChannel": "미아 Mia",
         "evidence": "youtube-search-channel-rss-public-metadata",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "short-interval",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 2692,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 34990,
+          "sampledHours": 0.1
         }
       },
       {
@@ -46757,7 +46757,7 @@
         "bucket": "2~3배",
         "ageDays": 22,
         "dailyViews": 2238,
-        "trendScore": 3490,
+        "trendScore": 446.3,
         "qualityReason": "high-traffic; rss-upload-date; public-view-count",
         "sourceQuery": "뷰티템 추천 쇼츠",
         "collectedAt": "2026-06-09T22:34:42.781Z",
@@ -46768,12 +46768,12 @@
         "sourceChannel": "제이미포유 Jaymeeforyou",
         "evidence": "youtube-search-channel-rss-public-metadata",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "short-interval",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 2238,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 49225,
+          "sampledHours": 0.1
         }
       },
       {
@@ -46788,7 +46788,7 @@
         "bucket": "2~3배",
         "ageDays": 17,
         "dailyViews": 1892,
-        "trendScore": 3075.4,
+        "trendScore": 313.1,
         "qualityReason": "high-traffic; rss-upload-date; public-view-count",
         "sourceQuery": "패션 잡화 추천 쇼츠",
         "collectedAt": "2026-06-09T22:34:37.883Z",
@@ -46799,12 +46799,12 @@
         "sourceChannel": "새부리",
         "evidence": "youtube-search-channel-rss-public-metadata",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "short-interval",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 1892,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 32163,
+          "sampledHours": 0.1
         }
       }
     ],
@@ -81619,12 +81619,12 @@
       }
     ]
   },
-  "version": "2026-06-09T22:34:56.219Z:104675c30f61",
+  "version": "2026-06-09T22:40:18.967Z:e43a3e92ae63",
   "collector": {
     "mode": "direct-no-login",
-    "finishedAt": "2026-06-09T22:34:56.218Z",
+    "finishedAt": "2026-06-09T22:40:18.966Z",
     "added": {
-      "youtube": 17,
+      "youtube": 0,
       "instagram": 0,
       "threads": 0
     },
@@ -81642,10 +81642,10 @@
     "youtube": {
       "queries": 22,
       "channelsFound": 80,
-      "recentCandidates": 199,
-      "detailChecked": 197,
-      "accepted": 17,
-      "errors": 4
+      "recentCandidates": 157,
+      "detailChecked": 0,
+      "accepted": 0,
+      "errors": 314
     },
     "publicCandidates": {
       "instagram": 0,
@@ -81664,7 +81664,7 @@
       }
     },
     "metricSnapshots": {
-      "sampledAt": "2026-06-09T22:34:56.180Z",
+      "sampledAt": "2026-06-09T22:40:18.909Z",
       "tracked": {
         "youtube": 2116,
         "instagram": 1317,
