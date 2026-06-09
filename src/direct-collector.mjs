@@ -19,8 +19,10 @@ const DEFAULT_CONFIG = {
       maxFeedItemsPerChannel: 10,
       detailConcurrency: 8,
       detailTimeoutMs: 7000,
+      ytDlpDetailFallback: true,
       instances: ["https://inv.thepixora.com", "https://yt.chocolatemoo53.com"],
-      titleKeywords: ["추천", "템", "다이소", "쿠팡", "올리브영", "살림", "꿀템", "가성비", "제품", "리뷰", "신제품", "화장품", "간식", "주방", "생활"]
+      titleKeywords: ["추천", "템", "다이소", "쿠팡", "올리브영", "살림", "꿀템", "가성비", "제품", "리뷰", "신제품", "화장품", "간식", "주방", "생활"],
+      excludeTitleKeywords: ["아르바이트", "알바", "구인", "채용"]
     },
     quality: {
       maxAgeDays: 45,
@@ -242,6 +244,10 @@ function safeText(value = "") {
   return String(value).replace(/\s+/g, " ").trim();
 }
 
+function pushLimited(list, item, limit = 80) {
+  if (list.length < limit) list.push(item);
+}
+
 function youtubeRssConfig(config) {
   return {
     ...DEFAULT_CONFIG.youtube.rssDiscovery,
@@ -252,6 +258,16 @@ function youtubeRssConfig(config) {
 function titleMatchesKeywords(title, keywords = []) {
   if (!keywords.length) return true;
   return keywords.some((keyword) => title.includes(keyword));
+}
+
+function titleExcluded(title, config) {
+  const excluded = youtubeRssConfig(config).excludeTitleKeywords || [];
+  return excluded.some((keyword) => title.includes(keyword));
+}
+
+function youtubeTitleRelevant(title, config) {
+  const keywords = youtubeRssConfig(config).titleKeywords || [];
+  return titleMatchesKeywords(title, keywords) && !titleExcluded(title, config);
 }
 
 function tagValue(xml, tag) {
@@ -274,7 +290,7 @@ function parseYoutubeFeed(xml, channel, config) {
       const title = safeText(rawTitle);
       if (!id || !title) return [];
       if (ageDays(up) > quality.maxAgeDays) return [];
-      if (!titleMatchesKeywords(title, keywords)) return [];
+      if (!titleMatchesKeywords(title, keywords) || titleExcluded(title, config)) return [];
       return [{
         id,
         title,
@@ -318,9 +334,33 @@ async function fetchYoutubePublicDetail(id, config, status) {
   for (const base of invidiousInstances(config)) {
     try {
       const json = await fetchJsonWithTimeout(`${base}/api/v1/videos/${encodeURIComponent(id)}?region=KR`, timeoutMs);
-      return { json, instance: base };
+      return { json, source: base };
     } catch (error) {
-      status.youtube.rss.detailErrors.push({ id, instance: base, message: error.message });
+      status.youtube.rss.detailErrorCount += 1;
+      pushLimited(status.youtube.rss.detailErrors, { id, source: base, message: error.message });
+    }
+  }
+  if (rssConfig.ytDlpDetailFallback !== false) {
+    try {
+      const result = await runYtDlp([
+        "--dump-json",
+        "--skip-download",
+        "--ignore-errors",
+        "--no-warnings",
+        "--socket-timeout",
+        "8",
+        "--extractor-retries",
+        "1",
+        "--retries",
+        "1",
+        `https://www.youtube.com/watch?v=${id}`
+      ], timeoutMs + 8000);
+      const [json] = parseJsonLines(result.stdout);
+      if (json?.id) return { json, source: "yt-dlp-video-detail" };
+      throw new Error("yt-dlp returned no JSON detail");
+    } catch (error) {
+      status.youtube.rss.detailErrorCount += 1;
+      pushLimited(status.youtube.rss.detailErrors, { id, source: "yt-dlp-video-detail", message: error.message });
     }
   }
   return null;
@@ -328,18 +368,18 @@ async function fetchYoutubePublicDetail(id, config, status) {
 
 function normalizeYoutubeVerified(candidate, detail, config) {
   const video = {
-    id: detail.json.videoId || candidate.id,
+    id: detail.json.videoId || detail.json.id || candidate.id,
     title: detail.json.title || candidate.title,
-    channel: detail.json.author || candidate.channel,
-    uploader: detail.json.author || candidate.channel,
-    view_count: detail.json.viewCount,
-    upload_date: unixDate(detail.json.published) || candidate.up,
-    duration: detail.json.lengthSeconds
+    channel: detail.json.author || detail.json.channel || detail.json.uploader || candidate.channel,
+    uploader: detail.json.author || detail.json.channel || detail.json.uploader || candidate.channel,
+    view_count: detail.json.viewCount ?? detail.json.view_count,
+    upload_date: detail.json.upload_date || unixDate(detail.json.published || detail.json.timestamp) || candidate.up,
+    duration: detail.json.lengthSeconds ?? detail.json.duration
   };
   const row = normalizeYoutube(video, candidate.query, config);
   if (!row) return null;
   row.collected = row.rejected ? row.collected : "direct-youtube-rss";
-  row.metricSource = detail.instance;
+  row.metricSource = detail.source;
   row.sourceChannelId = candidate.channelId;
   row.sourceChannel = candidate.channel;
   row.evidence = "youtube-search-channel-rss-public-metadata";
@@ -579,6 +619,7 @@ function pruneLowQualityDirectRows(data, config) {
 
   data.youtube = data.youtube.filter((item) => {
     if (!String(item.collected || "").startsWith("direct-youtube")) return true;
+    if (item.collected === "direct-youtube-rss" && !youtubeTitleRelevant(item.title || "", config)) return false;
     return youtubeQualityDecision({ views: Number(item.views || 0), up: item.up || item.date || today() }, quality).accepted;
   });
   data.instagram = data.instagram.filter((item) => {
@@ -630,7 +671,7 @@ export async function runDirectCollection({ root }) {
       queries: [],
       rejected: [],
       errors: [],
-      rss: { channelsFound: 0, feedsChecked: 0, feedErrors: [], recentCandidates: 0, detailChecked: 0, detailErrors: [], accepted: 0, rejected: [] }
+      rss: { channelsFound: 0, feedsChecked: 0, feedErrors: [], recentCandidates: 0, detailChecked: 0, detailErrorCount: 0, detailErrors: [], accepted: 0, rejected: [] }
     },
     instagram: { accounts: [], skipped: [], errors: [] },
     threads: { accounts: [], skipped: [], errors: [] }
@@ -679,7 +720,7 @@ export async function runDirectCollection({ root }) {
       recentCandidates: status.youtube.rss.recentCandidates,
       detailChecked: status.youtube.rss.detailChecked,
       accepted: status.youtube.rss.accepted,
-      errors: status.youtube.errors.length + status.youtube.rss.feedErrors.length + status.youtube.rss.detailErrors.length
+      errors: status.youtube.errors.length + status.youtube.rss.feedErrors.length + (status.youtube.rss.detailErrorCount || status.youtube.rss.detailErrors.length)
     },
     publicCandidates: {
       instagram: status.instagram.skipped.length,

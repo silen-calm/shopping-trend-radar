@@ -10,6 +10,7 @@
       "maxFeedItemsPerChannel": 10,
       "detailConcurrency": 8,
       "detailTimeoutMs": 7000,
+      "ytDlpDetailFallback": true,
       "instances": [
         "https://inv.thepixora.com",
         "https://yt.chocolatemoo53.com"
@@ -35,6 +36,12 @@
         "인테리어",
         "문구",
         "전자"
+      ],
+      "excludeTitleKeywords": [
+        "아르바이트",
+        "알바",
+        "구인",
+        "채용"
       ]
     },
     "quality": {
