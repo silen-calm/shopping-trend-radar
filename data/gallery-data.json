@@ -1,16 +1,16 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-16T19:34:05.369Z",
+  "generatedAt": "2026-07-17T19:31:08.932Z",
   "sourceUrl": "direct:no-login",
   "counts": {
-    "youtube": 2227,
+    "youtube": 2220,
     "threads": 215,
     "instagram": 1317
   },
   "dateRanges": {
     "youtube": {
       "min": "2018-02-24",
-      "max": "2026-07-16",
+      "max": "2026-07-17",
       "invalid": 0
     },
     "threads": {
@@ -3793,7 +3793,7 @@
           "previousViews": 1938292,
           "sampledHours": 24
         },
-        "trendScore": 10854.4
+        "trendScore": 10596
       },
       {
         "id": "QWUhhSS-VW8",
@@ -8815,7 +8815,7 @@
           "previousViews": 1649211,
           "sampledHours": 24
         },
-        "trendScore": 9895.3
+        "trendScore": 9675.4
       },
       {
         "id": "xnRVO8KHZtk",
@@ -12512,7 +12512,7 @@
           "previousViews": 1440425,
           "sampledHours": 24
         },
-        "trendScore": 7490.2
+        "trendScore": 7298.2
       },
       {
         "id": "_wLkBaHS40Q",
@@ -13878,7 +13878,7 @@
           "previousViews": 1386080,
           "sampledHours": 24
         },
-        "trendScore": 7762
+        "trendScore": 7577.2
       },
       {
         "id": "BtXUFWiwq3Q",
@@ -22823,7 +22823,7 @@
           "previousViews": 913941,
           "sampledHours": 24
         },
-        "trendScore": 5239.9
+        "trendScore": 5118.1
       },
       {
         "id": "91h_8ol3Mq0",
@@ -22978,7 +22978,7 @@
           "previousViews": 890756,
           "sampledHours": 24
         },
-        "trendScore": 4275.6
+        "trendScore": 4156.9
       },
       {
         "id": "Efqs4grIpzs",
@@ -23288,7 +23288,7 @@
           "previousViews": 821195,
           "sampledHours": 24
         },
-        "trendScore": 4489.2
+        "trendScore": 4379.7
       },
       {
         "id": "Fj7EDSMH3No",
@@ -24019,7 +24019,7 @@
           "previousViews": 751126,
           "sampledHours": 24
         },
-        "trendScore": 3104.7
+        "trendScore": 3004.5
       },
       {
         "id": "Re5M5wekwi4",
@@ -24173,7 +24173,7 @@
           "previousViews": 717025,
           "sampledHours": 24
         },
-        "trendScore": 3824.1
+        "trendScore": 3728.5
       },
       {
         "id": "v6p19bihbV4",
@@ -25102,7 +25102,7 @@
           "previousViews": 607524,
           "sampledHours": 24
         },
-        "trendScore": 2673.1
+        "trendScore": 2592.1
       },
       {
         "id": "VDzwGGi--Ig",
@@ -25476,7 +25476,7 @@
           "previousViews": 575658,
           "sampledHours": 24
         },
-        "trendScore": 3300.4
+        "trendScore": 3223.7
       },
       {
         "id": "Wth3vkGBsFo",
@@ -26717,7 +26717,7 @@
           "previousViews": 481862,
           "sampledHours": 24
         },
-        "trendScore": 2055.9
+        "trendScore": 1991.7
       },
       {
         "id": "IRQbBNy5t8s",
@@ -28218,7 +28218,7 @@
           "previousViews": 365365,
           "sampledHours": 24
         },
-        "trendScore": 1851.2
+        "trendScore": 1802.5
       },
       {
         "id": "PWwnAbY8luI",
@@ -28394,7 +28394,7 @@
           "previousViews": 356791,
           "sampledHours": 24
         },
-        "trendScore": 2093.2
+        "trendScore": 2045.6
       },
       {
         "id": "TI8atjJEIdA",
@@ -28571,7 +28571,7 @@
           "previousViews": 347542,
           "sampledHours": 24
         },
-        "trendScore": 1992.6
+        "trendScore": 1946.2
       },
       {
         "id": "t5aCn5kBKUs",
@@ -28791,7 +28791,7 @@
           "previousViews": 340343,
           "sampledHours": 24
         },
-        "trendScore": 1633.6
+        "trendScore": 1588.3
       },
       {
         "id": "9PjI0HRdS_E",
@@ -28902,7 +28902,7 @@
           "previousViews": 331059,
           "sampledHours": 24
         },
-        "trendScore": 1809.8
+        "trendScore": 1765.6
       },
       {
         "id": "gAFSN8SMwGg",
@@ -28968,7 +28968,7 @@
           "previousViews": 328254,
           "sampledHours": 24
         },
-        "trendScore": 1488.1
+        "trendScore": 1444.3
       },
       {
         "id": "WJ7EvXc7hTo",
@@ -29673,7 +29673,7 @@
           "previousViews": 284668,
           "sampledHours": 24
         },
-        "trendScore": 1442.3
+        "trendScore": 1404.4
       },
       {
         "id": "S5cJdiH6Xu0",
@@ -30378,7 +30378,7 @@
           "previousViews": 241068,
           "sampledHours": 24
         },
-        "trendScore": 1350
+        "trendScore": 1317.8
       },
       {
         "id": "z2bfuKAi03g",
@@ -30754,7 +30754,7 @@
           "previousViews": 219906,
           "sampledHours": 24
         },
-        "trendScore": 996.9
+        "trendScore": 967.6
       },
       {
         "id": "jhdCgUluAl0",
@@ -31548,7 +31548,7 @@
           "previousViews": 193073,
           "sampledHours": 24
         },
-        "trendScore": 798
+        "trendScore": 772.3
       },
       {
         "id": "lKQeBNr4194",
@@ -31879,7 +31879,7 @@
           "previousViews": 177081,
           "sampledHours": 24
         },
-        "trendScore": 826.4
+        "trendScore": 802.8
       },
       {
         "id": "Nj8485t64tQ",
@@ -31989,7 +31989,7 @@
           "previousViews": 171042,
           "sampledHours": 24
         },
-        "trendScore": 843.8
+        "trendScore": 821
       },
       {
         "id": "jtd7RszSa_c",
@@ -32188,7 +32188,7 @@
           "previousViews": 159734,
           "sampledHours": 24
         },
-        "trendScore": 873.2
+        "trendScore": 851.9
       },
       {
         "id": "6bfxtv8MR3s",
@@ -32651,7 +32651,7 @@
           "previousViews": 142307,
           "sampledHours": 24
         },
-        "trendScore": 702
+        "trendScore": 683.1
       },
       {
         "id": "Kd9COLaXTAQ",
@@ -32893,7 +32893,7 @@
           "previousViews": 135380,
           "sampledHours": 24
         },
-        "trendScore": 685.9
+        "trendScore": 667.9
       },
       {
         "id": "QIMjiDvj_Bw",
@@ -33818,7 +33818,7 @@
           "previousViews": 105204,
           "sampledHours": 24
         },
-        "trendScore": 575.1
+        "trendScore": 561.1
       },
       {
         "id": "fT7t62vgdwk",
@@ -34457,7 +34457,7 @@
           "previousViews": 84590,
           "sampledHours": 24
         },
-        "trendScore": 439.9
+        "trendScore": 428.6
       },
       {
         "id": "dnTrtXRPbMs",
@@ -34699,7 +34699,7 @@
           "previousViews": 69856,
           "sampledHours": 24
         },
-        "trendScore": 363.3
+        "trendScore": 353.9
       },
       {
         "id": "WmrZyKMZuB4",
@@ -34897,7 +34897,7 @@
           "previousViews": 62019,
           "sampledHours": 24
         },
-        "trendScore": 281.2
+        "trendScore": 272.9
       },
       {
         "id": "KKJHQTAudrc",
@@ -34963,7 +34963,7 @@
           "previousViews": 58966,
           "sampledHours": 24
         },
-        "trendScore": 290.9
+        "trendScore": 283
       },
       {
         "id": "PG84BHTO9ek",
@@ -35161,7 +35161,7 @@
           "previousViews": 53549,
           "sampledHours": 24
         },
-        "trendScore": 299.9
+        "trendScore": 292.7
       },
       {
         "id": "SN84rkcyJ1A",
@@ -35183,7 +35183,7 @@
           "previousViews": 53268,
           "sampledHours": 24
         },
-        "trendScore": 269.9
+        "trendScore": 262.8
       },
       {
         "id": "SvLcc22eOWY",
@@ -35425,7 +35425,7 @@
           "previousViews": 47914,
           "sampledHours": 24
         },
-        "trendScore": 236.4
+        "trendScore": 230
       },
       {
         "id": "k6cgNX203t0",
@@ -35755,7 +35755,7 @@
           "previousViews": 41239,
           "sampledHours": 24
         },
-        "trendScore": 192.4
+        "trendScore": 187
       },
       {
         "id": "Xz-9p78kjKQ",
@@ -36019,7 +36019,7 @@
           "previousViews": 39568,
           "sampledHours": 24
         },
-        "trendScore": 163.5
+        "trendScore": 158.3
       },
       {
         "id": "quPeUI3axQs",
@@ -36349,7 +36349,7 @@
           "previousViews": 36446,
           "sampledHours": 24
         },
-        "trendScore": 174.9
+        "trendScore": 170.1
       },
       {
         "id": "xtfDcJojD7E",
@@ -36547,7 +36547,7 @@
           "previousViews": 34985,
           "sampledHours": 24
         },
-        "trendScore": 214.6
+        "trendScore": 209.9
       },
       {
         "id": "BrJ9CQ3LbVM",
@@ -36723,7 +36723,7 @@
           "previousViews": 33094,
           "sampledHours": 24
         },
-        "trendScore": 207.4
+        "trendScore": 203
       },
       {
         "id": "kex19vaGaww",
@@ -36789,7 +36789,7 @@
           "previousViews": 32653,
           "sampledHours": 24
         },
-        "trendScore": 174.1
+        "trendScore": 169.8
       },
       {
         "id": "jFQmEXSBGpw",
@@ -36811,7 +36811,7 @@
           "previousViews": 32500,
           "sampledHours": 24
         },
-        "trendScore": 173.3
+        "trendScore": 169
       },
       {
         "id": "U3Kkq1oFfpM",
@@ -37317,7 +37317,7 @@
           "previousViews": 28319,
           "sampledHours": 24
         },
-        "trendScore": 166.1
+        "trendScore": 162.4
       },
       {
         "id": "BG-rZd5cmCw",
@@ -37361,7 +37361,7 @@
           "previousViews": 27957,
           "sampledHours": 24
         },
-        "trendScore": 141.6
+        "trendScore": 137.9
       },
       {
         "id": "ukXdTFGves0",
@@ -38131,7 +38131,7 @@
           "previousViews": 24504,
           "sampledHours": 24
         },
-        "trendScore": 101.3
+        "trendScore": 98
       },
       {
         "id": "lj7xKXoajWI",
@@ -38329,7 +38329,7 @@
           "previousViews": 23018,
           "sampledHours": 24
         },
-        "trendScore": 125.8
+        "trendScore": 122.8
       },
       {
         "id": "hLrBy-_-aM8",
@@ -38659,7 +38659,7 @@
           "previousViews": 21757,
           "sampledHours": 24
         },
-        "trendScore": 110.2
+        "trendScore": 107.3
       },
       {
         "id": "dEKMh0hTILQ",
@@ -38747,7 +38747,7 @@
           "previousViews": 21384,
           "sampledHours": 24
         },
-        "trendScore": 114
+        "trendScore": 111.2
       },
       {
         "id": "XAqcDdyZ1rs",
@@ -38769,7 +38769,7 @@
           "previousViews": 21229,
           "sampledHours": 24
         },
-        "trendScore": 90.6
+        "trendScore": 87.7
       },
       {
         "id": "AxsJE3Ny6LY",
@@ -38835,7 +38835,7 @@
           "previousViews": 21144,
           "sampledHours": 24
         },
-        "trendScore": 126.9
+        "trendScore": 124
       },
       {
         "id": "o1SiXkEeXf4",
@@ -39693,7 +39693,7 @@
           "previousViews": 17566,
           "sampledHours": 24
         },
-        "trendScore": 86.7
+        "trendScore": 84.3
       },
       {
         "id": "a7Hd59tpQn4",
@@ -39825,7 +39825,7 @@
           "previousViews": 16820,
           "sampledHours": 24
         },
-        "trendScore": 78.5
+        "trendScore": 76.3
       },
       {
         "id": "XUFpCFzOI8U",
@@ -39935,7 +39935,7 @@
           "previousViews": 16668,
           "sampledHours": 24
         },
-        "trendScore": 86.7
+        "trendScore": 84.5
       },
       {
         "id": "n2a_PyA8whI",
@@ -40067,7 +40067,7 @@
           "previousViews": 15759,
           "sampledHours": 24
         },
-        "trendScore": 88.3
+        "trendScore": 86.1
       },
       {
         "id": "JYcWTjj8v5s",
@@ -40287,7 +40287,7 @@
           "previousViews": 14501,
           "sampledHours": 24
         },
-        "trendScore": 85.1
+        "trendScore": 83.1
       },
       {
         "id": "05Z00opB7X8",
@@ -40925,7 +40925,7 @@
           "previousViews": 10274,
           "sampledHours": 24
         },
-        "trendScore": 58.9
+        "trendScore": 57.5
       },
       {
         "id": "mRInQaJ8_Eg",
@@ -40991,7 +40991,7 @@
           "previousViews": 9616,
           "sampledHours": 24
         },
-        "trendScore": 53.8
+        "trendScore": 52.6
       },
       {
         "id": "YHrIoq47w7g",
@@ -41387,7 +41387,7 @@
           "previousViews": 8473,
           "sampledHours": 24
         },
-        "trendScore": 53.1
+        "trendScore": 52
       },
       {
         "id": "vJ6jnQUosKE",
@@ -41629,7 +41629,7 @@
           "previousViews": 7316,
           "sampledHours": 24
         },
-        "trendScore": 38
+        "trendScore": 37.1
       },
       {
         "id": "etIhchD1iH8",
@@ -41915,7 +41915,7 @@
           "previousViews": 5950,
           "sampledHours": 24
         },
-        "trendScore": 34.1
+        "trendScore": 33.3
       },
       {
         "id": "FdBuAF5BvoM",
@@ -44027,7 +44027,7 @@
           "previousViews": 2019,
           "sampledHours": 24
         },
-        "trendScore": 12.1
+        "trendScore": 11.8
       },
       {
         "id": "o4JmjIztycU",
@@ -44159,7 +44159,7 @@
           "previousViews": 1977,
           "sampledHours": 24
         },
-        "trendScore": 9.2
+        "trendScore": 9
       },
       {
         "id": "c2BZL2by2_U",
@@ -44533,7 +44533,7 @@
           "previousViews": 1828,
           "sampledHours": 24
         },
-        "trendScore": 7.8
+        "trendScore": 7.6
       },
       {
         "id": "4dPCc12GXpo",
@@ -44687,7 +44687,7 @@
           "previousViews": 1743,
           "sampledHours": 24
         },
-        "trendScore": 10.7
+        "trendScore": 10.5
       },
       {
         "id": "jmag2Taf04c",
@@ -44731,7 +44731,7 @@
           "previousViews": 1709,
           "sampledHours": 24
         },
-        "trendScore": 7.3
+        "trendScore": 7.1
       },
       {
         "id": "UUxT9dvqN44",
@@ -45655,7 +45655,7 @@
           "previousViews": 1071,
           "sampledHours": 24
         },
-        "trendScore": 6.1
+        "trendScore": 6
       },
       {
         "id": "yBfdDprbQLs",
@@ -45677,7 +45677,7 @@
           "previousViews": 1062,
           "sampledHours": 24
         },
-        "trendScore": 5.8
+        "trendScore": 5.7
       },
       {
         "id": "KPJggloXfNY",
@@ -46230,37 +46230,6 @@
         "trendScore": 0
       },
       {
-        "id": "XHORgqrRm7w",
-        "views": 3931522,
-        "mult": 49.1,
-        "cat": "릴스형",
-        "ch": "이상한 과자가게  weird sweets shop",
-        "title": "유재석님이 먹고 표정 썩은 레전드 케이크 리뷰",
-        "up": "2026-06-02",
-        "genre": "식품/먹거리",
-        "bucket": "10~50배",
-        "ageDays": 8,
-        "dailyViews": 491440,
-        "trendScore": 23589.1,
-        "qualityReason": "fast-growth; rss-upload-date; public-view-count",
-        "sourceQuery": "간식 추천 쇼츠",
-        "collectedAt": "2026-06-09T22:34:03.416Z",
-        "lt": 0,
-        "collected": "direct-youtube-rss",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UCNYE6N9YZmsUyReBLzE9x9Q",
-        "sourceChannel": "이상한 과자가게  weird sweets shop",
-        "evidence": "youtube-search-channel-rss-public-metadata",
-        "velocity": {
-          "confidence": "snapshot",
-          "viewsDelta": 0,
-          "viewsPerHour": 0,
-          "views24h": 0,
-          "previousViews": 3931522,
-          "sampledHours": 24
-        }
-      },
-      {
         "id": "hh7QUoJ4ni8",
         "views": 368542,
         "mult": 18.4,
@@ -46272,7 +46241,7 @@
         "bucket": "10~50배",
         "ageDays": 2,
         "dailyViews": 184271,
-        "trendScore": 2506.1,
+        "trendScore": 2456.9,
         "qualityReason": "fast-growth; rss-upload-date; public-view-count",
         "sourceQuery": "간식 추천 쇼츠",
         "collectedAt": "2026-06-09T22:34:02.224Z",
@@ -46303,7 +46272,7 @@
         "bucket": "5~10배",
         "ageDays": 1,
         "dailyViews": 92722,
-        "trendScore": 642.9,
+        "trendScore": 630.5,
         "qualityReason": "fast-growth; rss-upload-date; public-view-count",
         "sourceQuery": "다이소 추천 쇼츠",
         "collectedAt": "2026-06-09T22:33:33.747Z",
@@ -46334,7 +46303,7 @@
         "bucket": "5~10배",
         "ageDays": 4,
         "dailyViews": 80446,
-        "trendScore": 2102.3,
+        "trendScore": 2059.4,
         "qualityReason": "fast-growth; rss-upload-date; public-view-count",
         "sourceQuery": "다이소 추천 쇼츠",
         "collectedAt": "2026-06-09T22:33:39.807Z",
@@ -46365,7 +46334,7 @@
         "bucket": "2~3배",
         "ageDays": 2,
         "dailyViews": 22939,
-        "trendScore": 312,
+        "trendScore": 305.8,
         "qualityReason": "fast-growth; rss-upload-date; public-view-count",
         "sourceQuery": "뷰티템 추천 쇼츠",
         "collectedAt": "2026-06-09T22:34:33.998Z",
@@ -46396,7 +46365,7 @@
         "bucket": "2~3배",
         "ageDays": 3,
         "dailyViews": 15265,
-        "trendScore": 305.3,
+        "trendScore": 299.2,
         "qualityReason": "fast-growth; rss-upload-date; public-view-count",
         "sourceQuery": "뷰티템 추천 쇼츠",
         "collectedAt": "2026-06-09T22:34:34.764Z",
@@ -46427,7 +46396,7 @@
         "bucket": "2~3배",
         "ageDays": 4,
         "dailyViews": 11692,
-        "trendScore": 305.6,
+        "trendScore": 299.3,
         "qualityReason": "fast-growth; rss-upload-date; public-view-count",
         "sourceQuery": "패션 잡화 추천 쇼츠",
         "collectedAt": "2026-06-09T22:34:26.622Z",
@@ -46447,37 +46416,6 @@
         }
       },
       {
-        "id": "7x0WkzScU1A",
-        "views": 55622,
-        "mult": 0.7,
-        "cat": "릴스형",
-        "ch": "핏더사이즈",
-        "title": "신세계가 열렸다.. AI 안경 간단 리뷰🙏🏻 #협찬",
-        "up": "2026-06-02",
-        "genre": "패션/잡화",
-        "bucket": "2~3배",
-        "ageDays": 8,
-        "dailyViews": 6953,
-        "trendScore": 333.7,
-        "qualityReason": "high-traffic; rss-upload-date; public-view-count",
-        "sourceQuery": "패션 잡화 추천 쇼츠",
-        "collectedAt": "2026-06-09T22:34:27.017Z",
-        "lt": 0,
-        "collected": "direct-youtube-rss",
-        "metricSource": "https://inv.thepixora.com",
-        "sourceChannelId": "UCKWv0ScT6PpZcpg7ivUVWLA",
-        "sourceChannel": "핏더사이즈",
-        "evidence": "youtube-search-channel-rss-public-metadata",
-        "velocity": {
-          "confidence": "snapshot",
-          "viewsDelta": 0,
-          "viewsPerHour": 0,
-          "views24h": 0,
-          "previousViews": 55622,
-          "sampledHours": 24
-        }
-      },
-      {
         "id": "cjoyEZELgvM",
         "views": 134582,
         "mult": 1.9,
@@ -46489,7 +46427,7 @@
         "bucket": "2~3배",
         "ageDays": 7,
         "dailyViews": 19226,
-        "trendScore": 825.4,
+        "trendScore": 807.5,
         "qualityReason": "fast-growth; rss-upload-date; public-view-count",
         "sourceQuery": "살림템 추천 쇼츠",
         "collectedAt": "2026-06-09T22:44:08.305Z",
@@ -46520,7 +46458,7 @@
         "bucket": "2~3배",
         "ageDays": 7,
         "dailyViews": 10218,
-        "trendScore": 438.7,
+        "trendScore": 429.2,
         "qualityReason": "fast-growth; rss-upload-date; public-view-count",
         "sourceQuery": "다이소 추천 쇼츠",
         "collectedAt": "2026-06-09T22:53:37.519Z",
@@ -46551,7 +46489,7 @@
         "bucket": "2~3배",
         "ageDays": 5,
         "dailyViews": 6159,
-        "trendScore": 197.1,
+        "trendScore": 193,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "sourceQuery": "다이소 추천 쇼츠",
         "collectedAt": "2026-06-09T22:58:15.079Z",
@@ -46582,7 +46520,7 @@
         "bucket": "2~3배",
         "ageDays": 2,
         "dailyViews": 21654,
-        "trendScore": 294.5,
+        "trendScore": 288.7,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -46604,39 +46542,6 @@
         }
       },
       {
-        "id": "oL3x3sz2jeU",
-        "views": 75854,
-        "mult": 0.9,
-        "cat": "릴스형",
-        "ch": "MINDELI민델리",
-        "title": "많이 물으시는 누브라 추천 말아왔듀..🩵 #여름브라 #누브라 #오프숄더브라 #여름속옷",
-        "up": "2026-06-02",
-        "genre": "화장품/뷰티",
-        "bucket": "1~2배",
-        "ageDays": 8,
-        "dailyViews": 9482,
-        "trendScore": 455.1,
-        "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
-        "tier": "trend",
-        "signalLabel": "급상승",
-        "sourceQuery": "화장품 추천 쇼츠",
-        "collectedAt": "2026-06-09T23:15:49.264Z",
-        "lt": 0,
-        "collected": "direct-youtube-rss",
-        "metricSource": "youtube-rss-feed",
-        "sourceChannelId": "UCNcstCjc7E85wttJMn7OD9Q",
-        "sourceChannel": "MINDELI민델리",
-        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
-        "velocity": {
-          "confidence": "snapshot",
-          "viewsDelta": 0,
-          "viewsPerHour": 0,
-          "views24h": 0,
-          "previousViews": 75854,
-          "sampledHours": 24
-        }
-      },
-      {
         "id": "BX-J7eThcCo",
         "views": 77837,
         "mult": 7.8,
@@ -46648,7 +46553,7 @@
         "bucket": "5~10배",
         "ageDays": 1,
         "dailyViews": 77837,
-        "trendScore": 550,
+        "trendScore": 539.7,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -46670,39 +46575,6 @@
         }
       },
       {
-        "id": "7z5kdm8FWbU",
-        "views": 232759,
-        "mult": 2.6,
-        "cat": "릴스형",
-        "ch": "리뷰팁",
-        "title": "입고되자마자 싹 사라지는 다이소 품절템 9가지",
-        "up": "2026-06-02",
-        "genre": "주방/생활용품",
-        "bucket": "2~3배",
-        "ageDays": 9,
-        "dailyViews": 25862,
-        "trendScore": 1396.6,
-        "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
-        "tier": "trend",
-        "signalLabel": "급상승",
-        "sourceQuery": "다이소 추천 쇼츠",
-        "collectedAt": "2026-06-10T20:45:00.729Z",
-        "lt": 0,
-        "collected": "direct-youtube-rss",
-        "metricSource": "youtube-rss-feed",
-        "sourceChannelId": "UClPRQStnS8ENoiWrF-yADWw",
-        "sourceChannel": "리뷰팁",
-        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
-        "velocity": {
-          "confidence": "snapshot",
-          "viewsDelta": 0,
-          "viewsPerHour": 0,
-          "views24h": 0,
-          "previousViews": 232759,
-          "sampledHours": 24
-        }
-      },
-      {
         "id": "I6Ee8a5oL3M",
         "views": 36415,
         "mult": 0.6,
@@ -46714,7 +46586,7 @@
         "bucket": "1~2배",
         "ageDays": 6,
         "dailyViews": 6069,
-        "trendScore": 233.1,
+        "trendScore": 228.2,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -46747,7 +46619,7 @@
         "bucket": "5~10배",
         "ageDays": 1,
         "dailyViews": 67030,
-        "trendScore": 482.6,
+        "trendScore": 473.7,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -46780,7 +46652,7 @@
         "bucket": "5~10배",
         "ageDays": 2,
         "dailyViews": 54276,
-        "trendScore": 767.1,
+        "trendScore": 752.6,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -46813,7 +46685,7 @@
         "bucket": "3~5배",
         "ageDays": 4,
         "dailyViews": 36781,
-        "trendScore": 1000.4,
+        "trendScore": 980.8,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -46846,7 +46718,7 @@
         "bucket": "2~3배",
         "ageDays": 6,
         "dailyViews": 26738,
-        "trendScore": 1048.1,
+        "trendScore": 1026.7,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -46879,7 +46751,7 @@
         "bucket": "1~2배",
         "ageDays": 7,
         "dailyViews": 16173,
-        "trendScore": 724.6,
+        "trendScore": 709.5,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -46912,7 +46784,7 @@
         "bucket": "1~2배",
         "ageDays": 3,
         "dailyViews": 16333,
-        "trendScore": 346.3,
+        "trendScore": 339.7,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -46934,39 +46806,6 @@
         }
       },
       {
-        "id": "BP4yQLAaYkY",
-        "views": 43219,
-        "mult": 0.4,
-        "cat": "릴스형",
-        "ch": "다이소",
-        "title": "#다이소신상 #도트스트링백팩🎒 이 조합 누가 참는데...🥹💗 블랙&화이트 도트 완전 감다살 조합⚪⚫ 💗 핑크 핀뱃지 달아주면 완성🎀#다이소 #다이소신상 #도트가방",
-        "up": "2026-06-02",
-        "genre": "주방/생활용품",
-        "bucket": "1~2배",
-        "ageDays": 11,
-        "dailyViews": 3929,
-        "trendScore": 259.3,
-        "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
-        "tier": "trend",
-        "signalLabel": "급상승",
-        "sourceQuery": "다이소 추천 쇼츠",
-        "collectedAt": "2026-06-12T20:25:11.930Z",
-        "lt": 0,
-        "collected": "direct-youtube-rss",
-        "metricSource": "youtube-rss-feed",
-        "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
-        "sourceChannel": "다이소",
-        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
-        "velocity": {
-          "confidence": "snapshot",
-          "viewsDelta": 0,
-          "viewsPerHour": 0,
-          "views24h": 0,
-          "previousViews": 43219,
-          "sampledHours": 24
-        }
-      },
-      {
         "id": "1QNIZ0XhodM",
         "views": 32090,
         "mult": 0.3,
@@ -46978,7 +46817,7 @@
         "bucket": "1~2배",
         "ageDays": 10,
         "dailyViews": 3209,
-        "trendScore": 201.1,
+        "trendScore": 196.8,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47011,7 +46850,7 @@
         "bucket": "5~10배",
         "ageDays": 2,
         "dailyViews": 64711,
-        "trendScore": 983.6,
+        "trendScore": 966.4,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47044,7 +46883,7 @@
         "bucket": "3~5배",
         "ageDays": 1,
         "dailyViews": 46724,
-        "trendScore": 361.3,
+        "trendScore": 355.1,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47077,7 +46916,7 @@
         "bucket": "2~3배",
         "ageDays": 11,
         "dailyViews": 5937,
-        "trendScore": 221.9,
+        "trendScore": 217.3,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47110,7 +46949,7 @@
         "bucket": "5~10배",
         "ageDays": 1,
         "dailyViews": 50566,
-        "trendScore": 397.8,
+        "trendScore": 391,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47143,7 +46982,7 @@
         "bucket": "3~5배",
         "ageDays": 1,
         "dailyViews": 36549,
-        "trendScore": 287.5,
+        "trendScore": 282.6,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47176,7 +47015,7 @@
         "bucket": "1~2배",
         "ageDays": 14,
         "dailyViews": 6921,
-        "trendScore": 594.3,
+        "trendScore": 581.4,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47209,7 +47048,7 @@
         "bucket": "3~5배",
         "ageDays": 1,
         "dailyViews": 32185,
-        "trendScore": 257.5,
+        "trendScore": 253.2,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47231,39 +47070,6 @@
         }
       },
       {
-        "id": "Mrh16qc0Kbg",
-        "views": 112076,
-        "mult": 1.5,
-        "cat": "릴스형",
-        "ch": "살림로그_살림을 기록하다.",
-        "title": "[DJI ROMO P] 드론 세계 1위가 로봇청소기를 만들면 생기는 일 #로봇청소기 #살림템 #DJIROMOP",
-        "up": "2026-06-02",
-        "genre": "주방/생활용품",
-        "bucket": "2~3배",
-        "ageDays": 17,
-        "dailyViews": 14967,
-        "trendScore": 672.5,
-        "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
-        "tier": "trend",
-        "signalLabel": "급상승",
-        "sourceQuery": "살림템 추천 쇼츠",
-        "collectedAt": "2026-06-18T20:38:02.295Z",
-        "lt": 0,
-        "collected": "direct-youtube-rss",
-        "metricSource": "youtube-rss-feed",
-        "sourceChannelId": "UCx8uFUihkZnQRU6lVJXs7Dg",
-        "sourceChannel": "살림로그_살림을 기록하다.",
-        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
-        "velocity": {
-          "confidence": "snapshot",
-          "viewsDelta": 0,
-          "viewsPerHour": 0,
-          "views24h": 0,
-          "previousViews": 112076,
-          "sampledHours": 24
-        }
-      },
-      {
         "id": "bAwIq6HXJ8I",
         "views": 39596,
         "mult": 4,
@@ -47275,7 +47081,7 @@
         "bucket": "3~5배",
         "ageDays": 1,
         "dailyViews": 39596,
-        "trendScore": 337.9,
+        "trendScore": 332.6,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47308,7 +47114,7 @@
         "bucket": "1~2배",
         "ageDays": 7,
         "dailyViews": 5851,
-        "trendScore": 316.7,
+        "trendScore": 311.3,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47341,7 +47147,7 @@
         "bucket": "3~5배",
         "ageDays": 2,
         "dailyViews": 44250,
-        "trendScore": 755.2,
+        "trendScore": 743.4,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47374,7 +47180,7 @@
         "bucket": "3~5배",
         "ageDays": 1,
         "dailyViews": 39128,
-        "trendScore": 339.1,
+        "trendScore": 333.9,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47407,7 +47213,7 @@
         "bucket": "3~5배",
         "ageDays": 2,
         "dailyViews": 33291,
-        "trendScore": 568.2,
+        "trendScore": 559.3,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47440,7 +47246,7 @@
         "bucket": "1~2배",
         "ageDays": 5,
         "dailyViews": 7608,
-        "trendScore": 309.4,
+        "trendScore": 304.3,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47473,7 +47279,7 @@
         "bucket": "2~3배",
         "ageDays": 13,
         "dailyViews": 2081,
-        "trendScore": 236.1,
+        "trendScore": 231.6,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47506,7 +47312,7 @@
         "bucket": "2~3배",
         "ageDays": 14,
         "dailyViews": 644,
-        "trendScore": 220.4,
+        "trendScore": 216.2,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47539,7 +47345,7 @@
         "bucket": "10~50배",
         "ageDays": 11,
         "dailyViews": 233032,
-        "trendScore": 1889.1,
+        "trendScore": 1855.4,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47572,7 +47378,7 @@
         "bucket": "10~50배",
         "ageDays": 12,
         "dailyViews": 100129,
-        "trendScore": 1528.9,
+        "trendScore": 1501.1,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47605,7 +47411,7 @@
         "bucket": "2~3배",
         "ageDays": 15,
         "dailyViews": 2263,
-        "trendScore": 276.5,
+        "trendScore": 271.1,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47638,7 +47444,7 @@
         "bucket": "1~2배",
         "ageDays": 9,
         "dailyViews": 3675,
-        "trendScore": 260.2,
+        "trendScore": 255.8,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47671,7 +47477,7 @@
         "bucket": "1~2배",
         "ageDays": 8,
         "dailyViews": 7781,
-        "trendScore": 506.3,
+        "trendScore": 498,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47704,7 +47510,7 @@
         "bucket": "1~2배",
         "ageDays": 3,
         "dailyViews": 12359,
-        "trendScore": 331.2,
+        "trendScore": 326.3,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47737,7 +47543,7 @@
         "bucket": "1~2배",
         "ageDays": 15,
         "dailyViews": 3633,
-        "trendScore": 399.7,
+        "trendScore": 392.4,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47770,7 +47576,7 @@
         "bucket": "2~3배",
         "ageDays": 11,
         "dailyViews": 21502,
-        "trendScore": 305.8,
+        "trendScore": 300.6,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47803,7 +47609,7 @@
         "bucket": "1~2배",
         "ageDays": 12,
         "dailyViews": 3474,
-        "trendScore": 322.4,
+        "trendScore": 316.9,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47836,7 +47642,7 @@
         "bucket": "2~3배",
         "ageDays": 14,
         "dailyViews": 9614,
-        "trendScore": 366.8,
+        "trendScore": 360.5,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47869,7 +47675,7 @@
         "bucket": "2~3배",
         "ageDays": 11,
         "dailyViews": 26533,
-        "trendScore": 436,
+        "trendScore": 429.1,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47902,7 +47708,7 @@
         "bucket": "1~2배",
         "ageDays": 7,
         "dailyViews": 5122,
-        "trendScore": 325.1,
+        "trendScore": 320.3,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47935,7 +47741,7 @@
         "bucket": "1~2배",
         "ageDays": 16,
         "dailyViews": 1948,
-        "trendScore": 245.2,
+        "trendScore": 241,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -47968,7 +47774,7 @@
         "bucket": "5~10배",
         "ageDays": 1,
         "dailyViews": 68697,
-        "trendScore": 696.1,
+        "trendScore": 687,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -48001,7 +47807,7 @@
         "bucket": "1~2배",
         "ageDays": 9,
         "dailyViews": 6190,
-        "trendScore": 505.1,
+        "trendScore": 497.7,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -48034,7 +47840,7 @@
         "bucket": "1~2배",
         "ageDays": 9,
         "dailyViews": 4188,
-        "trendScore": 341.8,
+        "trendScore": 336.7,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -48067,7 +47873,7 @@
         "bucket": "1~2배",
         "ageDays": 8,
         "dailyViews": 5500,
-        "trendScore": 410.7,
+        "trendScore": 404.8,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -48100,7 +47906,7 @@
         "bucket": "2~3배",
         "ageDays": 12,
         "dailyViews": 19222,
-        "trendScore": 459,
+        "trendScore": 452.1,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -48133,7 +47939,7 @@
         "bucket": "3~5배",
         "ageDays": 1,
         "dailyViews": 35584,
-        "trendScore": 370.1,
+        "trendScore": 365.3,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -48166,7 +47972,7 @@
         "bucket": "1~2배",
         "ageDays": 7,
         "dailyViews": 15074,
-        "trendScore": 1013,
+        "trendScore": 998.9,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -48199,7 +48005,7 @@
         "bucket": "3~5배",
         "ageDays": 11,
         "dailyViews": 42081,
-        "trendScore": 460.7,
+        "trendScore": 453.9,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -48232,7 +48038,7 @@
         "bucket": "3~5배",
         "ageDays": 1,
         "dailyViews": 45365,
-        "trendScore": 477.8,
+        "trendScore": 471.8,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -48265,7 +48071,7 @@
         "bucket": "5~10배",
         "ageDays": 11,
         "dailyViews": 67371,
-        "trendScore": 907.8,
+        "trendScore": 894.6,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -48298,7 +48104,7 @@
         "bucket": "1~2배",
         "ageDays": 24,
         "dailyViews": 7984,
-        "trendScore": 1430.8,
+        "trendScore": 1405.3,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -48331,7 +48137,7 @@
         "bucket": "1~2배",
         "ageDays": 12,
         "dailyViews": 2783,
-        "trendScore": 302.7,
+        "trendScore": 298.3,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -48364,7 +48170,7 @@
         "bucket": "2~3배",
         "ageDays": 17,
         "dailyViews": 3936,
-        "trendScore": 376,
+        "trendScore": 370,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -48397,7 +48203,7 @@
         "bucket": "1~2배",
         "ageDays": 28,
         "dailyViews": 1351,
-        "trendScore": 262.3,
+        "trendScore": 257.2,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -48430,7 +48236,7 @@
         "bucket": "10~50배",
         "ageDays": 11,
         "dailyViews": 296759,
-        "trendScore": 2872.1,
+        "trendScore": 2831,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -48452,72 +48258,6 @@
         }
       },
       {
-        "id": "nJ49xIbAmes",
-        "views": 21605,
-        "mult": 2.2,
-        "cat": "릴스형",
-        "ch": "제이미포유 Jaymeeforyou",
-        "title": "다이소 신상, 올영 대체 가능?;🧐(가격 차이 8배) #리뷰",
-        "up": "2026-07-07",
-        "genre": "화장품/뷰티",
-        "bucket": "2~3배",
-        "ageDays": 1,
-        "dailyViews": 21605,
-        "trendScore": 230.5,
-        "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
-        "tier": "trend",
-        "signalLabel": "급상승",
-        "sourceQuery": "뷰티템 추천 쇼츠",
-        "collectedAt": "2026-07-07T20:12:58.238Z",
-        "lt": 0,
-        "collected": "direct-youtube-rss",
-        "metricSource": "youtube-rss-feed",
-        "sourceChannelId": "UClJNgnMWzvEzJuLcpH7m4vQ",
-        "sourceChannel": "제이미포유 Jaymeeforyou",
-        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
-        "velocity": {
-          "confidence": "snapshot",
-          "viewsDelta": 0,
-          "viewsPerHour": 0,
-          "views24h": 0,
-          "previousViews": 21605,
-          "sampledHours": 24
-        }
-      },
-      {
-        "id": "lEH9gpmHof8",
-        "views": 16782,
-        "mult": 1.7,
-        "cat": "릴스형",
-        "ch": "다이소",
-        "title": "다이소 빙돌빙돌 문구 시리즈 출시!💙 ➿빙수 스티커&돌고래 마테! 🐬 카라비너 & 타포린백 키링!✨ 여름 감성 문구템 GO~ #다이소 #다이소신상 #빙돌빙돌시리즈",
-        "up": "2026-07-07",
-        "genre": "주방/생활용품",
-        "bucket": "1~2배",
-        "ageDays": 1,
-        "dailyViews": 16782,
-        "trendScore": 179,
-        "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
-        "tier": "trend",
-        "signalLabel": "급상승",
-        "sourceQuery": "다이소 추천 쇼츠",
-        "collectedAt": "2026-07-07T20:12:53.422Z",
-        "lt": 0,
-        "collected": "direct-youtube-rss",
-        "metricSource": "youtube-rss-feed",
-        "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
-        "sourceChannel": "다이소",
-        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
-        "velocity": {
-          "confidence": "snapshot",
-          "viewsDelta": 0,
-          "viewsPerHour": 0,
-          "views24h": 0,
-          "previousViews": 16782,
-          "sampledHours": 24
-        }
-      },
-      {
         "id": "9iTO-04avZg",
         "views": 57413,
         "mult": 1.4,
@@ -48529,7 +48269,7 @@
         "bucket": "1~2배",
         "ageDays": 4,
         "dailyViews": 14353,
-        "trendScore": 589.4,
+        "trendScore": 581.8,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -48551,204 +48291,6 @@
         }
       },
       {
-        "id": "awjdEoJtiQI",
-        "views": 9858,
-        "mult": 1,
-        "cat": "릴스형",
-        "ch": "다이소",
-        "title": "💗💧 다이소에 베리썸 신상 타투틴트 떴다!✨과즙잼광🍓부터워터시럽💧까지!전 컬러 3,000원✨ #다이소#다이소신상#다이소추천템 #daiso #다이소화장품 #베리썸 #다이소틴트",
-        "up": "2026-07-07",
-        "genre": "주방/생활용품",
-        "bucket": "1~2배",
-        "ageDays": 1,
-        "dailyViews": 9858,
-        "trendScore": 105.2,
-        "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
-        "tier": "fresh",
-        "signalLabel": "신선후보",
-        "sourceQuery": "다이소 추천 쇼츠",
-        "collectedAt": "2026-07-07T20:12:53.422Z",
-        "lt": 0,
-        "collected": "direct-youtube-rss",
-        "metricSource": "youtube-rss-feed",
-        "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
-        "sourceChannel": "다이소",
-        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
-        "velocity": {
-          "confidence": "snapshot",
-          "viewsDelta": 0,
-          "viewsPerHour": 0,
-          "views24h": 0,
-          "previousViews": 9858,
-          "sampledHours": 24
-        }
-      },
-      {
-        "id": "q1_yryIOzcA",
-        "views": 7489,
-        "mult": 0.7,
-        "cat": "릴스형",
-        "ch": "꼼수살림",
-        "title": "코스트코 신상 꿀템 5가지!",
-        "up": "2026-07-07",
-        "genre": "주방/생활용품",
-        "bucket": "1~2배",
-        "ageDays": 1,
-        "dailyViews": 7489,
-        "trendScore": 79.9,
-        "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
-        "tier": "fresh",
-        "signalLabel": "신선후보",
-        "sourceQuery": "살림템 추천 쇼츠",
-        "collectedAt": "2026-07-07T20:12:53.420Z",
-        "lt": 0,
-        "collected": "direct-youtube-rss",
-        "metricSource": "youtube-rss-feed",
-        "sourceChannelId": "UCj3LfARKs2hmDuIHhPYIO2A",
-        "sourceChannel": "꼼수살림",
-        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
-        "velocity": {
-          "confidence": "snapshot",
-          "viewsDelta": 0,
-          "viewsPerHour": 0,
-          "views24h": 0,
-          "previousViews": 7489,
-          "sampledHours": 24
-        }
-      },
-      {
-        "id": "kFlMGTTXFu0",
-        "views": 6643,
-        "mult": 0.7,
-        "cat": "릴스형",
-        "ch": "살림로그_살림을 기록하다.",
-        "title": "화장실청소 한 번도 안해본 남편 사람도 완벽하게 할 수 있습니다. #화장실청소 #살림노하우 #청소꿀팁",
-        "up": "2026-07-07",
-        "genre": "주방/생활용품",
-        "bucket": "1~2배",
-        "ageDays": 1,
-        "dailyViews": 6643,
-        "trendScore": 70.9,
-        "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
-        "tier": "fresh",
-        "signalLabel": "신선후보",
-        "sourceQuery": "살림템 추천 쇼츠",
-        "collectedAt": "2026-07-07T20:12:53.420Z",
-        "lt": 0,
-        "collected": "direct-youtube-rss",
-        "metricSource": "youtube-rss-feed",
-        "sourceChannelId": "UCx8uFUihkZnQRU6lVJXs7Dg",
-        "sourceChannel": "살림로그_살림을 기록하다.",
-        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
-        "velocity": {
-          "confidence": "snapshot",
-          "viewsDelta": 0,
-          "viewsPerHour": 0,
-          "views24h": 0,
-          "previousViews": 6643,
-          "sampledHours": 24
-        }
-      },
-      {
-        "id": "vbzSFa7h0Q4",
-        "views": 3056,
-        "mult": 0.3,
-        "cat": "릴스형",
-        "ch": "꼼수살림",
-        "title": "어디에도 없는 활용도 끝판왕 꿀템!",
-        "up": "2026-07-07",
-        "genre": "주방/생활용품",
-        "bucket": "1~2배",
-        "ageDays": 1,
-        "dailyViews": 3056,
-        "trendScore": 32.6,
-        "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
-        "tier": "fresh",
-        "signalLabel": "신선후보",
-        "sourceQuery": "살림템 추천 쇼츠",
-        "collectedAt": "2026-07-07T20:12:53.420Z",
-        "lt": 0,
-        "collected": "direct-youtube-rss",
-        "metricSource": "youtube-rss-feed",
-        "sourceChannelId": "UCj3LfARKs2hmDuIHhPYIO2A",
-        "sourceChannel": "꼼수살림",
-        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
-        "velocity": {
-          "confidence": "snapshot",
-          "viewsDelta": 0,
-          "viewsPerHour": 0,
-          "views24h": 0,
-          "previousViews": 3056,
-          "sampledHours": 24
-        }
-      },
-      {
-        "id": "vNCTg4U-VG4",
-        "views": 1867,
-        "mult": 0.2,
-        "cat": "릴스형",
-        "ch": "스튜디오 한벨",
-        "title": "✨ 더 많은 미샤와 프리미엄 브랜드 아이템은 라이브에서 함께 만나보세요❤️ #럭셔리패션 #데일리룩코디 #ootd #여름코디 #빈티지 #fashion",
-        "up": "2026-07-07",
-        "genre": "패션/잡화",
-        "bucket": "1~2배",
-        "ageDays": 1,
-        "dailyViews": 1867,
-        "trendScore": 19.9,
-        "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
-        "tier": "fresh",
-        "signalLabel": "신선후보",
-        "sourceQuery": "패션 잡화 추천 쇼츠",
-        "collectedAt": "2026-07-07T20:13:01.317Z",
-        "lt": 0,
-        "collected": "direct-youtube-rss",
-        "metricSource": "youtube-rss-feed",
-        "sourceChannelId": "UCSmdlPqy5WMh-XS7zIsDLtg",
-        "sourceChannel": "스튜디오 한벨",
-        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
-        "velocity": {
-          "confidence": "snapshot",
-          "viewsDelta": 0,
-          "viewsPerHour": 0,
-          "views24h": 0,
-          "previousViews": 1867,
-          "sampledHours": 24
-        }
-      },
-      {
-        "id": "6DOujxe1PRk",
-        "views": 1317,
-        "mult": 0.1,
-        "cat": "릴스형",
-        "ch": "두배로꿀팁",
-        "title": "굴러다니는 집안 잡동사니 깔끔하게 싹 정리되는 역대급 캐비닛 #두배로꿀팁 #소문난홈 #살림꿀템 #집안정리 #shorts",
-        "up": "2026-07-07",
-        "genre": "주방/생활용품",
-        "bucket": "1~2배",
-        "ageDays": 1,
-        "dailyViews": 1317,
-        "trendScore": 14,
-        "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
-        "tier": "fresh",
-        "signalLabel": "신선후보",
-        "sourceQuery": "살림템 추천 쇼츠",
-        "collectedAt": "2026-07-07T20:12:53.417Z",
-        "lt": 0,
-        "collected": "direct-youtube-rss",
-        "metricSource": "youtube-rss-feed",
-        "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
-        "sourceChannel": "두배로꿀팁",
-        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
-        "velocity": {
-          "confidence": "snapshot",
-          "viewsDelta": 0,
-          "viewsPerHour": 0,
-          "views24h": 0,
-          "previousViews": 1317,
-          "sampledHours": 24
-        }
-      },
-      {
         "id": "CMWGuQ57p-4",
         "views": 19112,
         "mult": 1.9,
@@ -48760,7 +48302,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 19112,
-        "trendScore": 206.4,
+        "trendScore": 203.9,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -48793,7 +48335,7 @@
         "bucket": "1~2배",
         "ageDays": 3,
         "dailyViews": 15134,
-        "trendScore": 478.2,
+        "trendScore": 472.2,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -48826,7 +48368,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 8780,
-        "trendScore": 94.8,
+        "trendScore": 93.7,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -48859,7 +48401,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 7315,
-        "trendScore": 79,
+        "trendScore": 78,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -48892,7 +48434,7 @@
         "bucket": "1~2배",
         "ageDays": 22,
         "dailyViews": 3329,
-        "trendScore": 585.8,
+        "trendScore": 576.1,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -48925,7 +48467,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 1430,
-        "trendScore": 15.4,
+        "trendScore": 15.3,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -48958,7 +48500,7 @@
         "bucket": "2~3배",
         "ageDays": 1,
         "dailyViews": 28470,
-        "trendScore": 311.3,
+        "trendScore": 307.5,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -48991,7 +48533,7 @@
         "bucket": "2~3배",
         "ageDays": 2,
         "dailyViews": 23332,
-        "trendScore": 504,
+        "trendScore": 497.7,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -49024,7 +48566,7 @@
         "bucket": "2~3배",
         "ageDays": 16,
         "dailyViews": 4779,
-        "trendScore": 522.9,
+        "trendScore": 515.1,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -49057,7 +48599,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 1464,
-        "trendScore": 16,
+        "trendScore": 15.8,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -49090,7 +48632,7 @@
         "bucket": "1~2배",
         "ageDays": 2,
         "dailyViews": 1070,
-        "trendScore": 23.1,
+        "trendScore": 22.8,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -49123,7 +48665,7 @@
         "bucket": "10~50배",
         "ageDays": 11,
         "dailyViews": 286829,
-        "trendScore": 3024.5,
+        "trendScore": 2983.1,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -49156,7 +48698,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 9777,
-        "trendScore": 108.2,
+        "trendScore": 106.9,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -49189,7 +48731,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 5426,
-        "trendScore": 60,
+        "trendScore": 59.3,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -49222,7 +48764,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 1484,
-        "trendScore": 16.4,
+        "trendScore": 16.2,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -49255,7 +48797,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 1065,
-        "trendScore": 11.8,
+        "trendScore": 11.6,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -49288,7 +48830,7 @@
         "bucket": "3~5배",
         "ageDays": 1,
         "dailyViews": 42973,
-        "trendScore": 481.3,
+        "trendScore": 475.6,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -49321,7 +48863,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 1638,
-        "trendScore": 18.3,
+        "trendScore": 18.1,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -49354,7 +48896,7 @@
         "bucket": "1~2배",
         "ageDays": 3,
         "dailyViews": 697,
-        "trendScore": 22.9,
+        "trendScore": 22.6,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -49387,7 +48929,7 @@
         "bucket": "3~5배",
         "ageDays": 4,
         "dailyViews": 33865,
-        "trendScore": 1481,
+        "trendScore": 1463,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -49420,7 +48962,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 1320,
-        "trendScore": 15,
+        "trendScore": 14.8,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -49453,7 +48995,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 1284,
-        "trendScore": 14.6,
+        "trendScore": 14.4,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -49486,7 +49028,7 @@
         "bucket": "2~3배",
         "ageDays": 5,
         "dailyViews": 93,
-        "trendScore": 12,
+        "trendScore": 11.9,
         "qualityReason": "fresh-views; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -49519,7 +49061,7 @@
         "bucket": "3~5배",
         "ageDays": 1,
         "dailyViews": 39257,
-        "trendScore": 450.1,
+        "trendScore": 444.9,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -49552,7 +49094,7 @@
         "bucket": "1~2배",
         "ageDays": 5,
         "dailyViews": 9868,
-        "trendScore": 539.5,
+        "trendScore": 532.9,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -49585,7 +49127,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 1147,
-        "trendScore": 13.2,
+        "trendScore": 13,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -49618,7 +49160,7 @@
         "bucket": "1~2배",
         "ageDays": 2,
         "dailyViews": 9145,
-        "trendScore": 209.7,
+        "trendScore": 207.3,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -49651,7 +49193,7 @@
         "bucket": "1~2배",
         "ageDays": 4,
         "dailyViews": 3652,
-        "trendScore": 163.6,
+        "trendScore": 161.7,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -49684,7 +49226,7 @@
         "bucket": "1~2배",
         "ageDays": 3,
         "dailyViews": 1810,
-        "trendScore": 61.5,
+        "trendScore": 60.8,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -49717,7 +49259,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 1220,
-        "trendScore": 14.2,
+        "trendScore": 14,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -49750,7 +49292,7 @@
         "bucket": "3~5배",
         "ageDays": 4,
         "dailyViews": 33255,
-        "trendScore": 1507.5,
+        "trendScore": 1489.8,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -49783,7 +49325,7 @@
         "bucket": "2~3배",
         "ageDays": 3,
         "dailyViews": 20589,
-        "trendScore": 708.3,
+        "trendScore": 700,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -49816,7 +49358,7 @@
         "bucket": "10~50배",
         "ageDays": 11,
         "dailyViews": 139152,
-        "trendScore": 1651.5,
+        "trendScore": 1630.3,
         "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -49849,7 +49391,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 8883,
-        "trendScore": 104.2,
+        "trendScore": 103,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -49882,7 +49424,7 @@
         "bucket": "1~2배",
         "ageDays": 8,
         "dailyViews": 6003,
-        "trendScore": 518.6,
+        "trendScore": 512.2,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -49915,7 +49457,7 @@
         "bucket": "1~2배",
         "ageDays": 2,
         "dailyViews": 5031,
-        "trendScore": 116.7,
+        "trendScore": 115.4,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -49948,7 +49490,7 @@
         "bucket": "2~3배",
         "ageDays": 14,
         "dailyViews": 11471,
-        "trendScore": 563.2,
+        "trendScore": 555.7,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -49981,7 +49523,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 3955,
-        "trendScore": 46.4,
+        "trendScore": 45.9,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -50014,7 +49556,7 @@
         "bucket": "1~2배",
         "ageDays": 15,
         "dailyViews": 2316,
-        "trendScore": 342.7,
+        "trendScore": 338.1,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -50047,7 +49589,7 @@
         "bucket": "1~2배",
         "ageDays": 18,
         "dailyViews": 2211,
-        "trendScore": 376.7,
+        "trendScore": 371.4,
         "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
         "tier": "trend",
         "signalLabel": "급상승",
@@ -50080,7 +49622,7 @@
         "bucket": "1~2배",
         "ageDays": 4,
         "dailyViews": 2006,
-        "trendScore": 90.9,
+        "trendScore": 89.9,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -50113,7 +49655,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 1903,
-        "trendScore": 22.3,
+        "trendScore": 22.1,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -50146,7 +49688,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 971,
-        "trendScore": 11.4,
+        "trendScore": 11.3,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -50168,39 +49710,6 @@
         }
       },
       {
-        "id": "3f3KKbHhGNs",
-        "views": 902,
-        "mult": 0,
-        "cat": "릴스형",
-        "ch": "두배로꿀팁",
-        "title": "창문 청소 로봇 #두배로꿀팁 #창문청소기 #로봇창문청소기 #생활꿀템 #청소꿀템",
-        "up": "2026-07-14",
-        "genre": "주방/생활용품",
-        "bucket": "1~2배",
-        "ageDays": 2,
-        "dailyViews": 451,
-        "trendScore": 10.5,
-        "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
-        "tier": "fresh",
-        "signalLabel": "신선후보",
-        "sourceQuery": "살림템 추천 쇼츠",
-        "collectedAt": "2026-07-15T19:34:40.550Z",
-        "lt": 0,
-        "collected": "direct-youtube-rss",
-        "metricSource": "youtube-rss-feed",
-        "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
-        "sourceChannel": "두배로꿀팁",
-        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
-        "velocity": {
-          "confidence": "snapshot",
-          "viewsDelta": 0,
-          "viewsPerHour": 0,
-          "views24h": 0,
-          "previousViews": 902,
-          "sampledHours": 24
-        }
-      },
-      {
         "id": "2bZHGBD7g-g",
         "views": 23467,
         "mult": 0.8,
@@ -50212,7 +49721,7 @@
         "bucket": "1~2배",
         "ageDays": 3,
         "dailyViews": 7822,
-        "trendScore": 13882.5,
+        "trendScore": 269.1,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -50225,12 +49734,12 @@
         "sourceChannel": "봄집사",
         "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "snapshot",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 7822,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 23467,
+          "sampledHours": 24
         }
       },
       {
@@ -50245,7 +49754,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 3378,
-        "trendScore": 6052.9,
+        "trendScore": 39.6,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -50258,12 +49767,12 @@
         "sourceChannel": "다이소",
         "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "snapshot",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 3378,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 3378,
+          "sampledHours": 24
         }
       },
       {
@@ -50278,7 +49787,7 @@
         "bucket": "1~2배",
         "ageDays": 2,
         "dailyViews": 2388,
-        "trendScore": 4258.9,
+        "trendScore": 55.4,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -50291,12 +49800,12 @@
         "sourceChannel": "다이소",
         "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "snapshot",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 2388,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 4776,
+          "sampledHours": 24
         }
       },
       {
@@ -50311,7 +49820,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 2147,
-        "trendScore": 3847.1,
+        "trendScore": 25.2,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -50324,12 +49833,12 @@
         "sourceChannel": "도약",
         "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "snapshot",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 2147,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 2147,
+          "sampledHours": 24
         }
       },
       {
@@ -50344,7 +49853,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 1844,
-        "trendScore": 3304.2,
+        "trendScore": 21.6,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -50357,12 +49866,12 @@
         "sourceChannel": "올댓부츠",
         "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "snapshot",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 1844,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 1844,
+          "sampledHours": 24
         }
       },
       {
@@ -50377,7 +49886,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 1437,
-        "trendScore": 2574.9,
+        "trendScore": 16.9,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -50390,12 +49899,12 @@
         "sourceChannel": "두배로꿀팁",
         "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "snapshot",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 1437,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 1437,
+          "sampledHours": 24
         }
       },
       {
@@ -50410,7 +49919,7 @@
         "bucket": "1~2배",
         "ageDays": 1,
         "dailyViews": 1355,
-        "trendScore": 2428,
+        "trendScore": 15.9,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -50423,45 +49932,12 @@
         "sourceChannel": "소문난홈",
         "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
         "velocity": {
-          "confidence": "initial",
+          "confidence": "snapshot",
           "viewsDelta": 0,
           "viewsPerHour": 0,
-          "views24h": 1355,
-          "previousViews": 0,
-          "sampledHours": 0
-        }
-      },
-      {
-        "id": "KCOZCCX8jok",
-        "views": 549,
-        "mult": 0.1,
-        "cat": "릴스형",
-        "ch": "빈티지 스튜디오 한벨",
-        "title": "클래식의 대명사, 버버리 정품 체크 원피스 스튜디오 한벨에서 만나보세요🥰 #3050대여성옷 #여름코디 #50대여성옷 #중고명품 #ootd #가성비룩 #빈티지 #fashion",
-        "up": "2026-07-16",
-        "genre": "패션/잡화",
-        "bucket": "1~2배",
-        "ageDays": 1,
-        "dailyViews": 549,
-        "trendScore": 983.7,
-        "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
-        "tier": "fresh",
-        "signalLabel": "신선후보",
-        "sourceQuery": "패션 잡화 추천 쇼츠",
-        "collectedAt": "2026-07-16T19:33:56.351Z",
-        "lt": 0,
-        "collected": "direct-youtube-rss",
-        "metricSource": "youtube-rss-feed",
-        "sourceChannelId": "UCSmdlPqy5WMh-XS7zIsDLtg",
-        "sourceChannel": "빈티지 스튜디오 한벨",
-        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
-        "velocity": {
-          "confidence": "initial",
-          "viewsDelta": 0,
-          "viewsPerHour": 0,
-          "views24h": 549,
-          "previousViews": 0,
-          "sampledHours": 0
+          "views24h": 0,
+          "previousViews": 1355,
+          "sampledHours": 24
         }
       },
       {
@@ -50476,7 +49952,7 @@
         "bucket": "2~3배",
         "ageDays": 2,
         "dailyViews": 409,
-        "trendScore": 731.7,
+        "trendScore": 11.7,
         "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
         "tier": "fresh",
         "signalLabel": "신선후보",
@@ -50490,11 +49966,308 @@
         "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
         "velocity": {
           "confidence": "snapshot",
-          "viewsDelta": 409,
-          "viewsPerHour": 17.1,
-          "views24h": 409,
-          "previousViews": 598,
+          "viewsDelta": 0,
+          "viewsPerHour": 0,
+          "views24h": 0,
+          "previousViews": 1007,
           "sampledHours": 24
+        }
+      },
+      {
+        "id": "aJTgTRGuEZ0",
+        "views": 48020,
+        "mult": 2.4,
+        "cat": "릴스형",
+        "ch": "살림로그_살림을 기록하다.",
+        "title": "쿠팡 품절대란템이 다이소에서 갓성비로 구매할 수 있습니다. #다이소추천템 #다이소꿀템 #살림템",
+        "up": "2026-07-16",
+        "genre": "주방/생활용품",
+        "bucket": "2~3배",
+        "ageDays": 2,
+        "dailyViews": 24010,
+        "trendScore": 42821,
+        "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
+        "tier": "trend",
+        "signalLabel": "급상승",
+        "sourceQuery": "살림템 추천 쇼츠",
+        "collectedAt": "2026-07-17T19:31:00.265Z",
+        "lt": 0,
+        "collected": "direct-youtube-rss",
+        "metricSource": "youtube-rss-feed",
+        "sourceChannelId": "UCx8uFUihkZnQRU6lVJXs7Dg",
+        "sourceChannel": "살림로그_살림을 기록하다.",
+        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
+        "velocity": {
+          "confidence": "initial",
+          "viewsDelta": 0,
+          "viewsPerHour": 0,
+          "views24h": 24010,
+          "previousViews": 0,
+          "sampledHours": 0
+        }
+      },
+      {
+        "id": "nJ49xIbAmes",
+        "views": 144613,
+        "mult": 12.3,
+        "cat": "릴스형",
+        "ch": "제이미포유 Jaymeeforyou",
+        "title": "다이소 신상, 올영 대체 가능?;🧐(가격 차이 8배) #리뷰",
+        "up": "2026-07-07",
+        "genre": "화장품/뷰티",
+        "bucket": "10~50배",
+        "ageDays": 11,
+        "dailyViews": 123260,
+        "trendScore": 196274.1,
+        "qualityReason": "fast-growth; rss-upload-date; rss-view-count; shorts-url",
+        "tier": "trend",
+        "signalLabel": "급상승",
+        "sourceQuery": "뷰티템 추천 쇼츠",
+        "collectedAt": "2026-07-17T19:31:04.590Z",
+        "lt": 0,
+        "collected": "direct-youtube-rss",
+        "metricSource": "youtube-rss-feed",
+        "sourceChannelId": "UClJNgnMWzvEzJuLcpH7m4vQ",
+        "sourceChannel": "제이미포유 Jaymeeforyou",
+        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
+        "velocity": {
+          "confidence": "snapshot",
+          "viewsDelta": 123008,
+          "viewsPerHour": 5135.8,
+          "views24h": 123260,
+          "previousViews": 21605,
+          "sampledHours": 24
+        }
+      },
+      {
+        "id": "UZdestlpaZo",
+        "views": 47564,
+        "mult": 0.5,
+        "cat": "릴스형",
+        "ch": "봄집사",
+        "title": "집에 온 손님들도 놀라는 청소 꿀템 🧼",
+        "up": "2026-07-08",
+        "genre": "주방/생활용품",
+        "bucket": "1~2배",
+        "ageDays": 10,
+        "dailyViews": 4756,
+        "trendScore": 8116.9,
+        "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
+        "tier": "trend",
+        "signalLabel": "급상승",
+        "sourceQuery": "다이소 추천 쇼츠",
+        "collectedAt": "2026-07-17T19:31:00.262Z",
+        "lt": 0,
+        "collected": "direct-youtube-rss",
+        "metricSource": "youtube-rss-feed",
+        "sourceChannelId": "UCARh5WQzpBbU-r3HcJRXniA",
+        "sourceChannel": "봄집사",
+        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
+        "velocity": {
+          "confidence": "initial",
+          "viewsDelta": 0,
+          "viewsPerHour": 0,
+          "views24h": 4756,
+          "previousViews": 0,
+          "sampledHours": 0
+        }
+      },
+      {
+        "id": "rKI2b-tefNc",
+        "views": 33243,
+        "mult": 0.4,
+        "cat": "릴스형",
+        "ch": "봄집사",
+        "title": "단추 펀칭기 하나로 살림 난이도 확 내려가는 치트키",
+        "up": "2026-07-10",
+        "genre": "주방/생활용품",
+        "bucket": "1~2배",
+        "ageDays": 8,
+        "dailyViews": 4155,
+        "trendScore": 7177.7,
+        "qualityReason": "high-traffic; rss-upload-date; rss-view-count; shorts-url",
+        "tier": "trend",
+        "signalLabel": "급상승",
+        "sourceQuery": "다이소 추천 쇼츠",
+        "collectedAt": "2026-07-17T19:31:00.262Z",
+        "lt": 0,
+        "collected": "direct-youtube-rss",
+        "metricSource": "youtube-rss-feed",
+        "sourceChannelId": "UCARh5WQzpBbU-r3HcJRXniA",
+        "sourceChannel": "봄집사",
+        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
+        "velocity": {
+          "confidence": "initial",
+          "viewsDelta": 0,
+          "viewsPerHour": 0,
+          "views24h": 4155,
+          "previousViews": 0,
+          "sampledHours": 0
+        }
+      },
+      {
+        "id": "NJhEwvjmfYI",
+        "views": 1496,
+        "mult": 0.1,
+        "cat": "릴스형",
+        "ch": "두배로꿀팁",
+        "title": "모르면 계속 주방만 더러워집니다 #두배로꿀팁 #냄비뚜껑받침대 #실리콘받침대 #조리도구거치대 #주방꿀템",
+        "up": "2026-07-17",
+        "genre": "주방/생활용품",
+        "bucket": "1~2배",
+        "ageDays": 1,
+        "dailyViews": 1496,
+        "trendScore": 2680.6,
+        "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
+        "tier": "fresh",
+        "signalLabel": "신선후보",
+        "sourceQuery": "살림템 추천 쇼츠",
+        "collectedAt": "2026-07-17T19:31:00.263Z",
+        "lt": 0,
+        "collected": "direct-youtube-rss",
+        "metricSource": "youtube-rss-feed",
+        "sourceChannelId": "UCod3ACfa8UqqTuE10-MRnDA",
+        "sourceChannel": "두배로꿀팁",
+        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
+        "velocity": {
+          "confidence": "initial",
+          "viewsDelta": 0,
+          "viewsPerHour": 0,
+          "views24h": 1496,
+          "previousViews": 0,
+          "sampledHours": 0
+        }
+      },
+      {
+        "id": "e80RdMWSXHs",
+        "views": 1496,
+        "mult": 0.1,
+        "cat": "릴스형",
+        "ch": "테이스트모먼트",
+        "title": "누구나홀딱반한닭 크런킹 솔직후기! 오븐에 구워 더 바삭한 치킨 추천🍗",
+        "up": "2026-07-17",
+        "genre": "식품/먹거리",
+        "bucket": "1~2배",
+        "ageDays": 1,
+        "dailyViews": 1496,
+        "trendScore": 2680.6,
+        "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
+        "tier": "fresh",
+        "signalLabel": "신선후보",
+        "sourceQuery": "간식 추천 쇼츠",
+        "collectedAt": "2026-07-17T19:31:03.058Z",
+        "lt": 0,
+        "collected": "direct-youtube-rss",
+        "metricSource": "youtube-rss-feed",
+        "sourceChannelId": "UCGyXVRhH0HJ8Zpg88Zx5cDw",
+        "sourceChannel": "테이스트모먼트",
+        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
+        "velocity": {
+          "confidence": "initial",
+          "viewsDelta": 0,
+          "viewsPerHour": 0,
+          "views24h": 1496,
+          "previousViews": 0,
+          "sampledHours": 0
+        }
+      },
+      {
+        "id": "B8LzFww0H4o",
+        "views": 1395,
+        "mult": 0.1,
+        "cat": "릴스형",
+        "ch": "테이스트모먼트",
+        "title": "제주도민 추천 갈치조림 맛집! 올레시장 남매네왕갈치 후기",
+        "up": "2026-07-17",
+        "genre": "식품/먹거리",
+        "bucket": "1~2배",
+        "ageDays": 1,
+        "dailyViews": 1395,
+        "trendScore": 2499.7,
+        "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
+        "tier": "fresh",
+        "signalLabel": "신선후보",
+        "sourceQuery": "간식 추천 쇼츠",
+        "collectedAt": "2026-07-17T19:31:03.058Z",
+        "lt": 0,
+        "collected": "direct-youtube-rss",
+        "metricSource": "youtube-rss-feed",
+        "sourceChannelId": "UCGyXVRhH0HJ8Zpg88Zx5cDw",
+        "sourceChannel": "테이스트모먼트",
+        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
+        "velocity": {
+          "confidence": "initial",
+          "viewsDelta": 0,
+          "viewsPerHour": 0,
+          "views24h": 1395,
+          "previousViews": 0,
+          "sampledHours": 0
+        }
+      },
+      {
+        "id": "rTcGrjwOSJI",
+        "views": 1231,
+        "mult": 0.1,
+        "cat": "릴스형",
+        "ch": "소문난홈",
+        "title": "모르면 평생 냉장고만 지저분합니다 #소문난홈 #냉장고정리 #생활꿀팁 #주방용품 #정리수납",
+        "up": "2026-07-17",
+        "genre": "주방/생활용품",
+        "bucket": "1~2배",
+        "ageDays": 1,
+        "dailyViews": 1231,
+        "trendScore": 2205.8,
+        "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
+        "tier": "fresh",
+        "signalLabel": "신선후보",
+        "sourceQuery": "살림템 추천 쇼츠",
+        "collectedAt": "2026-07-17T19:31:00.262Z",
+        "lt": 0,
+        "collected": "direct-youtube-rss",
+        "metricSource": "youtube-rss-feed",
+        "sourceChannelId": "UCXp1RmvMYbzH1j1pn8HfMZw",
+        "sourceChannel": "소문난홈",
+        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
+        "velocity": {
+          "confidence": "initial",
+          "viewsDelta": 0,
+          "viewsPerHour": 0,
+          "views24h": 1231,
+          "previousViews": 0,
+          "sampledHours": 0
+        }
+      },
+      {
+        "id": "yQBuj_r5TsU",
+        "views": 603,
+        "mult": 0.1,
+        "cat": "릴스형",
+        "ch": "Kshop Korea",
+        "title": "지금이 제철! 달콤한 영암 햇무화과 800g｜여름 과일 추천 #영암무화과 #햇무화과 #제철과일 #무화과 #국산과일 #여름과일 #과일추천 #건강간식 #과일쇼츠 #KSHOP",
+        "up": "2026-07-17",
+        "genre": "기타",
+        "bucket": "1~2배",
+        "ageDays": 1,
+        "dailyViews": 603,
+        "trendScore": 1080.5,
+        "qualityReason": "fresh-velocity; rss-upload-date; rss-view-count; shorts-url",
+        "tier": "fresh",
+        "signalLabel": "신선후보",
+        "sourceQuery": "한국 쇼츠 쇼핑 추천",
+        "collectedAt": "2026-07-17T19:31:00.266Z",
+        "lt": 0,
+        "collected": "direct-youtube-rss",
+        "metricSource": "youtube-rss-feed",
+        "sourceChannelId": "UCdURyoNw78M0vJmPa7e4x6g",
+        "sourceChannel": "Kshop Korea",
+        "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url",
+        "velocity": {
+          "confidence": "initial",
+          "viewsDelta": 0,
+          "viewsPerHour": 0,
+          "views24h": 603,
+          "previousViews": 0,
+          "sampledHours": 0
         }
       }
     ],
@@ -50518,7 +50291,7 @@
           "previousViews": 120000,
           "sampledHours": 24
         },
-        "trendScore": 656
+        "trendScore": 640
       },
       {
         "kw": "레시피",
@@ -50539,7 +50312,7 @@
           "previousViews": 120000,
           "sampledHours": 24
         },
-        "trendScore": 656
+        "trendScore": 640
       },
       {
         "kw": "레시피",
@@ -50560,7 +50333,7 @@
           "previousViews": 120000,
           "sampledHours": 24
         },
-        "trendScore": 672
+        "trendScore": 656
       },
       {
         "kw": "꿀템",
@@ -50581,7 +50354,7 @@
           "previousViews": 120000,
           "sampledHours": 24
         },
-        "trendScore": 672
+        "trendScore": 656
       },
       {
         "kw": "문구",
@@ -50602,7 +50375,7 @@
           "previousViews": 120000,
           "sampledHours": 24
         },
-        "trendScore": 672
+        "trendScore": 656
       },
       {
         "kw": "영양제",
@@ -50623,7 +50396,7 @@
           "previousViews": 120000,
           "sampledHours": 24
         },
-        "trendScore": 672
+        "trendScore": 656
       },
       {
         "kw": "레시피",
@@ -50644,7 +50417,7 @@
           "previousViews": 120000,
           "sampledHours": 24
         },
-        "trendScore": 672
+        "trendScore": 656
       },
       {
         "kw": "코스트코",
@@ -50665,7 +50438,7 @@
           "previousViews": 120000,
           "sampledHours": 24
         },
-        "trendScore": 688
+        "trendScore": 672
       },
       {
         "kw": "샤프",
@@ -50686,7 +50459,7 @@
           "previousViews": 120000,
           "sampledHours": 24
         },
-        "trendScore": 688
+        "trendScore": 672
       },
       {
         "kw": "무인양품",
@@ -50707,7 +50480,7 @@
           "previousViews": 120000,
           "sampledHours": 24
         },
-        "trendScore": 720
+        "trendScore": 704
       },
       {
         "kw": "무인양품",
@@ -50728,7 +50501,7 @@
           "previousViews": 120000,
           "sampledHours": 24
         },
-        "trendScore": 720
+        "trendScore": 704
       },
       {
         "kw": "무인양품",
@@ -50749,7 +50522,7 @@
           "previousViews": 120000,
           "sampledHours": 24
         },
-        "trendScore": 720
+        "trendScore": 704
       },
       {
         "kw": "살림템",
@@ -50770,7 +50543,7 @@
           "previousViews": 110000,
           "sampledHours": 24
         },
-        "trendScore": 557.3
+        "trendScore": 542.7
       },
       {
         "kw": "살림템",
@@ -50791,7 +50564,7 @@
           "previousViews": 110000,
           "sampledHours": 24
         },
-        "trendScore": 572
+        "trendScore": 557.3
       },
       {
         "kw": "향수",
@@ -50812,7 +50585,7 @@
           "previousViews": 110000,
           "sampledHours": 24
         },
-        "trendScore": 572
+        "trendScore": 557.3
       },
       {
         "kw": "화장품",
@@ -50833,7 +50606,7 @@
           "previousViews": 110000,
           "sampledHours": 24
         },
-        "trendScore": 572
+        "trendScore": 557.3
       },
       {
         "kw": "라면",
@@ -50854,7 +50627,7 @@
           "previousViews": 110000,
           "sampledHours": 24
         },
-        "trendScore": 572
+        "trendScore": 557.3
       },
       {
         "kw": "패션",
@@ -50875,7 +50648,7 @@
           "previousViews": 110000,
           "sampledHours": 24
         },
-        "trendScore": 572
+        "trendScore": 557.3
       },
       {
         "kw": "약국",
@@ -50896,7 +50669,7 @@
           "previousViews": 110000,
           "sampledHours": 24
         },
-        "trendScore": 572
+        "trendScore": 557.3
       },
       {
         "kw": "화장품",
@@ -50917,7 +50690,7 @@
           "previousViews": 110000,
           "sampledHours": 24
         },
-        "trendScore": 601.3
+        "trendScore": 586.7
       },
       {
         "kw": "다이소",
@@ -50938,7 +50711,7 @@
           "previousViews": 110000,
           "sampledHours": 24
         },
-        "trendScore": 601.3
+        "trendScore": 586.7
       },
       {
         "kw": "꿀템",
@@ -50959,7 +50732,7 @@
           "previousViews": 110000,
           "sampledHours": 24
         },
-        "trendScore": 616
+        "trendScore": 601.3
       },
       {
         "kw": "레시피",
@@ -50980,7 +50753,7 @@
           "previousViews": 110000,
           "sampledHours": 24
         },
-        "trendScore": 616
+        "trendScore": 601.3
       },
       {
         "kw": "레시피",
@@ -51001,7 +50774,7 @@
           "previousViews": 110000,
           "sampledHours": 24
         },
-        "trendScore": 645.3
+        "trendScore": 630.7
       },
       {
         "kw": "선크림",
@@ -51022,7 +50795,7 @@
           "previousViews": 110000,
           "sampledHours": 24
         },
-        "trendScore": 660
+        "trendScore": 645.3
       },
       {
         "kw": "다이소",
@@ -51043,7 +50816,7 @@
           "previousViews": 110000,
           "sampledHours": 24
         },
-        "trendScore": 674.7
+        "trendScore": 660
       },
       {
         "kw": "청소템",
@@ -51064,7 +50837,7 @@
           "previousViews": 110000,
           "sampledHours": 24
         },
-        "trendScore": 718.7
+        "trendScore": 704
       },
       {
         "kw": "레시피",
@@ -51085,7 +50858,7 @@
           "previousViews": 100000,
           "sampledHours": 24
         },
-        "trendScore": 480
+        "trendScore": 466.7
       },
       {
         "kw": "꿀템",
@@ -51106,7 +50879,7 @@
           "previousViews": 100000,
           "sampledHours": 24
         },
-        "trendScore": 480
+        "trendScore": 466.7
       },
       {
         "kw": "향수",
@@ -51148,7 +50921,7 @@
           "previousViews": 100000,
           "sampledHours": 24
         },
-        "trendScore": 520
+        "trendScore": 506.7
       },
       {
         "kw": "육아템",
@@ -51169,7 +50942,7 @@
           "previousViews": 100000,
           "sampledHours": 24
         },
-        "trendScore": 546.7
+        "trendScore": 533.3
       },
       {
         "kw": "간식",
@@ -51190,7 +50963,7 @@
           "previousViews": 100000,
           "sampledHours": 24
         },
-        "trendScore": 560
+        "trendScore": 546.7
       },
       {
         "kw": "코스트코",
@@ -51211,7 +50984,7 @@
           "previousViews": 100000,
           "sampledHours": 24
         },
-        "trendScore": 560
+        "trendScore": 546.7
       },
       {
         "kw": "간식",
@@ -51232,7 +51005,7 @@
           "previousViews": 100000,
           "sampledHours": 24
         },
-        "trendScore": 560
+        "trendScore": 546.7
       },
       {
         "kw": "간식",
@@ -51253,7 +51026,7 @@
           "previousViews": 100000,
           "sampledHours": 24
         },
-        "trendScore": 560
+        "trendScore": 546.7
       },
       {
         "kw": "꿀템",
@@ -51274,7 +51047,7 @@
           "previousViews": 100000,
           "sampledHours": 24
         },
-        "trendScore": 560
+        "trendScore": 546.7
       },
       {
         "kw": "꿀템",
@@ -51295,7 +51068,7 @@
           "previousViews": 100000,
           "sampledHours": 24
         },
-        "trendScore": 573.3
+        "trendScore": 560
       },
       {
         "kw": "간식",
@@ -51316,7 +51089,7 @@
           "previousViews": 100000,
           "sampledHours": 24
         },
-        "trendScore": 586.7
+        "trendScore": 573.3
       },
       {
         "kw": "레시피",
@@ -51337,7 +51110,7 @@
           "previousViews": 100000,
           "sampledHours": 24
         },
-        "trendScore": 586.7
+        "trendScore": 573.3
       },
       {
         "kw": "쇼핑",
@@ -51358,7 +51131,7 @@
           "previousViews": 100000,
           "sampledHours": 24
         },
-        "trendScore": 600
+        "trendScore": 586.7
       },
       {
         "kw": "코스트코",
@@ -51379,7 +51152,7 @@
           "previousViews": 100000,
           "sampledHours": 24
         },
-        "trendScore": 613.3
+        "trendScore": 600
       },
       {
         "kw": "다이소",
@@ -51400,7 +51173,7 @@
           "previousViews": 100000,
           "sampledHours": 24
         },
-        "trendScore": 653.3
+        "trendScore": 640
       },
       {
         "kw": "간식",
@@ -51421,7 +51194,7 @@
           "previousViews": 98000,
           "sampledHours": 24
         },
-        "trendScore": 509.6
+        "trendScore": 496.5
       },
       {
         "kw": "올리브영",
@@ -51442,7 +51215,7 @@
           "previousViews": 96000,
           "sampledHours": 24
         },
-        "trendScore": 486.4
+        "trendScore": 473.6
       },
       {
         "kw": "화장품",
@@ -51463,7 +51236,7 @@
           "previousViews": 96000,
           "sampledHours": 24
         },
-        "trendScore": 499.2
+        "trendScore": 486.4
       },
       {
         "kw": "꿀템",
@@ -51484,7 +51257,7 @@
           "previousViews": 96000,
           "sampledHours": 24
         },
-        "trendScore": 499.2
+        "trendScore": 486.4
       },
       {
         "kw": "패션",
@@ -51505,7 +51278,7 @@
           "previousViews": 96000,
           "sampledHours": 24
         },
-        "trendScore": 499.2
+        "trendScore": 486.4
       },
       {
         "kw": "화장품",
@@ -51526,7 +51299,7 @@
           "previousViews": 95000,
           "sampledHours": 24
         },
-        "trendScore": 456
+        "trendScore": 443.3
       },
       {
         "kw": "전자제품",
@@ -51547,7 +51320,7 @@
           "previousViews": 95000,
           "sampledHours": 24
         },
-        "trendScore": 456
+        "trendScore": 443.3
       },
       {
         "kw": "간식",
@@ -51568,7 +51341,7 @@
           "previousViews": 95000,
           "sampledHours": 24
         },
-        "trendScore": 456
+        "trendScore": 443.3
       },
       {
         "kw": "다이소",
@@ -51589,7 +51362,7 @@
           "previousViews": 95000,
           "sampledHours": 24
         },
-        "trendScore": 392.7
+        "trendScore": 380
       },
       {
         "kw": "무인양품",
@@ -51610,7 +51383,7 @@
           "previousViews": 95000,
           "sampledHours": 24
         },
-        "trendScore": 494
+        "trendScore": 481.3
       },
       {
         "kw": "꿀템",
@@ -51631,7 +51404,7 @@
           "previousViews": 95000,
           "sampledHours": 24
         },
-        "trendScore": 570
+        "trendScore": 557.3
       },
       {
         "kw": "다이소",
@@ -51673,7 +51446,7 @@
           "previousViews": 94000,
           "sampledHours": 24
         },
-        "trendScore": 488.8
+        "trendScore": 476.3
       },
       {
         "kw": "올리브영",
@@ -51694,7 +51467,7 @@
           "previousViews": 94000,
           "sampledHours": 24
         },
-        "trendScore": 576.5
+        "trendScore": 564
       },
       {
         "kw": "향수",
@@ -51736,7 +51509,7 @@
           "previousViews": 93000,
           "sampledHours": 24
         },
-        "trendScore": 471.2
+        "trendScore": 458.8
       },
       {
         "kw": "주방템",
@@ -51757,7 +51530,7 @@
           "previousViews": 93000,
           "sampledHours": 24
         },
-        "trendScore": 508.4
+        "trendScore": 496
       },
       {
         "kw": "코스트코",
@@ -51778,7 +51551,7 @@
           "previousViews": 92000,
           "sampledHours": 24
         },
-        "trendScore": 441.6
+        "trendScore": 429.3
       },
       {
         "kw": "영양제",
@@ -51799,7 +51572,7 @@
           "previousViews": 92000,
           "sampledHours": 24
         },
-        "trendScore": 502.9
+        "trendScore": 490.7
       },
       {
         "kw": "화장품",
@@ -51820,7 +51593,7 @@
           "previousViews": 92000,
           "sampledHours": 24
         },
-        "trendScore": 502.9
+        "trendScore": 490.7
       },
       {
         "kw": "향수",
@@ -51841,7 +51614,7 @@
           "previousViews": 92000,
           "sampledHours": 24
         },
-        "trendScore": 502.9
+        "trendScore": 490.7
       },
       {
         "kw": "다이소",
@@ -51862,7 +51635,7 @@
           "previousViews": 91000,
           "sampledHours": 24
         },
-        "trendScore": 473.2
+        "trendScore": 461.1
       },
       {
         "kw": "향수",
@@ -51883,7 +51656,7 @@
           "previousViews": 91000,
           "sampledHours": 24
         },
-        "trendScore": 509.6
+        "trendScore": 497.5
       },
       {
         "kw": "다이소",
@@ -51904,7 +51677,7 @@
           "previousViews": 90000,
           "sampledHours": 24
         },
-        "trendScore": 468
+        "trendScore": 456
       },
       {
         "kw": "레시피",
@@ -51925,7 +51698,7 @@
           "previousViews": 90000,
           "sampledHours": 24
         },
-        "trendScore": 468
+        "trendScore": 456
       },
       {
         "kw": "간식",
@@ -51946,7 +51719,7 @@
           "previousViews": 89000,
           "sampledHours": 24
         },
-        "trendScore": 498.4
+        "trendScore": 486.5
       },
       {
         "kw": "쿠션",
@@ -51967,7 +51740,7 @@
           "previousViews": 89000,
           "sampledHours": 24
         },
-        "trendScore": 534
+        "trendScore": 522.1
       },
       {
         "kw": "꿀템",
@@ -51988,7 +51761,7 @@
           "previousViews": 89000,
           "sampledHours": 24
         },
-        "trendScore": 545.9
+        "trendScore": 534
       },
       {
         "kw": "다이소",
@@ -52009,7 +51782,7 @@
           "previousViews": 88000,
           "sampledHours": 24
         },
-        "trendScore": 434.1
+        "trendScore": 422.4
       },
       {
         "kw": "세탁세제",
@@ -52030,7 +51803,7 @@
           "previousViews": 88000,
           "sampledHours": 24
         },
-        "trendScore": 457.6
+        "trendScore": 445.9
       },
       {
         "kw": "운동화",
@@ -52051,7 +51824,7 @@
           "previousViews": 88000,
           "sampledHours": 24
         },
-        "trendScore": 504.5
+        "trendScore": 492.8
       },
       {
         "kw": "다이소",
@@ -52072,7 +51845,7 @@
           "previousViews": 87000,
           "sampledHours": 24
         },
-        "trendScore": 452.4
+        "trendScore": 440.8
       },
       {
         "kw": "간식",
@@ -52093,7 +51866,7 @@
           "previousViews": 87000,
           "sampledHours": 24
         },
-        "trendScore": 452.4
+        "trendScore": 440.8
       },
       {
         "kw": "주방템",
@@ -52114,7 +51887,7 @@
           "previousViews": 87000,
           "sampledHours": 24
         },
-        "trendScore": 487.2
+        "trendScore": 475.6
       },
       {
         "kw": "간식",
@@ -52135,7 +51908,7 @@
           "previousViews": 86000,
           "sampledHours": 24
         },
-        "trendScore": 447.2
+        "trendScore": 435.7
       },
       {
         "kw": "청소템",
@@ -52156,7 +51929,7 @@
           "previousViews": 85000,
           "sampledHours": 24
         },
-        "trendScore": 442
+        "trendScore": 430.7
       },
       {
         "kw": "레시피",
@@ -52177,7 +51950,7 @@
           "previousViews": 84000,
           "sampledHours": 24
         },
-        "trendScore": 403.2
+        "trendScore": 392
       },
       {
         "kw": "레시피",
@@ -52198,7 +51971,7 @@
           "previousViews": 84000,
           "sampledHours": 24
         },
-        "trendScore": 436.8
+        "trendScore": 425.6
       },
       {
         "kw": "편의점",
@@ -52219,7 +51992,7 @@
           "previousViews": 84000,
           "sampledHours": 24
         },
-        "trendScore": 470.4
+        "trendScore": 459.2
       },
       {
         "kw": "이케아",
@@ -52240,7 +52013,7 @@
           "previousViews": 84000,
           "sampledHours": 24
         },
-        "trendScore": 504
+        "trendScore": 492.8
       },
       {
         "kw": "간식",
@@ -52261,7 +52034,7 @@
           "previousViews": 84000,
           "sampledHours": 24
         },
-        "trendScore": 548.8
+        "trendScore": 537.6
       },
       {
         "kw": "반려동물",
@@ -52282,7 +52055,7 @@
           "previousViews": 83000,
           "sampledHours": 24
         },
-        "trendScore": 453.7
+        "trendScore": 442.7
       },
       {
         "kw": "화장품",
@@ -52303,7 +52076,7 @@
           "previousViews": 82000,
           "sampledHours": 24
         },
-        "trendScore": 426.4
+        "trendScore": 415.5
       },
       {
         "kw": "세탁세제",
@@ -52324,7 +52097,7 @@
           "previousViews": 81000,
           "sampledHours": 24
         },
-        "trendScore": 410.4
+        "trendScore": 399.6
       },
       {
         "kw": "꿀템",
@@ -52345,7 +52118,7 @@
           "previousViews": 81000,
           "sampledHours": 24
         },
-        "trendScore": 442.8
+        "trendScore": 432
       },
       {
         "kw": "코스트코",
@@ -52366,7 +52139,7 @@
           "previousViews": 81000,
           "sampledHours": 24
         },
-        "trendScore": 442.8
+        "trendScore": 432
       },
       {
         "kw": "올리브영",
@@ -52387,7 +52160,7 @@
           "previousViews": 80000,
           "sampledHours": 24
         },
-        "trendScore": 416
+        "trendScore": 405.3
       },
       {
         "kw": "간식",
@@ -52408,7 +52181,7 @@
           "previousViews": 80000,
           "sampledHours": 24
         },
-        "trendScore": 416
+        "trendScore": 405.3
       },
       {
         "kw": "올리브영",
@@ -52429,7 +52202,7 @@
           "previousViews": 80000,
           "sampledHours": 24
         },
-        "trendScore": 437.3
+        "trendScore": 426.7
       },
       {
         "kw": "생활용품",
@@ -52450,7 +52223,7 @@
           "previousViews": 80000,
           "sampledHours": 24
         },
-        "trendScore": 480
+        "trendScore": 469.3
       },
       {
         "kw": "레시피",
@@ -52471,7 +52244,7 @@
           "previousViews": 79000,
           "sampledHours": 24
         },
-        "trendScore": 410.8
+        "trendScore": 400.3
       },
       {
         "kw": "영양제",
@@ -52492,7 +52265,7 @@
           "previousViews": 79000,
           "sampledHours": 24
         },
-        "trendScore": 410.8
+        "trendScore": 400.3
       },
       {
         "kw": "무인양품",
@@ -52513,7 +52286,7 @@
           "previousViews": 79000,
           "sampledHours": 24
         },
-        "trendScore": 474
+        "trendScore": 463.5
       },
       {
         "kw": "살림템",
@@ -52534,7 +52307,7 @@
           "previousViews": 78000,
           "sampledHours": 24
         },
-        "trendScore": 395.2
+        "trendScore": 384.8
       },
       {
         "kw": "화장품",
@@ -52555,7 +52328,7 @@
           "previousViews": 78000,
           "sampledHours": 24
         },
-        "trendScore": 405.6
+        "trendScore": 395.2
       },
       {
         "kw": "화장품",
@@ -52576,7 +52349,7 @@
           "previousViews": 77000,
           "sampledHours": 24
         },
-        "trendScore": 431.2
+        "trendScore": 420.9
       },
       {
         "kw": "청소템",
@@ -52597,7 +52370,7 @@
           "previousViews": 77000,
           "sampledHours": 24
         },
-        "trendScore": 462
+        "trendScore": 451.7
       },
       {
         "kw": "레시피",
@@ -52618,7 +52391,7 @@
           "previousViews": 76000,
           "sampledHours": 24
         },
-        "trendScore": 395.2
+        "trendScore": 385.1
       },
       {
         "kw": "다이소",
@@ -52639,7 +52412,7 @@
           "previousViews": 76000,
           "sampledHours": 24
         },
-        "trendScore": 395.2
+        "trendScore": 385.1
       },
       {
         "kw": "영양제",
@@ -52660,7 +52433,7 @@
           "previousViews": 76000,
           "sampledHours": 24
         },
-        "trendScore": 425.6
+        "trendScore": 415.5
       },
       {
         "kw": "다이소",
@@ -52681,7 +52454,7 @@
           "previousViews": 76000,
           "sampledHours": 24
         },
-        "trendScore": 435.7
+        "trendScore": 425.6
       },
       {
         "kw": "화장품",
@@ -52702,7 +52475,7 @@
           "previousViews": 75000,
           "sampledHours": 24
         },
-        "trendScore": 410
+        "trendScore": 400
       },
       {
         "kw": "다이소",
@@ -52723,7 +52496,7 @@
           "previousViews": 75000,
           "sampledHours": 24
         },
-        "trendScore": 460
+        "trendScore": 450
       },
       {
         "kw": "꿀템",
@@ -52744,7 +52517,7 @@
           "previousViews": 75000,
           "sampledHours": 24
         },
-        "trendScore": 470
+        "trendScore": 460
       },
       {
         "kw": "다이소",
@@ -52765,7 +52538,7 @@
           "previousViews": 75000,
           "sampledHours": 24
         },
-        "trendScore": 470
+        "trendScore": 460
       },
       {
         "kw": "꿀템",
@@ -52786,7 +52559,7 @@
           "previousViews": 75000,
           "sampledHours": 24
         },
-        "trendScore": 490
+        "trendScore": 480
       },
       {
         "kw": "올리브영",
@@ -52807,7 +52580,7 @@
           "previousViews": 74000,
           "sampledHours": 24
         },
-        "trendScore": 444
+        "trendScore": 434.1
       },
       {
         "kw": "이케아",
@@ -52828,7 +52601,7 @@
           "previousViews": 74000,
           "sampledHours": 24
         },
-        "trendScore": 444
+        "trendScore": 434.1
       },
       {
         "kw": "고양이용품",
@@ -52849,7 +52622,7 @@
           "previousViews": 73000,
           "sampledHours": 24
         },
-        "trendScore": 379.6
+        "trendScore": 369.9
       },
       {
         "kw": "다이소",
@@ -52870,7 +52643,7 @@
           "previousViews": 73000,
           "sampledHours": 24
         },
-        "trendScore": 399.1
+        "trendScore": 389.3
       },
       {
         "kw": "코스트코",
@@ -52891,7 +52664,7 @@
           "previousViews": 73000,
           "sampledHours": 24
         },
-        "trendScore": 418.5
+        "trendScore": 408.8
       },
       {
         "kw": "코스트코",
@@ -52912,7 +52685,7 @@
           "previousViews": 73000,
           "sampledHours": 24
         },
-        "trendScore": 428.3
+        "trendScore": 418.5
       },
       {
         "kw": "가성비템",
@@ -52933,7 +52706,7 @@
           "previousViews": 73000,
           "sampledHours": 24
         },
-        "trendScore": 438
+        "trendScore": 428.3
       },
       {
         "kw": "다이소",
@@ -52954,7 +52727,7 @@
           "previousViews": 72000,
           "sampledHours": 24
         },
-        "trendScore": 364.8
+        "trendScore": 355.2
       },
       {
         "kw": "영양제",
@@ -52975,7 +52748,7 @@
           "previousViews": 72000,
           "sampledHours": 24
         },
-        "trendScore": 403.2
+        "trendScore": 393.6
       },
       {
         "kw": "청소템",
@@ -52996,7 +52769,7 @@
           "previousViews": 71000,
           "sampledHours": 24
         },
-        "trendScore": 369.2
+        "trendScore": 359.7
       },
       {
         "kw": "패션",
@@ -53017,7 +52790,7 @@
           "previousViews": 71000,
           "sampledHours": 24
         },
-        "trendScore": 369.2
+        "trendScore": 359.7
       },
       {
         "kw": "꿀템",
@@ -53038,7 +52811,7 @@
           "previousViews": 71000,
           "sampledHours": 24
         },
-        "trendScore": 388.1
+        "trendScore": 378.7
       },
       {
         "kw": "간식",
@@ -53059,7 +52832,7 @@
           "previousViews": 71000,
           "sampledHours": 24
         },
-        "trendScore": 397.6
+        "trendScore": 388.1
       },
       {
         "kw": "문구",
@@ -53080,7 +52853,7 @@
           "previousViews": 70000,
           "sampledHours": 24
         },
-        "trendScore": 345.3
+        "trendScore": 336
       },
       {
         "kw": "화장품",
@@ -53101,7 +52874,7 @@
           "previousViews": 70000,
           "sampledHours": 24
         },
-        "trendScore": 364
+        "trendScore": 354.7
       },
       {
         "kw": "레시피",
@@ -53122,7 +52895,7 @@
           "previousViews": 70000,
           "sampledHours": 24
         },
-        "trendScore": 392
+        "trendScore": 382.7
       },
       {
         "kw": "이케아",
@@ -53143,7 +52916,7 @@
           "previousViews": 70000,
           "sampledHours": 24
         },
-        "trendScore": 401.3
+        "trendScore": 392
       },
       {
         "kw": "가방",
@@ -53164,7 +52937,7 @@
           "previousViews": 70000,
           "sampledHours": 24
         },
-        "trendScore": 401.3
+        "trendScore": 392
       },
       {
         "kw": "다이소",
@@ -53185,7 +52958,7 @@
           "previousViews": 70000,
           "sampledHours": 24
         },
-        "trendScore": 429.3
+        "trendScore": 420
       },
       {
         "kw": "코스트코",
@@ -53206,7 +52979,7 @@
           "previousViews": 70000,
           "sampledHours": 24
         },
-        "trendScore": 438.7
+        "trendScore": 429.3
       },
       {
         "kw": "청소템",
@@ -53227,7 +53000,7 @@
           "previousViews": 70000,
           "sampledHours": 24
         },
-        "trendScore": 438.7
+        "trendScore": 429.3
       },
       {
         "kw": "레시피",
@@ -53248,7 +53021,7 @@
           "previousViews": 69000,
           "sampledHours": 24
         },
-        "trendScore": 386.4
+        "trendScore": 377.2
       },
       {
         "kw": "꿀템",
@@ -53269,7 +53042,7 @@
           "previousViews": 69000,
           "sampledHours": 24
         },
-        "trendScore": 395.6
+        "trendScore": 386.4
       },
       {
         "kw": "살림템",
@@ -53290,7 +53063,7 @@
           "previousViews": 68000,
           "sampledHours": 24
         },
-        "trendScore": 326.4
+        "trendScore": 317.3
       },
       {
         "kw": "음료",
@@ -53311,7 +53084,7 @@
           "previousViews": 68000,
           "sampledHours": 24
         },
-        "trendScore": 380.8
+        "trendScore": 371.7
       },
       {
         "kw": "자취템",
@@ -53332,7 +53105,7 @@
           "previousViews": 68000,
           "sampledHours": 24
         },
-        "trendScore": 408
+        "trendScore": 398.9
       },
       {
         "kw": "간식",
@@ -53353,7 +53126,7 @@
           "previousViews": 67000,
           "sampledHours": 24
         },
-        "trendScore": 348.4
+        "trendScore": 339.5
       },
       {
         "kw": "코스트코",
@@ -53374,7 +53147,7 @@
           "previousViews": 67000,
           "sampledHours": 24
         },
-        "trendScore": 366.3
+        "trendScore": 357.3
       },
       {
         "kw": "이케아",
@@ -53395,7 +53168,7 @@
           "previousViews": 67000,
           "sampledHours": 24
         },
-        "trendScore": 402
+        "trendScore": 393.1
       },
       {
         "kw": "레시피",
@@ -53416,7 +53189,7 @@
           "previousViews": 67000,
           "sampledHours": 24
         },
-        "trendScore": 437.7
+        "trendScore": 428.8
       },
       {
         "kw": "간식",
@@ -53437,7 +53210,7 @@
           "previousViews": 66000,
           "sampledHours": 24
         },
-        "trendScore": 316.8
+        "trendScore": 308
       },
       {
         "kw": "간식",
@@ -53458,7 +53231,7 @@
           "previousViews": 66000,
           "sampledHours": 24
         },
-        "trendScore": 369.6
+        "trendScore": 360.8
       },
       {
         "kw": "무인양품",
@@ -53479,7 +53252,7 @@
           "previousViews": 66000,
           "sampledHours": 24
         },
-        "trendScore": 396
+        "trendScore": 387.2
       },
       {
         "kw": "과자",
@@ -53500,7 +53273,7 @@
           "previousViews": 65000,
           "sampledHours": 24
         },
-        "trendScore": 312
+        "trendScore": 303.3
       },
       {
         "kw": "코스트코",
@@ -53521,7 +53294,7 @@
           "previousViews": 65000,
           "sampledHours": 24
         },
-        "trendScore": 338
+        "trendScore": 329.3
       },
       {
         "kw": "코스트코",
@@ -53542,7 +53315,7 @@
           "previousViews": 65000,
           "sampledHours": 24
         },
-        "trendScore": 338
+        "trendScore": 329.3
       },
       {
         "kw": "화장품",
@@ -53563,7 +53336,7 @@
           "previousViews": 65000,
           "sampledHours": 24
         },
-        "trendScore": 338
+        "trendScore": 329.3
       },
       {
         "kw": "코스트코",
@@ -53584,7 +53357,7 @@
           "previousViews": 65000,
           "sampledHours": 24
         },
-        "trendScore": 355.3
+        "trendScore": 346.7
       },
       {
         "kw": "패션",
@@ -53605,7 +53378,7 @@
           "previousViews": 64000,
           "sampledHours": 24
         },
-        "trendScore": 332.8
+        "trendScore": 324.3
       },
       {
         "kw": "올리브영",
@@ -53626,7 +53399,7 @@
           "previousViews": 64000,
           "sampledHours": 24
         },
-        "trendScore": 358.4
+        "trendScore": 349.9
       },
       {
         "kw": "화장품",
@@ -53647,7 +53420,7 @@
           "previousViews": 64000,
           "sampledHours": 24
         },
-        "trendScore": 358.4
+        "trendScore": 349.9
       },
       {
         "kw": "코스트코",
@@ -53668,7 +53441,7 @@
           "previousViews": 64000,
           "sampledHours": 24
         },
-        "trendScore": 366.9
+        "trendScore": 358.4
       },
       {
         "kw": "올리브영",
@@ -53689,7 +53462,7 @@
           "previousViews": 63000,
           "sampledHours": 24
         },
-        "trendScore": 302.4
+        "trendScore": 294
       },
       {
         "kw": "영양제",
@@ -53710,7 +53483,7 @@
           "previousViews": 63000,
           "sampledHours": 24
         },
-        "trendScore": 327.6
+        "trendScore": 319.2
       },
       {
         "kw": "향수",
@@ -53731,7 +53504,7 @@
           "previousViews": 63000,
           "sampledHours": 24
         },
-        "trendScore": 361.2
+        "trendScore": 352.8
       },
       {
         "kw": "향수",
@@ -53752,7 +53525,7 @@
           "previousViews": 62000,
           "sampledHours": 24
         },
-        "trendScore": 338.9
+        "trendScore": 330.7
       },
       {
         "kw": "향수",
@@ -53773,7 +53546,7 @@
           "previousViews": 61000,
           "sampledHours": 24
         },
-        "trendScore": 333.5
+        "trendScore": 325.3
       },
       {
         "kw": "레시피",
@@ -53794,7 +53567,7 @@
           "previousViews": 61000,
           "sampledHours": 24
         },
-        "trendScore": 341.6
+        "trendScore": 333.5
       },
       {
         "kw": "코스트코",
@@ -53815,7 +53588,7 @@
           "previousViews": 60000,
           "sampledHours": 24
         },
-        "trendScore": 288
+        "trendScore": 280
       },
       {
         "kw": "코스트코",
@@ -53836,7 +53609,7 @@
           "previousViews": 60000,
           "sampledHours": 24
         },
-        "trendScore": 296
+        "trendScore": 288
       },
       {
         "kw": "화장품",
@@ -53857,7 +53630,7 @@
           "previousViews": 60000,
           "sampledHours": 24
         },
-        "trendScore": 304
+        "trendScore": 296
       },
       {
         "kw": "코스트코",
@@ -53878,7 +53651,7 @@
           "previousViews": 60000,
           "sampledHours": 24
         },
-        "trendScore": 312
+        "trendScore": 304
       },
       {
         "kw": "형광펜",
@@ -53899,7 +53672,7 @@
           "previousViews": 60000,
           "sampledHours": 24
         },
-        "trendScore": 344
+        "trendScore": 336
       },
       {
         "kw": "청소템",
@@ -53920,7 +53693,7 @@
           "previousViews": 60000,
           "sampledHours": 24
         },
-        "trendScore": 392
+        "trendScore": 384
       },
       {
         "kw": "살림템",
@@ -53941,7 +53714,7 @@
           "previousViews": 59000,
           "sampledHours": 24
         },
-        "trendScore": 306.8
+        "trendScore": 298.9
       },
       {
         "kw": "패션",
@@ -53962,7 +53735,7 @@
           "previousViews": 59000,
           "sampledHours": 24
         },
-        "trendScore": 306.8
+        "trendScore": 298.9
       },
       {
         "kw": "다이소",
@@ -53983,7 +53756,7 @@
           "previousViews": 59000,
           "sampledHours": 24
         },
-        "trendScore": 330.4
+        "trendScore": 322.5
       },
       {
         "kw": "편의점",
@@ -54004,7 +53777,7 @@
           "previousViews": 59000,
           "sampledHours": 24
         },
-        "trendScore": 330.4
+        "trendScore": 322.5
       },
       {
         "kw": "향수",
@@ -54025,7 +53798,7 @@
           "previousViews": 59000,
           "sampledHours": 24
         },
-        "trendScore": 338.3
+        "trendScore": 330.4
       },
       {
         "kw": "가전제품",
@@ -54046,7 +53819,7 @@
           "previousViews": 58000,
           "sampledHours": 24
         },
-        "trendScore": 301.6
+        "trendScore": 293.9
       },
       {
         "kw": "향수",
@@ -54067,7 +53840,7 @@
           "previousViews": 58000,
           "sampledHours": 24
         },
-        "trendScore": 317.1
+        "trendScore": 309.3
       },
       {
         "kw": "향수",
@@ -54088,7 +53861,7 @@
           "previousViews": 58000,
           "sampledHours": 24
         },
-        "trendScore": 363.5
+        "trendScore": 355.7
       },
       {
         "kw": "간식",
@@ -54109,7 +53882,7 @@
           "previousViews": 57000,
           "sampledHours": 24
         },
-        "trendScore": 296.4
+        "trendScore": 288.8
       },
       {
         "kw": "다이소",
@@ -54130,7 +53903,7 @@
           "previousViews": 57000,
           "sampledHours": 24
         },
-        "trendScore": 296.4
+        "trendScore": 288.8
       },
       {
         "kw": "아기용품",
@@ -54151,7 +53924,7 @@
           "previousViews": 57000,
           "sampledHours": 24
         },
-        "trendScore": 296.4
+        "trendScore": 288.8
       },
       {
         "kw": "다이소화장품",
@@ -54172,7 +53945,7 @@
           "previousViews": 57000,
           "sampledHours": 24
         },
-        "trendScore": 311.6
+        "trendScore": 304
       },
       {
         "kw": "간식",
@@ -54193,7 +53966,7 @@
           "previousViews": 57000,
           "sampledHours": 24
         },
-        "trendScore": 319.2
+        "trendScore": 311.6
       },
       {
         "kw": "문구",
@@ -54214,7 +53987,7 @@
           "previousViews": 57000,
           "sampledHours": 24
         },
-        "trendScore": 326.8
+        "trendScore": 319.2
       },
       {
         "kw": "지우개",
@@ -54235,7 +54008,7 @@
           "previousViews": 56000,
           "sampledHours": 24
         },
-        "trendScore": 321.1
+        "trendScore": 313.6
       },
       {
         "kw": "코스트코",
@@ -54256,7 +54029,7 @@
           "previousViews": 55000,
           "sampledHours": 24
         },
-        "trendScore": 264
+        "trendScore": 256.7
       },
       {
         "kw": "올리브영",
@@ -54277,7 +54050,7 @@
           "previousViews": 55000,
           "sampledHours": 24
         },
-        "trendScore": 286
+        "trendScore": 278.7
       },
       {
         "kw": "영양제",
@@ -54298,7 +54071,7 @@
           "previousViews": 55000,
           "sampledHours": 24
         },
-        "trendScore": 300.7
+        "trendScore": 293.3
       },
       {
         "kw": "올리브영",
@@ -54319,7 +54092,7 @@
           "previousViews": 55000,
           "sampledHours": 24
         },
-        "trendScore": 330
+        "trendScore": 322.7
       },
       {
         "kw": "꿀템",
@@ -54340,7 +54113,7 @@
           "previousViews": 55000,
           "sampledHours": 24
         },
-        "trendScore": 330
+        "trendScore": 322.7
       },
       {
         "kw": "올리브영",
@@ -54382,7 +54155,7 @@
           "previousViews": 54000,
           "sampledHours": 24
         },
-        "trendScore": 280.8
+        "trendScore": 273.6
       },
       {
         "kw": "꿀템",
@@ -54403,7 +54176,7 @@
           "previousViews": 53000,
           "sampledHours": 24
         },
-        "trendScore": 261.5
+        "trendScore": 254.4
       },
       {
         "kw": "향수",
@@ -54424,7 +54197,7 @@
           "previousViews": 53000,
           "sampledHours": 24
         },
-        "trendScore": 296.8
+        "trendScore": 289.7
       },
       {
         "kw": "선크림",
@@ -54445,7 +54218,7 @@
           "previousViews": 53000,
           "sampledHours": 24
         },
-        "trendScore": 318
+        "trendScore": 310.9
       },
       {
         "kw": "화장품",
@@ -54466,7 +54239,7 @@
           "previousViews": 52000,
           "sampledHours": 24
         },
-        "trendScore": 270.4
+        "trendScore": 263.5
       },
       {
         "kw": "쇼핑",
@@ -54487,7 +54260,7 @@
           "previousViews": 52000,
           "sampledHours": 24
         },
-        "trendScore": 291.2
+        "trendScore": 284.3
       },
       {
         "kw": "문구",
@@ -54508,7 +54281,7 @@
           "previousViews": 52000,
           "sampledHours": 24
         },
-        "trendScore": 291.2
+        "trendScore": 284.3
       },
       {
         "kw": "다이소",
@@ -54529,7 +54302,7 @@
           "previousViews": 51000,
           "sampledHours": 24
         },
-        "trendScore": 244.8
+        "trendScore": 238
       },
       {
         "kw": "청소템",
@@ -54550,7 +54323,7 @@
           "previousViews": 51000,
           "sampledHours": 24
         },
-        "trendScore": 251.6
+        "trendScore": 244.8
       },
       {
         "kw": "패션",
@@ -54571,7 +54344,7 @@
           "previousViews": 51000,
           "sampledHours": 24
         },
-        "trendScore": 265.2
+        "trendScore": 258.4
       },
       {
         "kw": "다이소",
@@ -54592,7 +54365,7 @@
           "previousViews": 51000,
           "sampledHours": 24
         },
-        "trendScore": 265.2
+        "trendScore": 258.4
       },
       {
         "kw": "향수",
@@ -54613,7 +54386,7 @@
           "previousViews": 51000,
           "sampledHours": 24
         },
-        "trendScore": 285.6
+        "trendScore": 278.8
       },
       {
         "kw": "레시피",
@@ -54634,7 +54407,7 @@
           "previousViews": 51000,
           "sampledHours": 24
         },
-        "trendScore": 306
+        "trendScore": 299.2
       },
       {
         "kw": "레시피",
@@ -54655,7 +54428,7 @@
           "previousViews": 50000,
           "sampledHours": 24
         },
-        "trendScore": 240
+        "trendScore": 233.3
       },
       {
         "kw": "코스트코",
@@ -54676,7 +54449,7 @@
           "previousViews": 50000,
           "sampledHours": 24
         },
-        "trendScore": 246.7
+        "trendScore": 240
       },
       {
         "kw": "간식",
@@ -54697,7 +54470,7 @@
           "previousViews": 50000,
           "sampledHours": 24
         },
-        "trendScore": 260
+        "trendScore": 253.3
       },
       {
         "kw": "생활용품",
@@ -54718,7 +54491,7 @@
           "previousViews": 50000,
           "sampledHours": 24
         },
-        "trendScore": 260
+        "trendScore": 253.3
       },
       {
         "kw": "선물추천",
@@ -54739,7 +54512,7 @@
           "previousViews": 50000,
           "sampledHours": 24
         },
-        "trendScore": 260
+        "trendScore": 253.3
       },
       {
         "kw": "약국",
@@ -54760,7 +54533,7 @@
           "previousViews": 50000,
           "sampledHours": 24
         },
-        "trendScore": 260
+        "trendScore": 253.3
       },
       {
         "kw": "코스트코",
@@ -54781,7 +54554,7 @@
           "previousViews": 50000,
           "sampledHours": 24
         },
-        "trendScore": 273.3
+        "trendScore": 266.7
       },
       {
         "kw": "디저트",
@@ -54802,7 +54575,7 @@
           "previousViews": 50000,
           "sampledHours": 24
         },
-        "trendScore": 280
+        "trendScore": 273.3
       },
       {
         "kw": "무인양품",
@@ -54823,7 +54596,7 @@
           "previousViews": 50000,
           "sampledHours": 24
         },
-        "trendScore": 286.7
+        "trendScore": 280
       },
       {
         "kw": "이케아",
@@ -54844,7 +54617,7 @@
           "previousViews": 50000,
           "sampledHours": 24
         },
-        "trendScore": 300
+        "trendScore": 293.3
       },
       {
         "kw": "무인양품",
@@ -54865,7 +54638,7 @@
           "previousViews": 50000,
           "sampledHours": 24
         },
-        "trendScore": 300
+        "trendScore": 293.3
       },
       {
         "kw": "다이소",
@@ -54886,7 +54659,7 @@
           "previousViews": 50000,
           "sampledHours": 24
         },
-        "trendScore": 313.3
+        "trendScore": 306.7
       },
       {
         "kw": "코스트코",
@@ -54907,7 +54680,7 @@
           "previousViews": 50000,
           "sampledHours": 24
         },
-        "trendScore": 326.7
+        "trendScore": 320
       },
       {
         "kw": "청소템",
@@ -54991,7 +54764,7 @@
           "previousViews": 34000,
           "sampledHours": 24
         },
-        "trendScore": 163.2
+        "trendScore": 158.7
       },
       {
         "kw": "살림템",
@@ -55037,7 +54810,7 @@
           "previousViews": 406196,
           "sampledHours": 24
         },
-        "trendScore": 1841.4
+        "trendScore": 1787.3
       },
       {
         "kw": "꿀템/기타",
@@ -55198,7 +54971,7 @@
           "previousViews": 402009,
           "sampledHours": 24
         },
-        "trendScore": 1715.2
+        "trendScore": 1661.6
       },
       {
         "kw": "꿀템/기타",
@@ -55267,7 +55040,7 @@
           "previousViews": 400302,
           "sampledHours": 24
         },
-        "trendScore": 1654.6
+        "trendScore": 1601.2
       },
       {
         "kw": "다이소",
@@ -55290,7 +55063,7 @@
           "previousViews": 400191,
           "sampledHours": 24
         },
-        "trendScore": 1814.2
+        "trendScore": 1760.8
       },
       {
         "kw": "살림/주방",
@@ -55313,7 +55086,7 @@
           "previousViews": 400000,
           "sampledHours": 24
         },
-        "trendScore": 1920
+        "trendScore": 1866.7
       },
       {
         "kw": "다이소",
@@ -55428,7 +55201,7 @@
           "previousViews": 396544,
           "sampledHours": 24
         },
-        "trendScore": 1797.7
+        "trendScore": 1744.8
       },
       {
         "kw": "식품/간식",
@@ -55612,7 +55385,7 @@
           "previousViews": 392381,
           "sampledHours": 24
         },
-        "trendScore": 2145
+        "trendScore": 2092.7
       },
       {
         "kw": "꿀템/기타",
@@ -55681,7 +55454,7 @@
           "previousViews": 387642,
           "sampledHours": 24
         },
-        "trendScore": 2119.1
+        "trendScore": 2067.4
       },
       {
         "kw": "살림/주방",
@@ -55750,7 +55523,7 @@
           "previousViews": 385419,
           "sampledHours": 24
         },
-        "trendScore": 1850
+        "trendScore": 1798.6
       },
       {
         "kw": "꿀템/기타",
@@ -55773,7 +55546,7 @@
           "previousViews": 384230,
           "sampledHours": 24
         },
-        "trendScore": 1741.8
+        "trendScore": 1690.6
       },
       {
         "kw": "살림/주방",
@@ -55796,7 +55569,7 @@
           "previousViews": 384085,
           "sampledHours": 24
         },
-        "trendScore": 2099.7
+        "trendScore": 2048.5
       },
       {
         "kw": "식품/간식",
@@ -55980,7 +55753,7 @@
           "previousViews": 380397,
           "sampledHours": 24
         },
-        "trendScore": 2079.5
+        "trendScore": 2028.8
       },
       {
         "kw": "식품/간식",
@@ -56187,7 +55960,7 @@
           "previousViews": 377818,
           "sampledHours": 24
         },
-        "trendScore": 2216.5
+        "trendScore": 2166.2
       },
       {
         "kw": "꿀템/기타",
@@ -56256,7 +56029,7 @@
           "previousViews": 375754,
           "sampledHours": 24
         },
-        "trendScore": 1803.6
+        "trendScore": 1753.5
       },
       {
         "kw": "살림/주방",
@@ -56371,7 +56144,7 @@
           "previousViews": 373132,
           "sampledHours": 24
         },
-        "trendScore": 1691.5
+        "trendScore": 1641.8
       },
       {
         "kw": "식품/간식",
@@ -56463,7 +56236,7 @@
           "previousViews": 370500,
           "sampledHours": 24
         },
-        "trendScore": 1877.2
+        "trendScore": 1827.8
       },
       {
         "kw": "살림/주방",
@@ -56578,7 +56351,7 @@
           "previousViews": 366900,
           "sampledHours": 24
         },
-        "trendScore": 2005.7
+        "trendScore": 1956.8
       },
       {
         "kw": "살림/주방",
@@ -56647,7 +56420,7 @@
           "previousViews": 365337,
           "sampledHours": 24
         },
-        "trendScore": 1753.6
+        "trendScore": 1704.9
       },
       {
         "kw": "꿀템/기타",
@@ -56716,7 +56489,7 @@
           "previousViews": 363583,
           "sampledHours": 24
         },
-        "trendScore": 2036.1
+        "trendScore": 1987.6
       },
       {
         "kw": "살림/주방",
@@ -56762,7 +56535,7 @@
           "previousViews": 362122,
           "sampledHours": 24
         },
-        "trendScore": 2172.7
+        "trendScore": 2124.4
       },
       {
         "kw": "다이소",
@@ -56785,7 +56558,7 @@
           "previousViews": 361880,
           "sampledHours": 24
         },
-        "trendScore": 1640.5
+        "trendScore": 1592.3
       },
       {
         "kw": "다이소",
@@ -56854,7 +56627,7 @@
           "previousViews": 359967,
           "sampledHours": 24
         },
-        "trendScore": 2159.8
+        "trendScore": 2111.8
       },
       {
         "kw": "꿀템/기타",
@@ -57015,7 +56788,7 @@
           "previousViews": 356786,
           "sampledHours": 24
         },
-        "trendScore": 2188.3
+        "trendScore": 2140.7
       },
       {
         "kw": "식품/간식",
@@ -57291,7 +57064,7 @@
           "previousViews": 353142,
           "sampledHours": 24
         },
-        "trendScore": 1695.1
+        "trendScore": 1648
       },
       {
         "kw": "살림/주방",
@@ -57314,7 +57087,7 @@
           "previousViews": 353092,
           "sampledHours": 24
         },
-        "trendScore": 1741.9
+        "trendScore": 1694.8
       },
       {
         "kw": "살림/주방",
@@ -57360,7 +57133,7 @@
           "previousViews": 351840,
           "sampledHours": 24
         },
-        "trendScore": 1688.8
+        "trendScore": 1641.9
       },
       {
         "kw": "문구/취미",
@@ -57475,7 +57248,7 @@
           "previousViews": 350819,
           "sampledHours": 24
         },
-        "trendScore": 1637.2
+        "trendScore": 1590.4
       },
       {
         "kw": "꿀템/기타",
@@ -57521,7 +57294,7 @@
           "previousViews": 350066,
           "sampledHours": 24
         },
-        "trendScore": 1493.6
+        "trendScore": 1446.9
       },
       {
         "kw": "살림/주방",
@@ -57567,7 +57340,7 @@
           "previousViews": 348674,
           "sampledHours": 24
         },
-        "trendScore": 2045.6
+        "trendScore": 1999.1
       },
       {
         "kw": "꿀템/기타",
@@ -57912,7 +57685,7 @@
           "previousViews": 340721,
           "sampledHours": 24
         },
-        "trendScore": 1499.2
+        "trendScore": 1453.7
       },
       {
         "kw": "식품/간식",
@@ -57981,7 +57754,7 @@
           "previousViews": 338460,
           "sampledHours": 24
         },
-        "trendScore": 1624.6
+        "trendScore": 1579.5
       },
       {
         "kw": "꿀템/기타",
@@ -58004,7 +57777,7 @@
           "previousViews": 337389,
           "sampledHours": 24
         },
-        "trendScore": 1664.5
+        "trendScore": 1619.5
       },
       {
         "kw": "꿀템/기타",
@@ -58050,7 +57823,7 @@
           "previousViews": 336778,
           "sampledHours": 24
         },
-        "trendScore": 2020.7
+        "trendScore": 1975.8
       },
       {
         "kw": "식품/간식",
@@ -58211,7 +57984,7 @@
           "previousViews": 334310,
           "sampledHours": 24
         },
-        "trendScore": 1515.5
+        "trendScore": 1471
       },
       {
         "kw": "다이소",
@@ -58464,7 +58237,7 @@
           "previousViews": 326835,
           "sampledHours": 24
         },
-        "trendScore": 1568.8
+        "trendScore": 1525.2
       },
       {
         "kw": "살림/주방",
@@ -58625,7 +58398,7 @@
           "previousViews": 321511,
           "sampledHours": 24
         },
-        "trendScore": 1886.2
+        "trendScore": 1843.3
       },
       {
         "kw": "살림/주방",
@@ -58740,7 +58513,7 @@
           "previousViews": 318117,
           "sampledHours": 24
         },
-        "trendScore": 1527
+        "trendScore": 1484.5
       },
       {
         "kw": "꿀템/기타",
@@ -58878,7 +58651,7 @@
           "previousViews": 316595,
           "sampledHours": 24
         },
-        "trendScore": 1435.2
+        "trendScore": 1393
       },
       {
         "kw": "꿀템/기타",
@@ -58993,7 +58766,7 @@
           "previousViews": 314785,
           "sampledHours": 24
         },
-        "trendScore": 1469
+        "trendScore": 1427
       },
       {
         "kw": "꿀템/기타",
@@ -59039,7 +58812,7 @@
           "previousViews": 313906,
           "sampledHours": 24
         },
-        "trendScore": 1423
+        "trendScore": 1381.2
       },
       {
         "kw": "패션/잡화",
@@ -59085,7 +58858,7 @@
           "previousViews": 313706,
           "sampledHours": 24
         },
-        "trendScore": 1505.8
+        "trendScore": 1464
       },
       {
         "kw": "식품/간식",
@@ -59223,7 +58996,7 @@
           "previousViews": 311011,
           "sampledHours": 24
         },
-        "trendScore": 1368.4
+        "trendScore": 1327
       },
       {
         "kw": "뷰티/화장품",
@@ -59246,7 +59019,7 @@
           "previousViews": 310909,
           "sampledHours": 24
         },
-        "trendScore": 1368
+        "trendScore": 1326.5
       },
       {
         "kw": "살림/주방",
@@ -59407,7 +59180,7 @@
           "previousViews": 308483,
           "sampledHours": 24
         },
-        "trendScore": 1645.2
+        "trendScore": 1604.1
       },
       {
         "kw": "뷰티/화장품",
@@ -59430,7 +59203,7 @@
           "previousViews": 308110,
           "sampledHours": 24
         },
-        "trendScore": 1355.7
+        "trendScore": 1314.6
       },
       {
         "kw": "살림/주방",
@@ -59545,7 +59318,7 @@
           "previousViews": 306000,
           "sampledHours": 24
         },
-        "trendScore": 1387.2
+        "trendScore": 1346.4
       },
       {
         "kw": "살림/주방",
@@ -59591,7 +59364,7 @@
           "previousViews": 304150,
           "sampledHours": 24
         },
-        "trendScore": 1662.7
+        "trendScore": 1622.1
       },
       {
         "kw": "살림/주방",
@@ -59637,7 +59410,7 @@
           "previousViews": 303415,
           "sampledHours": 24
         },
-        "trendScore": 1820.5
+        "trendScore": 1780
       },
       {
         "kw": "식품/간식",
@@ -59775,7 +59548,7 @@
           "previousViews": 302749,
           "sampledHours": 24
         },
-        "trendScore": 1614.7
+        "trendScore": 1574.3
       },
       {
         "kw": "식품/간식",
@@ -59798,7 +59571,7 @@
           "previousViews": 302629,
           "sampledHours": 24
         },
-        "trendScore": 1775.4
+        "trendScore": 1735.1
       },
       {
         "kw": "꿀템/기타",
@@ -59821,7 +59594,7 @@
           "previousViews": 302000,
           "sampledHours": 24
         },
-        "trendScore": 1570.4
+        "trendScore": 1530.1
       },
       {
         "kw": "캠핑/아웃도어",
@@ -59844,7 +59617,7 @@
           "previousViews": 301691,
           "sampledHours": 24
         },
-        "trendScore": 1407.9
+        "trendScore": 1367.7
       },
       {
         "kw": "꿀템/기타",
@@ -59959,7 +59732,7 @@
           "previousViews": 300050,
           "sampledHours": 24
         },
-        "trendScore": 1600.3
+        "trendScore": 1560.3
       },
       {
         "kw": "살림/주방",
@@ -60028,7 +59801,7 @@
           "previousViews": 299424,
           "sampledHours": 24
         },
-        "trendScore": 1557
+        "trendScore": 1517.1
       },
       {
         "kw": "인테리어",
@@ -60120,7 +59893,7 @@
           "previousViews": 298720,
           "sampledHours": 24
         },
-        "trendScore": 1354.2
+        "trendScore": 1314.4
       },
       {
         "kw": "식품/간식",
@@ -60143,7 +59916,7 @@
           "previousViews": 298209,
           "sampledHours": 24
         },
-        "trendScore": 1431.4
+        "trendScore": 1391.6
       },
       {
         "kw": "식품/간식",
@@ -60166,7 +59939,7 @@
           "previousViews": 298001,
           "sampledHours": 24
         },
-        "trendScore": 1231.7
+        "trendScore": 1192
       },
       {
         "kw": "꿀템/기타",
@@ -60419,7 +60192,7 @@
           "previousViews": 293675,
           "sampledHours": 24
         },
-        "trendScore": 1292.2
+        "trendScore": 1253
       },
       {
         "kw": "식품/간식",
@@ -60511,7 +60284,7 @@
           "previousViews": 292793,
           "sampledHours": 24
         },
-        "trendScore": 1288.3
+        "trendScore": 1249.3
       },
       {
         "kw": "꿀템/기타",
@@ -60580,7 +60353,7 @@
           "previousViews": 292091,
           "sampledHours": 24
         },
-        "trendScore": 1441
+        "trendScore": 1402
       },
       {
         "kw": "식품/간식",
@@ -60603,7 +60376,7 @@
           "previousViews": 292064,
           "sampledHours": 24
         },
-        "trendScore": 1324
+        "trendScore": 1285.1
       },
       {
         "kw": "살림/주방",
@@ -60833,7 +60606,7 @@
           "previousViews": 288854,
           "sampledHours": 24
         },
-        "trendScore": 1271
+        "trendScore": 1232.4
       },
       {
         "kw": "살림/주방",
@@ -60902,7 +60675,7 @@
           "previousViews": 287767,
           "sampledHours": 24
         },
-        "trendScore": 1189.4
+        "trendScore": 1151.1
       },
       {
         "kw": "살림/주방",
@@ -61086,7 +60859,7 @@
           "previousViews": 286995,
           "sampledHours": 24
         },
-        "trendScore": 1607.2
+        "trendScore": 1568.9
       },
       {
         "kw": "꿀템/기타",
@@ -61247,7 +61020,7 @@
           "previousViews": 283288,
           "sampledHours": 24
         },
-        "trendScore": 1397.6
+        "trendScore": 1359.8
       },
       {
         "kw": "뷰티/화장품",
@@ -61523,7 +61296,7 @@
           "previousViews": 278613,
           "sampledHours": 24
         },
-        "trendScore": 1374.5
+        "trendScore": 1337.3
       },
       {
         "kw": "식품/간식",
@@ -61592,7 +61365,7 @@
           "previousViews": 278111,
           "sampledHours": 24
         },
-        "trendScore": 1446.2
+        "trendScore": 1409.1
       },
       {
         "kw": "살림/주방",
@@ -61615,7 +61388,7 @@
           "previousViews": 277680,
           "sampledHours": 24
         },
-        "trendScore": 1629.1
+        "trendScore": 1592
       },
       {
         "kw": "살림/주방",
@@ -61707,7 +61480,7 @@
           "previousViews": 276521,
           "sampledHours": 24
         },
-        "trendScore": 1327.3
+        "trendScore": 1290.4
       },
       {
         "kw": "문구/취미",
@@ -61730,7 +61503,7 @@
           "previousViews": 276404,
           "sampledHours": 24
         },
-        "trendScore": 1547.9
+        "trendScore": 1511
       },
       {
         "kw": "살림/주방",
@@ -61753,7 +61526,7 @@
           "previousViews": 276336,
           "sampledHours": 24
         },
-        "trendScore": 1547.5
+        "trendScore": 1510.6
       },
       {
         "kw": "살림/주방",
@@ -61799,7 +61572,7 @@
           "previousViews": 275972,
           "sampledHours": 24
         },
-        "trendScore": 1177.5
+        "trendScore": 1140.7
       },
       {
         "kw": "꿀템/기타",
@@ -61845,7 +61618,7 @@
           "previousViews": 274685,
           "sampledHours": 24
         },
-        "trendScore": 1318.5
+        "trendScore": 1281.9
       },
       {
         "kw": "꿀템/기타",
@@ -61891,7 +61664,7 @@
           "previousViews": 274441,
           "sampledHours": 24
         },
-        "trendScore": 1280.7
+        "trendScore": 1244.1
       },
       {
         "kw": "꿀템/기타",
@@ -62052,7 +61825,7 @@
           "previousViews": 271832,
           "sampledHours": 24
         },
-        "trendScore": 1413.5
+        "trendScore": 1377.3
       },
       {
         "kw": "식품/간식",
@@ -62098,7 +61871,7 @@
           "previousViews": 271649,
           "sampledHours": 24
         },
-        "trendScore": 1557.5
+        "trendScore": 1521.2
       },
       {
         "kw": "살림/주방",
@@ -62144,7 +61917,7 @@
           "previousViews": 271526,
           "sampledHours": 24
         },
-        "trendScore": 1411.9
+        "trendScore": 1375.7
       },
       {
         "kw": "꿀템/기타",
@@ -62305,7 +62078,7 @@
           "previousViews": 269323,
           "sampledHours": 24
         },
-        "trendScore": 1400.5
+        "trendScore": 1364.6
       },
       {
         "kw": "전자/IT",
@@ -62351,7 +62124,7 @@
           "previousViews": 269256,
           "sampledHours": 24
         },
-        "trendScore": 1292.4
+        "trendScore": 1256.5
       },
       {
         "kw": "꿀템/기타",
@@ -62374,7 +62147,7 @@
           "previousViews": 269058,
           "sampledHours": 24
         },
-        "trendScore": 1291.5
+        "trendScore": 1255.6
       },
       {
         "kw": "꿀템/기타",
@@ -62397,7 +62170,7 @@
           "previousViews": 268863,
           "sampledHours": 24
         },
-        "trendScore": 1254.7
+        "trendScore": 1218.8
       },
       {
         "kw": "꿀템/기타",
@@ -62581,7 +62354,7 @@
           "previousViews": 266041,
           "sampledHours": 24
         },
-        "trendScore": 1135.1
+        "trendScore": 1099.6
       },
       {
         "kw": "뷰티/화장품",
@@ -62604,7 +62377,7 @@
           "previousViews": 265430,
           "sampledHours": 24
         },
-        "trendScore": 1167.9
+        "trendScore": 1132.5
       },
       {
         "kw": "인테리어",
@@ -62949,7 +62722,7 @@
           "previousViews": 262633,
           "sampledHours": 24
         },
-        "trendScore": 1085.5
+        "trendScore": 1050.5
       },
       {
         "kw": "살림/주방",
@@ -62995,7 +62768,7 @@
           "previousViews": 261913,
           "sampledHours": 24
         },
-        "trendScore": 1152.4
+        "trendScore": 1117.5
       },
       {
         "kw": "다이소",
@@ -63018,7 +62791,7 @@
           "previousViews": 261658,
           "sampledHours": 24
         },
-        "trendScore": 1221.1
+        "trendScore": 1186.2
       },
       {
         "kw": "살림/주방",
@@ -63087,7 +62860,7 @@
           "previousViews": 260766,
           "sampledHours": 24
         },
-        "trendScore": 1077.8
+        "trendScore": 1043.1
       },
       {
         "kw": "살림/주방",
@@ -63317,7 +63090,7 @@
           "previousViews": 259091,
           "sampledHours": 24
         },
-        "trendScore": 1485.5
+        "trendScore": 1450.9
       },
       {
         "kw": "다이소",
@@ -63432,7 +63205,7 @@
           "previousViews": 257854,
           "sampledHours": 24
         },
-        "trendScore": 1409.6
+        "trendScore": 1375.2
       },
       {
         "kw": "살림/주방",
@@ -63501,7 +63274,7 @@
           "previousViews": 257255,
           "sampledHours": 24
         },
-        "trendScore": 1166.2
+        "trendScore": 1131.9
       },
       {
         "kw": "살림/주방",
@@ -63593,7 +63366,7 @@
           "previousViews": 256258,
           "sampledHours": 24
         },
-        "trendScore": 1503.4
+        "trendScore": 1469.2
       },
       {
         "kw": "다이소",
@@ -63685,7 +63458,7 @@
           "previousViews": 254932,
           "sampledHours": 24
         },
-        "trendScore": 1223.7
+        "trendScore": 1189.7
       },
       {
         "kw": "꿀템/기타",
@@ -63777,7 +63550,7 @@
           "previousViews": 253362,
           "sampledHours": 24
         },
-        "trendScore": 1114.8
+        "trendScore": 1081
       },
       {
         "kw": "뷰티/화장품",
@@ -63800,7 +63573,7 @@
           "previousViews": 253211,
           "sampledHours": 24
         },
-        "trendScore": 1080.4
+        "trendScore": 1046.6
       },
       {
         "kw": "식품/간식",
@@ -63823,7 +63596,7 @@
           "previousViews": 252893,
           "sampledHours": 24
         },
-        "trendScore": 1146.4
+        "trendScore": 1112.7
       },
       {
         "kw": "식품/간식",
@@ -63915,7 +63688,7 @@
           "previousViews": 251371,
           "sampledHours": 24
         },
-        "trendScore": 1206.6
+        "trendScore": 1173.1
       },
       {
         "kw": "캠핑/아웃도어",
@@ -64076,7 +63849,7 @@
           "previousViews": 249975,
           "sampledHours": 24
         },
-        "trendScore": 1099.9
+        "trendScore": 1066.6
       },
       {
         "kw": "살림/주방",
@@ -64122,7 +63895,7 @@
           "previousViews": 249232,
           "sampledHours": 24
         },
-        "trendScore": 1096.6
+        "trendScore": 1063.4
       },
       {
         "kw": "캠핑/아웃도어",
@@ -64352,7 +64125,7 @@
           "previousViews": 247259,
           "sampledHours": 24
         },
-        "trendScore": 1120.9
+        "trendScore": 1087.9
       },
       {
         "kw": "살림/주방",
@@ -64444,7 +64217,7 @@
           "previousViews": 245448,
           "sampledHours": 24
         },
-        "trendScore": 1341.8
+        "trendScore": 1309.1
       },
       {
         "kw": "뷰티/화장품",
@@ -64674,7 +64447,7 @@
           "previousViews": 242358,
           "sampledHours": 24
         },
-        "trendScore": 1260.3
+        "trendScore": 1227.9
       },
       {
         "kw": "살림/주방",
@@ -64697,7 +64470,7 @@
           "previousViews": 241523,
           "sampledHours": 24
         },
-        "trendScore": 1320.3
+        "trendScore": 1288.1
       },
       {
         "kw": "살림/주방",
@@ -64743,7 +64516,7 @@
           "previousViews": 241236,
           "sampledHours": 24
         },
-        "trendScore": 1222.3
+        "trendScore": 1190.1
       },
       {
         "kw": "뷰티/화장품",
@@ -64766,7 +64539,7 @@
           "previousViews": 241113,
           "sampledHours": 24
         },
-        "trendScore": 1318.1
+        "trendScore": 1285.9
       },
       {
         "kw": "꿀템/기타",
@@ -64881,7 +64654,7 @@
           "previousViews": 240093,
           "sampledHours": 24
         },
-        "trendScore": 1056.4
+        "trendScore": 1024.4
       },
       {
         "kw": "다이소",
@@ -64950,7 +64723,7 @@
           "previousViews": 238855,
           "sampledHours": 24
         },
-        "trendScore": 987.3
+        "trendScore": 955.4
       },
       {
         "kw": "뷰티/화장품",
@@ -64996,7 +64769,7 @@
           "previousViews": 238283,
           "sampledHours": 24
         },
-        "trendScore": 1143.8
+        "trendScore": 1112
       },
       {
         "kw": "꿀템/기타",
@@ -65019,7 +64792,7 @@
           "previousViews": 237649,
           "sampledHours": 24
         },
-        "trendScore": 1140.7
+        "trendScore": 1109
       },
       {
         "kw": "꿀템/기타",
@@ -65042,7 +64815,7 @@
           "previousViews": 236963,
           "sampledHours": 24
         },
-        "trendScore": 1200.6
+        "trendScore": 1169
       },
       {
         "kw": "꿀템/기타",
@@ -65088,7 +64861,7 @@
           "previousViews": 236332,
           "sampledHours": 24
         },
-        "trendScore": 1134.4
+        "trendScore": 1102.9
       },
       {
         "kw": "꿀템/기타",
@@ -65157,7 +64930,7 @@
           "previousViews": 236126,
           "sampledHours": 24
         },
-        "trendScore": 1385.3
+        "trendScore": 1353.8
       },
       {
         "kw": "다이소",
@@ -65387,7 +65160,7 @@
           "previousViews": 233868,
           "sampledHours": 24
         },
-        "trendScore": 966.7
+        "trendScore": 935.5
       },
       {
         "kw": "식품/간식",
@@ -65640,7 +65413,7 @@
           "previousViews": 231991,
           "sampledHours": 24
         },
-        "trendScore": 1020.8
+        "trendScore": 989.8
       },
       {
         "kw": "인테리어",
@@ -65663,7 +65436,7 @@
           "previousViews": 231828,
           "sampledHours": 24
         },
-        "trendScore": 958.2
+        "trendScore": 927.3
       },
       {
         "kw": "전자/IT",
@@ -65847,7 +65620,7 @@
           "previousViews": 229542,
           "sampledHours": 24
         },
-        "trendScore": 1010
+        "trendScore": 979.4
       },
       {
         "kw": "살림/주방",
@@ -66054,7 +65827,7 @@
           "previousViews": 227514,
           "sampledHours": 24
         },
-        "trendScore": 1274.1
+        "trendScore": 1243.7
       },
       {
         "kw": "다이소",
@@ -66100,7 +65873,7 @@
           "previousViews": 226991,
           "sampledHours": 24
         },
-        "trendScore": 998.8
+        "trendScore": 968.5
       },
       {
         "kw": "살림/주방",
@@ -66238,7 +66011,7 @@
           "previousViews": 225693,
           "sampledHours": 24
         },
-        "trendScore": 1083.3
+        "trendScore": 1053.2
       },
       {
         "kw": "꿀템/기타",
@@ -66284,7 +66057,7 @@
           "previousViews": 225479,
           "sampledHours": 24
         },
-        "trendScore": 992.1
+        "trendScore": 962
       },
       {
         "kw": "식품/간식",
@@ -66307,7 +66080,7 @@
           "previousViews": 225398,
           "sampledHours": 24
         },
-        "trendScore": 1232.2
+        "trendScore": 1202.1
       },
       {
         "kw": "살림/주방",
@@ -66422,7 +66195,7 @@
           "previousViews": 223862,
           "sampledHours": 24
         },
-        "trendScore": 1164.1
+        "trendScore": 1134.2
       },
       {
         "kw": "뷰티/화장품",
@@ -66445,7 +66218,7 @@
           "previousViews": 223499,
           "sampledHours": 24
         },
-        "trendScore": 1072.8
+        "trendScore": 1043
       },
       {
         "kw": "꿀템/기타",
@@ -66468,7 +66241,7 @@
           "previousViews": 223382,
           "sampledHours": 24
         },
-        "trendScore": 1072.2
+        "trendScore": 1042.4
       },
       {
         "kw": "식품/간식",
@@ -66514,7 +66287,7 @@
           "previousViews": 222720,
           "sampledHours": 24
         },
-        "trendScore": 1098.8
+        "trendScore": 1069.1
       },
       {
         "kw": "살림/주방",
@@ -66560,7 +66333,7 @@
           "previousViews": 222412,
           "sampledHours": 24
         },
-        "trendScore": 1334.5
+        "trendScore": 1304.8
       },
       {
         "kw": "꿀템/기타",
@@ -66606,7 +66379,7 @@
           "previousViews": 222109,
           "sampledHours": 24
         },
-        "trendScore": 1066.1
+        "trendScore": 1036.5
       },
       {
         "kw": "꿀템/기타",
@@ -66629,7 +66402,7 @@
           "previousViews": 222000,
           "sampledHours": 24
         },
-        "trendScore": 1036
+        "trendScore": 1006.4
       },
       {
         "kw": "꿀템/기타",
@@ -66698,7 +66471,7 @@
           "previousViews": 221501,
           "sampledHours": 24
         },
-        "trendScore": 1033.7
+        "trendScore": 1004.1
       },
       {
         "kw": "식품/간식",
@@ -67112,7 +66885,7 @@
           "previousViews": 218869,
           "sampledHours": 24
         },
-        "trendScore": 933.8
+        "trendScore": 904.7
       },
       {
         "kw": "살림/주방",
@@ -67135,7 +66908,7 @@
           "previousViews": 218349,
           "sampledHours": 24
         },
-        "trendScore": 1048.1
+        "trendScore": 1019
       },
       {
         "kw": "식품/간식",
@@ -67158,7 +66931,7 @@
           "previousViews": 217775,
           "sampledHours": 24
         },
-        "trendScore": 1190.5
+        "trendScore": 1161.5
       },
       {
         "kw": "살림/주방",
@@ -67204,7 +66977,7 @@
           "previousViews": 217521,
           "sampledHours": 24
         },
-        "trendScore": 1131.1
+        "trendScore": 1102.1
       },
       {
         "kw": "살림/주방",
@@ -67365,7 +67138,7 @@
           "previousViews": 215744,
           "sampledHours": 24
         },
-        "trendScore": 949.3
+        "trendScore": 920.5
       },
       {
         "kw": "다이소",
@@ -67411,7 +67184,7 @@
           "previousViews": 214153,
           "sampledHours": 24
         },
-        "trendScore": 1085
+        "trendScore": 1056.5
       },
       {
         "kw": "패션/잡화",
@@ -67457,7 +67230,7 @@
           "previousViews": 212921,
           "sampledHours": 24
         },
-        "trendScore": 993.6
+        "trendScore": 965.2
       },
       {
         "kw": "인테리어",
@@ -67641,7 +67414,7 @@
           "previousViews": 211209,
           "sampledHours": 24
         },
-        "trendScore": 929.3
+        "trendScore": 901.2
       },
       {
         "kw": "살림/주방",
@@ -67664,7 +67437,7 @@
           "previousViews": 210735,
           "sampledHours": 24
         },
-        "trendScore": 1180.1
+        "trendScore": 1152
       },
       {
         "kw": "식품/간식",
@@ -67687,7 +67460,7 @@
           "previousViews": 210584,
           "sampledHours": 24
         },
-        "trendScore": 982.7
+        "trendScore": 954.6
       },
       {
         "kw": "식품/간식",
@@ -67710,7 +67483,7 @@
           "previousViews": 210580,
           "sampledHours": 24
         },
-        "trendScore": 1207.3
+        "trendScore": 1179.2
       },
       {
         "kw": "인테리어",
@@ -67733,7 +67506,7 @@
           "previousViews": 210025,
           "sampledHours": 24
         },
-        "trendScore": 896.1
+        "trendScore": 868.1
       },
       {
         "kw": "식품/간식",
@@ -67825,7 +67598,7 @@
           "previousViews": 209410,
           "sampledHours": 24
         },
-        "trendScore": 1005.2
+        "trendScore": 977.2
       },
       {
         "kw": "살림/주방",
@@ -67917,7 +67690,7 @@
           "previousViews": 207869,
           "sampledHours": 24
         },
-        "trendScore": 886.9
+        "trendScore": 859.2
       },
       {
         "kw": "꿀템/기타",
@@ -67940,7 +67713,7 @@
           "previousViews": 207523,
           "sampledHours": 24
         },
-        "trendScore": 913.1
+        "trendScore": 885.4
       },
       {
         "kw": "다이소",
@@ -68009,7 +67782,7 @@
           "previousViews": 206558,
           "sampledHours": 24
         },
-        "trendScore": 1156.7
+        "trendScore": 1129.2
       },
       {
         "kw": "인테리어",
@@ -68055,7 +67828,7 @@
           "previousViews": 206163,
           "sampledHours": 24
         },
-        "trendScore": 1154.5
+        "trendScore": 1127
       },
       {
         "kw": "살림/주방",
@@ -68078,7 +67851,7 @@
           "previousViews": 206086,
           "sampledHours": 24
         },
-        "trendScore": 1071.6
+        "trendScore": 1044.2
       },
       {
         "kw": "살림/주방",
@@ -68124,7 +67897,7 @@
           "previousViews": 206045,
           "sampledHours": 24
         },
-        "trendScore": 1126.4
+        "trendScore": 1098.9
       },
       {
         "kw": "살림/주방",
@@ -68170,7 +67943,7 @@
           "previousViews": 206005,
           "sampledHours": 24
         },
-        "trendScore": 961.4
+        "trendScore": 933.9
       },
       {
         "kw": "살림/주방",
@@ -68239,7 +68012,7 @@
           "previousViews": 205567,
           "sampledHours": 24
         },
-        "trendScore": 986.7
+        "trendScore": 959.3
       },
       {
         "kw": "식품/간식",
@@ -68538,7 +68311,7 @@
           "previousViews": 202316,
           "sampledHours": 24
         },
-        "trendScore": 863.2
+        "trendScore": 836.2
       },
       {
         "kw": "꿀템/기타",
@@ -68699,7 +68472,7 @@
           "previousViews": 200809,
           "sampledHours": 24
         },
-        "trendScore": 963.9
+        "trendScore": 937.1
       },
       {
         "kw": "꿀템/기타",
@@ -68745,7 +68518,7 @@
           "previousViews": 200491,
           "sampledHours": 24
         },
-        "trendScore": 1122.7
+        "trendScore": 1096
       },
       {
         "kw": "살림/주방",
@@ -68860,7 +68633,7 @@
           "previousViews": 199430,
           "sampledHours": 24
         },
-        "trendScore": 904.1
+        "trendScore": 877.5
       },
       {
         "kw": "꿀템/기타",
@@ -68975,7 +68748,7 @@
           "previousViews": 198060,
           "sampledHours": 24
         },
-        "trendScore": 871.5
+        "trendScore": 845.1
       },
       {
         "kw": "꿀템/기타",
@@ -68998,7 +68771,7 @@
           "previousViews": 198005,
           "sampledHours": 24
         },
-        "trendScore": 976.8
+        "trendScore": 950.4
       },
       {
         "kw": "다이소",
@@ -69090,7 +68863,7 @@
           "previousViews": 196838,
           "sampledHours": 24
         },
-        "trendScore": 1102.3
+        "trendScore": 1076
       },
       {
         "kw": "살림/주방",
@@ -69251,7 +69024,7 @@
           "previousViews": 194638,
           "sampledHours": 24
         },
-        "trendScore": 1090
+        "trendScore": 1064
       },
       {
         "kw": "살림/주방",
@@ -69320,7 +69093,7 @@
           "previousViews": 193912,
           "sampledHours": 24
         },
-        "trendScore": 1060.1
+        "trendScore": 1034.2
       },
       {
         "kw": "다이소",
@@ -69665,7 +69438,7 @@
           "previousViews": 189667,
           "sampledHours": 24
         },
-        "trendScore": 910.4
+        "trendScore": 885.1
       },
       {
         "kw": "문구/취미",
@@ -69757,7 +69530,7 @@
           "previousViews": 188218,
           "sampledHours": 24
         },
-        "trendScore": 953.6
+        "trendScore": 928.5
       },
       {
         "kw": "캠핑/아웃도어",
@@ -69803,7 +69576,7 @@
           "previousViews": 187434,
           "sampledHours": 24
         },
-        "trendScore": 899.7
+        "trendScore": 874.7
       },
       {
         "kw": "살림/주방",
@@ -69872,7 +69645,7 @@
           "previousViews": 187116,
           "sampledHours": 24
         },
-        "trendScore": 873.2
+        "trendScore": 848.3
       },
       {
         "kw": "다이소",
@@ -69918,7 +69691,7 @@
           "previousViews": 186501,
           "sampledHours": 24
         },
-        "trendScore": 944.9
+        "trendScore": 920.1
       },
       {
         "kw": "식품/간식",
@@ -70079,7 +69852,7 @@
           "previousViews": 185263,
           "sampledHours": 24
         },
-        "trendScore": 889.3
+        "trendScore": 864.6
       },
       {
         "kw": "식품/간식",
@@ -70102,7 +69875,7 @@
           "previousViews": 185188,
           "sampledHours": 24
         },
-        "trendScore": 814.8
+        "trendScore": 790.1
       },
       {
         "kw": "패션/잡화",
@@ -70447,7 +70220,7 @@
           "previousViews": 182547,
           "sampledHours": 24
         },
-        "trendScore": 827.5
+        "trendScore": 803.2
       },
       {
         "kw": "살림/주방",
@@ -70585,7 +70358,7 @@
           "previousViews": 181316,
           "sampledHours": 24
         },
-        "trendScore": 773.6
+        "trendScore": 749.4
       },
       {
         "kw": "다이소",
@@ -70769,7 +70542,7 @@
           "previousViews": 179561,
           "sampledHours": 24
         },
-        "trendScore": 766.1
+        "trendScore": 742.2
       },
       {
         "kw": "꿀템/기타",
@@ -70953,7 +70726,7 @@
           "previousViews": 178143,
           "sampledHours": 24
         },
-        "trendScore": 1021.4
+        "trendScore": 997.6
       },
       {
         "kw": "다이소",
@@ -71091,7 +70864,7 @@
           "previousViews": 177064,
           "sampledHours": 24
         },
-        "trendScore": 1038.8
+        "trendScore": 1015.2
       },
       {
         "kw": "뷰티/화장품",
@@ -71183,7 +70956,7 @@
           "previousViews": 176891,
           "sampledHours": 24
         },
-        "trendScore": 778.3
+        "trendScore": 754.7
       },
       {
         "kw": "살림/주방",
@@ -71229,7 +71002,7 @@
           "previousViews": 176712,
           "sampledHours": 24
         },
-        "trendScore": 777.5
+        "trendScore": 754
       },
       {
         "kw": "꿀템/기타",
@@ -71275,7 +71048,7 @@
           "previousViews": 176603,
           "sampledHours": 24
         },
-        "trendScore": 894.8
+        "trendScore": 871.2
       },
       {
         "kw": "살림/주방",
@@ -71344,7 +71117,7 @@
           "previousViews": 175901,
           "sampledHours": 24
         },
-        "trendScore": 844.3
+        "trendScore": 820.9
       },
       {
         "kw": "인테리어",
@@ -71528,7 +71301,7 @@
           "previousViews": 175255,
           "sampledHours": 24
         },
-        "trendScore": 1051.5
+        "trendScore": 1028.2
       },
       {
         "kw": "꿀템/기타",
@@ -71574,7 +71347,7 @@
           "previousViews": 174995,
           "sampledHours": 24
         },
-        "trendScore": 746.6
+        "trendScore": 723.3
       },
       {
         "kw": "살림/주방",
@@ -71643,7 +71416,7 @@
           "previousViews": 174472,
           "sampledHours": 24
         },
-        "trendScore": 907.3
+        "trendScore": 884
       },
       {
         "kw": "캠핑/아웃도어",
@@ -71758,7 +71531,7 @@
           "previousViews": 173565,
           "sampledHours": 24
         },
-        "trendScore": 879.4
+        "trendScore": 856.3
       },
       {
         "kw": "식품/간식",
@@ -71850,7 +71623,7 @@
           "previousViews": 172689,
           "sampledHours": 24
         },
-        "trendScore": 967.1
+        "trendScore": 944
       },
       {
         "kw": "살림/주방",
@@ -72034,7 +71807,7 @@
           "previousViews": 171726,
           "sampledHours": 24
         },
-        "trendScore": 732.7
+        "trendScore": 709.8
       },
       {
         "kw": "문구/취미",
@@ -72103,7 +71876,7 @@
           "previousViews": 171254,
           "sampledHours": 24
         },
-        "trendScore": 1073.2
+        "trendScore": 1050.4
       },
       {
         "kw": "뷰티/화장품",
@@ -72126,7 +71899,7 @@
           "previousViews": 171163,
           "sampledHours": 24
         },
-        "trendScore": 730.3
+        "trendScore": 707.5
       },
       {
         "kw": "뷰티/화장품",
@@ -72195,7 +71968,7 @@
           "previousViews": 170824,
           "sampledHours": 24
         },
-        "trendScore": 820
+        "trendScore": 797.2
       },
       {
         "kw": "살림/주방",
@@ -72241,7 +72014,7 @@
           "previousViews": 170776,
           "sampledHours": 24
         },
-        "trendScore": 1001.9
+        "trendScore": 979.1
       },
       {
         "kw": "식품/간식",
@@ -72287,7 +72060,7 @@
           "previousViews": 170283,
           "sampledHours": 24
         },
-        "trendScore": 976.3
+        "trendScore": 953.6
       },
       {
         "kw": "다이소",
@@ -72356,7 +72129,7 @@
           "previousViews": 169805,
           "sampledHours": 24
         },
-        "trendScore": 747.1
+        "trendScore": 724.5
       },
       {
         "kw": "식품/간식",
@@ -72379,7 +72152,7 @@
           "previousViews": 169565,
           "sampledHours": 24
         },
-        "trendScore": 700.9
+        "trendScore": 678.3
       },
       {
         "kw": "식품/간식",
@@ -72655,7 +72428,7 @@
           "previousViews": 167319,
           "sampledHours": 24
         },
-        "trendScore": 959.3
+        "trendScore": 937
       },
       {
         "kw": "살림/주방",
@@ -72724,7 +72497,7 @@
           "previousViews": 167114,
           "sampledHours": 24
         },
-        "trendScore": 735.3
+        "trendScore": 713
       },
       {
         "kw": "식품/간식",
@@ -72747,7 +72520,7 @@
           "previousViews": 166981,
           "sampledHours": 24
         },
-        "trendScore": 690.2
+        "trendScore": 667.9
       },
       {
         "kw": "다이소",
@@ -72931,7 +72704,7 @@
           "previousViews": 166463,
           "sampledHours": 24
         },
-        "trendScore": 910
+        "trendScore": 887.8
       },
       {
         "kw": "꿀템/기타",
@@ -73046,7 +72819,7 @@
           "previousViews": 165637,
           "sampledHours": 24
         },
-        "trendScore": 750.9
+        "trendScore": 728.8
       },
       {
         "kw": "살림/주방",
@@ -73207,7 +72980,7 @@
           "previousViews": 164488,
           "sampledHours": 24
         },
-        "trendScore": 811.5
+        "trendScore": 789.5
       },
       {
         "kw": "꿀템/기타",
@@ -73230,7 +73003,7 @@
           "previousViews": 164470,
           "sampledHours": 24
         },
-        "trendScore": 767.5
+        "trendScore": 745.6
       },
       {
         "kw": "식품/간식",
@@ -73253,7 +73026,7 @@
           "previousViews": 164136,
           "sampledHours": 24
         },
-        "trendScore": 897.3
+        "trendScore": 875.4
       },
       {
         "kw": "인테리어",
@@ -73276,7 +73049,7 @@
           "previousViews": 164042,
           "sampledHours": 24
         },
-        "trendScore": 721.8
+        "trendScore": 699.9
       },
       {
         "kw": "꿀템/기타",
@@ -73391,7 +73164,7 @@
           "previousViews": 163313,
           "sampledHours": 24
         },
-        "trendScore": 936.3
+        "trendScore": 914.6
       },
       {
         "kw": "꿀템/기타",
@@ -73414,7 +73187,7 @@
           "previousViews": 163105,
           "sampledHours": 24
         },
-        "trendScore": 1000.4
+        "trendScore": 978.6
       },
       {
         "kw": "살림/주방",
@@ -73529,7 +73302,7 @@
           "previousViews": 162854,
           "sampledHours": 24
         },
-        "trendScore": 760
+        "trendScore": 738.3
       },
       {
         "kw": "캠핑/아웃도어",
@@ -73575,7 +73348,7 @@
           "previousViews": 162638,
           "sampledHours": 24
         },
-        "trendScore": 672.2
+        "trendScore": 650.6
       },
       {
         "kw": "꿀템/기타",
@@ -73621,7 +73394,7 @@
           "previousViews": 162422,
           "sampledHours": 24
         },
-        "trendScore": 822.9
+        "trendScore": 801.3
       },
       {
         "kw": "뷰티/화장품",
@@ -73805,7 +73578,7 @@
           "previousViews": 161319,
           "sampledHours": 24
         },
-        "trendScore": 774.3
+        "trendScore": 752.8
       },
       {
         "kw": "식품/간식",
@@ -73943,7 +73716,7 @@
           "previousViews": 161000,
           "sampledHours": 24
         },
-        "trendScore": 837.2
+        "trendScore": 815.7
       },
       {
         "kw": "뷰티/화장품",
@@ -73966,7 +73739,7 @@
           "previousViews": 160930,
           "sampledHours": 24
         },
-        "trendScore": 793.9
+        "trendScore": 772.5
       },
       {
         "kw": "살림/주방",
@@ -74012,7 +73785,7 @@
           "previousViews": 160825,
           "sampledHours": 24
         },
-        "trendScore": 772
+        "trendScore": 750.5
       },
       {
         "kw": "다이소",
@@ -74311,7 +74084,7 @@
           "previousViews": 159038,
           "sampledHours": 24
         },
-        "trendScore": 848.2
+        "trendScore": 827
       },
       {
         "kw": "식품/간식",
@@ -74334,7 +74107,7 @@
           "previousViews": 158980,
           "sampledHours": 24
         },
-        "trendScore": 784.3
+        "trendScore": 763.1
       },
       {
         "kw": "식품/간식",
@@ -74357,7 +74130,7 @@
           "previousViews": 158927,
           "sampledHours": 24
         },
-        "trendScore": 720.5
+        "trendScore": 699.3
       },
       {
         "kw": "살림/주방",
@@ -74472,7 +74245,7 @@
           "previousViews": 157456,
           "sampledHours": 24
         },
-        "trendScore": 923.7
+        "trendScore": 902.7
       },
       {
         "kw": "꿀템/기타",
@@ -74495,7 +74268,7 @@
           "previousViews": 157260,
           "sampledHours": 24
         },
-        "trendScore": 922.6
+        "trendScore": 901.6
       },
       {
         "kw": "살림/주방",
@@ -74518,7 +74291,7 @@
           "previousViews": 157220,
           "sampledHours": 24
         },
-        "trendScore": 817.5
+        "trendScore": 796.6
       },
       {
         "kw": "뷰티/화장품",
@@ -74541,7 +74314,7 @@
           "previousViews": 157162,
           "sampledHours": 24
         },
-        "trendScore": 859.2
+        "trendScore": 838.2
       },
       {
         "kw": "살림/주방",
@@ -74564,7 +74337,7 @@
           "previousViews": 156921,
           "sampledHours": 24
         },
-        "trendScore": 669.5
+        "trendScore": 648.6
       },
       {
         "kw": "다이소",
@@ -74610,7 +74383,7 @@
           "previousViews": 156490,
           "sampledHours": 24
         },
-        "trendScore": 688.6
+        "trendScore": 667.7
       },
       {
         "kw": "살림/주방",
@@ -74656,7 +74429,7 @@
           "previousViews": 156057,
           "sampledHours": 24
         },
-        "trendScore": 853.1
+        "trendScore": 832.3
       },
       {
         "kw": "캠핑/아웃도어",
@@ -74702,7 +74475,7 @@
           "previousViews": 155891,
           "sampledHours": 24
         },
-        "trendScore": 852.2
+        "trendScore": 831.4
       },
       {
         "kw": "살림/주방",
@@ -74863,7 +74636,7 @@
           "previousViews": 154624,
           "sampledHours": 24
         },
-        "trendScore": 742.2
+        "trendScore": 721.6
       },
       {
         "kw": "살림/주방",
@@ -74932,7 +74705,7 @@
           "previousViews": 154514,
           "sampledHours": 24
         },
-        "trendScore": 762.3
+        "trendScore": 741.7
       },
       {
         "kw": "꿀템/기타",
@@ -74978,7 +74751,7 @@
           "previousViews": 154280,
           "sampledHours": 24
         },
-        "trendScore": 720
+        "trendScore": 699.4
       },
       {
         "kw": "살림/주방",
@@ -75070,7 +74843,7 @@
           "previousViews": 154004,
           "sampledHours": 24
         },
-        "trendScore": 759.8
+        "trendScore": 739.2
       },
       {
         "kw": "꿀템/기타",
@@ -75116,7 +74889,7 @@
           "previousViews": 153763,
           "sampledHours": 24
         },
-        "trendScore": 758.6
+        "trendScore": 738.1
       },
       {
         "kw": "패션/잡화",
@@ -75208,7 +74981,7 @@
           "previousViews": 152812,
           "sampledHours": 24
         },
-        "trendScore": 713.1
+        "trendScore": 692.7
       },
       {
         "kw": "살림/주방",
@@ -75277,7 +75050,7 @@
           "previousViews": 152449,
           "sampledHours": 24
         },
-        "trendScore": 731.8
+        "trendScore": 711.4
       },
       {
         "kw": "뷰티/화장품",
@@ -75300,7 +75073,7 @@
           "previousViews": 152378,
           "sampledHours": 24
         },
-        "trendScore": 731.4
+        "trendScore": 711.1
       },
       {
         "kw": "식품/간식",
@@ -75346,7 +75119,7 @@
           "previousViews": 152200,
           "sampledHours": 24
         },
-        "trendScore": 690
+        "trendScore": 669.7
       },
       {
         "kw": "다이소",
@@ -75369,7 +75142,7 @@
           "previousViews": 152199,
           "sampledHours": 24
         },
-        "trendScore": 832
+        "trendScore": 811.7
       },
       {
         "kw": "식품/간식",
@@ -75461,7 +75234,7 @@
           "previousViews": 151404,
           "sampledHours": 24
         },
-        "trendScore": 807.5
+        "trendScore": 787.3
       },
       {
         "kw": "살림/주방",
@@ -75484,7 +75257,7 @@
           "previousViews": 151303,
           "sampledHours": 24
         },
-        "trendScore": 625.4
+        "trendScore": 605.2
       },
       {
         "kw": "꿀템/기타",
@@ -75599,7 +75372,7 @@
           "previousViews": 150729,
           "sampledHours": 24
         },
-        "trendScore": 663.2
+        "trendScore": 643.1
       },
       {
         "kw": "뷰티/화장품",
@@ -75737,7 +75510,7 @@
           "previousViews": 150011,
           "sampledHours": 24
         },
-        "trendScore": 800.1
+        "trendScore": 780.1
       },
       {
         "kw": "살림/주방",
@@ -75760,7 +75533,7 @@
           "previousViews": 149988,
           "sampledHours": 24
         },
-        "trendScore": 839.9
+        "trendScore": 819.9
       },
       {
         "kw": "인테리어",
@@ -75829,7 +75602,7 @@
           "previousViews": 149848,
           "sampledHours": 24
         },
-        "trendScore": 839.1
+        "trendScore": 819.2
       },
       {
         "kw": "문구/취미",
@@ -75852,7 +75625,7 @@
           "previousViews": 149580,
           "sampledHours": 24
         },
-        "trendScore": 857.6
+        "trendScore": 837.6
       },
       {
         "kw": "살림/주방",
@@ -75898,7 +75671,7 @@
           "previousViews": 149237,
           "sampledHours": 24
         },
-        "trendScore": 855.6
+        "trendScore": 835.7
       },
       {
         "kw": "살림/주방",
@@ -75921,7 +75694,7 @@
           "previousViews": 149151,
           "sampledHours": 24
         },
-        "trendScore": 715.9
+        "trendScore": 696
       },
       {
         "kw": "식품/간식",
@@ -76059,7 +75832,7 @@
           "previousViews": 148505,
           "sampledHours": 24
         },
-        "trendScore": 871.2
+        "trendScore": 851.4
       },
       {
         "kw": "다이소",
@@ -76220,7 +75993,7 @@
           "previousViews": 147412,
           "sampledHours": 24
         },
-        "trendScore": 648.6
+        "trendScore": 629
       },
       {
         "kw": "살림/주방",
@@ -76289,7 +76062,7 @@
           "previousViews": 146982,
           "sampledHours": 24
         },
-        "trendScore": 607.5
+        "trendScore": 587.9
       },
       {
         "kw": "인테리어",
@@ -76450,7 +76223,7 @@
           "previousViews": 146479,
           "sampledHours": 24
         },
-        "trendScore": 820.3
+        "trendScore": 800.8
       },
       {
         "kw": "뷰티/화장품",
@@ -76634,7 +76407,7 @@
           "previousViews": 145308,
           "sampledHours": 24
         },
-        "trendScore": 871.8
+        "trendScore": 852.5
       },
       {
         "kw": "식품/간식",
@@ -76795,7 +76568,7 @@
           "previousViews": 144905,
           "sampledHours": 24
         },
-        "trendScore": 695.5
+        "trendScore": 676.2
       },
       {
         "kw": "식품/간식",
@@ -76818,7 +76591,7 @@
           "previousViews": 144825,
           "sampledHours": 24
         },
-        "trendScore": 791.7
+        "trendScore": 772.4
       },
       {
         "kw": "꿀템/기타",
@@ -76864,7 +76637,7 @@
           "previousViews": 144638,
           "sampledHours": 24
         },
-        "trendScore": 694.3
+        "trendScore": 675
       },
       {
         "kw": "패션/잡화",
@@ -76933,7 +76706,7 @@
           "previousViews": 144550,
           "sampledHours": 24
         },
-        "trendScore": 693.8
+        "trendScore": 674.6
       },
       {
         "kw": "문구/취미",
@@ -77025,7 +76798,7 @@
           "previousViews": 144211,
           "sampledHours": 24
         },
-        "trendScore": 596.1
+        "trendScore": 576.8
       },
       {
         "kw": "다이소",
@@ -77163,7 +76936,7 @@
           "previousViews": 143193,
           "sampledHours": 24
         },
-        "trendScore": 706.4
+        "trendScore": 687.3
       },
       {
         "kw": "식품/간식",
@@ -77347,7 +77120,7 @@
           "previousViews": 140351,
           "sampledHours": 24
         },
-        "trendScore": 636.3
+        "trendScore": 617.5
       },
       {
         "kw": "꿀템/기타",
@@ -77462,7 +77235,7 @@
           "previousViews": 139792,
           "sampledHours": 24
         },
-        "trendScore": 671
+        "trendScore": 652.4
       },
       {
         "kw": "살림/주방",
@@ -77577,7 +77350,7 @@
           "previousViews": 139121,
           "sampledHours": 24
         },
-        "trendScore": 667.8
+        "trendScore": 649.2
       },
       {
         "kw": "패션/잡화",
@@ -77853,7 +77626,7 @@
           "previousViews": 137154,
           "sampledHours": 24
         },
-        "trendScore": 621.8
+        "trendScore": 603.5
       },
       {
         "kw": "뷰티/화장품",
@@ -77899,7 +77672,7 @@
           "previousViews": 137000,
           "sampledHours": 24
         },
-        "trendScore": 566.3
+        "trendScore": 548
       },
       {
         "kw": "꿀템/기타",
@@ -77968,7 +77741,7 @@
           "previousViews": 136643,
           "sampledHours": 24
         },
-        "trendScore": 583
+        "trendScore": 564.8
       },
       {
         "kw": "꿀템/기타",
@@ -78129,7 +77902,7 @@
           "previousViews": 135430,
           "sampledHours": 24
         },
-        "trendScore": 632
+        "trendScore": 613.9
       },
       {
         "kw": "식품/간식",
@@ -78152,7 +77925,7 @@
           "previousViews": 135323,
           "sampledHours": 24
         },
-        "trendScore": 649.6
+        "trendScore": 631.5
       },
       {
         "kw": "살림/주방",
@@ -78244,7 +78017,7 @@
           "previousViews": 134449,
           "sampledHours": 24
         },
-        "trendScore": 555.7
+        "trendScore": 537.8
       },
       {
         "kw": "인테리어",
@@ -78336,7 +78109,7 @@
           "previousViews": 134013,
           "sampledHours": 24
         },
-        "trendScore": 661.1
+        "trendScore": 643.3
       },
       {
         "kw": "뷰티/화장품",
@@ -78359,7 +78132,7 @@
           "previousViews": 133907,
           "sampledHours": 24
         },
-        "trendScore": 624.9
+        "trendScore": 607
       },
       {
         "kw": "살림/주방",
@@ -78405,7 +78178,7 @@
           "previousViews": 133709,
           "sampledHours": 24
         },
-        "trendScore": 552.7
+        "trendScore": 534.8
       },
       {
         "kw": "뷰티/화장품",
@@ -78451,7 +78224,7 @@
           "previousViews": 133252,
           "sampledHours": 24
         },
-        "trendScore": 568.5
+        "trendScore": 550.8
       },
       {
         "kw": "식품/간식",
@@ -78589,7 +78362,7 @@
           "previousViews": 132330,
           "sampledHours": 24
         },
-        "trendScore": 582.3
+        "trendScore": 564.6
       },
       {
         "kw": "살림/주방",
@@ -78865,7 +78638,7 @@
           "previousViews": 131364,
           "sampledHours": 24
         },
-        "trendScore": 595.5
+        "trendScore": 578
       },
       {
         "kw": "식품/간식",
@@ -78888,7 +78661,7 @@
           "previousViews": 130867,
           "sampledHours": 24
         },
-        "trendScore": 628.2
+        "trendScore": 610.7
       },
       {
         "kw": "문구/취미",
@@ -78934,7 +78707,7 @@
           "previousViews": 129835,
           "sampledHours": 24
         },
-        "trendScore": 761.7
+        "trendScore": 744.4
       },
       {
         "kw": "살림/주방",
@@ -79049,7 +78822,7 @@
           "previousViews": 129328,
           "sampledHours": 24
         },
-        "trendScore": 741.5
+        "trendScore": 724.2
       },
       {
         "kw": "살림/주방",
@@ -79233,7 +79006,7 @@
           "previousViews": 128278,
           "sampledHours": 24
         },
-        "trendScore": 718.4
+        "trendScore": 701.3
       },
       {
         "kw": "꿀템/기타",
@@ -79325,7 +79098,7 @@
           "previousViews": 127274,
           "sampledHours": 24
         },
-        "trendScore": 577
+        "trendScore": 560
       },
       {
         "kw": "문구/취미",
@@ -79394,7 +79167,7 @@
           "previousViews": 126921,
           "sampledHours": 24
         },
-        "trendScore": 744.6
+        "trendScore": 727.7
       },
       {
         "kw": "꿀템/기타",
@@ -79463,7 +79236,7 @@
           "previousViews": 126481,
           "sampledHours": 24
         },
-        "trendScore": 674.6
+        "trendScore": 657.7
       },
       {
         "kw": "살림/주방",
@@ -79509,7 +79282,7 @@
           "previousViews": 126253,
           "sampledHours": 24
         },
-        "trendScore": 723.9
+        "trendScore": 707
       },
       {
         "kw": "살림/주방",
@@ -79578,7 +79351,7 @@
           "previousViews": 125998,
           "sampledHours": 24
         },
-        "trendScore": 739.2
+        "trendScore": 722.4
       },
       {
         "kw": "식품/간식",
@@ -79624,7 +79397,7 @@
           "previousViews": 125949,
           "sampledHours": 24
         },
-        "trendScore": 671.7
+        "trendScore": 654.9
       },
       {
         "kw": "식품/간식",
@@ -79670,7 +79443,7 @@
           "previousViews": 125794,
           "sampledHours": 24
         },
-        "trendScore": 721.2
+        "trendScore": 704.4
       },
       {
         "kw": "뷰티/화장품",
@@ -79693,7 +79466,7 @@
           "previousViews": 125753,
           "sampledHours": 24
         },
-        "trendScore": 536.5
+        "trendScore": 519.8
       },
       {
         "kw": "다이소",
@@ -79808,7 +79581,7 @@
           "previousViews": 124976,
           "sampledHours": 24
         },
-        "trendScore": 566.6
+        "trendScore": 549.9
       },
       {
         "kw": "식품/간식",
@@ -79831,7 +79604,7 @@
           "previousViews": 124973,
           "sampledHours": 24
         },
-        "trendScore": 599.9
+        "trendScore": 583.2
       },
       {
         "kw": "다이소",
@@ -79900,7 +79673,7 @@
           "previousViews": 124472,
           "sampledHours": 24
         },
-        "trendScore": 713.6
+        "trendScore": 697
       },
       {
         "kw": "뷰티/화장품",
@@ -79946,7 +79719,7 @@
           "previousViews": 123951,
           "sampledHours": 24
         },
-        "trendScore": 595
+        "trendScore": 578.4
       },
       {
         "kw": "살림/주방",
@@ -80084,7 +79857,7 @@
           "previousViews": 123021,
           "sampledHours": 24
         },
-        "trendScore": 606.9
+        "trendScore": 590.5
       },
       {
         "kw": "살림/주방",
@@ -80107,7 +79880,7 @@
           "previousViews": 122916,
           "sampledHours": 24
         },
-        "trendScore": 655.6
+        "trendScore": 639.2
       },
       {
         "kw": "뷰티/화장품",
@@ -80176,7 +79949,7 @@
           "previousViews": 122870,
           "sampledHours": 24
         },
-        "trendScore": 606.2
+        "trendScore": 589.8
       },
       {
         "kw": "식품/간식",
@@ -80222,7 +79995,7 @@
           "previousViews": 122820,
           "sampledHours": 24
         },
-        "trendScore": 622.3
+        "trendScore": 605.9
       },
       {
         "kw": "꿀템/기타",
@@ -80314,7 +80087,7 @@
           "previousViews": 122000,
           "sampledHours": 24
         },
-        "trendScore": 504.3
+        "trendScore": 488
       },
       {
         "kw": "식품/간식",
@@ -80383,7 +80156,7 @@
           "previousViews": 121589,
           "sampledHours": 24
         },
-        "trendScore": 551.2
+        "trendScore": 535
       },
       {
         "kw": "꿀템/기타",
@@ -80406,7 +80179,7 @@
           "previousViews": 121396,
           "sampledHours": 24
         },
-        "trendScore": 518
+        "trendScore": 501.8
       },
       {
         "kw": "인테리어",
@@ -80452,7 +80225,7 @@
           "previousViews": 121106,
           "sampledHours": 24
         },
-        "trendScore": 516.7
+        "trendScore": 500.6
       },
       {
         "kw": "식품/간식",
@@ -80475,7 +80248,7 @@
           "previousViews": 121033,
           "sampledHours": 24
         },
-        "trendScore": 564.8
+        "trendScore": 548.7
       },
       {
         "kw": "식품/간식",
@@ -80498,7 +80271,7 @@
           "previousViews": 121012,
           "sampledHours": 24
         },
-        "trendScore": 532.5
+        "trendScore": 516.3
       },
       {
         "kw": "살림/주방",
@@ -80590,7 +80363,7 @@
           "previousViews": 120551,
           "sampledHours": 24
         },
-        "trendScore": 498.3
+        "trendScore": 482.2
       },
       {
         "kw": "살림/주방",
@@ -80820,7 +80593,7 @@
           "previousViews": 119611,
           "sampledHours": 24
         },
-        "trendScore": 574.1
+        "trendScore": 558.2
       },
       {
         "kw": "뷰티/화장품",
@@ -81004,7 +80777,7 @@
           "previousViews": 118545,
           "sampledHours": 24
         },
-        "trendScore": 584.8
+        "trendScore": 569
       },
       {
         "kw": "뷰티/화장품",
@@ -81165,7 +80938,7 @@
           "previousViews": 117175,
           "sampledHours": 24
         },
-        "trendScore": 499.9
+        "trendScore": 484.3
       },
       {
         "kw": "살림/주방",
@@ -81188,7 +80961,7 @@
           "previousViews": 116947,
           "sampledHours": 24
         },
-        "trendScore": 530.2
+        "trendScore": 514.6
       },
       {
         "kw": "뷰티/화장품",
@@ -81234,7 +81007,7 @@
           "previousViews": 116835,
           "sampledHours": 24
         },
-        "trendScore": 514.1
+        "trendScore": 498.5
       },
       {
         "kw": "살림/주방",
@@ -81257,7 +81030,7 @@
           "previousViews": 116769,
           "sampledHours": 24
         },
-        "trendScore": 513.8
+        "trendScore": 498.2
       },
       {
         "kw": "다이소",
@@ -81303,7 +81076,7 @@
           "previousViews": 116589,
           "sampledHours": 24
         },
-        "trendScore": 715.1
+        "trendScore": 699.5
       },
       {
         "kw": "살림/주방",
@@ -81372,7 +81145,7 @@
           "previousViews": 116130,
           "sampledHours": 24
         },
-        "trendScore": 619.4
+        "trendScore": 603.9
       },
       {
         "kw": "꿀템/기타",
@@ -81487,7 +81260,7 @@
           "previousViews": 115514,
           "sampledHours": 24
         },
-        "trendScore": 693.1
+        "trendScore": 677.7
       },
       {
         "kw": "식품/간식",
@@ -81648,7 +81421,7 @@
           "previousViews": 114126,
           "sampledHours": 24
         },
-        "trendScore": 471.7
+        "trendScore": 456.5
       },
       {
         "kw": "살림/주방",
@@ -81809,7 +81582,7 @@
           "previousViews": 113707,
           "sampledHours": 24
         },
-        "trendScore": 515.5
+        "trendScore": 500.3
       },
       {
         "kw": "살림/주방",
@@ -81832,7 +81605,7 @@
           "previousViews": 113658,
           "sampledHours": 24
         },
-        "trendScore": 666.8
+        "trendScore": 651.6
       },
       {
         "kw": "꿀템/기타",
@@ -82085,7 +81858,7 @@
           "previousViews": 112790,
           "sampledHours": 24
         },
-        "trendScore": 481.2
+        "trendScore": 466.2
       },
       {
         "kw": "식품/간식",
@@ -82246,7 +82019,7 @@
           "previousViews": 111918,
           "sampledHours": 24
         },
-        "trendScore": 462.6
+        "trendScore": 447.7
       },
       {
         "kw": "식품/간식",
@@ -82384,7 +82157,7 @@
           "previousViews": 111103,
           "sampledHours": 24
         },
-        "trendScore": 548.1
+        "trendScore": 533.3
       },
       {
         "kw": "식품/간식",
@@ -82453,7 +82226,7 @@
           "previousViews": 111000,
           "sampledHours": 24
         },
-        "trendScore": 473.6
+        "trendScore": 458.8
       },
       {
         "kw": "꿀템/기타",
@@ -82522,7 +82295,7 @@
           "previousViews": 110826,
           "sampledHours": 24
         },
-        "trendScore": 487.6
+        "trendScore": 472.9
       },
       {
         "kw": "살림/주방",
@@ -82706,7 +82479,7 @@
           "previousViews": 110291,
           "sampledHours": 24
         },
-        "trendScore": 485.3
+        "trendScore": 470.6
       },
       {
         "kw": "살림/주방",
@@ -82775,7 +82548,7 @@
           "previousViews": 110228,
           "sampledHours": 24
         },
-        "trendScore": 602.6
+        "trendScore": 587.9
       },
       {
         "kw": "식품/간식",
@@ -82798,7 +82571,7 @@
           "previousViews": 110200,
           "sampledHours": 24
         },
-        "trendScore": 455.5
+        "trendScore": 440.8
       },
       {
         "kw": "뷰티/화장품",
@@ -82913,7 +82686,7 @@
           "previousViews": 109779,
           "sampledHours": 24
         },
-        "trendScore": 453.8
+        "trendScore": 439.1
       },
       {
         "kw": "살림/주방",
@@ -83189,7 +82962,7 @@
           "previousViews": 108302,
           "sampledHours": 24
         },
-        "trendScore": 548.7
+        "trendScore": 534.3
       },
       {
         "kw": "꿀템/기타",
@@ -83212,7 +82985,7 @@
           "previousViews": 108169,
           "sampledHours": 24
         },
-        "trendScore": 475.9
+        "trendScore": 461.5
       },
       {
         "kw": "인테리어",
@@ -83235,7 +83008,7 @@
           "previousViews": 108155,
           "sampledHours": 24
         },
-        "trendScore": 447
+        "trendScore": 432.6
       },
       {
         "kw": "식품/간식",
@@ -83327,7 +83100,7 @@
           "previousViews": 107772,
           "sampledHours": 24
         },
-        "trendScore": 646.6
+        "trendScore": 632.3
       },
       {
         "kw": "살림/주방",
@@ -83419,7 +83192,7 @@
           "previousViews": 107390,
           "sampledHours": 24
         },
-        "trendScore": 572.7
+        "trendScore": 558.4
       },
       {
         "kw": "살림/주방",
@@ -83465,7 +83238,7 @@
           "previousViews": 107311,
           "sampledHours": 24
         },
-        "trendScore": 572.3
+        "trendScore": 558
       },
       {
         "kw": "다이소",
@@ -83603,7 +83376,7 @@
           "previousViews": 106643,
           "sampledHours": 24
         },
-        "trendScore": 639.9
+        "trendScore": 625.6
       },
       {
         "kw": "캠핑/아웃도어",
@@ -83649,7 +83422,7 @@
           "previousViews": 106563,
           "sampledHours": 24
         },
-        "trendScore": 468.9
+        "trendScore": 454.7
       },
       {
         "kw": "다이소",
@@ -83672,7 +83445,7 @@
           "previousViews": 106280,
           "sampledHours": 24
         },
-        "trendScore": 651.9
+        "trendScore": 637.7
       },
       {
         "kw": "살림/주방",
@@ -83810,7 +83583,7 @@
           "previousViews": 105670,
           "sampledHours": 24
         },
-        "trendScore": 521.3
+        "trendScore": 507.2
       },
       {
         "kw": "캠핑/아웃도어",
@@ -83833,7 +83606,7 @@
           "previousViews": 105397,
           "sampledHours": 24
         },
-        "trendScore": 576.2
+        "trendScore": 562.1
       },
       {
         "kw": "뷰티/화장품",
@@ -83971,7 +83744,7 @@
           "previousViews": 104998,
           "sampledHours": 24
         },
-        "trendScore": 504
+        "trendScore": 490
       },
       {
         "kw": "식품/간식",
@@ -84017,7 +83790,7 @@
           "previousViews": 104815,
           "sampledHours": 24
         },
-        "trendScore": 573
+        "trendScore": 559
       },
       {
         "kw": "살림/주방",
@@ -84063,7 +83836,7 @@
           "previousViews": 104714,
           "sampledHours": 24
         },
-        "trendScore": 572.4
+        "trendScore": 558.5
       },
       {
         "kw": "뷰티/화장품",
@@ -84086,7 +83859,7 @@
           "previousViews": 104682,
           "sampledHours": 24
         },
-        "trendScore": 460.6
+        "trendScore": 446.6
       },
       {
         "kw": "다이소",
@@ -84178,7 +83951,7 @@
           "previousViews": 104155,
           "sampledHours": 24
         },
-        "trendScore": 583.3
+        "trendScore": 569.4
       },
       {
         "kw": "살림/주방",
@@ -84201,7 +83974,7 @@
           "previousViews": 103930,
           "sampledHours": 24
         },
-        "trendScore": 485
+        "trendScore": 471.1
       },
       {
         "kw": "살림/주방",
@@ -84408,7 +84181,7 @@
           "previousViews": 103423,
           "sampledHours": 24
         },
-        "trendScore": 496.4
+        "trendScore": 482.6
       },
       {
         "kw": "인테리어",
@@ -84454,7 +84227,7 @@
           "previousViews": 103114,
           "sampledHours": 24
         },
-        "trendScore": 522.4
+        "trendScore": 508.7
       },
       {
         "kw": "식품/간식",
@@ -84776,7 +84549,7 @@
           "previousViews": 102324,
           "sampledHours": 24
         },
-        "trendScore": 613.9
+        "trendScore": 600.3
       },
       {
         "kw": "인테리어",
@@ -84799,7 +84572,7 @@
           "previousViews": 102272,
           "sampledHours": 24
         },
-        "trendScore": 518.2
+        "trendScore": 504.5
       },
       {
         "kw": "뷰티/화장품",
@@ -84822,7 +84595,7 @@
           "previousViews": 102229,
           "sampledHours": 24
         },
-        "trendScore": 627
+        "trendScore": 613.4
       },
       {
         "kw": "살림/주방",
@@ -84983,7 +84756,7 @@
           "previousViews": 101854,
           "sampledHours": 24
         },
-        "trendScore": 475.3
+        "trendScore": 461.7
       },
       {
         "kw": "살림/주방",
@@ -85029,7 +84802,7 @@
           "previousViews": 101340,
           "sampledHours": 24
         },
-        "trendScore": 513.5
+        "trendScore": 499.9
       },
       {
         "kw": "다이소",
@@ -85098,7 +84871,7 @@
           "previousViews": 100760,
           "sampledHours": 24
         },
-        "trendScore": 604.6
+        "trendScore": 591.1
       },
       {
         "kw": "꿀템/기타",
@@ -85213,7 +84986,7 @@
           "previousViews": 100225,
           "sampledHours": 24
         },
-        "trendScore": 481.1
+        "trendScore": 467.7
       },
       {
         "kw": "뷰티/화장품",
@@ -85259,7 +85032,7 @@
           "previousViews": 100118,
           "sampledHours": 24
         },
-        "trendScore": 493.9
+        "trendScore": 480.6
       },
       {
         "kw": "살림/주방",
@@ -85282,7 +85055,7 @@
           "previousViews": 100000,
           "sampledHours": 24
         },
-        "trendScore": 520
+        "trendScore": 506.7
       },
       {
         "kw": "식품/간식",
@@ -85305,14 +85078,14 @@
           "previousViews": 100000,
           "sampledHours": 24
         },
-        "trendScore": 466.7
+        "trendScore": 453.3
       }
     ]
   },
-  "version": "2026-07-16T19:34:05.369Z:eb6fc6d40275",
+  "version": "2026-07-17T19:31:08.932Z:b5d5f8090953",
   "collector": {
     "mode": "direct-no-login",
-    "finishedAt": "2026-07-16T19:34:05.368Z",
+    "finishedAt": "2026-07-17T19:31:08.932Z",
     "added": {
       "youtube": 9,
       "instagram": 0,
@@ -85332,18 +85105,18 @@
     "youtube": {
       "queries": 22,
       "channelsFound": 80,
-      "recentCandidates": 129,
+      "recentCandidates": 109,
       "detailChecked": 0,
-      "rssFallbackChecked": 86,
-      "rssFallbackAccepted": 42,
-      "accepted": 35,
-      "trendAccepted": 9,
-      "freshAccepted": 26,
-      "errors": 129
+      "rssFallbackChecked": 83,
+      "rssFallbackAccepted": 37,
+      "accepted": 36,
+      "trendAccepted": 13,
+      "freshAccepted": 23,
+      "errors": 78
     },
     "publicCandidates": {
       "instagram": 0,
-      "threads": 71
+      "threads": 70
     },
     "providers": {
       "instagram": {
@@ -85358,9 +85131,9 @@
       }
     },
     "metricSnapshots": {
-      "sampledAt": "2026-07-16T19:34:05.110Z",
+      "sampledAt": "2026-07-17T19:31:08.680Z",
       "tracked": {
-        "youtube": 2227,
+        "youtube": 2220,
         "instagram": 1317,
         "threads": 215
       },
