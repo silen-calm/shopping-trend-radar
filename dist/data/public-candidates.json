@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-22T19:46:32.375Z",
+  "generatedAt": "2026-07-23T19:44:26.556Z",
   "note": "Instagram/Threads public no-login candidates without reliable engagement metrics. Not merged into ranking data.",
   "instagram": [],
   "threads": [
@@ -32,6 +32,18 @@
       "acct": "maxi_more__",
       "id": "Da6t82PiURi",
       "link": "https://www.threads.com/@maxi_more__/post/Da6t82PiURi",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "orion_on82",
+      "id": "DbIWoqGEfuK",
+      "link": "https://www.threads.com/@orion_on82/post/DbIWoqGEfuK",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "orion_on82",
+      "id": "DbIWt8akeAs",
+      "link": "https://www.threads.com/@orion_on82/post/DbIWt8akeAs",
       "reason": "public-page-without-views"
     },
     {
@@ -68,18 +80,6 @@
       "acct": "orion_on82",
       "id": "DbCJn3vEkyk",
       "link": "https://www.threads.com/@orion_on82/post/DbCJn3vEkyk",
-      "reason": "public-page-without-views"
-    },
-    {
-      "acct": "orion_on82",
-      "id": "DbAdYdlkUDG",
-      "link": "https://www.threads.com/@orion_on82/post/DbAdYdlkUDG",
-      "reason": "public-page-without-views"
-    },
-    {
-      "acct": "orion_on82",
-      "id": "DbAddmrkWGU",
-      "link": "https://www.threads.com/@orion_on82/post/DbAddmrkWGU",
       "reason": "public-page-without-views"
     },
     {
@@ -120,6 +120,18 @@
     },
     {
       "acct": "iero._.cider",
+      "id": "DbHWrmnkz86",
+      "link": "https://www.threads.com/@iero._.cider/post/DbHWrmnkz86",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "iero._.cider",
+      "id": "DbHWwK9k3yC",
+      "link": "https://www.threads.com/@iero._.cider/post/DbHWwK9k3yC",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "iero._.cider",
       "id": "DbD7Wp0k55X",
       "link": "https://www.threads.com/@iero._.cider/post/DbD7Wp0k55X",
       "reason": "public-page-without-views"
@@ -152,18 +164,6 @@
       "acct": "iero._.cider",
       "id": "DbCpWRcE4Dy",
       "link": "https://www.threads.com/@iero._.cider/post/DbCpWRcE4Dy",
-      "reason": "public-page-without-views"
-    },
-    {
-      "acct": "iero._.cider",
-      "id": "DbCpHGNE59a",
-      "link": "https://www.threads.com/@iero._.cider/post/DbCpHGNE59a",
-      "reason": "public-page-without-views"
-    },
-    {
-      "acct": "iero._.cider",
-      "id": "DbCpPAoE1vH",
-      "link": "https://www.threads.com/@iero._.cider/post/DbCpPAoE1vH",
       "reason": "public-page-without-views"
     },
     {
@@ -276,6 +276,30 @@
     },
     {
       "acct": "ohmy_it_tem",
+      "id": "DbJCOZiGFMd",
+      "link": "https://www.threads.com/@ohmy_it_tem/post/DbJCOZiGFMd",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "ohmy_it_tem",
+      "id": "DbJCxpRmPd-",
+      "link": "https://www.threads.com/@ohmy_it_tem/post/DbJCxpRmPd-",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "ohmy_it_tem",
+      "id": "DbJBM_QmKGi",
+      "link": "https://www.threads.com/@ohmy_it_tem/post/DbJBM_QmKGi",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "ohmy_it_tem",
+      "id": "DbJBUpmmGoY",
+      "link": "https://www.threads.com/@ohmy_it_tem/post/DbJBUpmmGoY",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "ohmy_it_tem",
       "id": "DbE1tDPmM6H",
       "link": "https://www.threads.com/@ohmy_it_tem/post/DbE1tDPmM6H",
       "reason": "public-page-without-views"
@@ -299,27 +323,15 @@
       "reason": "public-page-without-views"
     },
     {
-      "acct": "ohmy_it_tem",
-      "id": "DbE0__BnZmo",
-      "link": "https://www.threads.com/@ohmy_it_tem/post/DbE0__BnZmo",
+      "acct": "yd113202",
+      "id": "DbIEoeXE-li",
+      "link": "https://www.threads.com/@yd113202/post/DbIEoeXE-li",
       "reason": "public-page-without-views"
     },
     {
-      "acct": "ohmy_it_tem",
-      "id": "DbE1CManbeQ",
-      "link": "https://www.threads.com/@ohmy_it_tem/post/DbE1CManbeQ",
-      "reason": "public-page-without-views"
-    },
-    {
-      "acct": "ohmy_it_tem",
-      "id": "DbE0yVNHdsS",
-      "link": "https://www.threads.com/@ohmy_it_tem/post/DbE0yVNHdsS",
-      "reason": "public-page-without-views"
-    },
-    {
-      "acct": "ohmy_it_tem",
-      "id": "DbE00WEndla",
-      "link": "https://www.threads.com/@ohmy_it_tem/post/DbE00WEndla",
+      "acct": "yd113202",
+      "id": "DbIEoMLkzp-",
+      "link": "https://www.threads.com/@yd113202/post/DbIEoMLkzp-",
       "reason": "public-page-without-views"
     },
     {
@@ -341,57 +353,45 @@
       "reason": "public-page-without-views"
     },
     {
-      "acct": "yd113202",
-      "id": "DaXILKik6Cs",
-      "link": "https://www.threads.com/@yd113202/post/DaXILKik6Cs",
+      "acct": "dave_hyemin",
+      "id": "DbIjEnoHQ2a",
+      "link": "https://www.threads.com/@dave_hyemin/post/DbIjEnoHQ2a",
       "reason": "public-page-without-views"
     },
     {
       "acct": "dave_hyemin",
-      "id": "DbGDzI5EwA5",
-      "link": "https://www.threads.com/@dave_hyemin/post/DbGDzI5EwA5",
+      "id": "DbIjI1cnaf3",
+      "link": "https://www.threads.com/@dave_hyemin/post/DbIjI1cnaf3",
       "reason": "public-page-without-views"
     },
     {
       "acct": "dave_hyemin",
-      "id": "DbGD7zeE9jM",
-      "link": "https://www.threads.com/@dave_hyemin/post/DbGD7zeE9jM",
+      "id": "DbIEpAFHRZ8",
+      "link": "https://www.threads.com/@dave_hyemin/post/DbIEpAFHRZ8",
       "reason": "public-page-without-views"
     },
     {
       "acct": "dave_hyemin",
-      "id": "DbF7ykjHW2x",
-      "link": "https://www.threads.com/@dave_hyemin/post/DbF7ykjHW2x",
+      "id": "DbIEr-xnRzG",
+      "link": "https://www.threads.com/@dave_hyemin/post/DbIEr-xnRzG",
       "reason": "public-page-without-views"
     },
     {
       "acct": "dave_hyemin",
-      "id": "DbF8HIQHehb",
-      "link": "https://www.threads.com/@dave_hyemin/post/DbF8HIQHehb",
+      "id": "DbHvThSnaRj",
+      "link": "https://www.threads.com/@dave_hyemin/post/DbHvThSnaRj",
       "reason": "public-page-without-views"
     },
     {
       "acct": "dave_hyemin",
-      "id": "DbDijRBHXQd",
-      "link": "https://www.threads.com/@dave_hyemin/post/DbDijRBHXQd",
+      "id": "DbHvVpGnWIx",
+      "link": "https://www.threads.com/@dave_hyemin/post/DbHvVpGnWIx",
       "reason": "public-page-without-views"
     },
     {
       "acct": "dave_hyemin",
-      "id": "DbDiliDHZA5",
-      "link": "https://www.threads.com/@dave_hyemin/post/DbDiliDHZA5",
-      "reason": "public-page-without-views"
-    },
-    {
-      "acct": "dave_hyemin",
-      "id": "DbDV95DHYmP",
-      "link": "https://www.threads.com/@dave_hyemin/post/DbDV95DHYmP",
-      "reason": "public-page-without-views"
-    },
-    {
-      "acct": "dave_hyemin",
-      "id": "DbDWDwpHbMz",
-      "link": "https://www.threads.com/@dave_hyemin/post/DbDWDwpHbMz",
+      "id": "DbHQLC2E07O",
+      "link": "https://www.threads.com/@dave_hyemin/post/DbHQLC2E07O",
       "reason": "public-page-without-views"
     },
     {
