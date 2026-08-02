@@ -1,16 +1,16 @@
 {
-  "version": "2026-08-01T19:31:34.316Z:f79ce0d5282d",
-  "generatedAt": "2026-08-01T19:31:34.316Z",
+  "version": "2026-08-02T19:32:21.243Z:0596e536abb3",
+  "generatedAt": "2026-08-02T19:32:21.243Z",
   "sourceUrl": "direct:no-login",
   "counts": {
-    "youtube": 2247,
+    "youtube": 2242,
     "threads": 215,
     "instagram": 1317
   },
   "dateRanges": {
     "youtube": {
       "min": "2018-02-24",
-      "max": "2026-08-01",
+      "max": "2026-08-02",
       "invalid": 0
     },
     "threads": {
@@ -27,10 +27,10 @@
   "collector": {
     "ok": true,
     "mode": "direct-no-login",
-    "startedAt": "2026-08-01T19:31:13.836Z",
+    "startedAt": "2026-08-02T19:31:54.467Z",
     "source": "youtube public no-login plus optional instagram/threads public-data providers with traffic-quality gates",
     "before": {
-      "youtube": 2254,
+      "youtube": 2247,
       "threads": 215,
       "instagram": 1317
     },
@@ -41,22 +41,22 @@
       "minMultiplier": 2
     },
     "pruned": {
-      "youtube": 17,
+      "youtube": 19,
       "instagram": 0,
       "threads": 0
     },
     "youtube": {
       "queries": [
         {
-          "query": "살림템 추천 쇼츠",
-          "found": 12,
-          "channels": 12,
-          "mode": "search-channel-rss"
-        },
-        {
           "query": "한국 쇼츠 쇼핑 추천",
           "found": 12,
           "channels": 11,
+          "mode": "search-channel-rss"
+        },
+        {
+          "query": "살림템 추천 쇼츠",
+          "found": 12,
+          "channels": 12,
           "mode": "search-channel-rss"
         },
         {
@@ -84,12 +84,6 @@
           "mode": "search-channel-rss"
         },
         {
-          "query": "패션 잡화 추천 쇼츠",
-          "found": 12,
-          "channels": 12,
-          "mode": "search-channel-rss"
-        },
-        {
           "query": "화장품 추천 쇼츠",
           "found": 12,
           "channels": 12,
@@ -102,7 +96,7 @@
           "mode": "search-channel-rss"
         },
         {
-          "query": "전자기기 추천 쇼츠",
+          "query": "패션 잡화 추천 쇼츠",
           "found": 12,
           "channels": 12,
           "mode": "search-channel-rss"
@@ -110,7 +104,13 @@
         {
           "query": "문구 취미 추천 쇼츠",
           "found": 12,
-          "channels": 11,
+          "channels": 12,
+          "mode": "search-channel-rss"
+        },
+        {
+          "query": "전자기기 추천 쇼츠",
+          "found": 12,
+          "channels": 12,
           "mode": "search-channel-rss"
         },
         {
@@ -120,13 +120,13 @@
           "mode": "search-channel-rss"
         },
         {
-          "query": "생활 꿀템 쇼츠",
+          "query": "쿠팡 추천템 쇼츠",
           "found": 12,
           "channels": 12,
           "mode": "search-channel-rss"
         },
         {
-          "query": "쿠팡 추천템 쇼츠",
+          "query": "생활 꿀템 쇼츠",
           "found": 12,
           "channels": 12,
           "mode": "search-channel-rss"
@@ -186,10 +186,10 @@
           "id": "EZEZFtrFLaM",
           "title": "반의 반 값 갓성비 여름꿀템!",
           "ch": "꼼수살림",
-          "views": 7257,
+          "views": 7329,
           "up": "2026-07-22",
           "reason": "views<30000,daily<10000;fresh-old>10d",
-          "dailyViews": 660,
+          "dailyViews": 611,
           "sourceQuery": "살림템 추천 쇼츠",
           "metricSource": "youtube-rss-feed",
           "sourceChannelId": "UCj3LfARKs2hmDuIHhPYIO2A",
@@ -198,122 +198,92 @@
         },
         {
           "rejected": true,
-          "id": "mVqvx8lCIBg",
-          "title": "삶의 질 200% 올려주는 쿠팡 찐템 모음",
-          "ch": "봄집사",
-          "views": 22537,
-          "up": "2026-07-22",
-          "reason": "views<30000,daily<10000;fresh-old>10d",
-          "dailyViews": 2049,
-          "sourceQuery": "다이소 추천 쇼츠",
+          "id": "t_42VQ8CKek",
+          "title": "기름기 쪽 빼주는 다이소 튀김 트레이",
+          "ch": "살림백과",
+          "views": 1265,
+          "up": "2026-07-11",
+          "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
+          "dailyViews": 55,
+          "sourceQuery": "살림템 추천 쇼츠",
           "metricSource": "youtube-rss-feed",
-          "sourceChannelId": "UCARh5WQzpBbU-r3HcJRXniA",
-          "sourceChannel": "봄집사",
+          "sourceChannelId": "UC5hva9v_Mje5xbFMQia2ckQ",
+          "sourceChannel": "살림백과",
           "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
         },
         {
           "rejected": true,
-          "id": "hWb7b-eShVw",
-          "title": "캐리어 싸기 전 무조건 챙겨야 할 여행 사기템 3",
-          "ch": "봄집사",
-          "views": 24291,
-          "up": "2026-07-20",
-          "reason": "views<30000,daily<10000;fresh-old>10d",
-          "dailyViews": 1869,
-          "sourceQuery": "다이소 추천 쇼츠",
-          "metricSource": "youtube-rss-feed",
-          "sourceChannelId": "UCARh5WQzpBbU-r3HcJRXniA",
-          "sourceChannel": "봄집사",
-          "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-        },
-        {
-          "rejected": true,
-          "id": "2bZHGBD7g-g",
-          "title": "단돈 천 원으로 삶의 질 200% 올려주는 다이소 찐템 TOP 5",
-          "ch": "봄집사",
-          "views": 29292,
-          "up": "2026-07-14",
-          "reason": "views<30000,daily<10000;fresh-old>10d",
-          "dailyViews": 1542,
-          "sourceQuery": "다이소 추천 쇼츠",
-          "metricSource": "youtube-rss-feed",
-          "sourceChannelId": "UCARh5WQzpBbU-r3HcJRXniA",
-          "sourceChannel": "봄집사",
-          "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-        },
-        {
-          "rejected": true,
-          "id": "BLlsMqyHaP0",
-          "title": "대한민국 꼭 가봐야 할 추천여행지👍 #절경 #장마 #태백구문소 #열대야없는도시",
-          "ch": "똑주부",
-          "views": 1210,
+          "id": "wqXWO0GXhtA",
+          "title": "다이소 주걱 쓰려다 성질 버릴 뻔한 진짜이유",
+          "ch": "살림백과",
+          "views": 1702,
           "up": "2026-07-10",
           "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
-          "dailyViews": 53,
-          "sourceQuery": "다이소 추천 쇼츠",
+          "dailyViews": 71,
+          "sourceQuery": "살림템 추천 쇼츠",
           "metricSource": "youtube-rss-feed",
-          "sourceChannelId": "UCaGlTkZFDuNXMVDuzNIxrgw",
-          "sourceChannel": "똑주부",
+          "sourceChannelId": "UC5hva9v_Mje5xbFMQia2ckQ",
+          "sourceChannel": "살림백과",
           "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
         },
         {
           "rejected": true,
-          "id": "iTqp5gDKjDg",
-          "title": "#협찬 진짜 바삭한김부각 찾으시는 분 무조건!!👍👍 #비비고김부각 #김부각추천 #찹쌀김부각",
-          "ch": "똑주부",
-          "views": 314,
-          "up": "2026-07-02",
-          "reason": "views<30000,daily<10000;fresh-old>10d,fresh-views<1000,fresh-daily<300",
-          "dailyViews": 10,
-          "sourceQuery": "다이소 추천 쇼츠",
-          "metricSource": "youtube-rss-feed",
-          "sourceChannelId": "UCaGlTkZFDuNXMVDuzNIxrgw",
-          "sourceChannel": "똑주부",
-          "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-        },
-        {
-          "rejected": true,
-          "id": "VQGF0R4padc",
-          "title": "#유료광고 절대 실패없는 간편국3종 추천💯 #백년가게 #식사이론 #간편국 #자취요리 #간단요리 #꿀팁",
-          "ch": "똑주부",
-          "views": 1793,
-          "up": "2026-06-27",
+          "id": "OnzHsSQR-fQ",
+          "title": "먹다 남은 과자 봉지 다이소 꿀템으로 갓벽밀봉",
+          "ch": "살림백과",
+          "views": 1616,
+          "up": "2026-07-03",
           "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
-          "dailyViews": 50,
-          "sourceQuery": "다이소 추천 쇼츠",
+          "dailyViews": 52,
+          "sourceQuery": "살림템 추천 쇼츠",
           "metricSource": "youtube-rss-feed",
-          "sourceChannelId": "UCaGlTkZFDuNXMVDuzNIxrgw",
-          "sourceChannel": "똑주부",
+          "sourceChannelId": "UC5hva9v_Mje5xbFMQia2ckQ",
+          "sourceChannel": "살림백과",
           "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
         },
         {
           "rejected": true,
-          "id": "PVS6XuP8Qas",
-          "title": "❌️품절주의❌️다이소신상 여름추천템🍉 #다이소추천템 #다이소꿀템 #신상 #shorts ,",
-          "ch": "똑주부",
-          "views": 2738,
-          "up": "2026-06-26",
-          "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
-          "dailyViews": 74,
+          "id": "OMwO2goh7XQ",
+          "title": "📢 다이소 썸머🌞헬로키티 & 마이멜로디 🎀 신상 OPEN💙👝PVC 파우치부터 헤어 악세서리, 시원한 쿨토시까지!❄️#다이소 #다이소신상 #다이소산리오",
+          "ch": "다이소",
+          "views": 27633,
+          "up": "2026-07-23",
+          "reason": "views<30000,daily<10000;fresh-old>10d",
+          "dailyViews": 2512,
           "sourceQuery": "다이소 추천 쇼츠",
           "metricSource": "youtube-rss-feed",
-          "sourceChannelId": "UCaGlTkZFDuNXMVDuzNIxrgw",
-          "sourceChannel": "똑주부",
+          "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
+          "sourceChannel": "다이소",
           "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
         },
         {
           "rejected": true,
-          "id": "zuPJ81VxuFo",
-          "title": "취사가능한 1만원대 백패킹 캠핑장 추천🏕️",
-          "ch": "임쁨임",
-          "views": 569,
-          "up": "2026-07-12",
-          "reason": "views<30000,daily<10000;fresh-old>10d,fresh-views<1000,fresh-daily<300",
-          "dailyViews": 27,
-          "sourceQuery": "인테리어 소품 추천 쇼츠",
+          "id": "9c9KBHSrCZU",
+          "title": "무조건 사! 고퀄 다이소 메이크업 꿀템 7가지✨",
+          "ch": "1분뷰티",
+          "views": 16770,
+          "up": "2026-07-23",
+          "reason": "views<30000,daily<10000;fresh-old>10d",
+          "dailyViews": 1525,
+          "sourceQuery": "다이소 추천 쇼츠",
           "metricSource": "youtube-rss-feed",
-          "sourceChannelId": "UCSMXHb6eaO1kuURCBAzRO0g",
-          "sourceChannel": "임쁨임",
+          "sourceChannelId": "UCVuxljGhpSkXztzk8X6vlMQ",
+          "sourceChannel": "1분뷰티",
+          "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
+        },
+        {
+          "rejected": true,
+          "id": "4Yu4ZB_QUhI",
+          "title": "와.. 이건 무조건 사세요! 쿠팡 정수리 볼륨 꿀템 2가지✨",
+          "ch": "1분뷰티",
+          "views": 14395,
+          "up": "2026-07-16",
+          "reason": "views<30000,daily<10000;fresh-old>10d",
+          "dailyViews": 800,
+          "sourceQuery": "다이소 추천 쇼츠",
+          "metricSource": "youtube-rss-feed",
+          "sourceChannelId": "UCVuxljGhpSkXztzk8X6vlMQ",
+          "sourceChannel": "1분뷰티",
           "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
         },
         {
@@ -333,32 +303,152 @@
         },
         {
           "rejected": true,
-          "id": "bwL2596v4LM",
-          "title": "#내돈내산 #간식추천 #아리울떡공방 #굳지않는떡 #앙금가래떡 구매는 프로필링크🩵",
-          "ch": "모모c",
-          "views": 17,
-          "up": "2026-07-08",
-          "reason": "views<30000,daily<10000;fresh-old>10d,fresh-views<1000,fresh-daily<300",
-          "dailyViews": 1,
+          "id": "0L1iRgnPWiA",
+          "title": "다이소 맛도리❤️맛있는 다이소 추천4가지! 무조건 사야할 리스트 알려드릴게요.. 원산지까지 따져보고 사세요^^ 건강한 느낌은 아니지만..... #노브랜드 #편의점 #다이소과자",
+          "ch": "마음대로탁주부_TakJuBu",
+          "views": 2604,
+          "up": "2026-07-13",
+          "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
+          "dailyViews": 124,
           "sourceQuery": "간식 추천 쇼츠",
           "metricSource": "youtube-rss-feed",
-          "sourceChannelId": "UC508pmQbPDvkAtdcgNYyX1A",
-          "sourceChannel": "모모c",
+          "sourceChannelId": "UCUkNA5QSYzrIOuaG-IxRLkA",
+          "sourceChannel": "마음대로탁주부_TakJuBu",
           "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
         },
         {
           "rejected": true,
-          "id": "ErI-pNz1lZ4",
-          "title": "번짐 적은 아이라이너 찾는다면? N년째 쓰는 정착템 #skincare #메이크업 #아이라이너 #펜슬아이라이너",
-          "ch": "모모c",
-          "views": 243,
-          "up": "2026-07-06",
-          "reason": "views<30000,daily<10000;fresh-old>10d,fresh-views<1000,fresh-daily<300",
-          "dailyViews": 9,
+          "id": "dXfDKvK8IbI",
+          "title": "얼굴보고 샀는데❤️맛이 반전❤️트레이더스 추천 트레이더스 빵! 보이면 꼭 집어오세요~^^ #shorts #트레이더스 #트레이더스 추천 #트레이더스 빵",
+          "ch": "마음대로탁주부_TakJuBu",
+          "views": 1583,
+          "up": "2026-07-07",
+          "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
+          "dailyViews": 59,
           "sourceQuery": "간식 추천 쇼츠",
           "metricSource": "youtube-rss-feed",
-          "sourceChannelId": "UC508pmQbPDvkAtdcgNYyX1A",
-          "sourceChannel": "모모c",
+          "sourceChannelId": "UCUkNA5QSYzrIOuaG-IxRLkA",
+          "sourceChannel": "마음대로탁주부_TakJuBu",
+          "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
+        },
+        {
+          "rejected": true,
+          "id": "A5NWk-U-fYw",
+          "title": "이래서 맛이 달랐네요❤️그냥 가성비 치즈인 줄 알았는데.. 트레이더스 추천 트레이더스 치즈 #shorts #트레이더스 #트레이더스치즈",
+          "ch": "마음대로탁주부_TakJuBu",
+          "views": 1548,
+          "up": "2026-07-02",
+          "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
+          "dailyViews": 48,
+          "sourceQuery": "간식 추천 쇼츠",
+          "metricSource": "youtube-rss-feed",
+          "sourceChannelId": "UCUkNA5QSYzrIOuaG-IxRLkA",
+          "sourceChannel": "마음대로탁주부_TakJuBu",
+          "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
+        },
+        {
+          "rejected": true,
+          "id": "2jphT9TdKPo",
+          "title": "반값삼계탕❤️솔직히 별 기대 없었습니다. 노브랜드 추천 지나치면 후회하는 품 들 솔직리뷰 #shorts #노브랜드 #노브랜드 추천 #삼계탕 #노브랜드 삼계탕",
+          "ch": "마음대로탁주부_TakJuBu",
+          "views": 2465,
+          "up": "2026-06-30",
+          "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
+          "dailyViews": 73,
+          "sourceQuery": "간식 추천 쇼츠",
+          "metricSource": "youtube-rss-feed",
+          "sourceChannelId": "UCUkNA5QSYzrIOuaG-IxRLkA",
+          "sourceChannel": "마음대로탁주부_TakJuBu",
+          "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
+        },
+        {
+          "rejected": true,
+          "id": "XeZJ9IRgg3w",
+          "title": "개기름 #파우더 이거다✨️ #입큰 #파우더추천 #kbeauty #makeup [헮 Ryunmemo]",
+          "ch": "헮 (RyunMemo)",
+          "views": 1955,
+          "up": "2026-07-22",
+          "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
+          "dailyViews": 163,
+          "sourceQuery": "화장품 추천 쇼츠",
+          "metricSource": "youtube-rss-feed",
+          "sourceChannelId": "UCZuIXrB6Oa7MONCZxHpZLww",
+          "sourceChannel": "헮 (RyunMemo)",
+          "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
+        },
+        {
+          "rejected": true,
+          "id": "94vLgeuu9LU",
+          "title": "입으면 패션리더🔥8시반 라방시작 초특가창고🔥 #알로 #스탈 #라이브커머스 #셀러 #쇼츠추천 #애봉이",
+          "ch": "애봉이마켓",
+          "views": 723,
+          "up": "2026-06-24",
+          "reason": "views<30000,daily<10000;fresh-old>10d,fresh-views<1000,fresh-daily<300",
+          "dailyViews": 18,
+          "sourceQuery": "화장품 추천 쇼츠",
+          "metricSource": "youtube-rss-feed",
+          "sourceChannelId": "UCoL_8PahEt5vJHH8Ttg2Jlw",
+          "sourceChannel": "애봉이마켓",
+          "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
+        },
+        {
+          "rejected": true,
+          "id": "QO2ypanfv0Q",
+          "title": "여름 잡화템 추천🤍 #데일리룩 #여름하울",
+          "ch": "조유joyu",
+          "views": 3930,
+          "up": "2026-07-19",
+          "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
+          "dailyViews": 262,
+          "sourceQuery": "패션 잡화 추천 쇼츠",
+          "metricSource": "youtube-rss-feed",
+          "sourceChannelId": "UC_vcDmQyWWSHEfAGHovWV4A",
+          "sourceChannel": "조유joyu",
+          "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
+        },
+        {
+          "rejected": true,
+          "id": "OY0ReN5aqfQ",
+          "title": "느좋 일주일 여름 코디🍋ㅣ여름 상의 추천 하객룩 블라우스 출근룩 셔츠ㅣ지그재그 쇼핑몰 추천 에이블리 살안템 장마룩 여행코디 휴양지 패션하울 패션룩북 #ootd #dailylook",
+          "ch": "희다 he_eda",
+          "views": 7864,
+          "up": "2026-07-13",
+          "reason": "views<30000,daily<10000;fresh-old>10d",
+          "dailyViews": 374,
+          "sourceQuery": "패션 잡화 추천 쇼츠",
+          "metricSource": "youtube-rss-feed",
+          "sourceChannelId": "UCtHfTaQIfNa7-lYhu2XnuUw",
+          "sourceChannel": "희다 he_eda",
+          "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
+        },
+        {
+          "rejected": true,
+          "id": "humRaUjFE0M",
+          "title": "일주일 데일리 코디 모음🤍여름 지그재그 세일템 추천ㅣ꾸안꾸 반팔티 블라우스 살안템 가디건 레이어드 코디ㅣ 여름하울 패션하울 #ootd #lookbook #데일리룩 #haul",
+          "ch": "희다 he_eda",
+          "views": 5290,
+          "up": "2026-06-22",
+          "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
+          "dailyViews": 126,
+          "sourceQuery": "패션 잡화 추천 쇼츠",
+          "metricSource": "youtube-rss-feed",
+          "sourceChannelId": "UCtHfTaQIfNa7-lYhu2XnuUw",
+          "sourceChannel": "희다 he_eda",
+          "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
+        },
+        {
+          "rejected": true,
+          "id": "cfJ8FuAUIk4",
+          "title": "(2/30) 키작녀 살안타템 코디 여름에도 골드🌟 #데일리룩 #kfashion",
+          "ch": "새부리",
+          "views": 1983,
+          "up": "2026-07-23",
+          "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
+          "dailyViews": 180,
+          "sourceQuery": "패션 잡화 추천 쇼츠",
+          "metricSource": "youtube-rss-feed",
+          "sourceChannelId": "UCmlQ75u0kpeNynlF0wW0czA",
+          "sourceChannel": "새부리",
           "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
         },
         {
@@ -366,10 +456,10 @@
           "id": "wMu-c4RCICc",
           "title": "토리버치 정품 리얼가죽👜 이 가격 가능해? #빈티지 #ootd #빈티지샵 #데일리룩코디 #데일리룩 #가성비룩 #여름코디 #패션 #빈티지라이브 #fashion #패션라이브",
           "ch": "빈티지 스튜디오 한벨",
-          "views": 129,
+          "views": 135,
           "up": "2026-07-31",
           "reason": "views<30000,daily<10000;fresh-views<1000,fresh-daily<300",
-          "dailyViews": 65,
+          "dailyViews": 45,
           "sourceQuery": "패션 잡화 추천 쇼츠",
           "metricSource": "youtube-rss-feed",
           "sourceChannelId": "UCSmdlPqy5WMh-XS7zIsDLtg",
@@ -381,104 +471,14 @@
           "id": "rvBKx-PJsLE",
           "title": "여름 시즌오프&가을 맛보기 착장✨ #가성비룩 #명품구제 #빈티지 #ootd #4050대여성옷 #데일리룩코디 #여름코디 #빈티지샵 #패션 #fashion #패션쇼츠#OOTD",
           "ch": "빈티지 스튜디오 한벨",
-          "views": 668,
+          "views": 672,
           "up": "2026-07-26",
           "reason": "views<30000,daily<10000;fresh-views<1000,fresh-daily<300",
-          "dailyViews": 95,
+          "dailyViews": 84,
           "sourceQuery": "패션 잡화 추천 쇼츠",
           "metricSource": "youtube-rss-feed",
           "sourceChannelId": "UCSmdlPqy5WMh-XS7zIsDLtg",
           "sourceChannel": "빈티지 스튜디오 한벨",
-          "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-        },
-        {
-          "rejected": true,
-          "id": "tgEfqJPeKZo",
-          "title": "명품캐주얼바람막이🤍 이 맛에 빈티지 입지🩶 #ootd #빈티지 #데일리룩코디 #빈티지샵 #데일리룩 #가성비룩 #패션 #빈티지패션 #명품구제 #4050대룩 #fashion #패션쇼츠",
-          "ch": "빈티지 스튜디오 한벨",
-          "views": 715,
-          "up": "2026-07-26",
-          "reason": "views<30000,daily<10000;fresh-views<1000,fresh-daily<300",
-          "dailyViews": 102,
-          "sourceQuery": "패션 잡화 추천 쇼츠",
-          "metricSource": "youtube-rss-feed",
-          "sourceChannelId": "UCSmdlPqy5WMh-XS7zIsDLtg",
-          "sourceChannel": "빈티지 스튜디오 한벨",
-          "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-        },
-        {
-          "rejected": true,
-          "id": "gb4zAxjGp1Q",
-          "title": "COS 스커트 퀄리티 실화?🤍 오늘 오후 7시 라이브 #쇼핑라이브 #데일리룩 #가성비룩 #빈티지 #데일리룩코디 #빈티지샵 #fashion #ootd #여름코디 #405060패션",
-          "ch": "빈티지 스튜디오 한벨",
-          "views": 2204,
-          "up": "2026-07-21",
-          "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
-          "dailyViews": 184,
-          "sourceQuery": "패션 잡화 추천 쇼츠",
-          "metricSource": "youtube-rss-feed",
-          "sourceChannelId": "UCSmdlPqy5WMh-XS7zIsDLtg",
-          "sourceChannel": "빈티지 스튜디오 한벨",
-          "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-        },
-        {
-          "rejected": true,
-          "id": "uUJ0FSbaQ98",
-          "title": "✨️트위드, 세일러 팬츠, 자카드까지! 소장 가치 200% 프리미엄 빈티지 추천✨️ #여름코디 #ootd #빈티지 #데일리룩코디 #빈티지샵 #가성비룩 #데일리룩 #fashion",
-          "ch": "빈티지 스튜디오 한벨",
-          "views": 613,
-          "up": "2026-07-20",
-          "reason": "views<30000,daily<10000;fresh-old>10d,fresh-views<1000,fresh-daily<300",
-          "dailyViews": 47,
-          "sourceQuery": "패션 잡화 추천 쇼츠",
-          "metricSource": "youtube-rss-feed",
-          "sourceChannelId": "UCSmdlPqy5WMh-XS7zIsDLtg",
-          "sourceChannel": "빈티지 스튜디오 한벨",
-          "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-        },
-        {
-          "rejected": true,
-          "id": "-8mYh7Z8V0Q",
-          "title": "여름엔 편한데 이쁜게 최고예요!! 언니들 눈독 들였던 바로 그 아이템, 오늘 밤 8시 라이브 특가! 💸 #여름코디 #ootd #빈티지 #패션 #데일리룩코디 #가성비룩 #빈티지샵",
-          "ch": "빈티지 스튜디오 한벨",
-          "views": 656,
-          "up": "2026-07-19",
-          "reason": "views<30000,daily<10000;fresh-old>10d,fresh-views<1000,fresh-daily<300",
-          "dailyViews": 47,
-          "sourceQuery": "패션 잡화 추천 쇼츠",
-          "metricSource": "youtube-rss-feed",
-          "sourceChannelId": "UCSmdlPqy5WMh-XS7zIsDLtg",
-          "sourceChannel": "빈티지 스튜디오 한벨",
-          "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-        },
-        {
-          "rejected": true,
-          "id": "xTJzhXH-Wbk",
-          "title": "✨️당신이 찾던 프리미엄 빈티지 스튜디오 한벨✨️ #여름코디 #ootd #럭셔리패션 #데일리룩코디 #가성비룩 #빈티지샵 #fashion #데일리룩 #빈티지 #4050대여성의류",
-          "ch": "빈티지 스튜디오 한벨",
-          "views": 2256,
-          "up": "2026-07-18",
-          "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
-          "dailyViews": 150,
-          "sourceQuery": "패션 잡화 추천 쇼츠",
-          "metricSource": "youtube-rss-feed",
-          "sourceChannelId": "UCSmdlPqy5WMh-XS7zIsDLtg",
-          "sourceChannel": "빈티지 스튜디오 한벨",
-          "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-        },
-        {
-          "rejected": true,
-          "id": "QqvbcVlWCKY",
-          "title": "바나나 BDRN?! 자꾸 떠서 #무무키 나도 사봤음🍌 #제품리뷰 #쿠션리뷰",
-          "ch": "우린",
-          "views": 9959,
-          "up": "2026-07-04",
-          "reason": "views<30000,daily<10000;fresh-old>10d",
-          "dailyViews": 343,
-          "sourceQuery": "패션 잡화 추천 쇼츠",
-          "metricSource": "youtube-rss-feed",
-          "sourceChannelId": "UCjrTg7jI1dyzaFSyie8tIBw",
-          "sourceChannel": "우린",
           "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
         }
       ],
@@ -487,32 +487,37 @@
         "channelsFound": 80,
         "feedsChecked": 80,
         "feedErrors": [],
-        "recentCandidates": 98,
+        "recentCandidates": 102,
         "detailChecked": 0,
         "detailErrorCount": 99,
         "detailErrors": [
           {
+            "id": "JZDcpySiTW0",
+            "source": "https://inv.thepixora.com",
+            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+          },
+          {
+            "id": "LMpV2mwwRnM",
+            "source": "https://inv.thepixora.com",
+            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+          },
+          {
             "id": "O7bc6VfdVGE",
             "source": "https://inv.thepixora.com",
             "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
           },
           {
-            "id": "KONGXXSeptE",
+            "id": "8qG600qvPts",
             "source": "https://inv.thepixora.com",
             "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
           },
           {
-            "id": "sZkpPHe7Ptg",
+            "id": "MpG2L77hfJs",
             "source": "https://inv.thepixora.com",
             "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
           },
           {
-            "id": "q-s4ChoUhuo",
-            "source": "https://inv.thepixora.com",
-            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-          },
-          {
-            "id": "U7Hre4S91vo",
+            "id": "WA4YpVJN8-Y",
             "source": "https://inv.thepixora.com",
             "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
           },
@@ -522,94 +527,49 @@
             "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
           },
           {
-            "id": "p4dFCVByFR8",
+            "id": "iH7Ui77fn8k",
             "source": "https://inv.thepixora.com",
             "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
           },
           {
-            "id": "2CT-bohhQCQ",
-            "source": "https://inv.thepixora.com",
-            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-          },
-          {
-            "id": "p4dFCVByFR8",
+            "id": "JZDcpySiTW0",
             "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 503"
+            "message": "fetch failed"
+          },
+          {
+            "id": "LMpV2mwwRnM",
+            "source": "https://yt.chocolatemoo53.com",
+            "message": "fetch failed"
           },
           {
             "id": "O7bc6VfdVGE",
             "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
+            "message": "fetch failed"
           },
           {
-            "id": "q-s4ChoUhuo",
+            "id": "8qG600qvPts",
             "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
+            "message": "fetch failed"
           },
           {
-            "id": "sZkpPHe7Ptg",
+            "id": "MpG2L77hfJs",
             "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
+            "message": "fetch failed"
           },
           {
-            "id": "U7Hre4S91vo",
+            "id": "WA4YpVJN8-Y",
             "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
-          },
-          {
-            "id": "KONGXXSeptE",
-            "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
-          },
-          {
-            "id": "2CT-bohhQCQ",
-            "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
+            "message": "fetch failed"
           },
           {
             "id": "ZqdsZKvE0OA",
             "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
+            "message": "fetch failed"
           },
           {
-            "id": "p4dFCVByFR8",
-            "source": "yt-dlp-video-detail",
-            "message": "ERROR: [youtube] p4dFCVByFR8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
-          },
-          {
-            "id": "KONGXXSeptE",
-            "source": "yt-dlp-video-detail",
-            "message": "ERROR: [youtube] KONGXXSeptE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
-          },
-          {
-            "id": "qsq9dvvAlDA",
-            "source": "https://inv.thepixora.com",
-            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-          },
-          {
-            "id": "qsq9dvvAlDA",
+            "id": "iH7Ui77fn8k",
             "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
-          },
-          {
-            "id": "6Eb2IfxKMjY",
-            "source": "https://inv.thepixora.com",
-            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-          },
-          {
-            "id": "6Eb2IfxKMjY",
-            "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
-          },
-          {
-            "id": "q-s4ChoUhuo",
-            "source": "yt-dlp-video-detail",
-            "message": "ERROR: [youtube] q-s4ChoUhuo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
-          },
-          {
-            "id": "2CT-bohhQCQ",
-            "source": "yt-dlp-video-detail",
-            "message": "ERROR: [youtube] 2CT-bohhQCQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+            "message": "fetch failed"
           },
           {
             "id": "O7bc6VfdVGE",
@@ -617,34 +577,9 @@
             "message": "ERROR: [youtube] O7bc6VfdVGE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
           },
           {
-            "id": "NfDIQF4g04Y",
-            "source": "https://inv.thepixora.com",
-            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-          },
-          {
-            "id": "JZDcpySiTW0",
-            "source": "https://inv.thepixora.com",
-            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-          },
-          {
-            "id": "MpG2L77hfJs",
-            "source": "https://inv.thepixora.com",
-            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-          },
-          {
-            "id": "NfDIQF4g04Y",
-            "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
-          },
-          {
-            "id": "JZDcpySiTW0",
-            "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
-          },
-          {
-            "id": "MpG2L77hfJs",
-            "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
+            "id": "iH7Ui77fn8k",
+            "source": "yt-dlp-video-detail",
+            "message": "ERROR: [youtube] iH7Ui77fn8k: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
           },
           {
             "id": "ZqdsZKvE0OA",
@@ -652,139 +587,9 @@
             "message": "ERROR: [youtube] ZqdsZKvE0OA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
           },
           {
-            "id": "U7Hre4S91vo",
-            "source": "yt-dlp-video-detail",
-            "message": "ERROR: [youtube] U7Hre4S91vo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
-          },
-          {
-            "id": "LMpV2mwwRnM",
+            "id": "nxIvAdnRgmc",
             "source": "https://inv.thepixora.com",
             "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-          },
-          {
-            "id": "8pi3EkstV6s",
-            "source": "https://inv.thepixora.com",
-            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-          },
-          {
-            "id": "LMpV2mwwRnM",
-            "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
-          },
-          {
-            "id": "8pi3EkstV6s",
-            "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
-          },
-          {
-            "id": "sZkpPHe7Ptg",
-            "source": "yt-dlp-video-detail",
-            "message": "ERROR: [youtube] sZkpPHe7Ptg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
-          },
-          {
-            "id": "InWdbKMJniY",
-            "source": "https://inv.thepixora.com",
-            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-          },
-          {
-            "id": "InWdbKMJniY",
-            "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
-          },
-          {
-            "id": "qsq9dvvAlDA",
-            "source": "yt-dlp-video-detail",
-            "message": "ERROR: [youtube] qsq9dvvAlDA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
-          },
-          {
-            "id": "6Eb2IfxKMjY",
-            "source": "yt-dlp-video-detail",
-            "message": "ERROR: [youtube] 6Eb2IfxKMjY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
-          },
-          {
-            "id": "pqFnIpdeozQ",
-            "source": "https://inv.thepixora.com",
-            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-          },
-          {
-            "id": "pqFnIpdeozQ",
-            "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
-          },
-          {
-            "id": "A1pLgfhGjO8",
-            "source": "https://inv.thepixora.com",
-            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-          },
-          {
-            "id": "A1pLgfhGjO8",
-            "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
-          },
-          {
-            "id": "JZDcpySiTW0",
-            "source": "yt-dlp-video-detail",
-            "message": "ERROR: [youtube] JZDcpySiTW0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
-          },
-          {
-            "id": "MpG2L77hfJs",
-            "source": "yt-dlp-video-detail",
-            "message": "ERROR: [youtube] MpG2L77hfJs: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
-          },
-          {
-            "id": "pDsQnWUy5v4",
-            "source": "https://inv.thepixora.com",
-            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-          },
-          {
-            "id": "0AiqZf217lM",
-            "source": "https://inv.thepixora.com",
-            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-          },
-          {
-            "id": "pDsQnWUy5v4",
-            "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
-          },
-          {
-            "id": "0AiqZf217lM",
-            "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
-          },
-          {
-            "id": "NfDIQF4g04Y",
-            "source": "yt-dlp-video-detail",
-            "message": "ERROR: [youtube] NfDIQF4g04Y: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
-          },
-          {
-            "id": "8pi3EkstV6s",
-            "source": "yt-dlp-video-detail",
-            "message": "ERROR: [youtube] 8pi3EkstV6s: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
-          },
-          {
-            "id": "w5y9u7x1kwE",
-            "source": "https://inv.thepixora.com",
-            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-          },
-          {
-            "id": "4oiR3hj0D7g",
-            "source": "https://inv.thepixora.com",
-            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-          },
-          {
-            "id": "InWdbKMJniY",
-            "source": "yt-dlp-video-detail",
-            "message": "ERROR: [youtube] InWdbKMJniY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
-          },
-          {
-            "id": "w5y9u7x1kwE",
-            "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
-          },
-          {
-            "id": "4oiR3hj0D7g",
-            "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
           },
           {
             "id": "LMpV2mwwRnM",
@@ -792,121 +597,316 @@
             "message": "ERROR: [youtube] LMpV2mwwRnM: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
           },
           {
-            "id": "1y2Qk3T608Q",
+            "id": "8qG600qvPts",
+            "source": "yt-dlp-video-detail",
+            "message": "ERROR: [youtube] 8qG600qvPts: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+          },
+          {
+            "id": "vlgIxgJvNs0",
             "source": "https://inv.thepixora.com",
             "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
           },
           {
-            "id": "1y2Qk3T608Q",
-            "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
+            "id": "WA4YpVJN8-Y",
+            "source": "yt-dlp-video-detail",
+            "message": "ERROR: [youtube] WA4YpVJN8-Y: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
           },
           {
-            "id": "qHiNIw5oh2k",
+            "id": "wJ55bfxr6-k",
             "source": "https://inv.thepixora.com",
             "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
           },
           {
-            "id": "qHiNIw5oh2k",
-            "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
-          },
-          {
-            "id": "pqFnIpdeozQ",
-            "source": "yt-dlp-video-detail",
-            "message": "ERROR: [youtube] pqFnIpdeozQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
-          },
-          {
-            "id": "svRNtfBGt2Y",
+            "id": "qMq8HKiniKc",
             "source": "https://inv.thepixora.com",
             "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-          },
-          {
-            "id": "svRNtfBGt2Y",
-            "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
-          },
-          {
-            "id": "0AiqZf217lM",
-            "source": "yt-dlp-video-detail",
-            "message": "ERROR: [youtube] 0AiqZf217lM: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
-          },
-          {
-            "id": "A1pLgfhGjO8",
-            "source": "yt-dlp-video-detail",
-            "message": "ERROR: [youtube] A1pLgfhGjO8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
-          },
-          {
-            "id": "hKu7Wbu1Cts",
-            "source": "https://inv.thepixora.com",
-            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-          },
-          {
-            "id": "hKu7Wbu1Cts",
-            "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
-          },
-          {
-            "id": "Pk-4EPJrokU",
-            "source": "https://inv.thepixora.com",
-            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-          },
-          {
-            "id": "Pk-4EPJrokU",
-            "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
-          },
-          {
-            "id": "w5y9u7x1kwE",
-            "source": "yt-dlp-video-detail",
-            "message": "ERROR: [youtube] w5y9u7x1kwE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
-          },
-          {
-            "id": "pDsQnWUy5v4",
-            "source": "yt-dlp-video-detail",
-            "message": "ERROR: [youtube] pDsQnWUy5v4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
-          },
-          {
-            "id": "4oiR3hj0D7g",
-            "source": "yt-dlp-video-detail",
-            "message": "ERROR: [youtube] 4oiR3hj0D7g: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
-          },
-          {
-            "id": "qHiNIw5oh2k",
-            "source": "yt-dlp-video-detail",
-            "message": "ERROR: [youtube] qHiNIw5oh2k: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
-          },
-          {
-            "id": "Y3xCWhuAeM0",
-            "source": "https://inv.thepixora.com",
-            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-          },
-          {
-            "id": "Y3xCWhuAeM0",
-            "source": "https://yt.chocolatemoo53.com",
-            "message": "HTTP 403"
           },
           {
             "id": "AZALaEjZJfw",
             "source": "https://inv.thepixora.com",
             "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+          },
+          {
+            "id": "JZDcpySiTW0",
+            "source": "yt-dlp-video-detail",
+            "message": "ERROR: [youtube] JZDcpySiTW0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+          },
+          {
+            "id": "nxIvAdnRgmc",
+            "source": "https://yt.chocolatemoo53.com",
+            "message": "fetch failed"
+          },
+          {
+            "id": "_tBfhqn2V2g",
+            "source": "https://inv.thepixora.com",
+            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+          },
+          {
+            "id": "vlgIxgJvNs0",
+            "source": "https://yt.chocolatemoo53.com",
+            "message": "fetch failed"
+          },
+          {
+            "id": "MpG2L77hfJs",
+            "source": "yt-dlp-video-detail",
+            "message": "ERROR: [youtube] MpG2L77hfJs: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+          },
+          {
+            "id": "j6pgSMYN8Uc",
+            "source": "https://inv.thepixora.com",
+            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+          },
+          {
+            "id": "wJ55bfxr6-k",
+            "source": "https://yt.chocolatemoo53.com",
+            "message": "fetch failed"
+          },
+          {
+            "id": "qMq8HKiniKc",
+            "source": "https://yt.chocolatemoo53.com",
+            "message": "fetch failed"
+          },
+          {
+            "id": "AZALaEjZJfw",
+            "source": "https://yt.chocolatemoo53.com",
+            "message": "fetch failed"
+          },
+          {
+            "id": "vBa6O9Yq90c",
+            "source": "https://inv.thepixora.com",
+            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+          },
+          {
+            "id": "_tBfhqn2V2g",
+            "source": "https://yt.chocolatemoo53.com",
+            "message": "fetch failed"
+          },
+          {
+            "id": "j6pgSMYN8Uc",
+            "source": "https://yt.chocolatemoo53.com",
+            "message": "fetch failed"
+          },
+          {
+            "id": "vBa6O9Yq90c",
+            "source": "https://yt.chocolatemoo53.com",
+            "message": "fetch failed"
+          },
+          {
+            "id": "wJ55bfxr6-k",
+            "source": "yt-dlp-video-detail",
+            "message": "ERROR: [youtube] wJ55bfxr6-k: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+          },
+          {
+            "id": "nxIvAdnRgmc",
+            "source": "yt-dlp-video-detail",
+            "message": "ERROR: [youtube] nxIvAdnRgmc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+          },
+          {
+            "id": "qMq8HKiniKc",
+            "source": "yt-dlp-video-detail",
+            "message": "ERROR: [youtube] qMq8HKiniKc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+          },
+          {
+            "id": "fToSd7THtBU",
+            "source": "https://inv.thepixora.com",
+            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+          },
+          {
+            "id": "j6pgSMYN8Uc",
+            "source": "yt-dlp-video-detail",
+            "message": "ERROR: [youtube] j6pgSMYN8Uc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+          },
+          {
+            "id": "uLwKK7bdgTM",
+            "source": "https://inv.thepixora.com",
+            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+          },
+          {
+            "id": "l_hX5mLV7lY",
+            "source": "https://inv.thepixora.com",
+            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+          },
+          {
+            "id": "vBa6O9Yq90c",
+            "source": "yt-dlp-video-detail",
+            "message": "ERROR: [youtube] vBa6O9Yq90c: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+          },
+          {
+            "id": "_tBfhqn2V2g",
+            "source": "yt-dlp-video-detail",
+            "message": "ERROR: [youtube] _tBfhqn2V2g: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+          },
+          {
+            "id": "5rG7GwMf2C4",
+            "source": "https://inv.thepixora.com",
+            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+          },
+          {
+            "id": "vlgIxgJvNs0",
+            "source": "yt-dlp-video-detail",
+            "message": "ERROR: [youtube] vlgIxgJvNs0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+          },
+          {
+            "id": "AZALaEjZJfw",
+            "source": "yt-dlp-video-detail",
+            "message": "ERROR: [youtube] AZALaEjZJfw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+          },
+          {
+            "id": "fToSd7THtBU",
+            "source": "https://yt.chocolatemoo53.com",
+            "message": "fetch failed"
+          },
+          {
+            "id": "VoOqJYIvdvU",
+            "source": "https://inv.thepixora.com",
+            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+          },
+          {
+            "id": "o3Qt-mHL0AQ",
+            "source": "https://inv.thepixora.com",
+            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+          },
+          {
+            "id": "uLwKK7bdgTM",
+            "source": "https://yt.chocolatemoo53.com",
+            "message": "fetch failed"
+          },
+          {
+            "id": "l_hX5mLV7lY",
+            "source": "https://yt.chocolatemoo53.com",
+            "message": "fetch failed"
+          },
+          {
+            "id": "0epD7hYWPFk",
+            "source": "https://inv.thepixora.com",
+            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+          },
+          {
+            "id": "wi57YLnP5to",
+            "source": "https://inv.thepixora.com",
+            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+          },
+          {
+            "id": "5rG7GwMf2C4",
+            "source": "https://yt.chocolatemoo53.com",
+            "message": "fetch failed"
+          },
+          {
+            "id": "VoOqJYIvdvU",
+            "source": "https://yt.chocolatemoo53.com",
+            "message": "fetch failed"
+          },
+          {
+            "id": "o3Qt-mHL0AQ",
+            "source": "https://yt.chocolatemoo53.com",
+            "message": "fetch failed"
+          },
+          {
+            "id": "0epD7hYWPFk",
+            "source": "https://yt.chocolatemoo53.com",
+            "message": "fetch failed"
+          },
+          {
+            "id": "wi57YLnP5to",
+            "source": "https://yt.chocolatemoo53.com",
+            "message": "fetch failed"
+          },
+          {
+            "id": "uLwKK7bdgTM",
+            "source": "yt-dlp-video-detail",
+            "message": "ERROR: [youtube] uLwKK7bdgTM: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+          },
+          {
+            "id": "5rG7GwMf2C4",
+            "source": "yt-dlp-video-detail",
+            "message": "ERROR: [youtube] 5rG7GwMf2C4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+          },
+          {
+            "id": "fToSd7THtBU",
+            "source": "yt-dlp-video-detail",
+            "message": "ERROR: [youtube] fToSd7THtBU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+          },
+          {
+            "id": "l_hX5mLV7lY",
+            "source": "yt-dlp-video-detail",
+            "message": "ERROR: [youtube] l_hX5mLV7lY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+          },
+          {
+            "id": "M9qfXW5VglM",
+            "source": "https://inv.thepixora.com",
+            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+          },
+          {
+            "id": "o3Qt-mHL0AQ",
+            "source": "yt-dlp-video-detail",
+            "message": "ERROR: [youtube] o3Qt-mHL0AQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+          },
+          {
+            "id": "lNBgohk4Jk8",
+            "source": "https://inv.thepixora.com",
+            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+          },
+          {
+            "id": "hgSydEFs58E",
+            "source": "https://inv.thepixora.com",
+            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+          },
+          {
+            "id": "8pj4dgW4J5I",
+            "source": "https://inv.thepixora.com",
+            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+          },
+          {
+            "id": "jbHfs3bu0Yo",
+            "source": "https://inv.thepixora.com",
+            "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+          },
+          {
+            "id": "VoOqJYIvdvU",
+            "source": "yt-dlp-video-detail",
+            "message": "ERROR: [youtube] VoOqJYIvdvU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+          },
+          {
+            "id": "M9qfXW5VglM",
+            "source": "https://yt.chocolatemoo53.com",
+            "message": "fetch failed"
+          },
+          {
+            "id": "0epD7hYWPFk",
+            "source": "yt-dlp-video-detail",
+            "message": "ERROR: [youtube] 0epD7hYWPFk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+          },
+          {
+            "id": "lNBgohk4Jk8",
+            "source": "https://yt.chocolatemoo53.com",
+            "message": "fetch failed"
+          },
+          {
+            "id": "wi57YLnP5to",
+            "source": "yt-dlp-video-detail",
+            "message": "ERROR: [youtube] wi57YLnP5to: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+          },
+          {
+            "id": "hgSydEFs58E",
+            "source": "https://yt.chocolatemoo53.com",
+            "message": "fetch failed"
           }
         ],
-        "rssFallbackChecked": 65,
-        "rssFallbackAccepted": 30,
-        "accepted": 30,
-        "trendAccepted": 15,
-        "freshAccepted": 15,
+        "rssFallbackChecked": 69,
+        "rssFallbackAccepted": 44,
+        "accepted": 37,
+        "trendAccepted": 14,
+        "freshAccepted": 23,
         "rejected": [
           {
             "rejected": true,
             "id": "EZEZFtrFLaM",
             "title": "반의 반 값 갓성비 여름꿀템!",
             "ch": "꼼수살림",
-            "views": 7257,
+            "views": 7329,
             "up": "2026-07-22",
             "reason": "views<30000,daily<10000;fresh-old>10d",
-            "dailyViews": 660,
+            "dailyViews": 611,
             "sourceQuery": "살림템 추천 쇼츠",
             "metricSource": "youtube-rss-feed",
             "sourceChannelId": "UCj3LfARKs2hmDuIHhPYIO2A",
@@ -915,122 +915,92 @@
           },
           {
             "rejected": true,
-            "id": "mVqvx8lCIBg",
-            "title": "삶의 질 200% 올려주는 쿠팡 찐템 모음",
-            "ch": "봄집사",
-            "views": 22537,
-            "up": "2026-07-22",
-            "reason": "views<30000,daily<10000;fresh-old>10d",
-            "dailyViews": 2049,
-            "sourceQuery": "다이소 추천 쇼츠",
+            "id": "t_42VQ8CKek",
+            "title": "기름기 쪽 빼주는 다이소 튀김 트레이",
+            "ch": "살림백과",
+            "views": 1265,
+            "up": "2026-07-11",
+            "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
+            "dailyViews": 55,
+            "sourceQuery": "살림템 추천 쇼츠",
             "metricSource": "youtube-rss-feed",
-            "sourceChannelId": "UCARh5WQzpBbU-r3HcJRXniA",
-            "sourceChannel": "봄집사",
+            "sourceChannelId": "UC5hva9v_Mje5xbFMQia2ckQ",
+            "sourceChannel": "살림백과",
             "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
           },
           {
             "rejected": true,
-            "id": "hWb7b-eShVw",
-            "title": "캐리어 싸기 전 무조건 챙겨야 할 여행 사기템 3",
-            "ch": "봄집사",
-            "views": 24291,
-            "up": "2026-07-20",
-            "reason": "views<30000,daily<10000;fresh-old>10d",
-            "dailyViews": 1869,
-            "sourceQuery": "다이소 추천 쇼츠",
-            "metricSource": "youtube-rss-feed",
-            "sourceChannelId": "UCARh5WQzpBbU-r3HcJRXniA",
-            "sourceChannel": "봄집사",
-            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-          },
-          {
-            "rejected": true,
-            "id": "2bZHGBD7g-g",
-            "title": "단돈 천 원으로 삶의 질 200% 올려주는 다이소 찐템 TOP 5",
-            "ch": "봄집사",
-            "views": 29292,
-            "up": "2026-07-14",
-            "reason": "views<30000,daily<10000;fresh-old>10d",
-            "dailyViews": 1542,
-            "sourceQuery": "다이소 추천 쇼츠",
-            "metricSource": "youtube-rss-feed",
-            "sourceChannelId": "UCARh5WQzpBbU-r3HcJRXniA",
-            "sourceChannel": "봄집사",
-            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-          },
-          {
-            "rejected": true,
-            "id": "BLlsMqyHaP0",
-            "title": "대한민국 꼭 가봐야 할 추천여행지👍 #절경 #장마 #태백구문소 #열대야없는도시",
-            "ch": "똑주부",
-            "views": 1210,
+            "id": "wqXWO0GXhtA",
+            "title": "다이소 주걱 쓰려다 성질 버릴 뻔한 진짜이유",
+            "ch": "살림백과",
+            "views": 1702,
             "up": "2026-07-10",
             "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
-            "dailyViews": 53,
-            "sourceQuery": "다이소 추천 쇼츠",
+            "dailyViews": 71,
+            "sourceQuery": "살림템 추천 쇼츠",
             "metricSource": "youtube-rss-feed",
-            "sourceChannelId": "UCaGlTkZFDuNXMVDuzNIxrgw",
-            "sourceChannel": "똑주부",
+            "sourceChannelId": "UC5hva9v_Mje5xbFMQia2ckQ",
+            "sourceChannel": "살림백과",
             "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
           },
           {
             "rejected": true,
-            "id": "iTqp5gDKjDg",
-            "title": "#협찬 진짜 바삭한김부각 찾으시는 분 무조건!!👍👍 #비비고김부각 #김부각추천 #찹쌀김부각",
-            "ch": "똑주부",
-            "views": 314,
-            "up": "2026-07-02",
-            "reason": "views<30000,daily<10000;fresh-old>10d,fresh-views<1000,fresh-daily<300",
-            "dailyViews": 10,
-            "sourceQuery": "다이소 추천 쇼츠",
-            "metricSource": "youtube-rss-feed",
-            "sourceChannelId": "UCaGlTkZFDuNXMVDuzNIxrgw",
-            "sourceChannel": "똑주부",
-            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-          },
-          {
-            "rejected": true,
-            "id": "VQGF0R4padc",
-            "title": "#유료광고 절대 실패없는 간편국3종 추천💯 #백년가게 #식사이론 #간편국 #자취요리 #간단요리 #꿀팁",
-            "ch": "똑주부",
-            "views": 1793,
-            "up": "2026-06-27",
+            "id": "OnzHsSQR-fQ",
+            "title": "먹다 남은 과자 봉지 다이소 꿀템으로 갓벽밀봉",
+            "ch": "살림백과",
+            "views": 1616,
+            "up": "2026-07-03",
             "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
-            "dailyViews": 50,
-            "sourceQuery": "다이소 추천 쇼츠",
+            "dailyViews": 52,
+            "sourceQuery": "살림템 추천 쇼츠",
             "metricSource": "youtube-rss-feed",
-            "sourceChannelId": "UCaGlTkZFDuNXMVDuzNIxrgw",
-            "sourceChannel": "똑주부",
+            "sourceChannelId": "UC5hva9v_Mje5xbFMQia2ckQ",
+            "sourceChannel": "살림백과",
             "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
           },
           {
             "rejected": true,
-            "id": "PVS6XuP8Qas",
-            "title": "❌️품절주의❌️다이소신상 여름추천템🍉 #다이소추천템 #다이소꿀템 #신상 #shorts ,",
-            "ch": "똑주부",
-            "views": 2738,
-            "up": "2026-06-26",
-            "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
-            "dailyViews": 74,
+            "id": "OMwO2goh7XQ",
+            "title": "📢 다이소 썸머🌞헬로키티 & 마이멜로디 🎀 신상 OPEN💙👝PVC 파우치부터 헤어 악세서리, 시원한 쿨토시까지!❄️#다이소 #다이소신상 #다이소산리오",
+            "ch": "다이소",
+            "views": 27633,
+            "up": "2026-07-23",
+            "reason": "views<30000,daily<10000;fresh-old>10d",
+            "dailyViews": 2512,
             "sourceQuery": "다이소 추천 쇼츠",
             "metricSource": "youtube-rss-feed",
-            "sourceChannelId": "UCaGlTkZFDuNXMVDuzNIxrgw",
-            "sourceChannel": "똑주부",
+            "sourceChannelId": "UChz7dY8O1jTD8bXGJ8JgXEA",
+            "sourceChannel": "다이소",
             "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
           },
           {
             "rejected": true,
-            "id": "zuPJ81VxuFo",
-            "title": "취사가능한 1만원대 백패킹 캠핑장 추천🏕️",
-            "ch": "임쁨임",
-            "views": 569,
-            "up": "2026-07-12",
-            "reason": "views<30000,daily<10000;fresh-old>10d,fresh-views<1000,fresh-daily<300",
-            "dailyViews": 27,
-            "sourceQuery": "인테리어 소품 추천 쇼츠",
+            "id": "9c9KBHSrCZU",
+            "title": "무조건 사! 고퀄 다이소 메이크업 꿀템 7가지✨",
+            "ch": "1분뷰티",
+            "views": 16770,
+            "up": "2026-07-23",
+            "reason": "views<30000,daily<10000;fresh-old>10d",
+            "dailyViews": 1525,
+            "sourceQuery": "다이소 추천 쇼츠",
             "metricSource": "youtube-rss-feed",
-            "sourceChannelId": "UCSMXHb6eaO1kuURCBAzRO0g",
-            "sourceChannel": "임쁨임",
+            "sourceChannelId": "UCVuxljGhpSkXztzk8X6vlMQ",
+            "sourceChannel": "1분뷰티",
+            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
+          },
+          {
+            "rejected": true,
+            "id": "4Yu4ZB_QUhI",
+            "title": "와.. 이건 무조건 사세요! 쿠팡 정수리 볼륨 꿀템 2가지✨",
+            "ch": "1분뷰티",
+            "views": 14395,
+            "up": "2026-07-16",
+            "reason": "views<30000,daily<10000;fresh-old>10d",
+            "dailyViews": 800,
+            "sourceQuery": "다이소 추천 쇼츠",
+            "metricSource": "youtube-rss-feed",
+            "sourceChannelId": "UCVuxljGhpSkXztzk8X6vlMQ",
+            "sourceChannel": "1분뷰티",
             "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
           },
           {
@@ -1050,32 +1020,152 @@
           },
           {
             "rejected": true,
-            "id": "bwL2596v4LM",
-            "title": "#내돈내산 #간식추천 #아리울떡공방 #굳지않는떡 #앙금가래떡 구매는 프로필링크🩵",
-            "ch": "모모c",
-            "views": 17,
-            "up": "2026-07-08",
-            "reason": "views<30000,daily<10000;fresh-old>10d,fresh-views<1000,fresh-daily<300",
-            "dailyViews": 1,
+            "id": "0L1iRgnPWiA",
+            "title": "다이소 맛도리❤️맛있는 다이소 추천4가지! 무조건 사야할 리스트 알려드릴게요.. 원산지까지 따져보고 사세요^^ 건강한 느낌은 아니지만..... #노브랜드 #편의점 #다이소과자",
+            "ch": "마음대로탁주부_TakJuBu",
+            "views": 2604,
+            "up": "2026-07-13",
+            "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
+            "dailyViews": 124,
             "sourceQuery": "간식 추천 쇼츠",
             "metricSource": "youtube-rss-feed",
-            "sourceChannelId": "UC508pmQbPDvkAtdcgNYyX1A",
-            "sourceChannel": "모모c",
+            "sourceChannelId": "UCUkNA5QSYzrIOuaG-IxRLkA",
+            "sourceChannel": "마음대로탁주부_TakJuBu",
             "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
           },
           {
             "rejected": true,
-            "id": "ErI-pNz1lZ4",
-            "title": "번짐 적은 아이라이너 찾는다면? N년째 쓰는 정착템 #skincare #메이크업 #아이라이너 #펜슬아이라이너",
-            "ch": "모모c",
-            "views": 243,
-            "up": "2026-07-06",
-            "reason": "views<30000,daily<10000;fresh-old>10d,fresh-views<1000,fresh-daily<300",
-            "dailyViews": 9,
+            "id": "dXfDKvK8IbI",
+            "title": "얼굴보고 샀는데❤️맛이 반전❤️트레이더스 추천 트레이더스 빵! 보이면 꼭 집어오세요~^^ #shorts #트레이더스 #트레이더스 추천 #트레이더스 빵",
+            "ch": "마음대로탁주부_TakJuBu",
+            "views": 1583,
+            "up": "2026-07-07",
+            "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
+            "dailyViews": 59,
             "sourceQuery": "간식 추천 쇼츠",
             "metricSource": "youtube-rss-feed",
-            "sourceChannelId": "UC508pmQbPDvkAtdcgNYyX1A",
-            "sourceChannel": "모모c",
+            "sourceChannelId": "UCUkNA5QSYzrIOuaG-IxRLkA",
+            "sourceChannel": "마음대로탁주부_TakJuBu",
+            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
+          },
+          {
+            "rejected": true,
+            "id": "A5NWk-U-fYw",
+            "title": "이래서 맛이 달랐네요❤️그냥 가성비 치즈인 줄 알았는데.. 트레이더스 추천 트레이더스 치즈 #shorts #트레이더스 #트레이더스치즈",
+            "ch": "마음대로탁주부_TakJuBu",
+            "views": 1548,
+            "up": "2026-07-02",
+            "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
+            "dailyViews": 48,
+            "sourceQuery": "간식 추천 쇼츠",
+            "metricSource": "youtube-rss-feed",
+            "sourceChannelId": "UCUkNA5QSYzrIOuaG-IxRLkA",
+            "sourceChannel": "마음대로탁주부_TakJuBu",
+            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
+          },
+          {
+            "rejected": true,
+            "id": "2jphT9TdKPo",
+            "title": "반값삼계탕❤️솔직히 별 기대 없었습니다. 노브랜드 추천 지나치면 후회하는 품 들 솔직리뷰 #shorts #노브랜드 #노브랜드 추천 #삼계탕 #노브랜드 삼계탕",
+            "ch": "마음대로탁주부_TakJuBu",
+            "views": 2465,
+            "up": "2026-06-30",
+            "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
+            "dailyViews": 73,
+            "sourceQuery": "간식 추천 쇼츠",
+            "metricSource": "youtube-rss-feed",
+            "sourceChannelId": "UCUkNA5QSYzrIOuaG-IxRLkA",
+            "sourceChannel": "마음대로탁주부_TakJuBu",
+            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
+          },
+          {
+            "rejected": true,
+            "id": "XeZJ9IRgg3w",
+            "title": "개기름 #파우더 이거다✨️ #입큰 #파우더추천 #kbeauty #makeup [헮 Ryunmemo]",
+            "ch": "헮 (RyunMemo)",
+            "views": 1955,
+            "up": "2026-07-22",
+            "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
+            "dailyViews": 163,
+            "sourceQuery": "화장품 추천 쇼츠",
+            "metricSource": "youtube-rss-feed",
+            "sourceChannelId": "UCZuIXrB6Oa7MONCZxHpZLww",
+            "sourceChannel": "헮 (RyunMemo)",
+            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
+          },
+          {
+            "rejected": true,
+            "id": "94vLgeuu9LU",
+            "title": "입으면 패션리더🔥8시반 라방시작 초특가창고🔥 #알로 #스탈 #라이브커머스 #셀러 #쇼츠추천 #애봉이",
+            "ch": "애봉이마켓",
+            "views": 723,
+            "up": "2026-06-24",
+            "reason": "views<30000,daily<10000;fresh-old>10d,fresh-views<1000,fresh-daily<300",
+            "dailyViews": 18,
+            "sourceQuery": "화장품 추천 쇼츠",
+            "metricSource": "youtube-rss-feed",
+            "sourceChannelId": "UCoL_8PahEt5vJHH8Ttg2Jlw",
+            "sourceChannel": "애봉이마켓",
+            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
+          },
+          {
+            "rejected": true,
+            "id": "QO2ypanfv0Q",
+            "title": "여름 잡화템 추천🤍 #데일리룩 #여름하울",
+            "ch": "조유joyu",
+            "views": 3930,
+            "up": "2026-07-19",
+            "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
+            "dailyViews": 262,
+            "sourceQuery": "패션 잡화 추천 쇼츠",
+            "metricSource": "youtube-rss-feed",
+            "sourceChannelId": "UC_vcDmQyWWSHEfAGHovWV4A",
+            "sourceChannel": "조유joyu",
+            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
+          },
+          {
+            "rejected": true,
+            "id": "OY0ReN5aqfQ",
+            "title": "느좋 일주일 여름 코디🍋ㅣ여름 상의 추천 하객룩 블라우스 출근룩 셔츠ㅣ지그재그 쇼핑몰 추천 에이블리 살안템 장마룩 여행코디 휴양지 패션하울 패션룩북 #ootd #dailylook",
+            "ch": "희다 he_eda",
+            "views": 7864,
+            "up": "2026-07-13",
+            "reason": "views<30000,daily<10000;fresh-old>10d",
+            "dailyViews": 374,
+            "sourceQuery": "패션 잡화 추천 쇼츠",
+            "metricSource": "youtube-rss-feed",
+            "sourceChannelId": "UCtHfTaQIfNa7-lYhu2XnuUw",
+            "sourceChannel": "희다 he_eda",
+            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
+          },
+          {
+            "rejected": true,
+            "id": "humRaUjFE0M",
+            "title": "일주일 데일리 코디 모음🤍여름 지그재그 세일템 추천ㅣ꾸안꾸 반팔티 블라우스 살안템 가디건 레이어드 코디ㅣ 여름하울 패션하울 #ootd #lookbook #데일리룩 #haul",
+            "ch": "희다 he_eda",
+            "views": 5290,
+            "up": "2026-06-22",
+            "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
+            "dailyViews": 126,
+            "sourceQuery": "패션 잡화 추천 쇼츠",
+            "metricSource": "youtube-rss-feed",
+            "sourceChannelId": "UCtHfTaQIfNa7-lYhu2XnuUw",
+            "sourceChannel": "희다 he_eda",
+            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
+          },
+          {
+            "rejected": true,
+            "id": "cfJ8FuAUIk4",
+            "title": "(2/30) 키작녀 살안타템 코디 여름에도 골드🌟 #데일리룩 #kfashion",
+            "ch": "새부리",
+            "views": 1983,
+            "up": "2026-07-23",
+            "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
+            "dailyViews": 180,
+            "sourceQuery": "패션 잡화 추천 쇼츠",
+            "metricSource": "youtube-rss-feed",
+            "sourceChannelId": "UCmlQ75u0kpeNynlF0wW0czA",
+            "sourceChannel": "새부리",
             "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
           },
           {
@@ -1083,10 +1173,10 @@
             "id": "wMu-c4RCICc",
             "title": "토리버치 정품 리얼가죽👜 이 가격 가능해? #빈티지 #ootd #빈티지샵 #데일리룩코디 #데일리룩 #가성비룩 #여름코디 #패션 #빈티지라이브 #fashion #패션라이브",
             "ch": "빈티지 스튜디오 한벨",
-            "views": 129,
+            "views": 135,
             "up": "2026-07-31",
             "reason": "views<30000,daily<10000;fresh-views<1000,fresh-daily<300",
-            "dailyViews": 65,
+            "dailyViews": 45,
             "sourceQuery": "패션 잡화 추천 쇼츠",
             "metricSource": "youtube-rss-feed",
             "sourceChannelId": "UCSmdlPqy5WMh-XS7zIsDLtg",
@@ -1098,10 +1188,10 @@
             "id": "rvBKx-PJsLE",
             "title": "여름 시즌오프&가을 맛보기 착장✨ #가성비룩 #명품구제 #빈티지 #ootd #4050대여성옷 #데일리룩코디 #여름코디 #빈티지샵 #패션 #fashion #패션쇼츠#OOTD",
             "ch": "빈티지 스튜디오 한벨",
-            "views": 668,
+            "views": 672,
             "up": "2026-07-26",
             "reason": "views<30000,daily<10000;fresh-views<1000,fresh-daily<300",
-            "dailyViews": 95,
+            "dailyViews": 84,
             "sourceQuery": "패션 잡화 추천 쇼츠",
             "metricSource": "youtube-rss-feed",
             "sourceChannelId": "UCSmdlPqy5WMh-XS7zIsDLtg",
@@ -1116,7 +1206,7 @@
             "views": 715,
             "up": "2026-07-26",
             "reason": "views<30000,daily<10000;fresh-views<1000,fresh-daily<300",
-            "dailyViews": 102,
+            "dailyViews": 89,
             "sourceQuery": "패션 잡화 추천 쇼츠",
             "metricSource": "youtube-rss-feed",
             "sourceChannelId": "UCSmdlPqy5WMh-XS7zIsDLtg",
@@ -1131,7 +1221,7 @@
             "views": 2204,
             "up": "2026-07-21",
             "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
-            "dailyViews": 184,
+            "dailyViews": 170,
             "sourceQuery": "패션 잡화 추천 쇼츠",
             "metricSource": "youtube-rss-feed",
             "sourceChannelId": "UCSmdlPqy5WMh-XS7zIsDLtg",
@@ -1146,7 +1236,7 @@
             "views": 613,
             "up": "2026-07-20",
             "reason": "views<30000,daily<10000;fresh-old>10d,fresh-views<1000,fresh-daily<300",
-            "dailyViews": 47,
+            "dailyViews": 44,
             "sourceQuery": "패션 잡화 추천 쇼츠",
             "metricSource": "youtube-rss-feed",
             "sourceChannelId": "UCSmdlPqy5WMh-XS7zIsDLtg",
@@ -1161,7 +1251,7 @@
             "views": 656,
             "up": "2026-07-19",
             "reason": "views<30000,daily<10000;fresh-old>10d,fresh-views<1000,fresh-daily<300",
-            "dailyViews": 47,
+            "dailyViews": 44,
             "sourceQuery": "패션 잡화 추천 쇼츠",
             "metricSource": "youtube-rss-feed",
             "sourceChannelId": "UCSmdlPqy5WMh-XS7zIsDLtg",
@@ -1176,234 +1266,69 @@
             "views": 2256,
             "up": "2026-07-18",
             "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
-            "dailyViews": 150,
+            "dailyViews": 141,
             "sourceQuery": "패션 잡화 추천 쇼츠",
             "metricSource": "youtube-rss-feed",
             "sourceChannelId": "UCSmdlPqy5WMh-XS7zIsDLtg",
             "sourceChannel": "빈티지 스튜디오 한벨",
-            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-          },
-          {
-            "rejected": true,
-            "id": "QqvbcVlWCKY",
-            "title": "바나나 BDRN?! 자꾸 떠서 #무무키 나도 사봤음🍌 #제품리뷰 #쿠션리뷰",
-            "ch": "우린",
-            "views": 9959,
-            "up": "2026-07-04",
-            "reason": "views<30000,daily<10000;fresh-old>10d",
-            "dailyViews": 343,
-            "sourceQuery": "패션 잡화 추천 쇼츠",
-            "metricSource": "youtube-rss-feed",
-            "sourceChannelId": "UCjrTg7jI1dyzaFSyie8tIBw",
-            "sourceChannel": "우린",
-            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-          },
-          {
-            "rejected": true,
-            "id": "PX2mew58pCM",
-            "title": "파넬 NEW 매트쿠션 리뷰 낋여옴✍🏻 #쿠션리뷰",
-            "ch": "우린",
-            "views": 19422,
-            "up": "2026-06-29",
-            "reason": "views<30000,daily<10000;fresh-old>10d",
-            "dailyViews": 571,
-            "sourceQuery": "패션 잡화 추천 쇼츠",
-            "metricSource": "youtube-rss-feed",
-            "sourceChannelId": "UCjrTg7jI1dyzaFSyie8tIBw",
-            "sourceChannel": "우린",
-            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-          },
-          {
-            "rejected": true,
-            "id": "Xx3i3N8WRuQ",
-            "title": "똥배커버! 쿠팡 보정속옷 추천💖",
-            "ch": "애림 AERIM",
-            "views": 15414,
-            "up": "2026-06-23",
-            "reason": "views<30000,daily<10000;fresh-old>10d",
-            "dailyViews": 385,
-            "sourceQuery": "패션 잡화 추천 쇼츠",
-            "metricSource": "youtube-rss-feed",
-            "sourceChannelId": "UCL0DDCStyO4NeAFJoN_cO8Q",
-            "sourceChannel": "애림 AERIM",
-            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-          },
-          {
-            "rejected": true,
-            "id": "MVAo7DtaF90",
-            "title": "👗여름 하객룩 추천 (클릭하면 정보뜸)",
-            "ch": "상희sanghui",
-            "views": 17824,
-            "up": "2026-07-02",
-            "reason": "views<30000,daily<10000;fresh-old>10d",
-            "dailyViews": 575,
-            "sourceQuery": "패션 잡화 추천 쇼츠",
-            "metricSource": "youtube-rss-feed",
-            "sourceChannelId": "UCic3NdKj7b3E8AApEBl8v1g",
-            "sourceChannel": "상희sanghui",
-            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-          },
-          {
-            "rejected": true,
-            "id": "Fj-4cyvBJfw",
-            "title": "🇺🇸애틀란타에서도 굴뚝빵 먹을 수 있다 🔥🔥 #atlfoodie #맛집 #쇼츠 #애틀란타 #애틀란타맛집 #shorts #맛집추천 #신상카페",
-            "ch": "애틀란타 맛집지도 ",
-            "views": 450,
-            "up": "2026-07-30",
-            "reason": "views<30000,daily<10000;fresh-views<1000,fresh-daily<300",
-            "dailyViews": 150,
-            "sourceQuery": "패션 잡화 추천 쇼츠",
-            "metricSource": "youtube-rss-feed",
-            "sourceChannelId": "UChrhj5dgBNqS0D_M1oLtEmQ",
-            "sourceChannel": "애틀란타 맛집지도 ",
-            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-          },
-          {
-            "rejected": true,
-            "id": "0BfDXstjiZk",
-            "title": "🇺🇸 애틀란타 비포드에서 찿아낸 레일위를 달리는 초밥집 어때 ?? #atlfoodie #맛집 #foodie #미국일상 #쇼츠 #애틀란타 #shorts #맛집추천",
-            "ch": "애틀란타 맛집지도 ",
-            "views": 1548,
-            "up": "2026-07-20",
-            "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
-            "dailyViews": 119,
-            "sourceQuery": "패션 잡화 추천 쇼츠",
-            "metricSource": "youtube-rss-feed",
-            "sourceChannelId": "UChrhj5dgBNqS0D_M1oLtEmQ",
-            "sourceChannel": "애틀란타 맛집지도 ",
-            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-          },
-          {
-            "rejected": true,
-            "id": "Hval0Q1fIOQ",
-            "title": "🇺🇸해밀턴에서 찿은 bbq보다 더 맛있는 한국식 치킨 집은 여기야 👇👇👇#atlfoodie #맛집 #foodie #미국일상 #쇼츠 #애틀란타 #shorts #맛집추천",
-            "ch": "애틀란타 맛집지도 ",
-            "views": 488,
-            "up": "2026-07-16",
-            "reason": "views<30000,daily<10000;fresh-old>10d,fresh-views<1000,fresh-daily<300",
-            "dailyViews": 29,
-            "sourceQuery": "패션 잡화 추천 쇼츠",
-            "metricSource": "youtube-rss-feed",
-            "sourceChannelId": "UChrhj5dgBNqS0D_M1oLtEmQ",
-            "sourceChannel": "애틀란타 맛집지도 ",
-            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-          },
-          {
-            "rejected": true,
-            "id": "o-l0faox46k",
-            "title": "🇺🇸 아 가격에 이 퀼리티 진짜야 ?? #atlfoodie #맛집 #foodie #미국일상 #쇼츠 #koreanfood #애틀란타 #shorts #맛집추천",
-            "ch": "애틀란타 맛집지도 ",
-            "views": 2047,
-            "up": "2026-07-13",
-            "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
-            "dailyViews": 102,
-            "sourceQuery": "패션 잡화 추천 쇼츠",
-            "metricSource": "youtube-rss-feed",
-            "sourceChannelId": "UChrhj5dgBNqS0D_M1oLtEmQ",
-            "sourceChannel": "애틀란타 맛집지도 ",
-            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-          },
-          {
-            "rejected": true,
-            "id": "HY_wLs3cARo",
-            "title": "🇺🇸 애틀란타 1호점 드디어 상륙 !!! #애틀란타맛집 #맛집추천 #쇼츠 #atlfoodie #shorts #맛집 #미국일상 #foodie",
-            "ch": "애틀란타 맛집지도 ",
-            "views": 284,
-            "up": "2026-07-13",
-            "reason": "views<30000,daily<10000;fresh-old>10d,fresh-views<1000,fresh-daily<300",
-            "dailyViews": 14,
-            "sourceQuery": "패션 잡화 추천 쇼츠",
-            "metricSource": "youtube-rss-feed",
-            "sourceChannelId": "UChrhj5dgBNqS0D_M1oLtEmQ",
-            "sourceChannel": "애틀란타 맛집지도 ",
-            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-          },
-          {
-            "rejected": true,
-            "id": "N0WmawSegzk",
-            "title": "🇺🇸애틀란타 한국 포차 감성 그대로 인 곳 👇👇 #atlfoodie #맛집 #foodie #미국일상 #koreanfood #shorts #애틀란타 #맛집추천 #쇼츠",
-            "ch": "애틀란타 맛집지도 ",
-            "views": 2123,
-            "up": "2026-07-09",
-            "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
-            "dailyViews": 88,
-            "sourceQuery": "패션 잡화 추천 쇼츠",
-            "metricSource": "youtube-rss-feed",
-            "sourceChannelId": "UChrhj5dgBNqS0D_M1oLtEmQ",
-            "sourceChannel": "애틀란타 맛집지도 ",
-            "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
-          },
-          {
-            "rejected": true,
-            "id": "liz3hvnMjMo",
-            "title": "🇺🇸애틀란타 오장동 다들 가봤어 ?? #atlfoodie #맛집 #미국일상 #foodie #쇼츠 #shorts #애틀란타 #맛집추천 #koreanfood",
-            "ch": "애틀란타 맛집지도 ",
-            "views": 1994,
-            "up": "2026-07-02",
-            "reason": "views<30000,daily<10000;fresh-old>10d,fresh-daily<300",
-            "dailyViews": 64,
-            "sourceQuery": "패션 잡화 추천 쇼츠",
-            "metricSource": "youtube-rss-feed",
-            "sourceChannelId": "UChrhj5dgBNqS0D_M1oLtEmQ",
-            "sourceChannel": "애틀란타 맛집지도 ",
             "evidence": "youtube-search-channel-rss-upload-date-rss-view-count-shorts-url"
           }
         ]
       }
     },
     "instagram": {
-      "accounts": [],
-      "skipped": [],
-      "errors": [
+      "accounts": [
         {
           "acct": "omuk.official",
-          "message": "HTTP 429"
+          "found": 0
         },
         {
           "acct": "todayhouse",
-          "message": "HTTP 429"
+          "found": 0
         },
         {
           "acct": "_tripgoing",
-          "message": "HTTP 429"
+          "found": 0
         },
         {
           "acct": "eyesmag",
-          "message": "HTTP 429"
+          "found": 0
         },
         {
           "acct": "yuziman__",
-          "message": "HTTP 429"
+          "found": 0
         },
         {
           "acct": "dada_salrim",
-          "message": "HTTP 429"
+          "found": 0
         },
         {
           "acct": "de_elisa_shop",
-          "message": "HTTP 429"
+          "found": 0
         },
         {
           "acct": "a_rim_z",
-          "message": "HTTP 429"
+          "found": 0
         },
         {
           "acct": "lee_mido",
-          "message": "HTTP 429"
+          "found": 0
         },
         {
           "acct": "campinghankki",
-          "message": "HTTP 429"
+          "found": 0
         },
         {
           "acct": "ggumigi",
-          "message": "HTTP 429"
+          "found": 0
         },
         {
           "acct": "salim_nam_official",
-          "message": "HTTP 429"
+          "found": 0
         }
       ],
+      "skipped": [],
+      "errors": [],
       "provider": {
         "ok": false,
         "skipped": true,
@@ -1476,6 +1401,12 @@
         },
         {
           "acct": "maxi_more__",
+          "id": "DbiQgJViUcN",
+          "link": "https://www.threads.com/@maxi_more__/post/DbiQgJViUcN",
+          "reason": "public-page-without-views"
+        },
+        {
+          "acct": "maxi_more__",
           "id": "Dbb-KwkE6qT",
           "link": "https://www.threads.com/@maxi_more__/post/Dbb-KwkE6qT",
           "reason": "public-page-without-views"
@@ -1487,9 +1418,39 @@
           "reason": "public-page-without-views"
         },
         {
-          "acct": "maxi_more__",
-          "id": "DbP9PgUoFpF",
-          "link": "https://www.threads.com/@maxi_more__/post/DbP9PgUoFpF",
+          "acct": "orion_on82",
+          "id": "DbiTKmOkaud",
+          "link": "https://www.threads.com/@orion_on82/post/DbiTKmOkaud",
+          "reason": "public-page-without-views"
+        },
+        {
+          "acct": "orion_on82",
+          "id": "DbiTPrBEUNc",
+          "link": "https://www.threads.com/@orion_on82/post/DbiTPrBEUNc",
+          "reason": "public-page-without-views"
+        },
+        {
+          "acct": "orion_on82",
+          "id": "DbiDkH0ESUS",
+          "link": "https://www.threads.com/@orion_on82/post/DbiDkH0ESUS",
+          "reason": "public-page-without-views"
+        },
+        {
+          "acct": "orion_on82",
+          "id": "DbiDwAgEUTX",
+          "link": "https://www.threads.com/@orion_on82/post/DbiDwAgEUTX",
+          "reason": "public-page-without-views"
+        },
+        {
+          "acct": "orion_on82",
+          "id": "DbhP8DTD2UY",
+          "link": "https://www.threads.com/@orion_on82/post/DbhP8DTD2UY",
+          "reason": "public-page-without-views"
+        },
+        {
+          "acct": "orion_on82",
+          "id": "DbhQBNTjyQL",
+          "link": "https://www.threads.com/@orion_on82/post/DbhQBNTjyQL",
           "reason": "public-page-without-views"
         },
         {
@@ -1505,39 +1466,9 @@
           "reason": "public-page-without-views"
         },
         {
-          "acct": "orion_on82",
-          "id": "DbeuDrzjyFh",
-          "link": "https://www.threads.com/@orion_on82/post/DbeuDrzjyFh",
-          "reason": "public-page-without-views"
-        },
-        {
-          "acct": "orion_on82",
-          "id": "DbeuG8kj8MI",
-          "link": "https://www.threads.com/@orion_on82/post/DbeuG8kj8MI",
-          "reason": "public-page-without-views"
-        },
-        {
-          "acct": "orion_on82",
-          "id": "DbcyCeckaSr",
-          "link": "https://www.threads.com/@orion_on82/post/DbcyCeckaSr",
-          "reason": "public-page-without-views"
-        },
-        {
-          "acct": "orion_on82",
-          "id": "DbcyGQGEd6_",
-          "link": "https://www.threads.com/@orion_on82/post/DbcyGQGEd6_",
-          "reason": "public-page-without-views"
-        },
-        {
-          "acct": "orion_on82",
-          "id": "Dbb1u5eEikF",
-          "link": "https://www.threads.com/@orion_on82/post/Dbb1u5eEikF",
-          "reason": "public-page-without-views"
-        },
-        {
-          "acct": "orion_on82",
-          "id": "Dbb1zvGkk8B",
-          "link": "https://www.threads.com/@orion_on82/post/Dbb1zvGkk8B",
+          "acct": "zipbysuni",
+          "id": "DbgsH4hk-3r",
+          "link": "https://www.threads.com/@zipbysuni/post/DbgsH4hk-3r",
           "reason": "public-page-without-views"
         },
         {
@@ -1559,57 +1490,51 @@
           "reason": "public-page-without-views"
         },
         {
-          "acct": "zipbysuni",
-          "id": "DbZpqC1mMGC",
-          "link": "https://www.threads.com/@zipbysuni/post/DbZpqC1mMGC",
+          "acct": "iero._.cider",
+          "id": "DbixC3FkypH",
+          "link": "https://www.threads.com/@iero._.cider/post/DbixC3FkypH",
           "reason": "public-page-without-views"
         },
         {
           "acct": "iero._.cider",
-          "id": "DbglJ1ok4dt",
-          "link": "https://www.threads.com/@iero._.cider/post/DbglJ1ok4dt",
+          "id": "DbixF9wE9S9",
+          "link": "https://www.threads.com/@iero._.cider/post/DbixF9wE9S9",
           "reason": "public-page-without-views"
         },
         {
           "acct": "iero._.cider",
-          "id": "DbglV5zE0bl",
-          "link": "https://www.threads.com/@iero._.cider/post/DbglV5zE0bl",
+          "id": "DbiuVxQkzcI",
+          "link": "https://www.threads.com/@iero._.cider/post/DbiuVxQkzcI",
           "reason": "public-page-without-views"
         },
         {
           "acct": "iero._.cider",
-          "id": "DbgkeCnE6N5",
-          "link": "https://www.threads.com/@iero._.cider/post/DbgkeCnE6N5",
+          "id": "DbiudXBkwZi",
+          "link": "https://www.threads.com/@iero._.cider/post/DbiudXBkwZi",
           "reason": "public-page-without-views"
         },
         {
           "acct": "iero._.cider",
-          "id": "Dbgknb9kyk9",
-          "link": "https://www.threads.com/@iero._.cider/post/Dbgknb9kyk9",
+          "id": "DbhG8pUE08E",
+          "link": "https://www.threads.com/@iero._.cider/post/DbhG8pUE08E",
           "reason": "public-page-without-views"
         },
         {
           "acct": "iero._.cider",
-          "id": "Dbet_jxk9sI",
-          "link": "https://www.threads.com/@iero._.cider/post/Dbet_jxk9sI",
+          "id": "DbhHDaok13s",
+          "link": "https://www.threads.com/@iero._.cider/post/DbhHDaok13s",
           "reason": "public-page-without-views"
         },
         {
           "acct": "iero._.cider",
-          "id": "DbeuGBdE5R8",
-          "link": "https://www.threads.com/@iero._.cider/post/DbeuGBdE5R8",
+          "id": "DbgpHpBE7YR",
+          "link": "https://www.threads.com/@iero._.cider/post/DbgpHpBE7YR",
           "reason": "public-page-without-views"
         },
         {
           "acct": "iero._.cider",
-          "id": "DbetwZak6A5",
-          "link": "https://www.threads.com/@iero._.cider/post/DbetwZak6A5",
-          "reason": "public-page-without-views"
-        },
-        {
-          "acct": "iero._.cider",
-          "id": "DbetygDk0RV",
-          "link": "https://www.threads.com/@iero._.cider/post/DbetygDk0RV",
+          "id": "DbgpUyqkyhh",
+          "link": "https://www.threads.com/@iero._.cider/post/DbgpUyqkyhh",
           "reason": "public-page-without-views"
         },
         {
@@ -1722,44 +1647,44 @@
         },
         {
           "acct": "ohmy_it_tem",
+          "id": "DbiSL7PkW1B",
+          "link": "https://www.threads.com/@ohmy_it_tem/post/DbiSL7PkW1B",
+          "reason": "public-page-without-views"
+        },
+        {
+          "acct": "ohmy_it_tem",
+          "id": "DbiSXc-EVLu",
+          "link": "https://www.threads.com/@ohmy_it_tem/post/DbiSXc-EVLu",
+          "reason": "public-page-without-views"
+        },
+        {
+          "acct": "ohmy_it_tem",
+          "id": "DbhyuGKke2c",
+          "link": "https://www.threads.com/@ohmy_it_tem/post/DbhyuGKke2c",
+          "reason": "public-page-without-views"
+        },
+        {
+          "acct": "ohmy_it_tem",
+          "id": "Dbhy6KQkXol",
+          "link": "https://www.threads.com/@ohmy_it_tem/post/Dbhy6KQkXol",
+          "reason": "public-page-without-views"
+        },
+        {
+          "acct": "ohmy_it_tem",
+          "id": "DbhUFmKnQdj",
+          "link": "https://www.threads.com/@ohmy_it_tem/post/DbhUFmKnQdj",
+          "reason": "public-page-without-views"
+        },
+        {
+          "acct": "ohmy_it_tem",
+          "id": "DbhUP8jnZUv",
+          "link": "https://www.threads.com/@ohmy_it_tem/post/DbhUP8jnZUv",
+          "reason": "public-page-without-views"
+        },
+        {
+          "acct": "ohmy_it_tem",
           "id": "DbgHBsHEQNL",
           "link": "https://www.threads.com/@ohmy_it_tem/post/DbgHBsHEQNL",
-          "reason": "public-page-without-views"
-        },
-        {
-          "acct": "ohmy_it_tem",
-          "id": "Dbct2JuERCj",
-          "link": "https://www.threads.com/@ohmy_it_tem/post/Dbct2JuERCj",
-          "reason": "public-page-without-views"
-        },
-        {
-          "acct": "ohmy_it_tem",
-          "id": "DbcuIfCEdu1",
-          "link": "https://www.threads.com/@ohmy_it_tem/post/DbcuIfCEdu1",
-          "reason": "public-page-without-views"
-        },
-        {
-          "acct": "ohmy_it_tem",
-          "id": "DbcsiISEZ7J",
-          "link": "https://www.threads.com/@ohmy_it_tem/post/DbcsiISEZ7J",
-          "reason": "public-page-without-views"
-        },
-        {
-          "acct": "ohmy_it_tem",
-          "id": "DbcspkbkRGN",
-          "link": "https://www.threads.com/@ohmy_it_tem/post/DbcspkbkRGN",
-          "reason": "public-page-without-views"
-        },
-        {
-          "acct": "ohmy_it_tem",
-          "id": "Dbcrm8KEZyx",
-          "link": "https://www.threads.com/@ohmy_it_tem/post/Dbcrm8KEZyx",
-          "reason": "public-page-without-views"
-        },
-        {
-          "acct": "ohmy_it_tem",
-          "id": "DbcryUwEQGz",
-          "link": "https://www.threads.com/@ohmy_it_tem/post/DbcryUwEQGz",
           "reason": "public-page-without-views"
         },
         {
@@ -1812,6 +1737,30 @@
         },
         {
           "acct": "dave_hyemin",
+          "id": "Dbh31DTHfzd",
+          "link": "https://www.threads.com/@dave_hyemin/post/Dbh31DTHfzd",
+          "reason": "public-page-without-views"
+        },
+        {
+          "acct": "dave_hyemin",
+          "id": "Dbh38PTnW0n",
+          "link": "https://www.threads.com/@dave_hyemin/post/Dbh38PTnW0n",
+          "reason": "public-page-without-views"
+        },
+        {
+          "acct": "dave_hyemin",
+          "id": "Dbhaj9LHbn8",
+          "link": "https://www.threads.com/@dave_hyemin/post/Dbhaj9LHbn8",
+          "reason": "public-page-without-views"
+        },
+        {
+          "acct": "dave_hyemin",
+          "id": "DbhazRKnQAT",
+          "link": "https://www.threads.com/@dave_hyemin/post/DbhazRKnQAT",
+          "reason": "public-page-without-views"
+        },
+        {
+          "acct": "dave_hyemin",
           "id": "Dbb8Jnik2Il",
           "link": "https://www.threads.com/@dave_hyemin/post/Dbb8Jnik2Il",
           "reason": "public-page-without-views"
@@ -1832,30 +1781,6 @@
           "acct": "dave_hyemin",
           "id": "DbYQqD9nQAR",
           "link": "https://www.threads.com/@dave_hyemin/post/DbYQqD9nQAR",
-          "reason": "public-page-without-views"
-        },
-        {
-          "acct": "dave_hyemin",
-          "id": "DbVglwcHaHh",
-          "link": "https://www.threads.com/@dave_hyemin/post/DbVglwcHaHh",
-          "reason": "public-page-without-views"
-        },
-        {
-          "acct": "dave_hyemin",
-          "id": "DbVgpYXnUAq",
-          "link": "https://www.threads.com/@dave_hyemin/post/DbVgpYXnUAq",
-          "reason": "public-page-without-views"
-        },
-        {
-          "acct": "dave_hyemin",
-          "id": "DbRwX4pHa2N",
-          "link": "https://www.threads.com/@dave_hyemin/post/DbRwX4pHa2N",
-          "reason": "public-page-without-views"
-        },
-        {
-          "acct": "dave_hyemin",
-          "id": "DbRwhn5Haob",
-          "link": "https://www.threads.com/@dave_hyemin/post/DbRwhn5Haob",
           "reason": "public-page-without-views"
         },
         {
@@ -1902,16 +1827,16 @@
         "reason": "missing THREADS_DATA_API_KEY or endpoint"
       }
     },
-    "finishedAt": "2026-08-01T19:31:34.315Z",
+    "finishedAt": "2026-08-02T19:32:21.243Z",
     "added": {
-      "youtube": 10,
+      "youtube": 14,
       "instagram": 0,
       "threads": 0
     },
     "metricSnapshots": {
-      "sampledAt": "2026-08-01T19:31:34.039Z",
+      "sampledAt": "2026-08-02T19:32:21.000Z",
       "tracked": {
-        "youtube": 2247,
+        "youtube": 2242,
         "instagram": 1317,
         "threads": 215
       },
@@ -1921,9 +1846,9 @@
         "threads": 0
       }
     },
-    "version": "2026-08-01T19:31:34.316Z:f79ce0d5282d",
+    "version": "2026-08-02T19:32:21.243Z:0596e536abb3",
     "after": {
-      "youtube": 2247,
+      "youtube": 2242,
       "threads": 215,
       "instagram": 1317
     }
