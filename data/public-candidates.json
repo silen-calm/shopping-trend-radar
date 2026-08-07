@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T00:14:02.090Z",
+  "generatedAt": "2026-08-07T19:13:13.239Z",
   "note": "Instagram/Threads public no-login candidates without reliable engagement metrics. Not merged into ranking data.",
   "instagram": [],
   "threads": [
@@ -18,6 +18,12 @@
     },
     {
       "acct": "maxi_more__",
+      "id": "DbvFcOhCJDp",
+      "link": "https://www.threads.com/@maxi_more__/post/DbvFcOhCJDp",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "maxi_more__",
       "id": "Dbp3vJzjPtX",
       "link": "https://www.threads.com/@maxi_more__/post/Dbp3vJzjPtX",
       "reason": "public-page-without-views"
@@ -29,9 +35,27 @@
       "reason": "public-page-without-views"
     },
     {
-      "acct": "maxi_more__",
-      "id": "DbiQgJViUcN",
-      "link": "https://www.threads.com/@maxi_more__/post/DbiQgJViUcN",
+      "acct": "orion_on82",
+      "id": "Dbu8jD0kU-M",
+      "link": "https://www.threads.com/@orion_on82/post/Dbu8jD0kU-M",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "orion_on82",
+      "id": "Dbu8rRTkWeP",
+      "link": "https://www.threads.com/@orion_on82/post/Dbu8rRTkWeP",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "orion_on82",
+      "id": "DbuNVwLEqHK",
+      "link": "https://www.threads.com/@orion_on82/post/DbuNVwLEqHK",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "orion_on82",
+      "id": "DbuNYipEvH6",
+      "link": "https://www.threads.com/@orion_on82/post/DbuNYipEvH6",
       "reason": "public-page-without-views"
     },
     {
@@ -59,27 +83,9 @@
       "reason": "public-page-without-views"
     },
     {
-      "acct": "orion_on82",
-      "id": "DbpzS6tkaRh",
-      "link": "https://www.threads.com/@orion_on82/post/DbpzS6tkaRh",
-      "reason": "public-page-without-views"
-    },
-    {
-      "acct": "orion_on82",
-      "id": "DbpzXSqkafP",
-      "link": "https://www.threads.com/@orion_on82/post/DbpzXSqkafP",
-      "reason": "public-page-without-views"
-    },
-    {
-      "acct": "orion_on82",
-      "id": "DbpG8iuEWnd",
-      "link": "https://www.threads.com/@orion_on82/post/DbpG8iuEWnd",
-      "reason": "public-page-without-views"
-    },
-    {
-      "acct": "orion_on82",
-      "id": "DbpHA1QEVVq",
-      "link": "https://www.threads.com/@orion_on82/post/DbpHA1QEVVq",
+      "acct": "zipbysuni",
+      "id": "DbupeP-GEfZ",
+      "link": "https://www.threads.com/@zipbysuni/post/DbupeP-GEfZ",
       "reason": "public-page-without-views"
     },
     {
@@ -101,9 +107,15 @@
       "reason": "public-page-without-views"
     },
     {
-      "acct": "zipbysuni",
-      "id": "DbfLznUGEkL",
-      "link": "https://www.threads.com/@zipbysuni/post/DbfLznUGEkL",
+      "acct": "iero._.cider",
+      "id": "Dbva9z5E9qU",
+      "link": "https://www.threads.com/@iero._.cider/post/Dbva9z5E9qU",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "iero._.cider",
+      "id": "DbvbAl4k8_k",
+      "link": "https://www.threads.com/@iero._.cider/post/DbvbAl4k8_k",
       "reason": "public-page-without-views"
     },
     {
@@ -140,18 +152,6 @@
       "acct": "iero._.cider",
       "id": "DbozbLOE81s",
       "link": "https://www.threads.com/@iero._.cider/post/DbozbLOE81s",
-      "reason": "public-page-without-views"
-    },
-    {
-      "acct": "iero._.cider",
-      "id": "Dbnf4_7E7OR",
-      "link": "https://www.threads.com/@iero._.cider/post/Dbnf4_7E7OR",
-      "reason": "public-page-without-views"
-    },
-    {
-      "acct": "iero._.cider",
-      "id": "Dbnf_mGE4cA",
-      "link": "https://www.threads.com/@iero._.cider/post/Dbnf_mGE4cA",
       "reason": "public-page-without-views"
     },
     {
@@ -234,6 +234,18 @@
     },
     {
       "acct": "vintage_aldo",
+      "id": "DbvOiW0CT2T",
+      "link": "https://www.threads.com/@vintage_aldo/post/DbvOiW0CT2T",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "vintage_aldo",
+      "id": "DbveD9gidzi",
+      "link": "https://www.threads.com/@vintage_aldo/post/DbveD9gidzi",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "vintage_aldo",
       "id": "DbclWuhiYQ_",
       "link": "https://www.threads.com/@vintage_aldo/post/DbclWuhiYQ_",
       "reason": "public-page-without-views"
@@ -248,18 +260,6 @@
       "acct": "vintage_aldo",
       "id": "DbP09sTCaDb",
       "link": "https://www.threads.com/@vintage_aldo/post/DbP09sTCaDb",
-      "reason": "public-page-without-views"
-    },
-    {
-      "acct": "vintage_aldo",
-      "id": "DbMtQEzif3e",
-      "link": "https://www.threads.com/@vintage_aldo/post/DbMtQEzif3e",
-      "reason": "public-page-without-views"
-    },
-    {
-      "acct": "vintage_aldo",
-      "id": "DbMtfmpidPG",
-      "link": "https://www.threads.com/@vintage_aldo/post/DbMtfmpidPG",
       "reason": "public-page-without-views"
     },
     {
@@ -354,6 +354,18 @@
     },
     {
       "acct": "dave_hyemin",
+      "id": "DbucS1nHeID",
+      "link": "https://www.threads.com/@dave_hyemin/post/DbucS1nHeID",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "dave_hyemin",
+      "id": "DbuccPhHfVw",
+      "link": "https://www.threads.com/@dave_hyemin/post/DbuccPhHfVw",
+      "reason": "public-page-without-views"
+    },
+    {
+      "acct": "dave_hyemin",
       "id": "Dbr3c9andgq",
       "link": "https://www.threads.com/@dave_hyemin/post/Dbr3c9andgq",
       "reason": "public-page-without-views"
@@ -386,18 +398,6 @@
       "acct": "dave_hyemin",
       "id": "DbnfZjHnWMP",
       "link": "https://www.threads.com/@dave_hyemin/post/DbnfZjHnWMP",
-      "reason": "public-page-without-views"
-    },
-    {
-      "acct": "dave_hyemin",
-      "id": "DbmtGVnHZ9O",
-      "link": "https://www.threads.com/@dave_hyemin/post/DbmtGVnHZ9O",
-      "reason": "public-page-without-views"
-    },
-    {
-      "acct": "dave_hyemin",
-      "id": "DbmtJpsHSZU",
-      "link": "https://www.threads.com/@dave_hyemin/post/DbmtJpsHSZU",
       "reason": "public-page-without-views"
     },
     {
